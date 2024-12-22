@@ -1,11 +1,18 @@
-# bot.py
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import (
     ApplicationBuilder, CommandHandler, CallbackQueryHandler, MessageHandler, ContextTypes, filters, JobQueue
 )
 from datetime import time
+from dotenv import load_dotenv
+import os
 
-# Global variables
+# .env faylni yuklash
+load_dotenv()
+
+# Telegram bot tokeni .env fayldan o'qiladi
+BOT_TOKEN = os.getenv("BOT_TOKEN")
+
+# Foydalanuvchi ma'lumotlari uchun global o'zgaruvchi
 user_data = {}
 
 
@@ -52,52 +59,73 @@ async def handle_user_data(update: Update, context: ContextTypes.DEFAULT_TYPE):
         age, height, weight = map(int, update.message.text.split(','))
         user_data[user_id].update({'age': age, 'height': height, 'weight': weight})
 
-        # Calculate BMI
+        # BMI va boshqa ma'lumotlar
         height_m = height / 100
         bmi = weight / (height_m ** 2)
         user_data[user_id]['bmi'] = bmi
-
-        # Calculate daily calorie needs (BMR for men)
         bmr = 10 * weight + 6.25 * height - 5 * age + 5
-        user_data[user_id]['calories'] = bmr
-
-        # Calculate daily water intake
         daily_water_ml = weight * 30
         daily_water_liters = daily_water_ml / 1000
-        user_data[user_id]['water'] = daily_water_liters
+        user_data[user_id].update({'calories': bmr, 'water': daily_water_liters})
 
-        # BMI Category
-        if bmi < 18.5:
-            bmi_status = "Sizning vazningiz kam. Vazn olish tavsiya etiladi."
-        elif 18.5 <= bmi < 24.9:
-            bmi_status = "Sizning vazningiz sog'lom darajada."
-        elif 25 <= bmi < 29.9:
-            bmi_status = "Sizning vazningiz yuqori. Vazn yo'qotish tavsiya etiladi."
-        else:
-            bmi_status = "Sizda ortiqcha vazn bor. Mutaxassisga murojaat qiling."
+        bmi_status = (
+            "Sizning vazningiz kam. Vazn olish tavsiya etiladi." if bmi < 18.5 else
+            "Sizning vazningiz sog'lom darajada." if 18.5 <= bmi < 24.9 else
+            "Sizning vazningiz yuqori. Vazn yo'qotish tavsiya etiladi." if 25 <= bmi < 29.9 else
+            "Sizda ortiqcha vazn bor. Mutaxassisga murojaat qiling."
+        )
 
-        # Messages for the user
+        harmful_items = {
+            'uz': ("Zararli ichimliklar va taomlardan saqlaning:\n"
+                   "- Shirin gazlangan ichimliklar\n"
+                   "- Spirtli ichimliklar\n"
+                   "- Haddan tashqari yog'li va qovurilgan ovqatlar\n"
+                   "- Ortiqcha tuz va shakar iste'moli\n\n"
+                   "Foydali odatlar:\n"
+                   "- Oddiy suv iching\n"
+                   "- Ko'katlar va mevalar iste'mol qiling\n"
+                   "- Sog'lom yog'lar (masalan, zaytun moyi) iste'mol qiling."),
+            'ru': ("Избегайте вредных напитков и пищи:\n"
+                   "- Сладкие газированные напитки\n"
+                   "- Алкогольные напитки\n"
+                   "- Жирная и жареная еда\n"
+                   "- Избыточное употребление соли и сахара\n\n"
+                   "Полезные привычки:\n"
+                   "- Пейте чистую воду\n"
+                   "- Ешьте зелень и фрукты\n"
+                   "- Используйте здоровые жиры (например, оливковое масло)."),
+            'en': ("Avoid harmful drinks and foods:\n"
+                   "- Sugary fizzy drinks\n"
+                   "- Alcoholic beverages\n"
+                   "- Excessively fatty and fried foods\n"
+                   "- Excessive salt and sugar consumption\n\n"
+                   "Healthy habits:\n"
+                   "- Drink plain water\n"
+                   "- Eat greens and fruits\n"
+                   "- Use healthy fats (e.g., olive oil).")
+        }
+
         messages = {
             'uz': (f"Sizning BMI: {bmi:.2f}. {bmi_status}\n"
                    f"Kunlik kaloriya ehtiyojingiz: {bmr:.2f} kkal.\n"
-                   f"Kunlik suv iste'moli: {daily_water_liters:.1f} litr.\n"
-                   "Endi maqsadingizni tanlang:"),
+                   f"Kunlik suv iste'moli: {daily_water_liters:.1f} litr.\n\n"
+                   f"{harmful_items[lang]}\nEndi maqsadingizni tanlang:"),
             'ru': (f"Ваш ИМТ: {bmi:.2f}. {bmi_status}\n"
                    f"Ваши суточные калории: {bmr:.2f} ккал.\n"
-                   f"Рекомендуемое количество воды: {daily_water_liters:.1f} литра.\n"
-                   "Теперь выберите вашу цель:"),
+                   f"Рекомендуемое количество воды: {daily_water_liters:.1f} литра.\n\n"
+                   f"{harmful_items[lang]}\nТеперь выберите вашу цель:"),
             'en': (f"Your BMI: {bmi:.2f}. {bmi_status}\n"
                    f"Daily calorie needs: {bmr:.2f} kcal.\n"
-                   f"Daily water intake: {daily_water_liters:.1f} liters.\n"
-                   "Now choose your goal:")
+                   f"Daily water intake: {daily_water_liters:.1f} liters.\n\n"
+                   f"{harmful_items[lang]}\nNow choose your goal:")
         }
 
-        # Dynamic buttons
         button_texts = {
             'uz': ["Vazn olish", "Vazn yo'qotish", "Vazn saqlash"],
             'ru': ["Набрать вес", "Похудеть", "Сохранить вес"],
             'en': ["Gain weight", "Lose weight", "Maintain weight"]
         }
+
         buttons = button_texts[lang]
         keyboard = [
             [InlineKeyboardButton(buttons[0], callback_data='gain')],
@@ -123,49 +151,57 @@ async def goal_selection(update: Update, context: ContextTypes.DEFAULT_TYPE):
     calories = user_data[user_id]['calories']
     water = user_data[user_id]['water']
 
-    # Sport recommendations
     exercises = {
         'gain': {
             'uz': ("Mashg'ulot: Kuch mashg'ulotlari (gantel va og'irliklar bilan ishlash):\n"
                    "- Foyda: Mushaklarni kuchaytiradi va vaznni ko'paytiradi.\n"
                    "- Vaqt: 30-40 daqiqa har kuni, haftada 4-5 kun.\n"
-                   "- Kaloriya sarfi: Har 30 daqiqada ~150-200 kkal."),
+                   "- Kaloriya sarfi: Har 30 daqiqada ~150-200 kkal.\n"
+                   "- Ehtiyotkorlik: Bo'g'in yoki bel og'rig'i bo'lganlar uchun mos emas."),
             'ru': ("Тренировка: Силовые тренировки (работа с гантелями и весами):\n"
                    "- Польза: Укрепляет мышцы и способствует набору веса.\n"
                    "- Время: 30-40 минут каждый день, 4-5 раз в неделю.\n"
-                   "- Расход калорий: ~150-200 ккал за 30 минут."),
-            'en': ("Workout: Strength training (working with dumbbells and weights):\n"
+                   "- Расход калорий: ~150-200 ккал за 30 минут.\n"
+                   "- Осторожность: Не подходит для людей с болью в суставах или спине."),
+            'en': ("Workout: Strength training (with dumbbells and weights):\n"
                    "- Benefits: Strengthens muscles and promotes weight gain.\n"
                    "- Time: 30-40 minutes daily, 4-5 days a week.\n"
-                   "- Calories burned: ~150-200 kcal per 30 minutes.")
+                   "- Calories burned: ~150-200 kcal per 30 minutes.\n"
+                   "- Caution: Not suitable for people with joint or back pain.")
         },
         'lose': {
             'uz': ("Mashg'ulot: Kardio mashg'ulotlari (yugurish, velosipedda yurish):\n"
                    "- Foyda: Yog'larni yo'qotadi va yurak salomatligini yaxshilaydi.\n"
                    "- Vaqt: 40-60 daqiqa har kuni, haftada 5-6 kun.\n"
-                   "- Kaloriya sarfi: Har 30 daqiqada ~250-300 kkal."),
+                   "- Kaloriya sarfi: Har 30 daqiqada ~250-300 kkal.\n"
+                   "- Ehtiyotkorlik: Yurak kasalligi bo'lganlar ehtiyot bo'lsin."),
             'ru': ("Тренировка: Кардио тренировки (бег, велоспорт):\n"
                    "- Польза: Сжигает жиры и улучшает здоровье сердца.\n"
                    "- Время: 40-60 минут ежедневно, 5-6 раз в неделю.\n"
-                   "- Расход калорий: ~250-300 ккал за 30 минут."),
+                   "- Расход калорий: ~250-300 ккал за 30 минут.\n"
+                   "- Осторожность: Будьте осторожны, если у вас есть сердечные заболевания."),
             'en': ("Workout: Cardio exercises (running, cycling):\n"
                    "- Benefits: Burns fat and improves heart health.\n"
                    "- Time: 40-60 minutes daily, 5-6 days a week.\n"
-                   "- Calories burned: ~250-300 kcal per 30 minutes.")
+                   "- Calories burned: ~250-300 kcal per 30 minutes.\n"
+                   "- Caution: Be careful if you have heart conditions.")
         },
         'maintain': {
             'uz': ("Mashg'ulot: Kombinatsion mashg'ulotlar (kardio + kuch mashqlari):\n"
                    "- Foyda: Vaznni barqaror saqlashga yordam beradi.\n"
                    "- Vaqt: 30-40 daqiqa har kuni, haftada 4-5 kun.\n"
-                   "- Kaloriya sarfi: Har 30 daqiqada ~200-250 kkal."),
+                   "- Kaloriya sarfi: Har 30 daqiqada ~200-250 kkal.\n"
+                   "- Ehtiyotkorlik: To'g'ri dam olishni unutmang."),
             'ru': ("Тренировка: Комбинированные тренировки (кардио + силовые):\n"
                    "- Польза: Помогает поддерживать стабильный вес.\n"
                    "- Время: 30-40 минут ежедневно, 4-5 раз в неделю.\n"
-                   "- Расход калорий: ~200-250 ккал за 30 минут."),
+                   "- Расход калорий: ~200-250 ккал за 30 минут.\n"
+                   "- Осторожность: Не забывайте про правильный отдых."),
             'en': ("Workout: Combination training (cardio + strength):\n"
                    "- Benefits: Helps maintain stable weight.\n"
-                   "- Time: 30-40 minutes daily, 4-5 times a week.\n"
-                   "- Calories burned: ~200-250 kcal per 30 minutes.")
+                   "- Time: 30-40 minutes daily, 4-5 days a week.\n"
+                   "- Calories burned: ~200-250 kcal per 30 minutes.\n"
+                   "- Caution: Ensure proper rest.")
         }
     }
 
@@ -174,44 +210,15 @@ async def goal_selection(update: Update, context: ContextTypes.DEFAULT_TYPE):
                                   f"Kunlik suv iste'moli: {water:.1f} litr.")
 
 
-# Reminder function
-async def send_reminder(context: ContextTypes.DEFAULT_TYPE):
-    job = context.job
-    chat_id = job.context['chat_id']
-    lang = user_data[job.context['user_id']]['lang']
-    reminders = {
-        'uz': "Eslatma: Suv ichishni unutmang! Mashg'ulot qiling va sog'lom turmush tarzini saqlang! 💧🏋️‍♂️",
-        'ru': "Напоминание: Не забудьте пить воду! Тренируйтесь и ведите здоровый образ жизни! 💧🏋️‍♂️",
-        'en': "Reminder: Don't forget to drink water! Exercise and maintain a healthy lifestyle! 💧🏋️‍♂️"
-    }
-    await context.bot.send_message(chat_id=chat_id, text=reminders[lang])
-
-
-# Set daily reminders
-async def set_daily_reminders(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    user_id = update.message.from_user.id
-    if user_id not in user_data:
-        await update.message.reply_text("Iltimos, /start buyruğidan boshlang.")
-        return
-
-    context.job_queue.run_daily(
-        send_reminder,
-        time=time(9, 0),  # Reminder at 9:00 AM
-        context={'chat_id': update.message.chat_id, 'user_id': user_id}
-    )
-    await update.message.reply_text("Kunlik eslatmalar muvaffaqiyatli o‘rnatildi!")
-
-
 # Main function to start the bot
 def main():
-    application = ApplicationBuilder().token("8018294597:AAF5quzQeBXzhYInX5NVlujcJ3TrPYhnmZQ").build()
+    application = ApplicationBuilder().token(BOT_TOKEN).build()
 
     # Add handlers
     application.add_handler(CommandHandler("start", start))
     application.add_handler(CallbackQueryHandler(language_selection, pattern='^(uz|ru|en)$'))
     application.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, handle_user_data))
     application.add_handler(CallbackQueryHandler(goal_selection, pattern='^(gain|lose|maintain)$'))
-    application.add_handler(CommandHandler("set_reminders", set_daily_reminders))
 
     # Run the bot
     application.run_polling()

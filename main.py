@@ -1,20 +1,15 @@
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import (
-    ApplicationBuilder, CommandHandler, CallbackQueryHandler, MessageHandler, ContextTypes, filters, JobQueue
+    ApplicationBuilder, CommandHandler, CallbackQueryHandler, MessageHandler, ContextTypes, filters
 )
-from datetime import time
 from dotenv import load_dotenv
 import os
 
-# .env faylni yuklash
+# Load environment variables
 load_dotenv()
 
-# Telegram bot tokeni .env fayldan o'qiladi
 BOT_TOKEN = os.getenv("BOT_TOKEN")
-
-# Foydalanuvchi ma'lumotlari uchun global o'zgaruvchi
 user_data = {}
-
 
 # Start command handler
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
@@ -32,7 +27,6 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     reply_markup = InlineKeyboardMarkup(keyboard)
     await context.bot.send_message(chat_id=chat_id, text=text, reply_markup=reply_markup)
 
-
 # Language selection handler
 async def language_selection(update: Update, context: ContextTypes.DEFAULT_TYPE):
     query = update.callback_query
@@ -46,7 +40,6 @@ async def language_selection(update: Update, context: ContextTypes.DEFAULT_TYPE)
     }
     await query.edit_message_text(text=messages[lang])
 
-
 # User input handler
 async def handle_user_data(update: Update, context: ContextTypes.DEFAULT_TYPE):
     user_id = update.message.from_user.id
@@ -59,22 +52,26 @@ async def handle_user_data(update: Update, context: ContextTypes.DEFAULT_TYPE):
         age, height, weight = map(int, update.message.text.split(','))
         user_data[user_id].update({'age': age, 'height': height, 'weight': weight})
 
-        # BMI va boshqa ma'lumotlar
+        # Calculate BMI, daily calories, and water intake
         height_m = height / 100
         bmi = weight / (height_m ** 2)
-        user_data[user_id]['bmi'] = bmi
         bmr = 10 * weight + 6.25 * height - 5 * age + 5
-        daily_water_ml = weight * 30
-        daily_water_liters = daily_water_ml / 1000
-        user_data[user_id].update({'calories': bmr, 'water': daily_water_liters})
+        daily_water_liters = weight * 30 / 1000
 
-        bmi_status = (
-            "Sizning vazningiz kam. Vazn olish tavsiya etiladi." if bmi < 18.5 else
-            "Sizning vazningiz sog'lom darajada." if 18.5 <= bmi < 24.9 else
-            "Sizning vazningiz yuqori. Vazn yo'qotish tavsiya etiladi." if 25 <= bmi < 29.9 else
-            "Sizda ortiqcha vazn bor. Mutaxassisga murojaat qiling."
-        )
-
+        bmi_status = {
+            'uz': ("Sizning vazningiz kam. Vazn olish tavsiya etiladi." if bmi < 18.5 else
+                   "Sizning vazningiz sog'lom darajada." if 18.5 <= bmi < 24.9 else
+                   "Sizning vazningiz yuqori. Vazn yo'qotish tavsiya etiladi." if 25 <= bmi < 29.9 else
+                   "Sizda ortiqcha vazn bor. Mutaxassisga murojaat qiling."),
+            'ru': ("Ваш вес недостаточный. Рекомендуется набрать вес." if bmi < 18.5 else
+                   "Ваш вес в норме." if 18.5 <= bmi < 24.9 else
+                   "Ваш вес выше нормы. Рекомендуется похудеть." if 25 <= bmi < 29.9 else
+                   "У вас лишний вес. Обратитесь к специалисту."),
+            'en': ("Your weight is below normal. Weight gain is recommended." if bmi < 18.5 else
+                   "Your weight is in the healthy range." if 18.5 <= bmi < 24.9 else
+                   "Your weight is above normal. Weight loss is recommended." if 25 <= bmi < 29.9 else
+                   "You are overweight. Consult a specialist.")
+        }
         harmful_items = {
             'uz': ("Zararli ichimliklar va taomlardan saqlaning:\n"
                    "- Shirin gazlangan ichimliklar\n"
@@ -104,20 +101,19 @@ async def handle_user_data(update: Update, context: ContextTypes.DEFAULT_TYPE):
                    "- Eat greens and fruits\n"
                    "- Use healthy fats (e.g., olive oil).")
         }
-
         messages = {
-            'uz': (f"Sizning BMI: {bmi:.2f}. {bmi_status}\n"
-                   f"Kunlik kaloriya ehtiyojingiz: {bmr:.2f} kkal.\n"
-                   f"Kunlik suv iste'moli: {daily_water_liters:.1f} litr.\n\n"
-                   f"{harmful_items[lang]}\nEndi maqsadingizni tanlang:"),
-            'ru': (f"Ваш ИМТ: {bmi:.2f}. {bmi_status}\n"
-                   f"Ваши суточные калории: {bmr:.2f} ккал.\n"
-                   f"Рекомендуемое количество воды: {daily_water_liters:.1f} литра.\n\n"
-                   f"{harmful_items[lang]}\nТеперь выберите вашу цель:"),
-            'en': (f"Your BMI: {bmi:.2f}. {bmi_status}\n"
-                   f"Daily calorie needs: {bmr:.2f} kcal.\n"
-                   f"Daily water intake: {daily_water_liters:.1f} liters.\n\n"
-                   f"{harmful_items[lang]}\nNow choose your goal:")
+            'uz': f"Sizning BMI: {bmi:.2f}. {bmi_status[lang]}\n"
+                  f"Kunlik kaloriya ehtiyojingiz: {bmr:.2f} kkal.\n"
+                  f"Kunlik suv iste'moli: {daily_water_liters:.1f} litr.\n\n"
+                  f"{harmful_items[lang]}",
+            'ru': f"Ваш ИМТ: {bmi:.2f}. {bmi_status[lang]}\n"
+                  f"Ваши суточные калории: {bmr:.2f} ккал.\n"
+                  f"Рекомендуемое количество воды: {daily_water_liters:.1f} литра.\n\n"
+                  f"{harmful_items[lang]}",
+            'en': f"Your BMI: {bmi:.2f}. {bmi_status[lang]}\n"
+                  f"Daily calorie needs: {bmr:.2f} kcal.\n"
+                  f"Daily water intake: {daily_water_liters:.1f} liters.\n\n"
+                  f"{harmful_items[lang]}"
         }
 
         button_texts = {
@@ -135,8 +131,12 @@ async def handle_user_data(update: Update, context: ContextTypes.DEFAULT_TYPE):
         reply_markup = InlineKeyboardMarkup(keyboard)
         await update.message.reply_text(messages[lang], reply_markup=reply_markup)
     except ValueError:
-        await update.message.reply_text("Noto'g'ri format. Iltimos, yosh, bo'y va vaznni to'g'ri formatda kiriting.")
-
+        error_messages = {
+            'uz': "Noto'g'ri format. Iltimos, yosh, bo'y va vaznni to'g'ri formatda kiriting.",
+            'ru': "Неверный формат. Пожалуйста, введите возраст, рост и вес в правильном формате.",
+            'en': "Invalid format. Please enter your age, height, and weight in the correct format."
+        }
+        await update.message.reply_text(error_messages[lang])
 
 # Goal selection handler
 async def goal_selection(update: Update, context: ContextTypes.DEFAULT_TYPE):
@@ -147,9 +147,6 @@ async def goal_selection(update: Update, context: ContextTypes.DEFAULT_TYPE):
     user_data[user_id]['goal'] = goal
 
     lang = user_data[user_id]['lang']
-    weight = user_data[user_id]['weight']
-    calories = user_data[user_id]['calories']
-    water = user_data[user_id]['water']
 
     exercises = {
         'gain': {
@@ -205,24 +202,16 @@ async def goal_selection(update: Update, context: ContextTypes.DEFAULT_TYPE):
         }
     }
 
-    message = exercises[goal][lang]
-    await query.edit_message_text(f"{message}\n\nKunlik kaloriya ehtiyojingiz: {calories:.2f} kkal.\n"
-                                  f"Kunlik suv iste'moli: {water:.1f} litr.")
-
+    await query.edit_message_text(exercises[goal][lang])
 
 # Main function to start the bot
 def main():
     application = ApplicationBuilder().token(BOT_TOKEN).build()
-
-    # Add handlers
     application.add_handler(CommandHandler("start", start))
     application.add_handler(CallbackQueryHandler(language_selection, pattern='^(uz|ru|en)$'))
     application.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, handle_user_data))
     application.add_handler(CallbackQueryHandler(goal_selection, pattern='^(gain|lose|maintain)$'))
-
-    # Run the bot
     application.run_polling()
-
 
 if __name__ == '__main__':
     main()

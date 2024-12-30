@@ -17,6 +17,7 @@ BOT_TOKEN = "8018294597:AAEqpbRN7RU78-99TNbxr1ZCWs8R_qdvgQk"
 # Foydalanuvchi ma'lumotlarini vaqtincha saqlash
 user_data = {}
 
+
 # ---------------------- Matn uzun bo'lganda bo'lib yuborish funktsiyasi -------------
 def send_long_text_in_chunks(text, chat_id, bot, chunk_size=3500):
     """
@@ -60,6 +61,8 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     reply_markup = InlineKeyboardMarkup(keyboard)
 
     await context.bot.send_message(chat_id=chat_id, text=text, reply_markup=reply_markup)
+
+
 # ===================== TIL TANLASH CALLBACK ===============================
 async def language_selection(update: Update, context: ContextTypes.DEFAULT_TYPE):
     query = update.callback_query
@@ -211,6 +214,8 @@ async def handle_user_data(update: Update, context: ContextTypes.DEFAULT_TYPE):
             'en': "Invalid format. (Example: 25, 175, 70)."
         }
         await update.message.reply_text(errors[lang])
+
+
 # ===================== MAQSAD TANLASH ==========================
 async def goal_selection(update: Update, context: ContextTypes.DEFAULT_TYPE):
     query = update.callback_query
@@ -226,51 +231,60 @@ async def goal_selection(update: Update, context: ContextTypes.DEFAULT_TYPE):
                    "- Foyda: Mushaklarni kuchaytiradi, vaznni ko'paytiradi.\n"
                    "- Vaqt: 30-40 daqiqa har kuni, haftada 4-5 kun.\n"
                    "- Kaloriya sarfi: ~150-200 kkal (30 daqiqada).\n"
-                   "- Ehtiyotkorlik: Bel og'rig'i bo'lganlar ehtiyot bo'lsin."),
+                   "- Ehtiyotkorlik: Bel og'rig'i bo'lganlar ehtiyot bo'lsin.\n"
+                   "Quyida foydali taomlarning retseptlari berilgan. Ko'rish uchun 'Taomlar retsepti' tugmasini bosing."),
             'ru': ("Силовые тренировки (гантели, штанга):\n"
                    "- Польза: Укрепляет мышцы, способствует набору веса.\n"
                    "- Время: 30-40 минут в день, 4-5 раз в неделю.\n"
                    "- Калории: ~150-200 ккал за 30 мин.\n"
-                   "- Осторожность: При боли в спине будьте внимательны."),
+                   "- Осторожность: При боли в спине будьте внимательны.\n"
+                   "Ниже приведены рецепты полезных блюд. Нажмите кнопку «Рецепты блюд», чтобы их посмотреть."),
             'en': ("Strength training (dumbbells, weights):\n"
                    "- Benefit: Builds muscle, increases weight.\n"
                    "- Time: 30-40 min daily, 4-5 times/week.\n"
                    "- Calories: ~150-200 kcal in 30 min.\n"
-                   "- Caution: Watch out for back pain.")
+                   "- Caution: Watch out for back pain.\n"
+                   "Below are recipes for healthy dishes. Click the 'Dish Recipes' button to view them.")
         },
         'lose': {
             'uz': ("Mashg'ulot: Kardio (yugurish, velosiped):\n"
                    "- Foyda: Yog'ni yo'qotadi, yurakni kuchaytiradi.\n"
                    "- Vaqt: 40-60 daqiqa kuniga, haftada 5-6 kun.\n"
                    "- Kaloriya sarfi: ~250-300 kkal (30 daq).\n"
-                   "- Ehtiyotkorlik: Yurak muammosi bo'lganlar ehtiyot bo'lsin."),
+                   "- Ehtiyotkorlik: Yurak muammosi bo'lganlar ehtiyot bo'lsin.\n"
+                   "Quyida foydali taomlarning retseptlari berilgan. Ko'rish uchun 'Taomlar retsepti' tugmasini bosing."),
             'ru': ("Кардио (бег, велосипед):\n"
                    "- Сжигает жир, укрепляет сердце.\n"
                    "- 40-60 мин в день, 5-6 раз в неделю.\n"
                    "- Калории: ~250-300 ккал за 30 мин.\n"
-                   "- Осторожность: При сердечных болезнях осторожнее."),
+                   "- Осторожность: При сердечных болезнях осторожнее.\n"
+                   "Ниже приведены рецепты полезных блюд. Нажмите кнопку «Рецепты блюд», чтобы их посмотреть."),
             'en': ("Cardio (running, cycling):\n"
                    "- Burns fat, improves heart health.\n"
                    "- 40-60 min/day, 5-6 days/week.\n"
                    "- ~250-300 kcal per 30 min.\n"
-                   "- Caution: heart conditions.")
+                   "- Caution: heart conditions.\n"
+                   "Below are recipes for healthy dishes. Click the 'Dish Recipes' button to view them.")
         },
         'maintain': {
             'uz': ("Kombinatsion mashg'ulotlar (kardio+kuch):\n"
                    "- Foyda: Vaznni saqlaydi.\n"
                    "- 30-40 daqiqa kuniga, 4-5 kun/hafta.\n"
                    "- ~200-250 kkal(30 daqiqa).\n"
-                   "- Ehtiyotkorlik: Yaxshi dam olish."),
+                   "- Ehtiyotkorlik: Yaxshi dam olish.\n"
+                   "Quyida foydali taomlarning retseptlari berilgan. Ko'rish uchun 'Taomlar retsepti' tugmasini bosing."),
             'ru': ("Комбинированная тренировка (кардио+силовые):\n"
                    "- Помогает держать вес.\n"
                    "- 30-40 мин в день, 4-5 раз в неделю.\n"
                    "- ~200-250 ккал за 30 мин.\n"
-                   "- Отдых обязателен."),
+                   "- Отдых обязателен.\n"
+                   "Ниже приведены рецепты полезных блюд. Нажмите кнопку «Рецепты блюд», чтобы их посмотреть."),
             'en': ("Combination (cardio+strength):\n"
                    "- Maintains weight.\n"
                    "- 30-40 min/day, 4-5 times/week.\n"
                    "- ~200-250 kcal/30 min.\n"
-                   "- Ensure rest.")
+                   "- Ensure rest.\n"
+                   "Below are recipes for healthy dishes. Click the 'Dish Recipes' button to view them.")
         }
     }
 
@@ -287,6 +301,8 @@ async def goal_selection(update: Update, context: ContextTypes.DEFAULT_TYPE):
     reply_markup = InlineKeyboardMarkup(keyboard)
 
     await query.edit_message_text(text=text_to_send, reply_markup=reply_markup)
+
+
 # =========================== ASOSIY "TAOMLAR" BO'LIMI ===========================
 async def show_main_taomlar_menu(update: Update, context: ContextTypes.DEFAULT_TYPE):
     """‘recipes’ callback bosilganda chaqiramiz."""
@@ -318,6 +334,8 @@ async def show_main_taomlar_menu(update: Update, context: ContextTypes.DEFAULT_T
     reply_markup = InlineKeyboardMarkup(keyboard)
 
     await query.edit_message_text(text=text_dict[lang], reply_markup=reply_markup)
+
+
 # ======================== Yordamchi funksiyasi ===================
 async def show_dish_categories_logic(cat: str, query: CallbackQuery):
     """
@@ -1431,9 +1449,9 @@ Yuziga qovurilgan tuxum va qalampir pastasini qo‘shing.
 Tayyor bibimbapni issiq holda dasturxonga torting.
 Yoqimli ishtaha!
 
-""",}
+""", }
 
-    # Davomi B, C, D bo‘laklarda…
+# Davomi B, C, D bo‘laklarda…
 # ---- KODNING DAVOMI (4-QISM, B) ----
 
 recipes_texts.update({
@@ -2073,7 +2091,7 @@ Yoqimli ishtaha!
 
 """,
 
-    "dish_sarimsoli": """
+    "dish_sarimsoqli": """
 Sarimsoqpiyoz bilan pishirilgan kartoshka
 
 Masalliqlar:
@@ -3231,7 +3249,7 @@ Yoqimli ishtaha!
 
 """,
 
-    "dish_bodringsalatt": """Gurunch va bodringli salat 
+    "dish_bodringsalat": """Gurunch va bodringli salat 
     Masalliqlar:
 
 300 gramm mol go‘shti
@@ -3554,7 +3572,6 @@ Salatni sovutgichda 10-15 daqiqa tindirsangiz, yanada mazali bo‘ladi.
 Yoqimli ishtaha!
 
 """,
-
 
     # --------- PISHIRIQ / PISHIRIQLAR BO‘LIMI ---------
     "dish_turkchaburek": """Turkcha burek  
@@ -4111,7 +4128,6 @@ Yoqimli ishtaha!
 
 """,
 
-
     # ----------- SHIRINLIKLAR (SHIRINLIK) BO‘LIMI -----------
     "dish_nisholda": """Nisholda 
      Masalliqlar:
@@ -4344,7 +4360,7 @@ Tayyorlash bosqichlari:
 Yoqimli ishtaha!
 """,
 
-    "dish_tvorogbulilochka": """Tvorogli bulochka 
+    "dish_tvoroglibulochka": """Tvorogli bulochka 
      Masalliqlar:
 • Tuxum: 2 dona
 • Tvorog: 250 gramm
@@ -4536,7 +4552,7 @@ Tayyorlash usuli:
 Yoqimli ishtaha!
 """,
 
-    "dish_shaftolimizq": """Shaftolili muzqaymoq
+    "dish_shaftolilimizq": """Shaftolili muzqaymoq
     Masalliqlar:
 • Muzqaymoq uchun:
   o 250 gramm shaftolili pyure
@@ -5025,7 +5041,7 @@ Tayyorlash usuli:
    Tayyor qatiqni salatlarda, pishiriqlarda yoki shunchaki o‘zini ichish uchun foydalanishingiz mumkin.
 
 Yoqimli ishtaha!
- 
+
 """,
 
     "drink_tarvuz": """Tarvuz sharbati
@@ -5084,7 +5100,7 @@ Foydalari:
 Sabzi sharbati immunitetni mustahkamlaydi, ko‘z nurini ravshanlashtiradi, ovqat hazm qilishni yaxshilaydi va buyrak faoliyatini qo‘llab-quvvatlaydi. Lavlagi suvi esa organizmni tozalashga yordam beradi.
 
 Yoqimli ishtaha!
- 
+
 """,
 
     "drink_zira": """Zira choy 
@@ -5108,7 +5124,7 @@ Foydalari:
 Zira choyi nafaqat ishtahani ochadi va ovqat hazm qilishni yaxshilaydi, balki organizmni yengillashtiradi va immunitetni mustahkamlaydi. Ibn Sino ta’kidlaganidek, zira organizmni tozalashda, nafas olishni yengillashtirishda va oshqozonning turli muammolarida foydali.
 
 Yoqimli ishtaha!
- 
+
 """,
 
     "drink_vitaminli": """Vitaminli ichimlik
@@ -5227,7 +5243,7 @@ Muzlatish:
 Tayyor tortni muzlatgichda kamida 2 soat saqlang, so‘ng dasturxonga torting.
 
 Yoqimli ishtaha!
- 
+
 """,
 
     "tort_napaleon": """Napaleon torti 
@@ -5747,7 +5763,7 @@ Tayyorlash usuli:
    2) Ustiga rezavor mevalar bilan bezang. Mevalarni xohishingizga ko‘ra tanlang.
 
 Yoqimli ishtaha!
- 
+
 """,
 
     # NONLAR BO‘LIMI:
@@ -6133,7 +6149,9 @@ Tayyorlash usuli:
    - 180-190 darajali dimxonada (duxovka) usti qizarguncha pishiring.
 
 Yoqimli ishtaha!
-"""} )
+"""})
+
+
 # =========================== ASOSIY RETSEPT CALLBACK =============================
 async def show_recipe_callback(update: Update, context: ContextTypes.DEFAULT_TYPE):
     query = update.callback_query
@@ -6146,32 +6164,37 @@ async def show_recipe_callback(update: Update, context: ContextTypes.DEFAULT_TYP
     if data_key.startswith("dish_"):
         # dish_ so'zini aniqlaymiz
         if any(k in data_key for k in [
-            "kosashorva","dumbullidimlama","piyozlishorva","suyuqnorin","uygurlagmon","moxora","goja",
-            "lagmon","sabzavotd","mantilishorva","firkadelkali","kosadimlama","tuxumdolma","mastava","chuchvara"
+            "kosashorva", "dumbullidimlama", "piyozlishorva", "suyuqnorin", "uygurlagmon", "moxora", "goja",
+            "lagmon", "sabzavotd", "mantilishorva", "firkadelkali", "kosadimlama", "tuxumdolma", "mastava", "chuchvara"
         ]):
             back_cat = "suyuq"
         elif any(k in data_key for k in [
-            "andijonmanti","spagetti","qovurmala","dimlama","beshbarmoq","bibimbap","quyuqdolma",
-            "choyxona","gulxonim","bayramona","grechkapalov","turkcharatatuy","balish","goshlirulet","shivit",
-            "nonpalov","kartoshkadolma","dumbulpalov","teftel","sarimsoqli","begodi","baliqlikotlet","jigarkabob",
-            "qozonkabob","qiymalikabob","tandirkabob","tovuqkabob","namangankabob","norin","xasip","tuxumbarak"
+            "andijonmanti", "spagetti", "qovurmala", "dimlama", "beshbarmoq", "bibimbap", "quyuqdolma",
+            "choyxona", "gulxonim", "bayramona", "grechkapalov", "turkcharatatuy", "balish", "goshlirulet", "shivit",
+            "nonpalov", "kartoshkadolma", "dumbulpalov", "teftel", "sarimsoqli", "begodi", "baliqlikotlet",
+            "jigarkabob",
+            "qozonkabob", "qiymalikabob", "tandirkabob", "tovuqkabob", "namangankabob", "norin", "xasip", "tuxumbarak"
         ]):
             back_cat = "quyuq"
         elif any(k in data_key for k in [
-            "achchiqchuchuk","bodringbrinza","karampomidor","gruzincha","qarsildoq","suzmali","penchuza","mandarin",
-            "tovuqlisalat","smak","ozdiruvchi","mevali","braslet","qotgannonli","goshtlisa","karamli","olivye",
-            "tovuqiolivye","bodringsalat","shanxay","qushuyali","toshkentsalat","portobello","ananas","sezar","bodringkaram"
+            "achchiqchuchuk", "bodringbrinza", "karampomidor", "gruzincha", "qarsildoq", "suzmali", "penchuza",
+            "mandarin",
+            "tovuqlisalat", "smak", "ozdiruvchi", "mevali", "braslet", "qotgannonli", "goshtlisa", "karamli", "olivye",
+            "tovuqiolivye", "bodringsalat", "shanxay", "qushuyali", "toshkentsalat", "portobello", "ananas", "sezar",
+            "bodringkaram"
         ]):
             back_cat = "salatlar"
         elif any(k in data_key for k in [
-            "turkchaburek","goshtlisomsa","yupqa","qiymaliquymoq","pishloqlicheburek","gumma","pahlava","chakchak",
-            "turkchapishiriq","qozonsomsa","sabzavotlisomsa","yuraksomsa","qatlamasomsa"
+            "turkchaburek", "goshtlisomsa", "yupqa", "qiymaliquymoq", "pishloqlicheburek", "gumma", "pahlava",
+            "chakchak",
+            "turkchapishiriq", "qozonsomsa", "sabzavotlisomsa", "yuraksomsa", "qatlamasomsa"
         ]):
             back_cat = "pishiriqlar"
         elif any(k in data_key for k in [
-            "nisholda","holvetar","tvaroglikr","shokoglazur","bananlieskimo","jemlipirog","tvoroglibulochka",
-            "malinalichizkeyk","bolqaymoq","murabbolipirog","asallipirojniy","shaftolilimizq","aylanay","chumoliuya",
-            "olchali","shokokeks","asallipechenye"
+            "nisholda", "holvetar", "tvaroglikr", "shokoglazur", "bananlieskimo", "jemlipirog", "tvoroglibulochka",
+            "malinalichizkeyk", "bolqaymoq", "murabbolipirog", "asallipirojniy", "shaftolilimizq", "aylanay",
+            "chumoliuya",
+            "olchali", "shokokeks", "asallipechenye"
         ]):
             back_cat = "shirinliklar"
         else:
@@ -6223,6 +6246,8 @@ async def recipes_button_handler(update: Update, context: ContextTypes.DEFAULT_T
     query = update.callback_query
     await query.answer()
     await show_main_taomlar_menu(update, context)
+
+
 # ========================== ASOSIY BOT (MAIN) =========================
 def main():
     application = ApplicationBuilder().token(BOT_TOKEN).build()

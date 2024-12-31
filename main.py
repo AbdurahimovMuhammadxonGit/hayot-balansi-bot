@@ -6151,7 +6151,7 @@ async def show_dish_categories_logic(cat: str, query: CallbackQuery, context: Co
     if cat == "suyuq":
         text_label = category_titles[lang]['suyuq']
         keyboard = [
-            [InlineKeyboardButton("Kossa sho'rva", callback_data='dish_kosashorva')],
+            [InlineKeyboardButton("Ko'za sho'rva", callback_data='dish_kosashorva')],
             [InlineKeyboardButton("Dumbulli dimlama", callback_data='dish_dumbullidimlama')],
             [InlineKeyboardButton("Piyozli sho'rva", callback_data='dish_piyozlishorva')],
             [InlineKeyboardButton("Suyuq norin", callback_data='dish_suyuqnorin')],

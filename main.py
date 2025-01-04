@@ -25,17 +25,17 @@ BOT_TOKEN = "8018294597:AAEqpbRN7RU78-99TNbxr1ZCWs8R_qdvgQk"
 images_paths = {
     "dish_kosashorva": r"C:\Users\kursu\Downloads\Telegram Desktop\Kosa sho'rva.jpg",
     "dish_dumbullidimlama": r"C:\Users\kursu\Downloads\Telegram Desktop\Dumbulli dimlama.jpg",
-    "dish_piyozlishorva": r"C:\Users\kursu\Downloads\Telegram Desktop\Piyozli sho'rva.jpg",
+    "dish_piyozlishorva": r"C:\Users\kursu\Downloads\Telegram Desktop\Piyozli shorva.jpg",
     "dish_suyuqnorin": r"C:\Users\kursu\Downloads\Telegram Desktop\Suyuq norin.jpg",
-    "dish_uygurlagmon": r"C:\Users\kursu\Downloads\Telegram Desktop\Uyg'ur lag'mon.jpg",
+    "dish_uygurlagmon": r"C:\Users\kursu\Downloads\Telegram Desktop\Uygur lagmon.jpg",
     "dish_moxora": r"C:\Users\kursu\Downloads\Telegram Desktop\Moxora.jpg",
     "dish_goja": r"C:\Users\kursu\Downloads\Telegram Desktop\Go'ja.jpg",
-    "dish_lagmon": r"C:\Users\kursu\Downloads\Telegram Desktop\Lag'mon.jpg",
-    "dish_sabzavotd": r"C:\Users\kursu\Downloads\Telegram Desktop\Sabzavotli do'lma.jpg",
-    "dish_mantilishorva": r"C:\Users\kursu\Downloads\Telegram Desktop\Mantili sho'rva.jpg",
-    "dish_firkadelkali": r"C:\Users\kursu\Downloads\Telegram Desktop\Firkadelkali sho'rva.jpg",
+    "dish_lagmon": r"C:\Users\kursu\Downloads\Telegram Desktop\Lagmon.jpg",
+    "dish_sabzavotd": r"C:\Users\kursu\Downloads\Telegram Desktop\Sabzavotli dolma.jpg",
+    "dish_mantilishorva": r"C:\Users\kursu\Downloads\Telegram Desktop\Mantili shorva.jpg",
+    "dish_firkadelkali": r"C:\Users\kursu\Downloads\Telegram Desktop\Firkadelkali shorva.jpg",
     "dish_kosadimlama": r"C:\Users\kursu\Downloads\Telegram Desktop\Kosa dimlama.jpg",
-    "dish_tuxumdolma": r"C:\Users\kursu\Downloads\Telegram Desktop\Tuxum do'lma.jpg",
+    "dish_tuxumdolma": r"C:\Users\kursu\Downloads\Telegram Desktop\Tuxum dolma.jpg",
     "dish_mastava": r"C:\Users\kursu\Downloads\Telegram Desktop\Mastava.jpg",
     "dish_chuchvara": r"C:\Users\kursu\Downloads\Telegram Desktop\Chuchvara.jpg",
     "dish_andijonmanti": r"C:\Users\kursu\Downloads\Telegram Desktop\Andijon manti.jpg",
@@ -69,7 +69,7 @@ images_paths = {
     "dish_norin": r"C:\Users\kursu\Downloads\Telegram Desktop\Norin.jpg",
     "dish_xasip": r"C:\Users\kursu\Downloads\Telegram Desktop\Xasip.jpg",
     "dish_tuxumbarak": r"C:\Users\kursu\Downloads\Telegram Desktop\Tuxum Barak.jpg",
-    "dish_achchiqchuchuk": r"C:\Users\kursu\Downloads\Telegram Desktop\Achchiq chuchuk salat.jpg",
+    "dish_achchiqchuchuk": r"C:\Users\kursu\Downloads\Telegram Desktop\Achchiqchuchuksalat.jpg",
     "dish_bodringbrinza": r"C:\Users\kursu\Downloads\Telegram Desktop\Bodring va brinzali salat.jpg",
     "dish_karampomidor": r"C:\Users\kursu\Downloads\Telegram Desktop\Karam va pomidorli salat.jpg",
     "dish_gruzincha": r"C:\Users\kursu\Downloads\Telegram Desktop\Gruzincha salat.jpg",
@@ -110,11 +110,11 @@ images_paths = {
     "dish_qatlamasomsa": r"C:\Users\kursu\Downloads\Telegram Desktop\Qatlama somsa.jpg",
     "dish_nisholda": r"C:\Users\kursu\Downloads\Telegram Desktop\Nisholda.jpg",
     "dish_holvetar": r"C:\Users\kursu\Downloads\Telegram Desktop\Holvetar.jpg",
-    "dish_tvaroglikr": r"C:\Users\kursu\Downloads\Telegram Desktop\Tvarogli krendel.jpg",
+    "dish_tvaroglikr": r"C:\Users\kursu\Downloads\Telegram Desktop\Tvaroglikrendel.jpg",
     "dish_shokoglazur": r"C:\Users\kursu\Downloads\Telegram Desktop\Shokoladli glazur.jpg",
     "dish_bananlieskimo": r"C:\Users\kursu\Downloads\Telegram Desktop\Bananli eskimo.jpg",
     "dish_jemlipirog": r"C:\Users\kursu\Downloads\Telegram Desktop\Jemli pirog.jpg",
-    "dish_tvoroglibulochka": r"C:\Users\kursu\Downloads\Telegram Desktop\Tvorogli bulochka.jpg",
+    "dish_tvoroglibulochka": r"C:\Users\kursu\Downloads\Telegram Desktop\Tvaroglibulochka.jpg",
     "dish_malinalichizkeyk": r"C:\Users\kursu\Downloads\Telegram Desktop\Malinali chizkeyk.jpg",
     "dish_bolqaymoq": r"C:\Users\kursu\Downloads\Telegram Desktop\Bolqaymoq.jpg",
     "dish_murabbolipirog": r"C:\Users\kursu\Downloads\Telegram Desktop\Murabboli pirog.jpg",
@@ -141,7 +141,6 @@ images_paths = {
     "drink_moxito": r"C:\Users\kursu\Downloads\Telegram Desktop\Moxito.jpg",
     "tort_praga": r"C:\Users\kursu\Downloads\Telegram Desktop\Praga torti.jpg",
     "tort_napaleon": r"C:\Users\kursu\Downloads\Telegram Desktop\Napaleon torti.jpg",
-    "tort_drezden": r"C:\Users\kursu\Downloads\Telegram Desktop\Drezdencha tort.jpg",
     "tort_zebra": r"C:\Users\kursu\Downloads\Telegram Desktop\Zebra torti.jpg",
     "tort_pancho": r"C:\Users\kursu\Downloads\Telegram Desktop\Pancho torti.jpg",
     "tort_medovik": r"C:\Users\kursu\Downloads\Telegram Desktop\Medovik torti.jpg",
@@ -5391,7 +5390,7 @@ Tayyorlash usuli:🍱
    1) Sovigan merenganing markazidagi chuqurchaga kremni ehtiyotkorlik bilan joylashtiring.
    2) Ustiga rezavor mevalar bilan bezang. Mevalarni xohishingizga ko‘ra tanlang.
 
-Yoqimli ishtaha!🍽️😋
+Yoqimli ishtaha!🍽️😋 
 
 """,
 
@@ -5818,14 +5817,15 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     # Tugmalar ham 3 tilda
     keyboard = [
         [
-            InlineKeyboardButton("O'zbekcha", callback_data='lang_uz'),
-            InlineKeyboardButton("Русский", callback_data='lang_ru'),
-            InlineKeyboardButton("English", callback_data='lang_en')
+            InlineKeyboardButton("O'zbekcha 🇺🇿", callback_data='lang_uz'),
+            InlineKeyboardButton("Русский 🇷🇺", callback_data='lang_ru'),
+            InlineKeyboardButton("English 🇺🇸", callback_data='lang_en')
         ]
     ]
     reply_markup = InlineKeyboardMarkup(keyboard)
 
     await context.bot.send_message(chat_id=chat_id, text=text, reply_markup=reply_markup)
+
 
 # ===================== TIL TANLASH CALLBACK ===============================
 async def language_selection(update: Update, context: ContextTypes.DEFAULT_TYPE):
@@ -5837,12 +5837,13 @@ async def language_selection(update: Update, context: ContextTypes.DEFAULT_TYPE)
 
     # 3 tilda xabar
     messages = {
-        'uz': "Til tanlandi: O'zbekcha. Keling, boshlaymiz!\nYosh, bo'yingiz (sm) va vazningizni (kg) kiriting (masalan: 25, 175, 70).",
-        'ru': "Вы выбрали русский язык. Давайте начнём!\nВведите ваш возраст, рост (см) и вес (кг) (например: 25, 175, 70).",
-        'en': "You selected English. Let's start!\nPlease enter your age, height (cm), and weight (kg) (e.g., 25, 175, 70)."
+        'uz': "Til tanlandi: O'zbekcha. Keling, boshlaymiz!🤗\nYoshingiz, bo'yingiz (sm) va vazningizni (kg) kiriting (masalan: 25, 175, 70).",
+        'ru': "Вы выбрали русский язык. Давайте начнём!🤗\nВведите ваш возраст, рост (см) и вес (кг) (например: 25, 175, 70).",
+        'en': "You selected English. Let's start!🤗\nPlease enter your age, height (cm), and weight (kg) (e.g., 25, 175, 70)."
     }
 
     await query.edit_message_text(text=messages[lang])
+
 
 # ==================== FOYDALANUVCHI MA'LUMOTLARINI QABUL QILISH ====================
 async def handle_user_data(update: Update, context: ContextTypes.DEFAULT_TYPE):
@@ -5867,29 +5868,29 @@ async def handle_user_data(update: Update, context: ContextTypes.DEFAULT_TYPE):
         # BMI ga ko'ra tavsiya matnlari - 3 tilda
         bmi_status_text = {
             'uz': (
-                "Sizning vazningiz kam. Vazn olish tavsiya etiladi." if bmi < 18.5 else
-                "Sizning vazningiz sog'lom darajada." if 18.5 <= bmi < 24.9 else
-                "Sizning vazningiz yuqori. Vazn yo'qotish tavsiya etiladi." if 25 <= bmi < 29.9 else
-                "Sizda ortiqcha vazn bor. Mutaxassisga murojaat qiling."
+                "Sizning vazningiz kam. Vazn olish tavsiya etiladi.🙂" if bmi < 18.5 else
+                "Sizning vazningiz sog'lom darajada.☺️" if 18.5 <= bmi < 24.9 else
+                "Sizning vazningiz yuqori. Vazn yo'qotish tavsiya etiladi.🙃" if 25 <= bmi < 29.9 else
+                "Sizda ortiqcha vazn bor. Mutaxassisga murojaat qiling.😌"
             ),
             'ru': (
-                "Ваш вес недостаточный. Рекомендуется набрать вес." if bmi < 18.5 else
-                "Ваш вес в норме." if 18.5 <= bmi < 24.9 else
-                "Ваш вес выше нормы. Рекомендуется похудеть." if 25 <= bmi < 29.9 else
-                "У вас лишний вес. Обратитесь к специалисту."
+                "Ваш вес недостаточный. Рекомендуется набрать вес.🙂" if bmi < 18.5 else
+                "Ваш вес в норме.☺️" if 18.5 <= bmi < 24.9 else
+                "Ваш вес выше нормы. Рекомендуется похудеть.🙃" if 25 <= bmi < 29.9 else
+                "У вас лишний вес. Обратитесь к специалисту.😌"
             ),
             'en': (
-                "Your weight is below normal. Weight gain is recommended." if bmi < 18.5 else
-                "Your weight is in the healthy range." if 18.5 <= bmi < 24.9 else
-                "Your weight is above normal. Weight loss is recommended." if 25 <= bmi < 29.9 else
-                "You are overweight. Consult a specialist."
+                "Your weight is below normal. Weight gain is recommended.🙂" if bmi < 18.5 else
+                "Your weight is in the healthy range.☺️" if 18.5 <= bmi < 24.9 else
+                "Your weight is above normal. Weight loss is recommended.🙃" if 25 <= bmi < 29.9 else
+                "You are overweight. Consult a specialist.😌"
             )
         }
 
         # Zararlı va foydali ovqatlar ro'yxati - 3 tilda
         harmful_text = {
             'uz': (
-                "Zararli ichimliklar va taomlardan saqlaning:\n"
+                "Zararli ichimliklar va taomlardan saqlaning:🤗\n"
                 "- Shirin gazlangan ichimliklar\n"
                 "- Spirtli ichimliklar\n"
                 "- Haddan tashqari yog'li va qovurilgan ovqatlar\n"
@@ -5900,7 +5901,7 @@ async def handle_user_data(update: Update, context: ContextTypes.DEFAULT_TYPE):
                 "- Sog'lom yog'lar (zaytun moyi va h.k)."
             ),
             'ru': (
-                "Избегайте вредных напитков и пищи:\n"
+                "Избегайте вредных напитков и пищи:🤗\n"
                 "- Сладкие газированные напитки\n"
                 "- Алкогольные напитки\n"
                 "- Жирная и жареная еда\n"
@@ -5911,7 +5912,7 @@ async def handle_user_data(update: Update, context: ContextTypes.DEFAULT_TYPE):
                 "- Используйте здоровые жиры (оливковое масло и т.д.)."
             ),
             'en': (
-                "Avoid harmful drinks and foods:\n"
+                "Avoid harmful drinks and foods:🤗\n"
                 "- Sugary fizzy drinks\n"
                 "- Alcoholic beverages\n"
                 "- Excessively fatty and fried foods\n"
@@ -5925,17 +5926,17 @@ async def handle_user_data(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
         # Foydalanuvchiga umumiy xabar
         summary_text = {
-            'uz': f"Sizning BMI: {bmi:.2f}. {bmi_status_text[lang]}\n" \
+            'uz': f"Sizning BMI: 😊{bmi:.2f}. {bmi_status_text[lang]}\n" \
                   f"Kunlik kaloriya ehtiyojingiz (BMR): {bmr:.2f} kkal.\n" \
                   f"Kunlik suv iste'moli: {daily_water_liters:.1f} litr.\n\n" \
                   f"{harmful_text[lang]}",
 
-            'ru': f"Ваш ИМТ: {bmi:.2f}. {bmi_status_text[lang]}\n" \
+            'ru': f"Ваш ИМТ: 😊{bmi:.2f}. {bmi_status_text[lang]}\n" \
                   f"Суточная норма калорий (BMR): {bmr:.2f} ккал.\n" \
                   f"Рекомендуемое количество воды: {daily_water_liters:.1f} литра.\n\n" \
                   f"{harmful_text[lang]}",
 
-            'en': f"Your BMI: {bmi:.2f}. {bmi_status_text[lang]}\n" \
+            'en': f"Your BMI: 😊{bmi:.2f}. {bmi_status_text[lang]}\n" \
                   f"Daily calorie needs (BMR): {bmr:.2f} kcal.\n" \
                   f"Daily water intake: {daily_water_liters:.1f} liters.\n\n" \
                   f"{harmful_text[lang]}"
@@ -5957,9 +5958,9 @@ async def handle_user_data(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
         # Maqsad tanlash tugmalari
         goal_buttons = {
-            'uz': ["Vazn olish", "Vazn yo'qotish", "Vazn saqlash"],
-            'ru': ["Набрать вес", "Похудеть", "Сохранить вес"],
-            'en': ["Gain weight", "Lose weight", "Maintain weight"]
+            'uz': ["👉Vazn olish👈", "👉Vazn yo'qotish👈", "👉Vazn saqlash👈"],
+            'ru': ["👉Набрать вес👈", "👉Похудеть👈", "👉Сохранить вес👈"],
+            'en': ["👉Gain weight👈", "👉Lose weight👈", "👉Maintain weight👈"]
         }
         g_btns = goal_buttons[lang]
         keyboard = [
@@ -5970,9 +5971,9 @@ async def handle_user_data(update: Update, context: ContextTypes.DEFAULT_TYPE):
         reply_markup = InlineKeyboardMarkup(keyboard)
 
         choose_text = {
-            'uz': "Maqsadingizni tanlang:",
-            'ru': "Выберите цель:",
-            'en': "Choose your goal:"
+            'uz': "Maqsadingizni tanlang:👇",
+            'ru': "Выберите цель:👇",
+            'en': "Choose your goal:👇"
         }
 
         await update.message.reply_text(choose_text[lang], reply_markup=reply_markup)
@@ -5986,6 +5987,7 @@ async def handle_user_data(update: Update, context: ContextTypes.DEFAULT_TYPE):
         }
         await update.message.reply_text(errors[lang])
 
+
 # ===================== MAQSAD TANLASH ==========================
 async def goal_selection(update: Update, context: ContextTypes.DEFAULT_TYPE):
     query = update.callback_query
@@ -5997,19 +5999,19 @@ async def goal_selection(update: Update, context: ContextTypes.DEFAULT_TYPE):
     # Tavsiyalar (gain/lose/maintain) - 3 tilda
     exercises_info = {
         'gain': {
-            'uz': ("Mashg'ulot: Kuch mashg'ulotlari (gantel, og'irliklar):\n"
+            'uz': ("🤗Mashg'ulot: Kuch mashg'ulotlari (gantel, og'irliklar):\n"
                    "- Foyda: Mushaklarni kuchaytiradi, vaznni ko'paytiradi.\n"
                    "- Vaqt: 30-40 daqiqa har kuni, haftada 4-5 kun.\n"
                    "- Kaloriya sarfi: ~150-200 kkal (30 daqiqada).\n"
                    "- Ehtiyotkorlik: Bel og'rig'i bo'lganlar ehtiyot bo'lsin.\n"
                    "Quyida foydali taomlarning retseptlari berilgan. Ko'rish uchun 'Taomlar retsepti' tugmasini bosing."),
-            'ru': ("Силовые тренировки (гантели, штанга):\n"
+            'ru': ("🤗Силовые тренировки (гантели, штанга):\n"
                    "- Польза: Укрепляет мышцы, способствует набору веса.\n"
                    "- Время: 30-40 минут в день, 4-5 раз в неделю.\n"
                    "- Калории: ~150-200 ккал за 30 мин.\n"
                    "- Осторожность: При боли в спине будьте внимательны.\n"
                    "Ниже приведены рецепты полезных блюд. Нажмите кнопку «Рецепты блюд», чтобы их посмотреть."),
-            'en': ("Strength training (dumbbells, weights):\n"
+            'en': ("🤗Strength training (dumbbells, weights):\n"
                    "- Benefit: Builds muscle, increases weight.\n"
                    "- Time: 30-40 min daily, 4-5 times/week.\n"
                    "- Calories: ~150-200 kcal in 30 min.\n"
@@ -6017,19 +6019,19 @@ async def goal_selection(update: Update, context: ContextTypes.DEFAULT_TYPE):
                    "Below are recipes for healthy dishes. Click the 'Dish Recipes' button to view them.")
         },
         'lose': {
-            'uz': ("Mashg'ulot: Kardio (yugurish, velosiped):\n"
+            'uz': ("🤗Mashg'ulot: Kardio (yugurish, velosiped):\n"
                    "- Foyda: Yog'ni yo'qotadi, yurakni kuchaytiradi.\n"
                    "- Vaqt: 40-60 daqiqa kuniga, haftada 5-6 kun.\n"
                    "- Kaloriya sarfi: ~250-300 kkal (30 daq).\n"
                    "- Ehtiyotkorlik: Yurak muammosi bo'lganlar ehtiyot bo'lsin.\n"
                    "Quyida foydali taomlarning retseptlari berilgan. Ko'rish uchun 'Taomlar retsepti' tugmasini bosing."),
-            'ru': ("Кардио (бег, велосипед):\n"
+            'ru': ("🤗Кардио (бег, велосипед):\n"
                    "- Сжигает жир, укрепляет сердце.\n"
                    "- 40-60 мин в день, 5-6 раз в неделю.\n"
                    "- Калории: ~250-300 ккал за 30 мин.\n"
                    "- Осторожность: При сердечных болезнях осторожнее.\n"
                    "Ниже приведены рецепты полезных блюд. Нажмите кнопку «Рецепты блюд», чтобы их посмотреть."),
-            'en': ("Cardio (running, cycling):\n"
+            'en': ("🤗Cardio (running, cycling):\n"
                    "- Burns fat, improves heart health.\n"
                    "- 40-60 min/day, 5-6 days/week.\n"
                    "- ~250-300 kcal per 30 min.\n"
@@ -6037,19 +6039,19 @@ async def goal_selection(update: Update, context: ContextTypes.DEFAULT_TYPE):
                    "Below are recipes for healthy dishes. Click the 'Dish Recipes' button to view them.")
         },
         'maintain': {
-            'uz': ("Kombinatsion mashg'ulotlar (kardio+kuch):\n"
+            'uz': ("🤗Kombinatsion mashg'ulotlar (kardio+kuch):\n"
                    "- Foyda: Vaznni saqlaydi.\n"
                    "- 30-40 daqiqa kuniga, 4-5 kun/hafta.\n"
                    "- ~200-250 kkal(30 daqiqa).\n"
                    "- Ehtiyotkorlik: Yaxshi dam olish.\n"
                    "Quyida foydali taomlarning retseptlari berilgan. Ko'rish uchun 'Taomlar retsepti' tugmasini bosing."),
-            'ru': ("Комбинированная тренировка (кардио+силовые):\n"
+            'ru': ("🤗Комбинированная тренировка (кардио+силовые):\n"
                    "- Помогает держать вес.\n"
                    "- 30-40 мин в день, 4-5 раз в неделю.\n"
                    "- ~200-250 ккал за 30 мин.\n"
                    "- Отдых обязателен.\n"
                    "Ниже приведены рецепты полезных блюд. Нажмите кнопку «Рецепты блюд», чтобы их посмотреть."),
-            'en': ("Combination (cardio+strength):\n"
+            'en': ("🤗Combination (cardio+strength):\n"
                    "- Maintains weight.\n"
                    "- 30-40 min/day, 4-5 times/week.\n"
                    "- ~200-250 kcal/30 min.\n"
@@ -6062,15 +6064,16 @@ async def goal_selection(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
     # "Taomlar retsepti" tugmasi - 3 tilda
     recipe_button = {
-        'uz': "Taomlar retsepti",
-        'ru': "Рецепты",
-        'en': "Recipes"
+        'uz': "👉Taomlar retsepti👈",
+        'ru': "👉Рецепты👈",
+        'en': "👉Recipes👈"
     }
 
     keyboard = [[InlineKeyboardButton(recipe_button[lang], callback_data='recipes')]]
     reply_markup = InlineKeyboardMarkup(keyboard)
 
     await query.edit_message_text(text=text_to_send, reply_markup=reply_markup)
+
 
 # =========================== ASOSIY "TAOMLAR" BO'LIMI ===========================
 async def show_main_taomlar_menu(update: Update, context: ContextTypes.DEFAULT_TYPE):
@@ -6083,26 +6086,27 @@ async def show_main_taomlar_menu(update: Update, context: ContextTypes.DEFAULT_T
 
     # 3 tilda sarlavha
     text_dict = {
-        'uz': "Taomlar bo‘limi. Qaysi bo‘limni tanlaysiz?",
-        'ru': "Раздел блюд. Какое блюдо выберете?",
-        'en': "Recipe categories. Which one do you choose?"
+        'uz': "Taomlar bo‘limi. Qaysi bo‘limni tanlaysiz?🤔",
+        'ru': "Раздел блюд. Какое блюдо выберете?🤔",
+        'en': "Recipe categories. Which one do you choose?🤔"
     }
 
     # Bo‘limlar tugmalari (barchasi bir xil, faqat matnlari 3 tilda yozilishi mumkin)
     # Ushbu tugmalar callback_data bilan ishga tushadi: cat_suyuq, cat_quyuq, ...
     keyboard = [
-        [InlineKeyboardButton("Suyuq taomlar", callback_data='cat_suyuq')],
-        [InlineKeyboardButton("Quyuq taomlar", callback_data='cat_quyuq')],
-        [InlineKeyboardButton("Salatlar", callback_data='cat_salatlar')],
-        [InlineKeyboardButton("Pishiriqlar", callback_data='cat_pishiriqlar')],
-        [InlineKeyboardButton("Shirinliklar", callback_data='cat_shirinliklar')],
-        [InlineKeyboardButton("Ichimliklar", callback_data='cat_ichimliklar')],
-        [InlineKeyboardButton("Tortlar", callback_data='cat_tortlar')],
-        [InlineKeyboardButton("Nonlar", callback_data='cat_nonlar')]
+        [InlineKeyboardButton("Suyuq taomlar🍲", callback_data='cat_suyuq')],
+        [InlineKeyboardButton("Quyuq taomlar🍝", callback_data='cat_quyuq')],
+        [InlineKeyboardButton("Salatlar🥗", callback_data='cat_salatlar')],
+        [InlineKeyboardButton("Pishiriqlar🥧", callback_data='cat_pishiriqlar')],
+        [InlineKeyboardButton("Shirinliklar🍩", callback_data='cat_shirinliklar')],
+        [InlineKeyboardButton("Ichimliklar🍹", callback_data='cat_ichimliklar')],
+        [InlineKeyboardButton("Tortlar🍰", callback_data='cat_tortlar')],
+        [InlineKeyboardButton("Nonlar🍞", callback_data='cat_nonlar')]
     ]
     reply_markup = InlineKeyboardMarkup(keyboard)
 
     await query.edit_message_text(text=text_dict[lang], reply_markup=reply_markup)
+
 
 # ======================== Yordamchi funksiyasi ===================
 async def show_dish_categories(update: Update, context: ContextTypes.DEFAULT_TYPE):
@@ -6110,6 +6114,7 @@ async def show_dish_categories(update: Update, context: ContextTypes.DEFAULT_TYP
     await query.answer()
     cat = query.data.split('_')[1]  # suyuq, quyuq, salatlar...
     await show_dish_categories_logic(cat, query, context)
+
 
 async def show_dish_categories_logic(cat: str, query: CallbackQuery, context: ContextTypes.DEFAULT_TYPE):
     """
@@ -6121,34 +6126,34 @@ async def show_dish_categories_logic(cat: str, query: CallbackQuery, context: Co
 
     category_titles = {
         'uz': {
-            'suyuq': "Suyuq taomlar:",
-            'quyuq': "Quyuq taomlar:",
-            'salatlar': "Salatlar:",
-            'pishiriqlar': "Pishiriqlar:",
-            'shirinliklar': "Shirinliklar:",
-            'ichimliklar': "Ichimliklar:",
-            'tortlar': "Tortlar:",
-            'nonlar': "Nonlar:"
+            'suyuq': "Suyuq taomlar:🍲",
+            'quyuq': "Quyuq taomlar:🍝",
+            'salatlar': "Salatlar:🥗",
+            'pishiriqlar': "Pishiriqlar:🥧",
+            'shirinliklar': "Shirinliklar:🍩",
+            'ichimliklar': "Ichimliklar:🍹",
+            'tortlar': "Tortlar:🍰",
+            'nonlar': "Nonlar:🍞"
         },
         'ru': {
-            'suyuq': "Супы:",
-            'quyuq': "Тушеные блюда:",
-            'salatlar': "Салаты:",
-            'pishiriqlar': "Выпечка:",
-            'shirinliklar': "Десерты:",
-            'ichimliklar': "Напитки:",
-            'tortlar': "Торты:",
-            'nonlar': "Хлеба:"
+            'suyuq': "Супы:🍲",
+            'quyuq': "Тушеные блюда:🍝",
+            'salatlar': "Салаты:🥗",
+            'pishiriqlar': "Выпечка:🥧",
+            'shirinliklar': "Десерты:🍩",
+            'ichimliklar': "Напитки:🍹",
+            'tortlar': "Торты:🍰",
+            'nonlar': "Хлеба:🍞"
         },
         'en': {
-            'suyuq': "Soups:",
-            'quyuq': "Stews:",
-            'salatlar': "Salads:",
-            'pishiriqlar': "Baked Goods:",
-            'shirinliklar': "Desserts:",
-            'ichimliklar': "Drinks:",
-            'tortlar': "Cakes:",
-            'nonlar': "Breads:"
+            'suyuq': "Soups:🍲",
+            'quyuq': "Stews:🍝",
+            'salatlar': "Salads:🥗",
+            'pishiriqlar': "Baked Goods:🥧",
+            'shirinliklar': "Desserts:🍩",
+            'ichimliklar': "Drinks:🍹",
+            'tortlar': "Cakes:🍰",
+            'nonlar': "Breads:🍞"
         }
     }
 
@@ -6156,7 +6161,7 @@ async def show_dish_categories_logic(cat: str, query: CallbackQuery, context: Co
     if cat == "suyuq":
         text_label = category_titles[lang]['suyuq']
         keyboard = [
-            [InlineKeyboardButton("Ko'zaa sho'rva", callback_data='dish_kosashorva')],
+            [InlineKeyboardButton("Ko'za sho'rva", callback_data='dish_kosashorva')],
             [InlineKeyboardButton("Dumbulli dimlama", callback_data='dish_dumbullidimlama')],
             [InlineKeyboardButton("Piyozli sho'rva", callback_data='dish_piyozlishorva')],
             [InlineKeyboardButton("Suyuq norin", callback_data='dish_suyuqnorin')],
@@ -6267,7 +6272,7 @@ async def show_dish_categories_logic(cat: str, query: CallbackQuery, context: Co
             [InlineKeyboardButton("Shokoladli glazur", callback_data='dish_shokoglazur')],
             [InlineKeyboardButton("Bananli eskimo", callback_data='dish_bananlieskimo')],
             [InlineKeyboardButton("Jemli pirog", callback_data='dish_jemlipirog')],
-            [InlineKeyboardButton("Tvorogli bulochka", callback_data='dish_tvoroglibulochka')],
+            [InlineKeyboardButton("Tvarogli bulochka", callback_data='dish_tvoroglibulochka')],
             [InlineKeyboardButton("Malinali chizkeyk", callback_data='dish_malinalichizkeyk')],
             [InlineKeyboardButton("Bolqaymoq", callback_data='dish_bolqaymoq')],
             [InlineKeyboardButton("Murabboli pirog", callback_data='dish_murabbolipirog')],
@@ -6304,7 +6309,6 @@ async def show_dish_categories_logic(cat: str, query: CallbackQuery, context: Co
         keyboard = [
             [InlineKeyboardButton("Praga torti", callback_data='tort_praga')],
             [InlineKeyboardButton("Napaleon torti", callback_data='tort_napaleon')],
-            [InlineKeyboardButton("Drezdencha tort", callback_data='drezden_drezden')],
             [InlineKeyboardButton("Zebra torti", callback_data='tort_zebra')],
             [InlineKeyboardButton("Pancho torti", callback_data='tort_pancho')],
             [InlineKeyboardButton("Medovik torti", callback_data='tort_medovik')],
@@ -6336,6 +6340,7 @@ async def show_dish_categories_logic(cat: str, query: CallbackQuery, context: Co
 
     reply_markup = InlineKeyboardMarkup(keyboard)
     await query.edit_message_text(text=text_label, reply_markup=reply_markup)
+
 
 # =========================== ASOSIY RETSEPT CALLBACK =============================
 async def show_recipe_callback(update: Update, context: ContextTypes.DEFAULT_TYPE):
@@ -6435,6 +6440,7 @@ async def show_recipe_callback(update: Update, context: ContextTypes.DEFAULT_TYP
         sent_text = await context.bot.send_message(chat_id=user_id, text=text_data, reply_markup=reply_markup)
         context.user_data['last_text_id'] = sent_text.message_id
 
+
 # ================== back_to_taomlar => show_main_taomlar_menu ====================
 async def back_to_taomlar(update: Update, context: ContextTypes.DEFAULT_TYPE):
     query = update.callback_query
@@ -6468,6 +6474,7 @@ async def back_to_taomlar(update: Update, context: ContextTypes.DEFAULT_TYPE):
     # Asosiy taomlar menyusini ko'rsatish
     await show_main_taomlar_menu(update, context)
 
+
 # ============== Orqaga bo‘limga qaytish => back_to_category_suyuq, quyuq, ... =====
 async def back_to_category_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
     query = update.callback_query
@@ -6492,7 +6499,8 @@ async def back_to_category_handler(update: Update, context: ContextTypes.DEFAULT
     # So'nggi yuborilgan umumiy xabarni o'chirish (agar mavjud bo'lsa)
     if 'last_message_id' in context.user_data:
         try:
-            await context.bot.delete_message(chat_id=query.from_user.id, message_id=context.user_data['last_message_id'])
+            await context.bot.delete_message(chat_id=query.from_user.id,
+                                             message_id=context.user_data['last_message_id'])
             del context.user_data['last_message_id']
         except Exception as e:
             logger.error(f"Umumiy xabarni o'chirishda xatolik: {e}")
@@ -6504,11 +6512,13 @@ async def back_to_category_handler(update: Update, context: ContextTypes.DEFAULT
     cat = parts[3]
     await show_dish_categories_logic(cat, query, context)
 
+
 # ========================= RECIPES BUTTON HANDLER ===========================
 async def recipes_button_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
     query = update.callback_query
     await query.answer()
     await show_main_taomlar_menu(update, context)
+
 
 # =========================== ASOSIY BOT (MAIN) =========================
 def main():
@@ -6540,8 +6550,6 @@ def main():
 
     # Ortga kategoriya
     application.add_handler(CallbackQueryHandler(back_to_category_handler, pattern='^back_to_category_.*$'))
-
-
 
     # Botni ishga tushiramiz
     application.run_polling()

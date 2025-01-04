@@ -1,3 +1,9 @@
+
+import os
+import logging
+import json
+from datetime import datetime, timedelta
+
 from telegram import (
     Update, InlineKeyboardButton, InlineKeyboardMarkup, CallbackQuery,
     InputMediaPhoto, InputMediaDocument
@@ -10,9 +16,6 @@ from telegram.ext import (
     ContextTypes,
     filters
 )
-import os
-import logging
-import json
 
 # ============== LOGGER (log) sozlamalari ==============
 logging.basicConfig(
@@ -5809,6 +5812,7 @@ Yoqimli ishtaha!🍽️😋
 Yordam bera olgan boʻlsam hursandman.
 """})
 
+
 # ============== JSON orqali ma’lumotlarni saqlash/yuklash ==============
 def load_data():
     """
@@ -5832,7 +5836,7 @@ def save_data(data: dict):
         json.dump(data, f, ensure_ascii=False, indent=2)
 
 
-# ============== Yordamchi funksiyalar (rasmlarni bo‘lib yuborish) ==============
+# ============== Yordamchi funksiyalar (uzun matnni bo‘lib yuborish) ==============
 async def send_long_text_in_chunks(text, chat_id, context, chunk_size=3500):
     """
     Telegram cheklovi sababli xabarni 4096 belgidan katta yuborolmaymiz.
@@ -5848,6 +5852,7 @@ async def send_long_text_in_chunks(text, chat_id, context, chunk_size=3500):
     return last_text_id
 
 
+
 # ============== START KOMANDASI ==============
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     chat_id = update.effective_chat.id
@@ -5855,18 +5860,19 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     # Global data.json
     bot_data = context.bot_data.setdefault("users_db", load_data())
 
-    # Kimdir /start qilgan bo‘lsa, uni bazaga qo‘shib qo‘yamiz (agar hali bo‘lmasa)
     str_id = str(chat_id)
+    # Kimdir /start qilgan bo‘lsa, uni bazaga qo‘shib qo‘yamiz (agar hali bo‘lmasa)
     if str_id not in bot_data:
-        # Yangi foydalanuvchi
         bot_data[str_id] = {
             "lang": None,
             "age": None,
             "height": None,
             "weight": None,
-            "context_user_data": {}  # keyinchalik sizda context.user_data bo'ladigan joy
+            "last_activity": None,  # foydalanuvchi so‘nggi marta qachon keldi
         }
-        save_data(bot_data)  # saqlab qo'yamiz
+    # har safar /start bosilganda last_activity yangilanadi
+    bot_data[str_id]["last_activity"] = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    save_data(bot_data)
 
     text = (
         "O'zbekcha:\n"
@@ -5900,12 +5906,13 @@ async def language_selection(update: Update, context: ContextTypes.DEFAULT_TYPE)
     await query.answer()
     lang = query.data.split('_')[1]  # masalan 'uz', 'ru', 'en'
 
-    # JSON bazani yuklab
     bot_data = context.bot_data.setdefault("users_db", load_data())
     str_id = str(query.from_user.id)
 
     if str_id in bot_data:
         bot_data[str_id]["lang"] = lang
+        # yangilangan sana
+        bot_data[str_id]["last_activity"] = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
         save_data(bot_data)
 
     messages = {
@@ -5921,9 +5928,22 @@ async def handle_user_data(update: Update, context: ContextTypes.DEFAULT_TYPE):
     bot_data = context.bot_data.setdefault("users_db", load_data())
     str_id = str(update.message.from_user.id)
 
+    # Har safar xabar kelganda last_activity yangilanadi
     if str_id not in bot_data:
-        await update.message.reply_text("Iltimos, /start dan boshlang.")
+        # agar /start qilmagan bo‘lsa
+        bot_data[str_id] = {
+            "lang": None,
+            "age": None,
+            "height": None,
+            "weight": None,
+            "last_activity": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+        }
+        save_data(bot_data)
+        await update.message.reply_text("Iltimos, avval /start ni bosing.")
         return
+    else:
+        bot_data[str_id]["last_activity"] = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        save_data(bot_data)
 
     lang = bot_data[str_id]["lang"]
     if not lang:
@@ -5935,12 +5955,13 @@ async def handle_user_data(update: Update, context: ContextTypes.DEFAULT_TYPE):
         bot_data[str_id]["age"] = age
         bot_data[str_id]["height"] = height
         bot_data[str_id]["weight"] = weight
+        # last_activity ham yangilab bo‘ldik
         save_data(bot_data)
 
         # BMI, BMR, suv hisobi
         height_m = height / 100
         bmi = weight / (height_m ** 2)
-        # Pastki formula erkaklar uchun (agar ayol bo‘lsa o‘zgartirish mumkin)
+        # Pastki formula erkaklar uchun (agar ayol bo‘lsa o‘zgartirish kerak bo‘ladi)
         bmr = 10 * weight + 6.25 * height - 5 * age + 5
         daily_water_liters = weight * 30 / 1000
 
@@ -5967,37 +5988,37 @@ async def handle_user_data(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
         harmful_text = {
             'uz': (
-                "Zararli ichimliklar va taomlardan saqlaning:🤗\n"
+                "Zararli ichimlik va taomlardan saqlaning:🤗\n"
                 "- Shirin gazlangan ichimliklar\n"
                 "- Spirtli ichimliklar\n"
-                "- Haddan tashqari yog'li va qovurilgan ovqatlar\n"
-                "- Ortiqcha tuz va shakar iste'moli\n\n"
+                "- Juda yog'li va qovurilgan ovqatlar\n"
+                "- Ortiqcha tuz va shakar\n\n"
                 "Foydali odatlar:\n"
-                "- Oddiy suv iching\n"
-                "- Ko'katlar va mevalar iste'mol qiling\n"
+                "- Oddiy suv ichish\n"
+                "- Ko'katlar va mevalar\n"
                 "- Sog'lom yog'lar (zaytun moyi va h.k)."
             ),
             'ru': (
                 "Избегайте вредных напитков и пищи:🤗\n"
-                "- Сладкие газированные напитки\n"
-                "- Алкогольные напитки\n"
+                "- Сладкая газировка\n"
+                "- Алкоголь\n"
                 "- Жирная и жареная еда\n"
-                "- Избыточное употребление соли и сахара\n\n"
+                "- Избыток соли и сахара\n\n"
                 "Полезные привычки:\n"
-                "- Пейте чистую воду\n"
-                "- Ешьте зелень и фрукты\n"
-                "- Используйте здоровые жиры (оливковое масло и т.д.)."
+                "- Пить простую воду\n"
+                "- Есть зелень и фрукты\n"
+                "- Полезные масла (оливковое и т.п.)."
             ),
             'en': (
                 "Avoid harmful drinks and foods:🤗\n"
                 "- Sugary fizzy drinks\n"
-                "- Alcoholic beverages\n"
-                "- Excessively fatty and fried foods\n"
-                "- Excessive salt and sugar consumption\n\n"
+                "- Alcohol\n"
+                "- Fatty and fried foods\n"
+                "- Too much salt and sugar\n\n"
                 "Healthy habits:\n"
                 "- Drink plain water\n"
                 "- Eat greens and fruits\n"
-                "- Use healthy fats (olive oil, etc)."
+                "- Healthy oils (olive oil, etc.)."
             )
         }
 
@@ -6017,7 +6038,6 @@ async def handle_user_data(update: Update, context: ContextTypes.DEFAULT_TYPE):
         }
 
         full_text = summary_text[lang]
-
         if len(full_text) > 3500:
             await send_long_text_in_chunks(full_text, update.effective_chat.id, context)
         else:
@@ -6061,8 +6081,12 @@ async def goal_selection(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
     bot_data = context.bot_data.setdefault("users_db", load_data())
     str_id = str(query.from_user.id)
-    lang = bot_data[str_id].get("lang", "uz")  # Default uz
+    # har safar callback kelganda ham last_activity yangilanadi
+    if str_id in bot_data:
+        bot_data[str_id]["last_activity"] = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        save_data(bot_data)
 
+    lang = bot_data[str_id].get("lang", "uz")
     exercises_info = {
         'gain': {
             'uz': ("🤗Mashg'ulot: Kuch mashg'ulotlari (gantel, og'irliklar):\n"
@@ -6140,14 +6164,32 @@ async def goal_selection(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await query.edit_message_text(text=text_to_send, reply_markup=reply_markup)
 
 
-# ============== ASOSIY MENU: "Taomlar retsepti" tugmasi bosilganda ==============
-async def show_main_taomlar_menu(update: Update, context: ContextTypes.DEFAULT_TYPE):
+# ============== "Taomlar retsepti" tugmasi bosilganda ==============
+async def recipes_button_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
     query = update.callback_query
     await query.answer()
 
     bot_data = context.bot_data.setdefault("users_db", load_data())
     str_id = str(query.from_user.id)
+    if str_id in bot_data:
+        bot_data[str_id]["last_activity"] = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        save_data(bot_data)
+
+    await show_main_taomlar_menu(update, context)
+
+
+# ============== ASOSIY TAOMLAR MENYUSI ==============
+async def show_main_taomlar_menu(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    query = update.callback_query
+    bot_data = context.bot_data.setdefault("users_db", load_data())
+
+    str_id = str(query.from_user.id)
     lang = bot_data[str_id].get("lang", "uz")
+
+    if query and query.data == 'recipes':
+        # callback kelgan, last_activity yangilash
+        bot_data[str_id]["last_activity"] = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        save_data(bot_data)
 
     text_dict = {
         'uz': "Taomlar bo‘limi. Qaysi bo‘limni tanlaysiz?🤔",
@@ -6170,7 +6212,7 @@ async def show_main_taomlar_menu(update: Update, context: ContextTypes.DEFAULT_T
     await query.edit_message_text(text=text_dict.get(lang, text_dict['uz']), reply_markup=reply_markup)
 
 
-# ============== BO‘LIMGA KIRISH (cat_suyuq, cat_quyuq, ...) ==============
+# ============== Kategoriya tanlash cat_suyuq, cat_quyuq, ... ==============
 async def show_dish_categories(update: Update, context: ContextTypes.DEFAULT_TYPE):
     query = update.callback_query
     await query.answer()
@@ -6182,6 +6224,11 @@ async def show_dish_categories(update: Update, context: ContextTypes.DEFAULT_TYP
 async def show_dish_categories_logic(cat: str, query: CallbackQuery, context: ContextTypes.DEFAULT_TYPE):
     bot_data = context.bot_data.setdefault("users_db", load_data())
     str_id = str(query.from_user.id)
+    # last_activity
+    if str_id in bot_data:
+        bot_data[str_id]["last_activity"] = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        save_data(bot_data)
+
     lang = bot_data[str_id].get("lang", "uz")
 
     category_titles = {
@@ -6402,112 +6449,157 @@ async def show_dish_categories_logic(cat: str, query: CallbackQuery, context: Co
     await query.edit_message_text(text=text_label, reply_markup=reply_markup)
 
 
-# ============== RETSEPT CALLBACK: dish_..., drink_..., tort_..., non_, ... ==============
+
+# ============== Retsept callback: dish_..., drink_..., tort_..., non_, ... ==============
+
+# <-- O'ZGARTIRILGAN (1) -->
+# Bu yerda matn + rasm yuborganda, ularning message_id larini saqlaymiz
 async def show_recipe_callback(update: Update, context: ContextTypes.DEFAULT_TYPE):
     query = update.callback_query
     await query.answer()
     data_key = query.data
 
+    bot_data = context.bot_data.setdefault("users_db", load_data())
+    str_id = str(query.from_user.id)
+    if str_id in bot_data:
+        bot_data[str_id]["last_activity"] = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        save_data(bot_data)
+
     text_data = recipes_texts.get(data_key, "Bu taom (yoki ichimlik) bo'yicha ma'lumot topilmadi.")
     image_path = images_paths.get(data_key)
 
-    # Kategoriyaga qaytish callback
-    back_cat = "suyuq"
-    if data_key.startswith("dish_"):
-        if any(k in data_key for k in [
-            "kosashorva", "dumbullidimlama", "piyozlishorva", "suyuqnorin", "uygurlagmon",
-            "moxora", "goja", "lagmon", "sabzavotd", "mantilishorva", "firkadelkali",
-            "kosadimlama", "tuxumdolma", "mastava", "chuchvara"
-        ]):
-            back_cat = "suyuq"
-        elif any(k in data_key for k in [
-            "andijonmanti", "spagetti", "qovurmala", "dimlama", "beshbarmoq", "bibimbap",
-            "quyuqdolma", "choyxona", "gulxonim", "bayramona", "grechkapalov", "turkcharatatuy",
-            "balish", "goshlirulet", "shivit", "nonpalov", "kartoshkadolma", "dumbulpalov",
-            "teftel", "sarimsoqli", "begodi", "baliqlikotlet", "jigarkabob", "qozonkabob",
-            "qiymalikabob", "tandirkabob", "tovuqkabob", "namangankabob", "norin", "xasip", "tuxumbarak"
-        ]):
-            back_cat = "quyuq"
-        elif "salat" in data_key or "achchiqchuchuk" in data_key:
-            back_cat = "salatlar"
-        elif "pishiriq" in data_key or "somsa" in data_key or "burek" in data_key or "gumma" in data_key:
-            back_cat = "pishiriqlar"
-        elif any(k in data_key for k in [
-            "nisholda", "holvetar", "tvaroglikr", "shokoglazur", "bananlieskimo", "jemlipirog",
-            "tvoroglibulochka", "malinalichizkeyk", "bolqaymoq", "murabbolipirog", "asallipirojniy",
-            "shaftolilimizq", "aylanay", "chumoliuya", "olchali", "shokokeks", "asallipechenye"
-        ]):
-            back_cat = "shirinliklar"
-        else:
-            back_cat = "suyuq"
-    elif data_key.startswith("drink_"):
-        back_cat = "ichimliklar"
-    elif data_key.startswith("tort_"):
-        back_cat = "tortlar"
-    elif data_key.startswith("non_"):
-        back_cat = "nonlar"
-    else:
-        back_cat = "suyuq"
-
-    back_callback = f"back_to_category_{back_cat}"
-
-    keyboard = [[InlineKeyboardButton("Ortga⬅️", callback_data=back_callback)]]
+    # "Ortga" tugmasi
+    keyboard = [[InlineKeyboardButton("Ortga⬅️", callback_data='back_to_taomlar')]]
     reply_markup = InlineKeyboardMarkup(keyboard)
 
-    # Rasm yuborish
+    # RASM yuborish
+    photo_message_id = None
     if image_path and os.path.exists(image_path):
         try:
             with open(image_path, 'rb') as img_file:
-                await context.bot.send_photo(chat_id=query.from_user.id, photo=img_file)
+                sent_photo_msg = await context.bot.send_photo(
+                    chat_id=query.from_user.id,
+                    photo=img_file
+                )
+                photo_message_id = sent_photo_msg.message_id  # saqlab qo'yamiz
         except Exception as e:
             logger.error(f"Rasm yuborishda xatolik: {e}")
             await context.bot.send_message(chat_id=query.from_user.id, text="Rasm yuborishda xatolik yuz berdi.")
     else:
         logger.warning(f"Rasm topilmadi: {image_path}")
 
-    # Matn yuborish
+    # MATN yuborish
+    text_message_id = None
     if len(text_data) > 3500:
         await send_long_text_in_chunks(text_data, query.from_user.id, context)
-        await context.bot.send_message(chat_id=query.from_user.id, text="...", reply_markup=reply_markup)
+        msg = await context.bot.send_message(
+            chat_id=query.from_user.id,
+            text="...",
+            reply_markup=reply_markup
+        )
+        text_message_id = msg.message_id
     else:
-        await context.bot.send_message(chat_id=query.from_user.id, text=text_data, reply_markup=reply_markup)
+        msg = await context.bot.send_message(
+            chat_id=query.from_user.id,
+            text=text_data,
+            reply_markup=reply_markup
+        )
+        text_message_id = msg.message_id
+
+    # Xabar ID larini user_data ga yozamiz
+    context.user_data['recipe_photo_msg_id'] = photo_message_id
+    context.user_data['recipe_text_msg_id'] = text_message_id
 
 
-# ============== Ortga "Taomlar" menu ==============
+# ============== Ortga "taomlar" ==============
+
+# <-- O'ZGARTIRILGAN (2) -->
+# Ortga bosilganda avval rasm + matn xabarini o'chiramiz, so'ng asosiy menyu ko'rsatamiz
 async def back_to_taomlar(update: Update, context: ContextTypes.DEFAULT_TYPE):
     query = update.callback_query
     await query.answer()
+
+    # Avval yuborilgan rasm xabarini o'chiramiz
+    photo_msg_id = context.user_data.get('recipe_photo_msg_id')
+    if photo_msg_id:
+        try:
+            await context.bot.delete_message(chat_id=query.from_user.id, message_id=photo_msg_id)
+        except Exception as e:
+            logger.error(f"Rasm xabarni o'chirishda xatolik: {e}")
+        context.user_data.pop('recipe_photo_msg_id', None)
+
+    # Matn xabarini o'chiramiz
+    text_msg_id = context.user_data.get('recipe_text_msg_id')
+    if text_msg_id:
+        try:
+            await context.bot.delete_message(chat_id=query.from_user.id, message_id=text_msg_id)
+        except Exception as e:
+            logger.error(f"Matn xabarni o'chirishda xatolik: {e}")
+        context.user_data.pop('recipe_text_msg_id', None)
+
+    # Endi asosiy taomlar menyusiga qaytamiz
     await show_main_taomlar_menu(update, context)
 
-
-# ============== Ortga kategoriya: back_to_category_suyuq, back_to_category_quyuq, ... ==============
-async def back_to_category_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    query = update.callback_query
-    await query.answer()
-    parts = query.data.split('_')  # ['back','to','category','suyuq']
-    if len(parts) < 4:
-        await query.edit_message_text("Noma'lum orqaga harakat.")
-        return
-    cat = parts[3]
-    await show_dish_categories_logic(cat, query, context)
+    # last_activity
+    bot_data = context.bot_data.setdefault("users_db", load_data())
+    str_id = str(query.from_user.id)
+    if str_id in bot_data:
+        bot_data[str_id]["last_activity"] = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        save_data(bot_data)
 
 
-# ============== "recipes" tugmasi => taomlar menyusini ko‘rsatish ==============
-async def recipes_button_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    query = update.callback_query
-    await query.answer()
-    await show_main_taomlar_menu(update, context)
+
+# ============== Ortga kategoriya: Agar keraksiz bo‘lsa, soddalashtirilgan... ==============
+#  shu loyihada ortga kategoriya emas, bevosita "taomlar"ga qaytyapmiz.
 
 
-# ============== 1) /users — foydalanuvchi sonini ko‘rsatish (har kim ishlatsa bo‘ladi) ==============
+# ============== 1) /users — faqat so‘nggi 30 kunda aktiv va chatdan chiqmaganlar soni ==============
 async def user_count_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
     bot_data = context.bot_data.setdefault("users_db", load_data())
-    # Faqat /start bosganlar ro‘yxatga kiritiladi
-    count = len(bot_data)  # data.json dagi yozuvlar soni
-    await update.message.reply_text(f"Botda hozircha {count} ta foydalanuvchi ro‘yxatdan o‘tgan.")
+
+    # Admin bo‘lmasayam kimdir /users ni bosishi mumkin. Ruxsat berilsa bo‘ldi, cheklash shart emas.
+    # Agar cheklamoqchi bo‘lsak, admin tekshirish qilamiz.
+
+    active_count = 0
+    now = datetime.now()
+
+    # Har bir foydalanuvchi uchun tekshiramiz
+    user_ids = list(bot_data.keys())
+    fail_count = 0
+    for uid in user_ids:
+        user_info = bot_data[uid]
+        last_active_str = user_info.get("last_activity")
+        if not last_active_str:
+            continue  # hech qachon /start qilmagan bo‘lishi mumkin
+        try:
+            last_active_dt = datetime.strptime(last_active_str, "%Y-%m-%d %H:%M:%S")
+        except ValueError:
+            continue
+
+        # 30 kundan oshiq bo'lsa skip
+        if (now - last_active_dt) > timedelta(days=30):
+            continue
+
+        # chatdan chiqib ketganmi tekshiramiz
+        try:
+            uid_int = int(uid)
+            member = await context.bot.get_chat_member(uid_int, uid_int)
+            if member.status not in ("left", "kicked"):
+                # demak botni o‘chirib tashlamagan
+                active_count += 1
+        except Exception as e:
+            # get_chat_member xato bersa, balki user blocked the bot
+            logger.error(f"get_chat_member failed for {uid}: {e}")
+            fail_count += 1
+
+    msg_text = (
+        f"Faol foydalanuvchilar (so‘nggi 30 kunda), botni tark etmaganlar soni: {active_count}\n"
+        f"(Tekshirishda xato chiqqan userlar: {fail_count} ta)"
+    )
+    await update.message.reply_text(msg_text)
 
 
-# ============== 2) /admin_broadcast — faqat adminlarga ruxsat. Xabarni forward qilib yuboradi ==============
+# ============== 2) /admin_broadcast — faqat adminlarga ruxsat. Xabarni forward (yoki copy) qilib yuboradi ==============
 async def admin_broadcast_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
     user_id = update.effective_user.id
 
@@ -6520,33 +6612,27 @@ async def admin_broadcast_command(update: Update, context: ContextTypes.DEFAULT_
         await update.message.reply_text("Iltimos, reply (javob) tarzida xabar yoki media ustiga /admin_broadcast yuboring.")
         return
 
-    # Biz reply qilingan xabarni barcha foydalanuvchilarga forward qilamiz:
     bot_data = context.bot_data.setdefault("users_db", load_data())
 
-    # yoyish
     broadcast_count = 0
     fail_count = 0
-    for str_id in bot_data.keys():
+
+    for uid_str in bot_data.keys():
         try:
-            await context.bot.forward_message(
-                chat_id=str_id,
+            # forward
+            await context.bot.copy_message(
+                chat_id=int(uid_str),
                 from_chat_id=update.effective_chat.id,
                 message_id=update.message.reply_to_message.message_id
             )
             broadcast_count += 1
         except Exception as e:
-            logger.error(f"Broadcast to {str_id} failed: {e}")
+            logger.error(f"Broadcast to {uid_str} failed: {e}")
             fail_count += 1
 
     await update.message.reply_text(
         f"Xabar forward qilindi. Muvaffaqiyatli: {broadcast_count} ta. Xato: {fail_count} ta."
     )
-
-
-# ============== ISTALGAN FORMATDAGI XABARNI NUSXA KO‘RINISHIDA YUBORISH (VARIANT) ==============
-# Agar forward o‘rniga nusxa (copy) shaklida yubormoqchi bo‘lsak, media turlarini ham ajratib ko‘rishimiz kerak.
-# Yoki yoyish jarayonini MessageHandlerda ham eplasa bo‘ladi.
-# Bu yerda minimal misol uchun forward qildik. Agar so‘rasangiz, copy variantini ham qo‘shish mumkin.
 
 
 # ============== BOTGA KOMANDALAR VA CALLBACKLARNI QO‘SHISH ==============
@@ -6559,7 +6645,7 @@ def main():
     # Til tanlash callback
     application.add_handler(CallbackQueryHandler(language_selection, pattern='^lang_(uz|ru|en)$'))
 
-    # Foydalanuvchi ma'lumotlarini qabul qilish (TEXT)
+    # Foydalanuvchi matn (age,height,weight) kiritsa
     application.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, handle_user_data))
 
     # Maqsad tanlash
@@ -6577,14 +6663,13 @@ def main():
     # Ortga "taomlar" menu
     application.add_handler(CallbackQueryHandler(back_to_taomlar, pattern='^back_to_taomlar$'))
 
-    # Ortga kategoriya
-    application.add_handler(CallbackQueryHandler(back_to_category_handler, pattern='^back_to_category_.*$'))
-
-    # *** Yangi buyruqlar ***
+    # /users
     application.add_handler(CommandHandler("users", user_count_command))
+
+    # /admin_broadcast
     application.add_handler(CommandHandler("admin_broadcast", admin_broadcast_command))
 
-    # Botni ishga tushiramiz
+    logger.info("Bot ishga tushirildi...")
     application.run_polling()
 
 

@@ -1,9 +1,24 @@
 {
   "7465094605": {
     "lang": "uz",
-    "age": 20,
-    "height": 170,
-    "weight": 45,
-    "context_user_data": {}
+    "age": 25,
+    "height": 175,
+    "weight": 70,
+    "context_user_data": {},
+    "last_activity": "2025-01-04 22:37:29"
+  },
+  "5012839940": {
+    "lang": null,
+    "age": null,
+    "height": null,
+    "weight": null,
+    "last_activity": "2025-01-04 21:58:34"
+  },
+  "6834362431": {
+    "lang": "uz",
+    "age": 19,
+    "height": 161,
+    "weight": 49,
+    "last_activity": "2025-01-04 23:07:51"
   }
 }

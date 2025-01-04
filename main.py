@@ -209,7 +209,7 @@ Dasturxon uchun:
 
 Tayyor sho‘rvani kosa yoki ko‘zada mayda to‘g‘ralgan piyoz va ukrop bilan bezatib torting.
 Yoqimli ishtaha! 🍽😋
-
+Yordam bera olgan boʻlsam hursandman.
 """,
 
     "dish_dumbullidimlama": """Dumbulli dimlama🍲
@@ -254,7 +254,7 @@ Dasturxonga tortish:
 
 Taom tayyor bo‘lgach, ta’bga ko‘ra bezatib, dasturxonga torting.
 Yoqimli ishtaha! 🍽😋
-
+Yordam bera olgan boʻlsam hursandman.
 """,
 
     "dish_piyozlishorva": """Piyozli sho'rva🍲
@@ -289,7 +289,7 @@ Sho‘rvani o‘rtacha olovda 50-60 daqiqa davomida qaynatib pishiring.
 Sho‘rvani dasturxonga tortishdan oldin ko‘k piyoz bilan bezang.
 Uni suxarik yoki grenkalar bilan xizmat qiling.
 Yoqimli ishtaha! 🍽😋
-
+Yordam bera olgan boʻlsam hursandman.
 """,
 
     "dish_suyuqnorin": """Suyuq norin🍝
@@ -340,7 +340,7 @@ Go‘sht va qazi qaynatilgan sho‘rvaning tuzini rostlab, norinning ustiga quyi
 Ustini parrak qilib kesilgan qazi bilan bezating.
 Ta’bga ko‘ra yupqa to‘g‘ralgan piyoz va qora murch qo‘shib xizmat qilishingiz mumkin.
 Yoqimli ishtaha! 🍽😋
-
+Yordam bera olgan boʻlsam hursandman.
 """,
 
     "dish_uygurlagmon": """Uyg'ur lag'mon 🍜
@@ -378,7 +378,7 @@ Sho‘rvani 20 daqiqa davomida o‘rtacha olovda qaynatib pishiring.
 Xizmat qilish:
 Tayyor sho‘rvani idishga solib, issiq holda dasturxonga torting.
 Yoqimli ishtaha! 🍽😋
-
+Yordam bera olgan boʻlsam hursandman.
 """,
 
     "dish_moxora": """Moxora🍛
@@ -417,7 +417,7 @@ Ziravorlarni xohlaganingizcha suyuqlikka yoki qovurish jarayonida qo‘shishingi
 Xizmat qilish:
 Tayyor moxorani kosalarga solib, ustiga yangi ko‘katlar sepib dasturxonga torting.
 Yoqimli ishtaha! 🍽😋
-
+Yordam bera olgan boʻlsam hursandman.
 """,
 
     "dish_goja": """Go'ja🍲 
@@ -445,7 +445,7 @@ Xizmat qilish:
 Tayyor bo‘lgan go‘jani sovuq holda dasturxonga torting.
 Ustiga rayhon, yalpiz yoki boshqa ko‘katlar sepib bezashingiz mumkin.
 Yoqimli ishtaha! 🍽😋
-
+Yordam bera olgan boʻlsam hursandman.
 """,
 
     "dish_lagmon": """ Lag'mon🍝
@@ -498,7 +498,7 @@ Qaynatilgan xamirni yog‘lab aralashtirib, bir biriga yopishib qolmasligini ta'
 Kosaga avval xamir soling, so‘ng ustidan qayla (vaju yoki say) suzib qo‘ying.
 Ustiga osh ko‘katlari bilan bezatib xizmat qiling.
 Yoqimli ishtaha! 🍽😋
-
+Yordam bera olgan boʻlsam hursandman.
 """,
 
     "dish_sabzavotd": """Sabzavotli dimlama🥘
@@ -550,7 +550,7 @@ Qozonga suv quying va 40-45 daqiqa davomida dimlang.
 7. Xizmat qilish:
 Taom tayyor bo‘lgach, ta’bga ko‘ra bezating va dasturxonga torting.
 Yoqimli ishtaha! 🍽😋
-
+Yordam bera olgan boʻlsam hursandman.
 """,
 
     "dish_mantilishorva": """ Mantili sho'rva🥘
@@ -611,7 +611,7 @@ Pishgan mantilarni suzib oling.
 Mantilarni kosalarga soling.
 Ustiga sho‘rva quyib, osh ko‘katlari va qatiq bilan bezab dasturxonga torting.
 Yoqimli ishtaha! 🍽😋
-
+Yordam bera olgan boʻlsam hursandman.
 """,
 
     "dish_firkadelkali": """Firkadelkali sho'rva🍛
@@ -652,7 +652,7 @@ Qopqog'ini yopib, sho'rvani 40 daqiqa davomida qaynatib pishiring.
 6. Xizmat qilish:
 Tayyor sho'rvani ko'katlar yoki smetana bilan bezab dasturxonga torting.
 Yoqimli ishtaha! 🍽😋
-
+Yordam bera olgan boʻlsam hursandman.
 """,
 
     "dish_kosadimlama": """Kosa dimlama🧆
@@ -686,7 +686,7 @@ Qasqonni qaynab turgan suv ustiga qo‘yib, idishni 1-1,5 soat davomida bug‘la
 4. Xizmat qilish:
 Tayyor kosa dimni ustiga oshko‘katlar sepib, dasturxonga torting.
 Yoqimli ishtaha! 🍽😋
-
+Yordam bera olgan boʻlsam hursandman.
 """,
 
     "dish_tuxumdolma": """Tuxum do'lma🍛
@@ -720,7 +720,7 @@ Tayyorlangan do‘lmalarni issiq yog‘da bir tekis qizarguncha qovuring.
 4. Xizmat qilish:
 Tayyor tuxum do‘lmalarni issiq holda dasturxonga torting. Ta'bga ko‘ra ko‘katlar yoki sous bilan bezatishingiz mumkin.
 Yoqimli ishtaha! 🍽😋
-
+Yordam bera olgan boʻlsam hursandman.
 """,
 
     "dish_mastava": """Mastava🍲
@@ -758,7 +758,7 @@ Guruchni oxirgi bosqichda, taomni dasturxonga tortiq qilishdan taxminan 10-15 da
 6. Xizmat qilish:
 Tayyor mastavani kosaga suzib, ustiga osh ko‘katlar va qatiq yoki suzma solib dasturxonga torting.
 Yoqimli ishtaha! 🍽😋
-
+Yordam bera olgan boʻlsam hursandman.
 """,
 
     "dish_chuchvara": """Chuchvara🍲
@@ -801,7 +801,7 @@ Sho‘rva ta’bga ko‘ra tuzlanadi.
 7. Xizmat qilish:
 Tayyor chuchvarani kosaga solib, ustiga qatiq qo‘shib dasturxonga torting.
 Yoqimli ishtaha! 🍽😋
-
+Yordam bera olgan boʻlsam hursandman.
 """,
 
     # ============= QUYUQ TAOMLAR =============
@@ -838,7 +838,7 @@ Mantilarni bug‘da 40 daqiqa davomida pishiring.
 5. Xizmat qilish:
 Tayyor mantilarni qatiq bilan dasturxonga torting.
 Yoqimli ishtaha! 🍽😋
-
+Yordam bera olgan boʻlsam hursandman.
 """,
 
     "dish_spagetti": """Spagetti🍝
@@ -878,7 +878,7 @@ Tayyor sosga spagettini solib, past olovda 4 daqiqa davomida aralashtirib qovuri
 Spagettini idishga soling.
 Ustiga maydalangan kashnich va limon po‘stlog‘ini sepib, taqdim eting.
 Yoqimli ishtaha! 🍽😋
-
+Yordam bera olgan boʻlsam hursandman.
 """,
 
     "dish_qovurmala": """Qovurma lag'mon🍜
@@ -929,7 +929,7 @@ Aralashtirib, yana bir oz qovuring.
 Tayyor qovurma lag‘monni lagan yoki likopchaga soling.
 Ustini oshko‘kat bilan bezating va xohishga ko‘ra ustiga qovurilgan tuxum qo‘shib dasturxonga torting.
 Yoqimli ishtaha! 🍽😋
-
+Yordam bera olgan boʻlsam hursandman.
 """,
 
     "dish_dimlama": """Dimlama🥘
@@ -978,7 +978,7 @@ Qaynab chiqqanidan so‘ng, olovni past qilib, 2 soat davomida dimlab pishiring.
 5. Xizmat qilish:
 Tayyor dimlamaga ko‘kat sepib, likopchaga solib dasturxonga torting.
 Yoqimli ishtaha! 🍽😋
-
+Yordam bera olgan boʻlsam hursandman.
 """,
 
     "dish_beshbarmoq": """Beshbarmoq🍲
@@ -1016,7 +1016,7 @@ Laganga pishgan xamir bo‘laklarini suzib oling.
 Ustiga to‘g‘ralgan go‘sht, qazi va piyozli sousni quying.
 Ustiga ko‘katlar sepib, dasturxonga torting.
 Yoqimli ishtaha! 🍽😋
-
+Yordam bera olgan boʻlsam hursandman.
 """,
 
     "dish_bibimbap": """Bibimbap🥘
@@ -1072,7 +1072,7 @@ Yuziga qovurilgan tuxum va qalampir pastasini qo‘shing.
 9. Xizmat qilish:
 Tayyor bibimbapni issiq holda dasturxonga torting.
 Yoqimli ishtaha! 🍽😋
-
+Yordam bera olgan boʻlsam hursandman.
 """, }
 
 # Davomi B, C, D bo‘laklarda…
@@ -1134,7 +1134,7 @@ Qozonning ustini zich yopiladigan qopqoq bilan yopib, 40 daqiqa davomida past ol
 7. Xizmat qilish:
 Tayyor do‘lmalarni laganda umumiy qilib yoki alohida likopchalarda dasturxonga torting.
 Yoqimli ishtaha! 🍽😋
-
+Yordam bera olgan boʻlsam hursandman.
 """,
 
     "dish_choyxona": """Choyxona palov🍲
@@ -1187,7 +1187,7 @@ Qozonning ustini yopib, 15-20 daqiqa davomida past olovda dimlab pishiring.
 Tayyor bo‘lgan palovni yaxshilab aralashtiring.
 Laganga solib, ta’bga ko‘ra qazi, sarimsoq, bedana tuxumi yoki boshqa qo‘shimchalar bilan bezab dasturxonga torting.
 Yoqimli ishtaha! 🍽😋
-
+Yordam bera olgan boʻlsam hursandman.
 """,
 
     "dish_gulxonim": """Gulxonim
@@ -1231,7 +1231,7 @@ Tayyor bo‘lgan gulxonimlarni yog‘langan manti qasqonga tering.
 6. Xizmat qilish:
 Tayyor bo‘lgan gulxonimlarni ta'bingizga ko‘ra bezab, issiq holda dasturxonga torting.
 Yoqimli ishtaha! 🍽😋
-
+Yordam bera olgan boʻlsam hursandman.
 """,
 
     "dish_bayramona": """Bayramona osh va ayron🍲🍶
@@ -1300,7 +1300,7 @@ Tuz qo‘shib, suv solib yaxshilab aralashtiring.
 Ayronni muzlatgichga 30 daqiqaga tinishga qo‘ying.
 
 Yoqimli ishtaha! 🍽😋
-
+Yordam bera olgan boʻlsam hursandman.
 """,
 
     "dish_grechkapalov": """Grechka palov🍲
@@ -1343,7 +1343,7 @@ Qozon qopqog‘ini yopib, 20 daqiqa davomida past olovda damlang.
 Xizmat qilish:
 Tayyor grechka palovni likopchalarga suzib, ustiga ko‘kat sepib dasturxonga torting.
 Yoqimli ishtaha! 🍽😋
-
+Yordam bera olgan boʻlsam hursandman.
 """,
 
     "dish_turkcharatatuy": """Turkcha ratatuy🥘
@@ -1385,7 +1385,7 @@ Ratatuyni 180°C darajada qizdirilgan gaz pechida 40-45 daqiqa davomida pishirin
 7. Xizmat qilish:
 Tayyor ratatuyni issiq holda dasturxonga torting.
 Yoqimli ishtaha! 🍽😋
-
+Yordam bera olgan boʻlsam hursandman.
 """,
 
     "dish_balish": """Balish🧆
@@ -1428,7 +1428,7 @@ Tugilgan balishlarning ustiga tuxum surtib, avvaldan 200°C darajaga qizdirilgan
 6. Xizmat qilish:
 Tayyor bo‘lgan balishlarni issiq holda dasturxonga torting.
 Yoqimli ishtaha! 🍽😋
-
+Yordam bera olgan boʻlsam hursandman.
 """,
 
     "dish_goshlirulet": """Go'shtli rulet🍣
@@ -1478,7 +1478,7 @@ Pishirishning oxirida (so‘nggi 20 daqiqa) folgani olib, ruletning usti qizarti
 8. Xizmat qilish:
 Tayyor ruletni dilimlab, issiq holda dasturxonga torting.
 Yoqimli ishtaha! 🍽😋
-
+Yordam bera olgan boʻlsam hursandman.
 """,
 
     "dish_shivit": """Shivit oshi🍛
@@ -1533,7 +1533,7 @@ Suvini to‘kib tashlab, lag‘monga ozroq o‘simlik yog‘i qo‘shib aralasht
 Lag‘monni likopchalarga solib, ustidan vaju quyib, ko‘katlar bilan bezang.
 Tayyor shivit oshini issiq holda dasturxonga torting.
 Yoqimli ishtaha! 🍽😋
-
+Yordam bera olgan boʻlsam hursandman.
 """,
 
     "dish_nonpalov": """Non palov🍞🍲
@@ -1579,7 +1579,7 @@ Quruq nonlar uchun o‘simlik yog‘ini ko‘proq qo‘shing yoki nonlarni oldin
 Xizmat qilish:
 Tayyor taomni ta'bga ko‘ra bezatib, issiq holda dasturxonga torting.
 Yoqimli ishtaha! 🍽😋
-
+Yordam bera olgan boʻlsam hursandman.
 """,
 
     "dish_kartoshkadolma": """Kartoshka do'lma🧆
@@ -1616,6 +1616,7 @@ Istasangiz, oxirgi 5 daqiqada har bir do‘lmaning ustiga qirg‘ichdan o‘tkaz
 6. Xizmat qilish:
 Tayyor bo‘lgan do‘lmalarni lagan yoki taqsimchaga soling. Ta'bga ko‘ra ko‘katlar bilan bezab dasturxonga torting.
 Yoqimli ishtaha! 🍽😋
+Yordam bera olgan boʻlsam hursandman.
 """,
 
     "dish_dumbulpalov": """ Dumbul palov 🌽 🍲
@@ -1661,7 +1662,7 @@ Qozonning qopqog‘ini yopib, taomni 35-40 daqiqa davomida past olovda dimlab pi
 Xizmat qilish:
 Tayyor bo‘lgan dumbul palovni ta'bga ko‘ra bezatib, issiq holda dasturxonga torting.
 Yoqimli ishtaha! 🍽😋
-
+Yordam bera olgan boʻlsam hursandman.
 """,
 
     "dish_teftel": """Teftel 🧆 
@@ -1711,7 +1712,7 @@ Qozon qopqog‘ini yopib, past olovda 30 daqiqa davomida dimlab pishiring.
 Xizmat qilish:
 Tayyor teftellarni guruch bilan yoki boshqa garnir bilan dasturxonga torting.
 Yoqimli ishtaha! 🍽 😋
-
+Yordam bera olgan boʻlsam hursandman.
 """,
 
     "dish_sarimsoqli": """
@@ -1745,7 +1746,7 @@ Kartoshkaning usti qarsildoq, ichi yumshoq bo‘lishi lozim.
 Pishgan kartoshkani gaz pechidan olib, ustiga maydalangan petrushka sepib bezang.
 Taomni issiq holda, garnir yoki asosiy yegulik sifatida dasturxonga torting.
 Yoqimli ishtaha! 🍽 😋
-
+Yordam bera olgan boʻlsam hursandman.
 """,
 
     "dish_begodi": """Begodi 🍛 
@@ -1783,7 +1784,7 @@ Dimlash uchun 20-25 daqiqa davomida past olovda pishiring.
 5. Xizmat qilish:
 Tayyor begodilarni issiq holda, ustiga ko‘katlar bilan bezab dasturxonga torting.
 Yoqimli ishtaha! 🍽 😋
-
+Yordam bera olgan boʻlsam hursandman.
 """,
 
     "dish_baliqlikotlet": """Baliqli katlet 🐟 🧆
@@ -1815,8 +1816,8 @@ Kotletlarni solib, har bir tomonini taxminan 3 daqiqa davomida oltin tusga kirgu
 
 5. Xizmat qilish:
 Tayyor baliqli kotletlarni issiq holda, garnir yoki salat bilan dasturxonga torting.
-Yoqimli ishtaha!
-
+Yoqimli ishtaha! 🍽 😋
+Yordam bera olgan boʻlsam hursandman.
 """,
 
     "dish_jigarkabob": """Jigar kabob 🥩 
@@ -1853,7 +1854,7 @@ Pishirish jarayonida kabobni muntazam ravishda aylantirib, bir xilda qizarib pis
 Xizmat qilish:
 Tayyor kabobni yupqa qilib to‘g‘ralgan piyoz yoki garnir bilan birga dasturxonga torting.
 Yoqimli ishtaha! 🍽 😋
-
+Yordam bera olgan boʻlsam hursandman.
 """,
 
     "dish_qozonkabob": """Qozon kabob 🫕🥩
@@ -1900,7 +1901,7 @@ Yopiq qopqoq ostida yana 10 daqiqa davomida dimlang.
 Xizmat qilish:
 Tayyor qozon kabobini shivit va kashnich sepib, keng idishda dasturxonga torting.
 Yoqimli ishtaha! 🍽 😋
-
+Yordam bera olgan boʻlsam hursandman.
 """,
 
     "dish_qiymalikabob": """Qiymali kabob 🥩🧆
@@ -1939,7 +1940,7 @@ Xizmat qilish:
 Tayyor kaboblarni ta'bga ko‘ra bezang.
 Sous yoki salat bilan birga dasturxonga torting.
 Yoqimli ishtaha! 🍽😋
-
+Yordam bera olgan boʻlsam hursandman.
 """,
 
     "dish_tandirkabob": """Tandir kabob 🧆
@@ -1980,7 +1981,7 @@ Go‘sht yaxshi pishishi uchun haroratni doimiy saqlang.
 Tayyor bo‘lgan tandir kabobni avval sabzavotlarni olib, so‘ngra kabobni ustiga joylashtiring.
 Ta'bga ko‘ra bezatib, issiq holda dasturxonga torting.
 Yoqimli ishtaha! 🍽😋
-
+Yordam bera olgan boʻlsam hursandman.
 """,
 
     "dish_tovuqkabob": """Tovuq kabob 🍗🧆
@@ -2014,7 +2015,7 @@ Har tomonini doimiy aylantirib, go‘shtni teng qizartiring.
 5. Xizmat qilish:
 Tayyor kaboblarni didingizga ko‘ra bezab, issiq holda dasturxonga torting.
 Yoqimli ishtaha! 🍽😋
-
+Yordam bera olgan boʻlsam hursandman.
 """,
 
     "dish_namangankabob": """Namangan kabob 🧆
@@ -2059,7 +2060,7 @@ Tandir harorati doimiy bo‘lishi kerak.
 7. Xizmat qilish:
 Tayyor kabobni ta'bga ko‘ra bezab, issiq holda dasturxonga torting.
 Yoqimli ishtaha! 🍽😋
-
+Yordam bera olgan boʻlsam hursandman.
 """,
 
     "dish_norin": """Norin🍝 
@@ -2101,7 +2102,7 @@ Maslahatlar:
 • Xamirlarni juda yupqa yoyish norinning chiroyli va mazali bo‘lishi uchun muhim.
 • Xamirni yog‘lash va quritish jarayonlariga alohida e’tibor bering, shunda xamirlar yopishib qolmaydi.
 Yoqimli ishtaha! 🍽😋
-
+Yordam bera olgan boʻlsam hursandman.
 """,
 
     "dish_xasip": """Xasip 🥓
@@ -2138,7 +2139,7 @@ Maslahatlar:
 • Ichakni yaxshilab tozalash va tuzli suvda chayib yuvish kerak.
 • Ziravorlarni o‘z didingizga qarab ko‘paytirishingiz yoki kamaytirishingiz mumkin.
 Yoqimli ishtaha! 🍽😋
-
+Yordam bera olgan boʻlsam hursandman.
 """,
 
     "dish_tuxumbarak": """Tuxum barak 🥟
@@ -2186,7 +2187,7 @@ Maslahatlar:
 • Tuxumli ichini choynak yordamida quysangiz, osonroq bo‘ladi.
 
 Yoqimli ishtaha! 🍽😋
-
+Yordam bera olgan boʻlsam hursandman.
 """,
 
 })  # <-- .update() ni yakunlash
@@ -2224,7 +2225,7 @@ Agar salatga chiroyli shakl berishni istasangiz, maxsus qoliplardan foydalanishi
 Maslahat:
 Ushbu salatni quyuq taomlar bilan yoki alohida yegulik sifatida dasturxonga tortishingiz mumkin.
 Yoqimli ishtaha! 🍽😋
-
+Yordam bera olgan boʻlsam hursandman.
 """,
 
     "dish_bodringbrinza": """Bodring va brinzali salat 🥒🥗
@@ -2257,7 +2258,7 @@ Maslahat:
 Ushbu salat vitaminlarga boy bo‘lib, kam kaloriyali taomlar uchun juda mos keladi. Yengil tushlik yoki asosiy taom oldidan gazak sifatida tortilishi mumkin.
 
 Yoqimli ishtaha! 🍽😋
-
+Yordam bera olgan boʻlsam hursandman.
 """,
 
     "dish_karampomidor": """Karam va pomidorli salat 🥬🥗
@@ -2295,7 +2296,7 @@ Maslahat:
 Ushbu salatni nafaqat tushlik yoki kechki ovqatda, balki asosiy taom oldidan gazak sifatida ham iste’mol qilishingiz mumkin.
 
 Yoqimli ishtaha! 🍽😋
-
+Yordam bera olgan boʻlsam hursandman.
 """,
 
     "dish_gruzincha": """Gruzincha salat🥗
@@ -2330,7 +2331,7 @@ Maslahat:
 Bu salat sersuv va yengil bo‘lib, har qanday taom oldidan yoki gazak sifatida mazali va foydali bo‘ladi.
 
 Yoqimli ishtaha! 🍽😋
-
+Yordam bera olgan boʻlsam hursandman.
 """,
 
     "dish_qarsildoq": """Qarsildoq salat 🥗
@@ -2376,7 +2377,7 @@ Ustiga bodring, piyoz, tovuq filesi, gazak, pishloq va qovurilgan non bo‘lakla
 Qovurilgan non bo‘laklarini salatga dasturxonga tortishdan oldin qo‘shish tavsiya etiladi, bu ularning qarsildoqligini saqlab qoladi.
 
 Yoqimli ishtaha! 🍽😋
-
+Yordam bera olgan boʻlsam hursandman.
 """,
 
     "dish_suzmali": """Suzmali salat🥗 
@@ -2414,7 +2415,7 @@ Maslahat:
 Bu salatni bahor va yoz mavsumida tayyorlash juda foydali, chunki u vitaminlarga boy va yengil ovqat hisoblanadi.
 
 Yoqimli ishtaha! 🍽😋
-
+Yordam bera olgan boʻlsam hursandman.
 """,
 
     "dish_penchuza": """Penchuza salat 🥗
@@ -2463,7 +2464,7 @@ Maslahat:
 Pentuza salati o‘zining qarsildoqligi va boy ta'mi bilan ajralib turadi. U har kuni uchun mazali va foydali variant bo‘lib xizmat qiladi.
 
 Yoqimli ishtaha! 🍽😋
-
+Yordam bera olgan boʻlsam hursandman.
 """,
 
     "dish_mandarin": """Mandarin salat🍊🥗
@@ -2508,7 +2509,7 @@ Maslahat:
 Bu yorqin va ishtaha ochar salat yangi yil dasturxoningizni bezatib, mehmonlaringizni lol qoldiradi.
 
 Yoqimli ishtaha! 🍽😋
-
+Yordam bera olgan boʻlsam hursandman.
 """,
 
     "dish_tovuqlisalat": """Tovuqli salat 🍗🥗
@@ -2549,7 +2550,7 @@ Maslahat:
 Ushbu sodda va mazali salat oson tayyorlanishi bilan dasturxoningizni boyitadi va oila a’zolaringizni xursand qiladi.
 
 Yoqimli ishtaha! 🍽😋
-
+Yordam bera olgan boʻlsam hursandman.
 """,
 
     "dish_smak": """Smak salat 🥗
@@ -2585,7 +2586,7 @@ Ushbu salatni zaytun moyi bilan ham to‘ldirish mumkin.
 Suxariklarni o‘zingiz tayyorlasangiz, salatning ta’mi yanada mazali chiqadi.
 
 Yoqimli ishtaha! 🍽😋
-
+Yordam bera olgan boʻlsam hursandman.
 """,
 
     "dish_ozdiruvchi": """Ozdiruvchi salat🥗 
@@ -2616,7 +2617,7 @@ Istasangiz, maydalangan ko‘katlar (shivit yoki kashnich) bilan bezashingiz mum
 Bu salat ovqatlanish oralig‘ida yoki asosiy taom oldidan iste’mol qilish uchun juda mos keladi.
 
 Yoqimli ishtaha! 🍽😋
-
+Yordam bera olgan boʻlsam hursandman.
 """,
 
     "dish_mevali": """Mevali salat🍌🥗 
@@ -2645,7 +2646,7 @@ Sharbat qo‘shishni xohlasangiz, mango yoki apelsin sharbatidan foydalaning.
 C vitaminiga boy sitrus mevalar (apelsin, mandarin) qo‘shib, salatni yanada foydali qiling.
 
 Yoqimli ishtaha! 🍽😋
-
+Yordam bera olgan boʻlsam hursandman.
 """,
 
     "dish_braslet": """Braslet salat 🥗
@@ -2686,7 +2687,7 @@ Maslahat:
 Salatni taqdim etishdan oldin qo‘shimcha ko‘katlar bilan bezashingiz mumkin.
 
 Yoqimli ishtaha! 🍽😋
-
+Yordam bera olgan boʻlsam hursandman.
 """,
 
     "dish_qotgannonli": """Qotgan nonli salat 🥗
@@ -2715,7 +2716,7 @@ Maslahat:
 Qotgan nonni o‘simlik yog‘ida engil qovurib, salatga qo‘shsangiz, yanada mazali bo‘ladi.
 
 Yoqimli ishtaha! 🍽😋
-
+Yordam bera olgan boʻlsam hursandman.
 """,
 
     "dish_goshtlisa": """Go'shtli salat 🥩🥗
@@ -2750,7 +2751,7 @@ Chekka qismlarini halqa shaklida kesilgan zaytun bilan bezang.
 Ustidan kunjut sepib, dasturxonga tortiq qiling.
 
 Yoqimli ishtaha! 🍽😋
-
+Yordam bera olgan boʻlsam hursandman.
 """,
 
     "dish_karamli": """Karamli salat 🥗
@@ -2782,7 +2783,7 @@ Ustidan zaytun yog‘i qo‘shib, yengil aralashtiring.
 Salatni likopchaga solib, ta’bga ko‘ra bezang va dasturxonga tortiq qiling.
 
 Yoqimli ishtaha! 🍽😋
-
+Yordam bera olgan boʻlsam hursandman.
 """,
 
     "dish_olivye": """Olivye salat 🥗
@@ -2823,7 +2824,7 @@ Tortiq qilishdan avval salatni 1 soat sovutgichda tindirib qo‘ying.
 Likopchaga solib, ustini shivit yoki petrushka barglari bilan bezang va dasturxonga tortiq qiling.
 
 Yoqimli ishtaha! 🍽😋
-
+Yordam bera olgan boʻlsam hursandman.
 """,
 
     "dish_tovuqiolivye": """Tovuqli olivye 🍗🥗
@@ -2869,7 +2870,7 @@ Salatni chiroyli tortiq qilish uchun maxsus halqachalar ichiga solib, likopchaga
 Ustini ko‘katlar bilan bezang.
 
 Yoqimli ishtaha! 🍽😋
-
+Yordam bera olgan boʻlsam hursandman.
 """,
 
     "dish_bodringsalat": """Gurunch va bodringli salat 🥗
@@ -2899,7 +2900,7 @@ Yaxshilab aralashtiring.
 Dasturxonga tortishdan oldin ustiga ko‘k piyoz sepib bezang.
 
 Yoqimli ishtaha! 🍽😋
-
+Yordam bera olgan boʻlsam hursandman.
 """,
 
     "dish_shanxay": """Shanxaycha salat 🥗
@@ -2933,8 +2934,8 @@ Aralashtirish:
 Barcha masalliqlarni idishga soling.
 Yashil no‘xot, tuz va mayonez qo‘shib, yaxshilab aralashtiring.
 
-Yoqimli ishtaha!
-
+Yoqimli ishtaha!🍽😋
+Yordam bera olgan boʻlsam hursandman.
 """,
 
     "dish_qushuyali": """Qush uyali salat 🥗
@@ -2982,7 +2983,7 @@ Atrofini qovurilgan kartoshka bilan bezang, tuxum uyasiga o‘xshash shakl yarat
 Salat o‘rtasiga qaynatilgan bedana tuxumlarini joylashtiring.
 
 Yoqimli ishtaha! 🍽😋
-
+Yordam bera olgan boʻlsam hursandman.
 """,
 
     "dish_toshkentsalat": """Toshkentcha salat🥗
@@ -3012,7 +3013,7 @@ Mayonez qo‘shing, tuz va murch seping. Barchasini yaxshilab aralashtiring.
 Bezatish:
 Salatni likopchaga solib, ustiga mayda qirg‘ichdan o‘tkazilgan qaynatilgan tuxumni seping.
 Yoqimli ishtaha! 🍽😋
-
+Yordam bera olgan boʻlsam hursandman.
 """,
 
     "dish_portobello": """Portobello salati🥗
@@ -3057,7 +3058,7 @@ Yoqimli ta'm uchun maydalangan sarimsoqpiyoz qo‘shishingiz mumkin.
 Qo‘ziqorin tanlashda o‘zingizga yoqqanini ishlating.
 
 Yoqimli ishtaha!🍽️😋
-
+Yordam bera olgan boʻlsam hursandman.
 """,
 
     "dish_ananas": """Ananas va tovuqli salat 🍍🍗
@@ -3091,7 +3092,7 @@ Agar salatni yengilroq qilishni istasangiz, mayonezni smetana bilan almashtirish
 Ta’mga o‘zgacha o‘lcham qo‘shish uchun maydalangan yong‘oq yoki uzum qo‘shishingiz mumkin.
 
 Yoqimli ishtaha!🍽️😋
-
+Yordam bera olgan boʻlsam hursandman.
 """,
 
     "dish_sezar": """Sezar salat 🥗
@@ -3150,7 +3151,7 @@ Agar Aysberg yo‘q bo‘lsa, Pekin karamidan foydalanishingiz mumkin.
 Tayyor sarimsoqli suxariklar ham ishlatilishi mumkin, lekin uyda tayyorlanganlari mazaliroq chiqadi.
 
 Yoqimli ishtaha!🍽️😋
-
+Yordam bera olgan boʻlsam hursandman.
 """,
 
     "dish_bodringkaram": """Bodring va karamli salat 🥗
@@ -3193,7 +3194,7 @@ Ushbu salatga yashil no‘xat, makkajo‘xori yoki pomidor qo‘shib, ta’mini 
 Salatni sovutgichda 10-15 daqiqa tindirsangiz, yanada mazali bo‘ladi.
 
 Yoqimli ishtaha!🍽️😋
-
+Yordam bera olgan boʻlsam hursandman.
 """,
 
     # --------- PISHIRIQ / PISHIRIQLAR BO‘LIMI ---------
@@ -3240,7 +3241,7 @@ Tavsiya:🤗
    - Ushbu usul mehmon kutish uchun ajoyib variant hisoblanadi.
 
 Yoqimli ishtaha!🍽️😋
-
+Yordam bera olgan boʻlsam hursandman.
 """,
 
     "dish_goshtlisomsa": """Go’shtli somsa  🥟
@@ -3285,7 +3286,7 @@ Maslahatlar:🤗
    - Go‘shtga ozroq yog‘li qism yoki dumba qo‘shish ham yaxshi ta’m beradi.
 
 Yoqimli ishtaha!🍽️😋
-
+Yordam bera olgan boʻlsam hursandman.
 """,
 
     "dish_yupqa": """Yupqa🫔  
@@ -3329,7 +3330,7 @@ Tayyorlash usuli:🍱
    - Tayyor yupqalarni ta'bga ko‘ra bezatib, issiq holda dasturxonga torting.
 
 Yoqimli ishtaha!🍽️😋
-
+Yordam bera olgan boʻlsam hursandman.
 """,
 
     "dish_qiymaliquymoq": """Qiymali quymoq🥞 
@@ -3365,7 +3366,7 @@ Tayyorlash usuli:🍱
    - Quymoqlarni rulon shaklida o‘rab chiqib, xizmatga tayyorlang.
 
 Yoqimli ishtaha!🍽️😋
-
+Yordam bera olgan boʻlsam hursandman.
 """,
 
     "dish_pishloqlicheburek": """Pishloqli cheburek  🧀🥟
@@ -3398,7 +3399,7 @@ Tayyorlash usuli:🍱
    - Tayyor chebureklarni qog‘oz sochiq ustiga qo‘yib, ortiqcha yog‘dan halos qiling.
 
 Yoqimli ishtaha!🍽️😋
-
+Yordam bera olgan boʻlsam hursandman.
 """,
 
     "dish_gumma": """Gumma 🥠
@@ -3445,8 +3446,8 @@ Tayyorlash usuli:🍱
    - Pishgan gummalarni ortiqcha yog‘dan halos qilish uchun qog‘oz sochiq ustiga qo‘ying.
    - Tayyor gummani achchiq sous yoki qaynoq choy bilan dasturxonga tortiq qiling.
 
-Yoqimli ishtaha!
-
+Yoqimli ishtaha!🍽️😋
+Yordam bera olgan boʻlsam hursandman.
 """,
 
     "dish_pahlava": """Pahlava  
@@ -3502,7 +3503,7 @@ Tayyorlash usuli:
    - Tayyor pahlavani ta'bga ko‘ra bezab, dasturxonga tortiq qiling.
 
 Yoqimli ishtaha!🍽️😋
-
+Yordam bera olgan boʻlsam hursandman.
 """,
 
     "dish_chakchak": """Chak-chak  🍯
@@ -3551,7 +3552,7 @@ Maslahat: 🤗
 Qiyomni aralashtirish paytida qo‘llaringiz va idish yopishib qolmasligi uchun ozgina o‘simlik yog‘idan foydalansangiz bo‘ladi.
 
 Yoqimli ishtaha!🍽️😋
-
+Yordam bera olgan boʻlsam hursandman.
 """,
 
     "dish_turkchapishiriq": """Turkcha pishiriq🥮
@@ -3592,7 +3593,7 @@ Tayyorlash usuli:🍱
    - Tayyor Go’zlemeni issiqligida dasturxonga torting.
 
 Yoqimli ishtaha!🍽️😋
-
+Yordam bera olgan boʻlsam hursandman.
 """,
 
     "dish_qozonsomsa": """
@@ -3628,7 +3629,7 @@ Tayyorlash usuli:🍱
    - Qozon somsalarini issiqligida dasturxonga torting. Mazasi tandir somsaga yaqin bo'lib chiqadi.
 
 Yoqimli ishtaha!🍽️😋
-
+Yordam bera olgan boʻlsam hursandman.
 """,
 
     "dish_sabzavotlisomsa": """
@@ -3665,7 +3666,7 @@ Tayyorlash usuli:🍱
    - Pishgan somsalarni likopchalarga terib, issiq holda dasturxonga torting.
 
 Yoqimli ishtaha!🍽️😋
-
+Yordam bera olgan boʻlsam hursandman.
 """,
 
     "dish_yuraksomsa": """Yurak somsa 🥟
@@ -3700,7 +3701,7 @@ Tayyorlash usuli:🍱
    - Pishgan somsalarni xohishingizga ko‘ra bezatib, issiq holda dasturxonga torting.
 
 Yoqimli ishtaha!🍽️😋
-
+Yordam bera olgan boʻlsam hursandman.
 """,
 
     "dish_qatlamasomsa": """Qatlama somsa🥟  
@@ -3749,7 +3750,7 @@ Tayyorlash usuli:🍱
    - Bu usul somsalarni yaltiroq va ishtahaochar qiladi.
 
 Yoqimli ishtaha!🍽️😋
-
+Yordam bera olgan boʻlsam hursandman.
 """,
 
     # ----------- SHIRINLIKLAR (SHIRINLIK) BO‘LIMI -----------
@@ -3788,7 +3789,7 @@ Tayyorlash usuli:🍱
    Tayyor nisholdani chiroyli idishlarga solib, darhol dasturxonga torting yoki sovitib qo‘yishingiz mumkin.
 
 Yoqimli ishtaha!🍽️😋
-
+Yordam bera olgan boʻlsam hursandman.
 """,
 
     "dish_holvetar": """Holvetar 🥣
@@ -3822,6 +3823,7 @@ Tayyorlash usuli:🍱
 5. Tayyor holvaytarni likopchalarga suzib, sovutib dasturxonga torting.
 
 Yoqimli ishtaha!🍽️😋
+Yordam bera olgan boʻlsam hursandman.
 """,
 
     "dish_tvaroglikr": """Tvarogli krendel 🥣
@@ -3866,6 +3868,7 @@ Tayyorlash usuli:🍱
    Krendellarni pergament qog‘ozi bilan qoplangan patnisga joylashtiring va 180 °C darajada qizdirilgan gaz pechida 30 daqiqa davomida pishiring.
 
 Yoqimli ishtaha!🍽️😋
+Yordam bera olgan boʻlsam hursandman.
 """,
 
     "dish_shokoglazur": """Shokoladli glazur 🍫
@@ -3902,6 +3905,7 @@ Tayyorlash usuli:🍱
 Tayyor! Glazur turli pishiriqlarni bezash va ta’mini boyitish uchun mukammal.
 
 Yoqimli ishtaha!🍽️😋
+Yordam bera olgan boʻlsam hursandman.
 """,
 
     "dish_bananlieskimo": """Bananli eskimo 🍌
@@ -3936,6 +3940,7 @@ Tayyorlash bosqichlari:🍱
    Tanovvul qilishdan 3-5 daqiqa oldin muzlatgichdan olib, yumshashini kuting.
 
 Yoqimli ishtaha!🍽️😋
+Yordam bera olgan boʻlsam hursandman.
 """,
 
     "dish_jemlipirog": """Jemli pirog 🥮
@@ -3985,6 +3990,7 @@ Tayyorlash bosqichlari:🍱
    Sovigan pirogni shakar upasi bilan sepib, xizmat qiling.
 
 Yoqimli ishtaha!🍽️😋
+Yordam bera olgan boʻlsam hursandman.
 """,
 
     "dish_tvoroglibulochka": """Tvorogli bulochka 🥨
@@ -4026,6 +4032,7 @@ Tayyorlash bosqichlari:🍱
    Pishgan bulochkalarga shakar upasini sepib, dasturxonga torting.
 
 Yoqimli ishtaha!🍽️😋
+Yordam bera olgan boʻlsam hursandman.
 """,
 
     "dish_malinalichizkeyk": """Malinali chizkeyk🍮 
@@ -4070,6 +4077,7 @@ Tayyorlash usuli:🍱
    - Xohishga ko‘ra, ustini malina va boshqa bezaklar bilan bezating.
 
 Yoqimli ishtaha!🍽️😋
+Yordam bera olgan boʻlsam hursandman.
 """,
 
     "dish_bolqaymoq": """Bolqaymoq 🥣
@@ -4094,6 +4102,7 @@ Tayyorlash usuli:🍱
    - Bolqaymoqni non, sevimli mevalaringiz yoki turli pishiriqlar bilan iste’mol qilishingiz mumkin.
 
 Yoqimli ishtaha!🍽️😋
+Yordam bera olgan boʻlsam hursandman.
 """,
 
     "dish_murabbolipirog": """Murabboli pirog 🥧
@@ -4128,6 +4137,7 @@ Tayyorlash usuli:🍱
    - Tayyor pirogni sovuting va xohishga ko‘ra ustiga shakar upasi sepib bezang.
 
 Yoqimli ishtaha!🍽️😋
+Yordam bera olgan boʻlsam hursandman.
 """,
 
     "dish_asallipirojniy": """Asalli pirojniy 🥧
@@ -4177,6 +4187,7 @@ Tayyorlash usuli:🍱
    - Pirojniylarni xona haroratida 1 soat ushlab turing, keyin muzlatgichda 2 soat sovuting.
 
 Yoqimli ishtaha!🍽️😋
+Yordam bera olgan boʻlsam hursandman.
 """,
 
     "dish_shaftolilimizq": """Shaftolili muzqaymoq🍧
@@ -4214,6 +4225,7 @@ Tayyorlash usuli:🍱
    - Tayyor muzqaymoqni muzlatgichdan olib, yalpiz bargchalari va shaftoli bo‘laklari bilan bezating.
 
 Yoqimli ishtaha!🍽️😋
+Yordam bera olgan boʻlsam hursandman.
 """,
 
     "dish_aylanay": """Aylanay pirogi 🥧
@@ -4249,6 +4261,7 @@ Tavsiyalar:
    - Pirogni ustiga maydalangan yong‘oq yoki bodom sepib bezashingiz mumkin.
 
 Yoqimli ishtaha!🍽️😋
+Yordam bera olgan boʻlsam hursandman.
 """,
 
     "dish_chumoliuya": """Chumoli uyasi🥮
@@ -4284,6 +4297,7 @@ Tavsiyalar:🤗
    - Shirinlikni muzlatgichda biroz tindirib, keyin tortiq qilsangiz, mazasi yanada yaxshiroq bo‘ladi.
 
 Yoqimli ishtaha!🍽️😋
+Yordam bera olgan boʻlsam hursandman.
 """,
 
     "dish_olchali": """Olchali pirog 🥧
@@ -4326,6 +4340,7 @@ Tavsiyalar:🤗
    - Olchaning suvi ko‘p bo‘lsa, uni oldindan biroz siqib olish kerak.
 
 Yoqimli ishtaha!🍽️😋
+Yordam bera olgan boʻlsam hursandman.
 """,
 
 })
@@ -4366,7 +4381,7 @@ Maslahatlar:🤗
 - Agar bir nechta porsiya kerak bo‘lsa, masalliqlar miqdorini mos ravishda oshiring.
 
 Yoqimli ishtaha!🍽️😋
-
+Yordam bera olgan boʻlsam hursandman.
 """,
 
     "dish_asallipechenye": """Asalli pechenye🍩
@@ -4407,6 +4422,7 @@ Maslahatlar:🤗
 - Shakar miqdorini ta’bga qarab kamaytirib yoki ko‘paytirishingiz mumkin.
 
 Yoqimli ishtaha!🍽️😋
+Yordam bera olgan boʻlsam hursandman.
 """
 
 })  # end of update
@@ -4441,7 +4457,7 @@ Tayyorlash usuli:🍱
    Tayyor bo‘lgan choyni piyolalarga suzib, ta'bga ko‘ra shakar yoki asal qo‘shing. Bu choyni issiq holda ichish qishki sovuq kunlarda iliqlik bag‘ishlaydi, yozda esa salqin holda ichish tetiklik beradi.
 
 Yoqimli ishtaha!🍽️😋
-
+Yordam bera olgan boʻlsam hursandman.
 """,
 
     "drink_namatak": """Namatak sharbati 🧋
@@ -4470,6 +4486,7 @@ Foydasi:🤗
 Na’matak sharbati jigar, buyrak, ichak, oshqozon faoliyatini yaxshilaydi, qon aylanishini normallashtiradi va surunkali kasalliklarning oldini oladi.
 
 Yoqimli ishtaha!🍽️😋
+Yordam bera olgan boʻlsam hursandman.
 
 """,
 
@@ -4498,7 +4515,7 @@ Tayyorlash usuli:🍱
    Tayyor choyni idishdan suzib olib, iliq yoki sovuq holda iching.
 
 Yoqimli ishtaha!🍽️😋
-
+Yordam bera olgan boʻlsam hursandman.
 """,
 
     "drink_qulupnay": """Qulupnayli ichimlik 🍹
@@ -4522,7 +4539,7 @@ Tayyorlash usuli:🍱
    Tayyor ichimlikni stakanlarga quying. Yalpiz yaproqlari bilan bezatib, darhol xizmat qiling.
 
 Yoqimli ishtaha!🍽️😋
-
+Yordam bera olgan boʻlsam hursandman.
 """,
 
     "drink_qovun": """Qovun sharbati 🍸
@@ -4551,6 +4568,7 @@ Foydasi:🤗
 Qovun sharbati chanqoqni bosadi, suyak, tish va tirnoqlar uchun kaltsiy manbai bo‘lib xizmat qiladi, asab tizimini tinchlantiradi hamda organizmdagi suv va tuz muvozanatini saqlaydi.
 
 Yoqimli ishtaha!🍽️😋
+Yordam bera olgan boʻlsam hursandman.
 """,
 
     "drink_bodomli": """Bodomli sut 🥛
@@ -4582,7 +4600,7 @@ Qo‘shimcha ma’lumot:🤗
 - Agar sut yoqtirmasangiz, uni faqat suv bilan tayyorlab iste’mol qilsangiz ham bo‘ladi.
 
 Yoqimli ishtaha!🍽️😋
-
+Yordam bera olgan boʻlsam hursandman.
 """,
 
     "drink_uzum": """Uzum sharbati 🧋
@@ -4607,6 +4625,7 @@ Foydali xususiyatlari:🤗
 - Yurak-qon tomir tizimiga ijobiy ta’sir ko‘rsatadi.
 
 Yoqimli ishtaha!🍽️😋
+Yordam bera olgan boʻlsam hursandman.
 """,
 
     "drink_mevali": """Mevali sharbat 🍹
@@ -4639,7 +4658,7 @@ Tayyorlash usuli:🍱
    Sovitilgan kompotni stakanlarga quyib, dasturxonga torting.
 
 Yoqimli ishtaha!🍽️😋
-
+Yordam bera olgan boʻlsam hursandman.
 """,
 
     "drink_qatiq": """Qatiq 🍚
@@ -4669,7 +4688,7 @@ Tayyorlash usuli:🍱
    Tayyor qatiqni salatlarda, pishiriqlarda yoki shunchaki o‘zini ichish uchun foydalanishingiz mumkin.
 
 Yoqimli ishtaha!🍽️😋
-
+Yordam bera olgan boʻlsam hursandman.
 """,
 
     "drink_tarvuz": """Tarvuz sharbati🍹
@@ -4700,7 +4719,7 @@ Foydalari:🤗
 Tarvuz sharbati organizmdan suyuqlikni chiqarishga yordam beradi va jigar, buyrak xastaliklarida tavsiya etiladi.
 
 Yoqimli ishtaha!🍽️😋
-
+Yordam bera olgan boʻlsam hursandman.
 """,
 
     "drink_sabzi": """Sabzi sharbati 🥃
@@ -4728,7 +4747,7 @@ Foydalari:🤗
 Sabzi sharbati immunitetni mustahkamlaydi, ko‘z nurini ravshanlashtiradi, ovqat hazm qilishni yaxshilaydi va buyrak faoliyatini qo‘llab-quvvatlaydi. Lavlagi suvi esa organizmni tozalashga yordam beradi.
 
 Yoqimli ishtaha!🍽️😋
-
+Yordam bera olgan boʻlsam hursandman.
 """,
 
     "drink_zira": """Zira choy 🍵
@@ -4752,7 +4771,7 @@ Foydalari:🤗
 Zira choyi nafaqat ishtahani ochadi va ovqat hazm qilishni yaxshilaydi, balki organizmni yengillashtiradi va immunitetni mustahkamlaydi. Ibn Sino ta’kidlaganidek, zira organizmni tozalashda, nafas olishni yengillashtirishda va oshqozonning turli muammolarida foydali.
 
 Yoqimli ishtaha!🍽️😋
-
+Yordam bera olgan boʻlsam hursandman.
 """,
 
     "drink_vitaminli": """Vitaminli ichimlik🍵
@@ -4785,7 +4804,7 @@ Foydalari:🤗
 Bu ichimlik organizmni isintiradi, immunitetni mustahkamlaydi va ishtahani pasaytirishga yordam beradi. Sarimsoqning ta’mi ichimlikda deyarli bilinmaydi, ammo uning foydasi kuchli.
 
 Yoqimli ishtaha!🍽️😋
-
+Yordam bera olgan boʻlsam hursandman.
 """,
 
     "drink_moxito": """Moxito🍹
@@ -4819,7 +4838,7 @@ Maslahat:🤗
 Sprayt mavjud bo‘lmasa, shakarli sirop va gazlangan mineral suvdan foydalanishingiz mumkin. Shakarli siropni tayyorlash uchun qaynoq suvga shakarni to‘liq eriguncha aralashtirib qo‘shing va sovuting.
 
 Yoqimli ishtaha!🍽️😋
-
+Yordam bera olgan boʻlsam hursandman.
 """,
 
     # TORTLAR BO‘LIMI:
@@ -4871,7 +4890,7 @@ Muzlatish:❄️
 Tayyor tortni muzlatgichda kamida 2 soat saqlang, so‘ng dasturxonga torting.
 
 Yoqimli ishtaha!🍽️😋
-
+Yordam bera olgan boʻlsam hursandman.
 """,
 
     "tort_napaleon": """Napaleon torti 🥮
@@ -4904,7 +4923,7 @@ Tayyorlash usuli:🍱
    Tortni kamida 6-8 soat davomida muzlatgichda tindiring. Shu vaqt ichida krem korjlarga yaxshi singadi va tort yanada mazali bo‘ladi.
 
 Yoqimli ishtaha!🍽️😋
-
+Yordam bera olgan boʻlsam hursandman.
 """,
 
     "drezden_drezden": """Drezdencha tort 🧁
@@ -4963,7 +4982,7 @@ Bezatish:🤗
 Tortni ustini xohlagan mevalar yoki meva bo‘lakchalari bilan bezating.
 
 Yoqimli ishtaha!🍽️😋
-
+Yordam bera olgan boʻlsam hursandman.
 """,
 
     "tort_zebra": """Zebra torti 🍥
@@ -5007,7 +5026,7 @@ Shokoladli glazur tayyorlash:
 Tayyor!🤗
 Mazali "Zebra" tortingizni dasturxonga torting!
 Yoqimli ishtaha!🍽️😋
-
+Yordam bera olgan boʻlsam hursandman.
 """,
 
     "tort_pancho": """Pancho torti 🥮
@@ -5062,7 +5081,7 @@ Tugallash:🤗
 2. Choy yoki qahva bilan dasturxonga torting.
 
 Yoqimli ishtaha!🍽️😋
-
+Yordam bera olgan boʻlsam hursandman.
 """,
 
     "tort_medovik": """Medovik torti 🥮
@@ -5107,7 +5126,7 @@ Tortni yig'ish:
 4. Tortni kamida 4-5 soat, yaxshisi, bir kechaga tindiring.
 
 Yoqimli ishtaha!🍽️😋
-
+Yordam bera olgan boʻlsam hursandman.
 """,
 
     "tort_frezye": """Frezye torti 🍰
@@ -5157,7 +5176,7 @@ Tortni yig‘ish:
 6. Sovigan tortni qulupnay bilan bezatib, dasturxonga torting.
 
 Yoqimli ishtaha!🍽️😋
-
+Yordam bera olgan boʻlsam hursandman.
 """,
 
     "tort_karamel": """Karamel va yong’oqli tort🎂
@@ -5205,6 +5224,7 @@ Tayyorlash usuli:🍱
    - Tortni sovutib, dasturxonga torting.
 
 Yoqimli ishtaha!🍽️😋
+Yordam bera olgan boʻlsam hursandman.
 """,
 
     "tort_kitakat": """Kita-kat torti🍰
@@ -5259,7 +5279,7 @@ Tayyorlash usuli:🍱
    3) Tortni 2-3 soatga sovutgichga qo‘yib, tindiring.
 
 Yoqimli ishtaha!🍽️😋
-
+Yordam bera olgan boʻlsam hursandman.
 """,
 
     "tort_boston": """Bostoncha kremli tort 🥮
@@ -5311,7 +5331,7 @@ Tayyorlash usuli:🍱
    2) Xohishingizga ko‘ra, ustini rezavor mevalar yoki yong‘oqlar bilan bezating.
 
 Yoqimli ishtaha!🍽️😋
-
+Yordam bera olgan boʻlsam hursandman.
 """,
 
     "tort_bounty": """Bounty torti 🍥
@@ -5359,7 +5379,7 @@ Tayyorlash tartibi:🍱
    2) Tortni kamida 1 soatga, yaxshisi bir kechaga sovutgichda qoldiring.
 
 Yoqimli ishtaha!🍽️😋
-
+Yordam bera olgan boʻlsam hursandman.
 """,
 
     "tort_pavlova": """Pavlova torti 🍰
@@ -5391,7 +5411,7 @@ Tayyorlash usuli:🍱
    2) Ustiga rezavor mevalar bilan bezang. Mevalarni xohishingizga ko‘ra tanlang.
 
 Yoqimli ishtaha!🍽️😋 
-
+Yordam bera olgan boʻlsam hursandman.
 """,
 
     # NONLAR BO‘LIMI:
@@ -5446,7 +5466,7 @@ Qatlama Patir tayyor!🤗
 Uni nafaqat issiq ovqatlar bilan, balki oddiy choy bilan ham tanovul qilish mumkin.
 
 Yoqimli ishtaha!🍽️😋
-
+Yordam bera olgan boʻlsam hursandman.
 """,
 
     "non_shirinkulcha": """Shirin kulcha 🥯
@@ -5492,7 +5512,7 @@ Murabbo yoki tvorogli variant:
 Pishgan shirin kulchalar issiq choy yoki qahva bilan nonushta uchun juda mos.🤗
 
 Yoqimli ishtaha!🍽️😋
-
+Yordam bera olgan boʻlsam hursandman.
 """,
 
     "non_moychechak": """Moychechak non 🥨
@@ -5526,7 +5546,7 @@ Tavsiyalar:🤗
 Moychechak noni har qanday taom bilan mazali bo‘ladi. Uni issiq choy yoki sho‘rva bilan dasturxonga tortiq qilishingiz mumkin.
 
 Yoqimli ishtaha!🍽️😋
-
+Yordam bera olgan boʻlsam hursandman.
 """,
 
     "non_goshtli": """Go’shtli non 🍞
@@ -5562,7 +5582,7 @@ Tavsiyalar:🤗
 Pishgan go‘shtli nonni yangi uzilgan ko‘katlar yoki issiq choy bilan birga dasturxonga tortiq qilsangiz, yanada mazali bo‘ladi.
 
 Yoqimli ishtaha!🍽️😋
-
+Yordam bera olgan boʻlsam hursandman.
 """,
 
     "non_patir": """Patir 🫓
@@ -5602,6 +5622,7 @@ Tavsiyalar:🤗
 - Patirlar faqat taom bilan emas, choy bilan ham alohida mazali.
 
 Yoqimli ishtaha!🍽️😋
+Yordam bera olgan boʻlsam hursandman.
 """,
 
     "non_lochira": """Lochira patir 🫓
@@ -5643,7 +5664,7 @@ Tavsiyalar:🤗
 - Bu patirlarni issiq choy yoki milliy taomlar bilan iste'mol qilishni tavsiya etamiz.
 
 Yoqimli ishtaha!🍽️😋
-
+Yordam bera olgan boʻlsam hursandman.
 """,
 
     "non_obinon": """Obi non 🍞
@@ -5685,7 +5706,7 @@ Tavsiyalar:🤗
 - Foydali qo'shimcha: Sedana va kunjut sog‘liq uchun foydali bo‘lib, nonni mazaliroq qiladi.
 
 Yoqimli ishtaha!🍽️😋
-
+Yordam bera olgan boʻlsam hursandman.
 """,
 
     "non_qatlama": """Qatlama🫓
@@ -5729,7 +5750,7 @@ Tayyorlash usuli:🍱
    - Qatlama istalgan qo‘shimcha bilan, masalan, qaymoq, asal, murabbo yoki boshqa narsalar bilan dasturxonga tortiq qilishingiz mumkin.
 
 Yoqimli ishtaha!🍽️😋
-
+Yordam bera olgan boʻlsam hursandman.
 """,
 
     "non_jizzali": """Jizzali patir 🫓
@@ -5778,6 +5799,7 @@ Tayyorlash usuli:🍱
    - 180-190 darajali dimxonada (duxovka) usti qizarguncha pishiring.
 
 Yoqimli ishtaha!🍽️😋
+Yordam bera olgan boʻlsam hursandman.
 """})
 
 # ---------------------- Matn uzun bo'lganda bo'lib yuborish funktsiyasi -------------
@@ -6176,7 +6198,7 @@ async def show_dish_categories_logic(cat: str, query: CallbackQuery, context: Co
             [InlineKeyboardButton("Tuxum do'lma", callback_data='dish_tuxumdolma')],
             [InlineKeyboardButton("Mastava", callback_data='dish_mastava')],
             [InlineKeyboardButton("Chuchvara", callback_data='dish_chuchvara')],
-            [InlineKeyboardButton("Ortga", callback_data='back_to_taomlar')]
+            [InlineKeyboardButton("Ortga⬅️ ", callback_data='back_to_taomlar')]
         ]
     elif cat == "quyuq":
         text_label = category_titles[lang]['quyuq']
@@ -6212,7 +6234,7 @@ async def show_dish_categories_logic(cat: str, query: CallbackQuery, context: Co
             [InlineKeyboardButton("Norin", callback_data='dish_norin')],
             [InlineKeyboardButton("Xasip", callback_data='dish_xasip')],
             [InlineKeyboardButton("Tuxum Barak", callback_data='dish_tuxumbarak')],
-            [InlineKeyboardButton("Ortga", callback_data='back_to_taomlar')]
+            [InlineKeyboardButton("Ortga⬅️ ", callback_data='back_to_taomlar')]
         ]
     elif cat == "salatlar":
         text_label = category_titles[lang]['salatlar']
@@ -6243,7 +6265,7 @@ async def show_dish_categories_logic(cat: str, query: CallbackQuery, context: Co
             [InlineKeyboardButton("Ananas va tovuqli salat", callback_data='dish_ananas')],
             [InlineKeyboardButton("Sezar salat", callback_data='dish_sezar')],
             [InlineKeyboardButton("Bodring va karamli salat", callback_data='dish_bodringkaram')],
-            [InlineKeyboardButton("Ortga", callback_data='back_to_taomlar')]
+            [InlineKeyboardButton("Ortga⬅️ ", callback_data='back_to_taomlar')]
         ]
     elif cat == "pishiriqlar":
         text_label = category_titles[lang]['pishiriqlar']
@@ -6261,7 +6283,7 @@ async def show_dish_categories_logic(cat: str, query: CallbackQuery, context: Co
             [InlineKeyboardButton("Sabzavotli somsa", callback_data='dish_sabzavotlisomsa')],
             [InlineKeyboardButton("Yurak somsa", callback_data='dish_yuraksomsa')],
             [InlineKeyboardButton("Qatlama somsa", callback_data='dish_qatlamasomsa')],
-            [InlineKeyboardButton("Ortga", callback_data='back_to_taomlar')]
+            [InlineKeyboardButton("Ortga⬅️ ", callback_data='back_to_taomlar')]
         ]
     elif cat == "shirinliklar":
         text_label = category_titles[lang]['shirinliklar']
@@ -6283,7 +6305,7 @@ async def show_dish_categories_logic(cat: str, query: CallbackQuery, context: Co
             [InlineKeyboardButton("Olchali pirog", callback_data='dish_olchali')],
             [InlineKeyboardButton("Shokoladli keks", callback_data='dish_shokokeks')],
             [InlineKeyboardButton("Asalli pechenye", callback_data='dish_asallipechenye')],
-            [InlineKeyboardButton("Ortga", callback_data='back_to_taomlar')]
+            [InlineKeyboardButton("Ortga⬅️ ", callback_data='back_to_taomlar')]
         ]
     elif cat == "ichimliklar":
         text_label = category_titles[lang]['ichimliklar']
@@ -6302,7 +6324,7 @@ async def show_dish_categories_logic(cat: str, query: CallbackQuery, context: Co
             [InlineKeyboardButton("Zira choy", callback_data='drink_zira')],
             [InlineKeyboardButton("Vitaminli ichimlik", callback_data='drink_vitaminli')],
             [InlineKeyboardButton("Moxito", callback_data='drink_moxito')],
-            [InlineKeyboardButton("Ortga", callback_data='back_to_taomlar')]
+            [InlineKeyboardButton("Ortga⬅️ ", callback_data='back_to_taomlar')]
         ]
     elif cat == "tortlar":
         text_label = category_titles[lang]['tortlar']
@@ -6318,7 +6340,7 @@ async def show_dish_categories_logic(cat: str, query: CallbackQuery, context: Co
             [InlineKeyboardButton("Bostoncha kremli tort", callback_data='tort_boston')],
             [InlineKeyboardButton("Bounty torti", callback_data='tort_bounty')],
             [InlineKeyboardButton("Pavlova torti", callback_data='tort_pavlova')],
-            [InlineKeyboardButton("Ortga", callback_data='back_to_taomlar')]
+            [InlineKeyboardButton("Ortga⬅️ ", callback_data='back_to_taomlar')]
         ]
     elif cat == "nonlar":
         text_label = category_titles[lang]['nonlar']
@@ -6332,7 +6354,7 @@ async def show_dish_categories_logic(cat: str, query: CallbackQuery, context: Co
             [InlineKeyboardButton("Obi non", callback_data='non_obinon')],
             [InlineKeyboardButton("Qatlama", callback_data='non_qatlama')],
             [InlineKeyboardButton("Jizzali patir", callback_data='non_jizzali')],
-            [InlineKeyboardButton("Ortga", callback_data='back_to_taomlar')]
+            [InlineKeyboardButton("Ortga⬅️ ", callback_data='back_to_taomlar')]
         ]
     else:
         text_label = "Noma'lum bo‘lim."

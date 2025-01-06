@@ -218,8 +218,10 @@ No‘xatni alohida idishda bir oz qaynatib, so‘ng sho‘rvaga qo‘shing. Bu u
 Dasturxon uchun:
 
 Tayyor sho‘rvani kosa yoki ko‘zada mayda to‘g‘ralgan piyoz va ukrop bilan bezatib torting.
+Jami kaloriyalar miqdori 450.8 kkal bo'lib, unda 27.3 g oqsil, 25.24 g yog' va 29.24 g uglevod mavjud.
 Yoqimli ishtaha! 🍽😋
 Yordam bera olgan boʻlsam hursandman.
+
 """,
 
     "dish_dumbullidimlama": """Dumbulli dimlama🍲
@@ -263,6 +265,7 @@ Qozonning qopqog‘ini yopib, taomni 40-45 daqiqa davomida dimlab qo‘ying.
 Dasturxonga tortish:
 
 Taom tayyor bo‘lgach, ta’bga ko‘ra bezatib, dasturxonga torting.
+Jami kaloriyalar miqdori 3881.55 kkal bo'lib, unda 163.08 g oqsil, 278.86 g yog', va 189.73 g uglevod mavjud.
 Yoqimli ishtaha! 🍽😋
 Yordam bera olgan boʻlsam hursandman.
 """,
@@ -298,6 +301,7 @@ Sho‘rvani o‘rtacha olovda 50-60 daqiqa davomida qaynatib pishiring.
 4-qadam:
 Sho‘rvani dasturxonga tortishdan oldin ko‘k piyoz bilan bezang.
 Uni suxarik yoki grenkalar bilan xizmat qiling.
+Jami kaloriyalar miqdori 2432.8 kkal bo'lib, unda 138.71 g oqsil, 176.43 g yog', va 65.96 g uglevod mavjud.
 Yoqimli ishtaha! 🍽😋
 Yordam bera olgan boʻlsam hursandman.
 """,
@@ -349,6 +353,7 @@ Tayyorlangan norinni kosaga soling.
 Go‘sht va qazi qaynatilgan sho‘rvaning tuzini rostlab, norinning ustiga quying.
 Ustini parrak qilib kesilgan qazi bilan bezating.
 Ta’bga ko‘ra yupqa to‘g‘ralgan piyoz va qora murch qo‘shib xizmat qilishingiz mumkin.
+Jami kaloriyalar miqdori 5532.5 kkal bo'lib, unda 218.5 g oqsil, 409.5 g yog', va 228.55 g uglevod mavjud.
 Yoqimli ishtaha! 🍽😋
 Yordam bera olgan boʻlsam hursandman.
 """,
@@ -387,6 +392,7 @@ Sho‘rvani 20 daqiqa davomida o‘rtacha olovda qaynatib pishiring.
 
 Xizmat qilish:
 Tayyor sho‘rvani idishga solib, issiq holda dasturxonga torting.
+Jami kaloriyalar miqdori 1556.35 kkal bo'lib, unda 84.22 g oqsil, 115.93 g yog', va 42.99 g uglevod mavjud. 
 Yoqimli ishtaha! 🍽😋
 Yordam bera olgan boʻlsam hursandman.
 """,
@@ -426,6 +432,7 @@ Ziravorlarni xohlaganingizcha suyuqlikka yoki qovurish jarayonida qo‘shishingi
 
 Xizmat qilish:
 Tayyor moxorani kosalarga solib, ustiga yangi ko‘katlar sepib dasturxonga torting.
+Jami kaloriyalar miqdori 3248.2 kkal bo'lib, unda 216.15 g oqsil, 96.08 g yog', va 381.45 g uglevod mavjud.
 Yoqimli ishtaha! 🍽😋
 Yordam bera olgan boʻlsam hursandman.
 """,
@@ -454,6 +461,7 @@ Suv bilan bir oz suyultirib, ta’bga ko‘ra tuz va qora murch qo‘shing.
 Xizmat qilish:
 Tayyor bo‘lgan go‘jani sovuq holda dasturxonga torting.
 Ustiga rayhon, yalpiz yoki boshqa ko‘katlar sepib bezashingiz mumkin.
+Jami kaloriyalar miqdori 2600 kkal bo'lib, unda 117.5 g oqsil, 57.5 g yog', va 430.5 g uglevod mavjud.
 Yoqimli ishtaha! 🍽😋
 Yordam bera olgan boʻlsam hursandman.
 """,
@@ -507,6 +515,7 @@ Qaynatilgan xamirni yog‘lab aralashtirib, bir biriga yopishib qolmasligini ta'
 5. Dasturxonga tortish:
 Kosaga avval xamir soling, so‘ng ustidan qayla (vaju yoki say) suzib qo‘ying.
 Ustiga osh ko‘katlari bilan bezatib xizmat qiling.
+Jami kaloriyalar miqdori 5882.4 kkal bo'lib, unda 209.36 g oqsil, 339.3 g yog', va 494.64 g uglevod mavjud. 
 Yoqimli ishtaha! 🍽😋
 Yordam bera olgan boʻlsam hursandman.
 """,
@@ -559,6 +568,7 @@ Qozonga suv quying va 40-45 daqiqa davomida dimlang.
 
 7. Xizmat qilish:
 Taom tayyor bo‘lgach, ta’bga ko‘ra bezating va dasturxonga torting.
+Jami kaloriyalar miqdori 1672.6 kkal bo'lib, unda 86.03 g oqsil, 34.73 g yog', va 265.11 g uglevod mavjud.
 Yoqimli ishtaha! 🍽😋
 Yordam bera olgan boʻlsam hursandman.
 """,
@@ -620,6 +630,7 @@ Pishgan mantilarni suzib oling.
 6. Xizmat qilish:
 Mantilarni kosalarga soling.
 Ustiga sho‘rva quyib, osh ko‘katlari va qatiq bilan bezab dasturxonga torting.
+Jami kaloriyalar miqdori 4227.5 kkal bo'lib, unda 141.83 g oqsil, 278.61 g yog', va 285.96 g uglevod mavjud. 
 Yoqimli ishtaha! 🍽😋
 Yordam bera olgan boʻlsam hursandman.
 """,
@@ -661,6 +672,7 @@ Qopqog'ini yopib, sho'rvani 40 daqiqa davomida qaynatib pishiring.
 
 6. Xizmat qilish:
 Tayyor sho'rvani ko'katlar yoki smetana bilan bezab dasturxonga torting.
+Jami kaloriyalar miqdori 1977 kkal bo'lib, unda 149.66 g oqsil, 76.54 g yog', va 162.44 g uglevod mavjud.
 Yoqimli ishtaha! 🍽😋
 Yordam bera olgan boʻlsam hursandman.
 """,
@@ -695,6 +707,7 @@ Qasqonni qaynab turgan suv ustiga qo‘yib, idishni 1-1,5 soat davomida bug‘la
 
 4. Xizmat qilish:
 Tayyor kosa dimni ustiga oshko‘katlar sepib, dasturxonga torting.
+Jami kaloriyalar miqdori 595.1 kkal bo'lib, unda 36.26 g oqsil, 24.06 g yog', va 60.37 g uglevod mavjud.
 Yoqimli ishtaha! 🍽😋
 Yordam bera olgan boʻlsam hursandman.
 """,
@@ -729,6 +742,7 @@ Tayyorlangan do‘lmalarni issiq yog‘da bir tekis qizarguncha qovuring.
 
 4. Xizmat qilish:
 Tayyor tuxum do‘lmalarni issiq holda dasturxonga torting. Ta'bga ko‘ra ko‘katlar yoki sous bilan bezatishingiz mumkin.
+Jami kaloriyalar miqdori 3731.35 kkal bo'lib, unda 192.39 g oqsil, 305.85 g yog', va 50.15 g uglevod mavjud. 
 Yoqimli ishtaha! 🍽😋
 Yordam bera olgan boʻlsam hursandman.
 """,
@@ -767,6 +781,7 @@ Guruchni oxirgi bosqichda, taomni dasturxonga tortiq qilishdan taxminan 10-15 da
 
 6. Xizmat qilish:
 Tayyor mastavani kosaga suzib, ustiga osh ko‘katlar va qatiq yoki suzma solib dasturxonga torting.
+Jami kaloriyalar miqdori 2444.1 kkal bo'lib, unda 95.53 g oqsil, 172.3 g yog', va 131.54 g uglevod mavjud
 Yoqimli ishtaha! 🍽😋
 Yordam bera olgan boʻlsam hursandman.
 """,
@@ -810,6 +825,7 @@ Sho‘rva ta’bga ko‘ra tuzlanadi.
 
 7. Xizmat qilish:
 Tayyor chuchvarani kosaga solib, ustiga qatiq qo‘shib dasturxonga torting.
+Jami kaloriyalar miqdori 1163 kkal bo'lib, unda 60.65 g oqsil, 24.65 g yog', va 165.5 g uglevod mavjud.
 Yoqimli ishtaha! 🍽😋
 Yordam bera olgan boʻlsam hursandman.
 """,
@@ -847,6 +863,7 @@ Mantilarni bug‘da 40 daqiqa davomida pishiring.
 
 5. Xizmat qilish:
 Tayyor mantilarni qatiq bilan dasturxonga torting.
+Jami kaloriyalar miqdori 2839.5 kkal bo'lib, unda 167.0 g oqsil, 114.0 g yog', va 273.55 g uglevod mavjud.
 Yoqimli ishtaha! 🍽😋
 Yordam bera olgan boʻlsam hursandman.
 """,
@@ -887,6 +904,7 @@ Tayyor sosga spagettini solib, past olovda 4 daqiqa davomida aralashtirib qovuri
 5. Xizmat qilish:
 Spagettini idishga soling.
 Ustiga maydalangan kashnich va limon po‘stlog‘ini sepib, taqdim eting.
+Jami kaloriyalar miqdori 3400.5 kkal bo'lib, unda 71.58 g oqsil, 168.97 g yog', va 402.39 g uglevod mavjud.
 Yoqimli ishtaha! 🍽😋
 Yordam bera olgan boʻlsam hursandman.
 """,
@@ -938,6 +956,7 @@ Aralashtirib, yana bir oz qovuring.
 5. Xizmat qilish:
 Tayyor qovurma lag‘monni lagan yoki likopchaga soling.
 Ustini oshko‘kat bilan bezating va xohishga ko‘ra ustiga qovurilgan tuxum qo‘shib dasturxonga torting.
+Jami kaloriyalar miqdori 6082.6 kkal bo'lib, unda 232.75 g oqsil, 353.88 g yog', va 485.11 g uglevod mavjud. 
 Yoqimli ishtaha! 🍽😋
 Yordam bera olgan boʻlsam hursandman.
 """,
@@ -987,6 +1006,7 @@ Qaynab chiqqanidan so‘ng, olovni past qilib, 2 soat davomida dimlab pishiring.
 
 5. Xizmat qilish:
 Tayyor dimlamaga ko‘kat sepib, likopchaga solib dasturxonga torting.
+Jami kaloriyalar miqdori 2413.75 kkal bo'lib, unda 170.76 g oqsil, 83.05 g yog', va 258.24 g uglevod mavjud.
 Yoqimli ishtaha! 🍽😋
 Yordam bera olgan boʻlsam hursandman.
 """,
@@ -1025,6 +1045,7 @@ Go‘sht va qazi qaynagan suvda xamir bo‘laklarini 5 daqiqa davomida pishiring
 Laganga pishgan xamir bo‘laklarini suzib oling.
 Ustiga to‘g‘ralgan go‘sht, qazi va piyozli sousni quying.
 Ustiga ko‘katlar sepib, dasturxonga torting.
+Jami kaloriyalar miqdori 2525 kkal bo'lib, unda 154.15 g oqsil, 96.65 g yog', va 242.6 g uglevod mavjud
 Yoqimli ishtaha! 🍽😋
 Yordam bera olgan boʻlsam hursandman.
 """,
@@ -1081,6 +1102,7 @@ Yuziga qovurilgan tuxum va qalampir pastasini qo‘shing.
 
 9. Xizmat qilish:
 Tayyor bibimbapni issiq holda dasturxonga torting.
+Jami kaloriyalar miqdori 1469.55 kkal bo'lib, unda 67.26 g oqsil, 74.15 g yog', va 141.92 g uglevod mavjud.
 Yoqimli ishtaha! 🍽😋
 Yordam bera olgan boʻlsam hursandman.
 """, }
@@ -1143,6 +1165,7 @@ Qozonning ustini zich yopiladigan qopqoq bilan yopib, 40 daqiqa davomida past ol
 
 7. Xizmat qilish:
 Tayyor do‘lmalarni laganda umumiy qilib yoki alohida likopchalarda dasturxonga torting.
+Jami kaloriyalar miqdori 2457.1 kkal bo'lib, unda 71.43 g oqsil, 181.33 g yog', va 134.87 g uglevod mavjud.
 Yoqimli ishtaha! 🍽😋
 Yordam bera olgan boʻlsam hursandman.
 """,
@@ -1196,6 +1219,7 @@ Qozonning ustini yopib, 15-20 daqiqa davomida past olovda dimlab pishiring.
 9. Xizmat qilish:
 Tayyor bo‘lgan palovni yaxshilab aralashtiring.
 Laganga solib, ta’bga ko‘ra qazi, sarimsoq, bedana tuxumi yoki boshqa qo‘shimchalar bilan bezab dasturxonga torting.
+Jami kaloriyalar miqdori 8358 kkal bo'lib, unda 295.3 g oqsil, 613.3 g yog', va 407.0 g uglevod mavjud.
 Yoqimli ishtaha! 🍽😋
 Yordam bera olgan boʻlsam hursandman.
 """,
@@ -1240,6 +1264,7 @@ Tayyor bo‘lgan gulxonimlarni yog‘langan manti qasqonga tering.
 
 6. Xizmat qilish:
 Tayyor bo‘lgan gulxonimlarni ta'bingizga ko‘ra bezab, issiq holda dasturxonga torting.
+Jami kaloriyalar miqdori 4352.5 kkal bo'lib, unda 143.9 g oqsil, 199.3 g yog', va 484.55 g uglevod mavjud.
 Yoqimli ishtaha! 🍽😋
 Yordam bera olgan boʻlsam hursandman.
 """,
@@ -1308,7 +1333,8 @@ Ayron tayyorlash: ❗️
 Suzmaga mayda to‘g‘ralgan yalpiz, rayhon va olmani qo‘shing.
 Tuz qo‘shib, suv solib yaxshilab aralashtiring.
 Ayronni muzlatgichga 30 daqiqaga tinishga qo‘ying.
-
+Osh: 9320 kkal, 286.2 g oqsil, 641.4 g yog', va 610.4 g uglevod.
+Ayran: 410.6 kkal, 18.75 g oqsil, 15.53 g yog', va 52.57 g uglevod.
 Yoqimli ishtaha! 🍽😋
 Yordam bera olgan boʻlsam hursandman.
 """,
@@ -1352,6 +1378,7 @@ Qozon qopqog‘ini yopib, 20 daqiqa davomida past olovda damlang.
 
 Xizmat qilish:
 Tayyor grechka palovni likopchalarga suzib, ustiga ko‘kat sepib dasturxonga torting.
+Jami kaloriyalar miqdori 3315.3 kkal bo'lib, unda 145.35 g oqsil, 106.19 g yog', va 479.65 g uglevod mavjud.
 Yoqimli ishtaha! 🍽😋
 Yordam bera olgan boʻlsam hursandman.
 """,
@@ -1394,6 +1421,7 @@ Ratatuyni 180°C darajada qizdirilgan gaz pechida 40-45 daqiqa davomida pishirin
 
 7. Xizmat qilish:
 Tayyor ratatuyni issiq holda dasturxonga torting.
+Jami kaloriyalar miqdori 1704.95 kkal bo'lib, unda 146.24 g oqsil, 93.52 g yog', va 70.27 g uglevod mavjud.
 Yoqimli ishtaha! 🍽😋
 Yordam bera olgan boʻlsam hursandman.
 """,
@@ -1437,6 +1465,7 @@ Tugilgan balishlarning ustiga tuxum surtib, avvaldan 200°C darajaga qizdirilgan
 
 6. Xizmat qilish:
 Tayyor bo‘lgan balishlarni issiq holda dasturxonga torting.
+Jami kaloriyalar miqdori 4823.3 kkal bo'lib, unda 138.01 g oqsil, 68.22 g yog', va 895.19 g uglevod mavjud.
 Yoqimli ishtaha! 🍽😋
 Yordam bera olgan boʻlsam hursandman.
 """,
@@ -1487,6 +1516,7 @@ Pishirishning oxirida (so‘nggi 20 daqiqa) folgani olib, ruletning usti qizarti
 
 8. Xizmat qilish:
 Tayyor ruletni dilimlab, issiq holda dasturxonga torting.
+Jami kaloriyalar miqdori 3941.4 kkal bo'lib, unda 345.59 g oqsil, 230.16 g yog', va 110.8 g uglevod mavjud
 Yoqimli ishtaha! 🍽😋
 Yordam bera olgan boʻlsam hursandman.
 """,
@@ -1542,6 +1572,7 @@ Suvini to‘kib tashlab, lag‘monga ozroq o‘simlik yog‘i qo‘shib aralasht
 5. Xizmat qilish:
 Lag‘monni likopchalarga solib, ustidan vaju quyib, ko‘katlar bilan bezang.
 Tayyor shivit oshini issiq holda dasturxonga torting.
+Jami kaloriyalar miqdori 4630.75 kkal bo'lib, unda 218.29 g oqsil, 139.57 g yog', va 604.03 g uglevod mavjud.
 Yoqimli ishtaha! 🍽😋
 Yordam bera olgan boʻlsam hursandman.
 """,
@@ -1588,6 +1619,7 @@ Quruq nonlar uchun o‘simlik yog‘ini ko‘proq qo‘shing yoki nonlarni oldin
 
 Xizmat qilish:
 Tayyor taomni ta'bga ko‘ra bezatib, issiq holda dasturxonga torting.
+Jami kaloriyalar miqdori 1621.7 kkal bo'lib, unda 73.87 g oqsil, 84.58 g yog', va 140.82 g uglevod mavjud.
 Yoqimli ishtaha! 🍽😋
 Yordam bera olgan boʻlsam hursandman.
 """,
@@ -1625,6 +1657,7 @@ Istasangiz, oxirgi 5 daqiqada har bir do‘lmaning ustiga qirg‘ichdan o‘tkaz
 
 6. Xizmat qilish:
 Tayyor bo‘lgan do‘lmalarni lagan yoki taqsimchaga soling. Ta'bga ko‘ra ko‘katlar bilan bezab dasturxonga torting.
+Jami kaloriyalar miqdori 2961 kkal bo'lib, unda 125.4 g oqsil, 125.8 g yog', va 328.5 g uglevod mavjud.
 Yoqimli ishtaha! 🍽😋
 Yordam bera olgan boʻlsam hursandman.
 """,
@@ -1671,6 +1704,7 @@ Qozonning qopqog‘ini yopib, taomni 35-40 daqiqa davomida past olovda dimlab pi
 
 Xizmat qilish:
 Tayyor bo‘lgan dumbul palovni ta'bga ko‘ra bezatib, issiq holda dasturxonga torting.
+Jami kaloriyalar miqdori 2760 kkal bo'lib, unda 96.78 g oqsil, 140.57 g yog', va 309.29 g uglevod mavjud.
 Yoqimli ishtaha! 🍽😋
 Yordam bera olgan boʻlsam hursandman.
 """,
@@ -1721,6 +1755,7 @@ Qozon qopqog‘ini yopib, past olovda 30 daqiqa davomida dimlab pishiring.
 
 Xizmat qilish:
 Tayyor teftellarni guruch bilan yoki boshqa garnir bilan dasturxonga torting.
+Jami kaloriyalar miqdori 1920.2 kkal bo'lib, unda 100.85 g oqsil, 102.33 g yog', va 142.69 g uglevod mavjud.
 Yoqimli ishtaha! 🍽 😋
 Yordam bera olgan boʻlsam hursandman.
 """,
@@ -1755,6 +1790,7 @@ Kartoshkaning usti qarsildoq, ichi yumshoq bo‘lishi lozim.
 5. Xizmat qilish:
 Pishgan kartoshkani gaz pechidan olib, ustiga maydalangan petrushka sepib bezang.
 Taomni issiq holda, garnir yoki asosiy yegulik sifatida dasturxonga torting.
+Jami kaloriyalar miqdori 1452 kkal bo'lib, unda 22.86 g oqsil, 71.28 g yog', va 183.83 g uglevod mavjud
 Yoqimli ishtaha! 🍽 😋
 Yordam bera olgan boʻlsam hursandman.
 """,
@@ -1793,6 +1829,7 @@ Dimlash uchun 20-25 daqiqa davomida past olovda pishiring.
 
 5. Xizmat qilish:
 Tayyor begodilarni issiq holda, ustiga ko‘katlar bilan bezab dasturxonga torting.
+Jami kaloriyalar miqdori 3010.9 kkal bo'lib, unda 146.05 g oqsil, 51.32 g yog', va 480.4 g uglevod mavjud. 
 Yoqimli ishtaha! 🍽 😋
 Yordam bera olgan boʻlsam hursandman.
 """,
@@ -1826,6 +1863,7 @@ Kotletlarni solib, har bir tomonini taxminan 3 daqiqa davomida oltin tusga kirgu
 
 5. Xizmat qilish:
 Tayyor baliqli kotletlarni issiq holda, garnir yoki salat bilan dasturxonga torting.
+Jami kaloriyalar miqdori 1842.8 kkal bo'lib, unda 124.79 g oqsil, 116.3 g yog', va 62.95 g uglevod mavjud.
 Yoqimli ishtaha! 🍽 😋
 Yordam bera olgan boʻlsam hursandman.
 """,
@@ -1863,6 +1901,7 @@ Pishirish jarayonida kabobni muntazam ravishda aylantirib, bir xilda qizarib pis
 
 Xizmat qilish:
 Tayyor kabobni yupqa qilib to‘g‘ralgan piyoz yoki garnir bilan birga dasturxonga torting.
+Jami kaloriyalar miqdori 2784 kkal bo'lib, unda 125.4 g oqsil, 247 g yog', va 24 g uglevod mavjud
 Yoqimli ishtaha! 🍽 😋
 Yordam bera olgan boʻlsam hursandman.
 """,
@@ -1910,6 +1949,7 @@ Yopiq qopqoq ostida yana 10 daqiqa davomida dimlang.
 
 Xizmat qilish:
 Tayyor qozon kabobini shivit va kashnich sepib, keng idishda dasturxonga torting.
+Jami kaloriyalar miqdori 6029.2 kkal bo'lib, unda 309.45 g oqsil, 352.86 g yog', va 385.81 g uglevod mavjud.
 Yoqimli ishtaha! 🍽 😋
 Yordam bera olgan boʻlsam hursandman.
 """,
@@ -1949,6 +1989,7 @@ Kabobning hajmiga qarab, uni 5-8 daqiqa davomida pishiring.
 Xizmat qilish:
 Tayyor kaboblarni ta'bga ko‘ra bezang.
 Sous yoki salat bilan birga dasturxonga torting.
+Jami kaloriyalar miqdori 3359 kkal bo'lib, unda 143.38 g oqsil, 277.33 g yog', va 60.25 g uglevod mavjud.
 Yoqimli ishtaha! 🍽😋
 Yordam bera olgan boʻlsam hursandman.
 """,
@@ -1990,6 +2031,7 @@ Go‘sht yaxshi pishishi uchun haroratni doimiy saqlang.
 6. Xizmat qilish:
 Tayyor bo‘lgan tandir kabobni avval sabzavotlarni olib, so‘ngra kabobni ustiga joylashtiring.
 Ta'bga ko‘ra bezatib, issiq holda dasturxonga torting.
+Jami kaloriyalar miqdori 3785.2 kkal bo'lib, unda 409.62 g oqsil, 216.35 g yog', va 34.8 g uglevod mavjud.
 Yoqimli ishtaha! 🍽😋
 Yordam bera olgan boʻlsam hursandman.
 """,
@@ -2024,6 +2066,7 @@ Har tomonini doimiy aylantirib, go‘shtni teng qizartiring.
 
 5. Xizmat qilish:
 Tayyor kaboblarni didingizga ko‘ra bezab, issiq holda dasturxonga torting.
+Jami kaloriyalar miqdori 2733.25 kkal bo'lib, unda 272.05 g oqsil, 173.88 g yog', va 8.83 g uglevod mavjud
 Yoqimli ishtaha! 🍽😋
 Yordam bera olgan boʻlsam hursandman.
 """,
@@ -2069,6 +2112,7 @@ Tandir harorati doimiy bo‘lishi kerak.
 
 7. Xizmat qilish:
 Tayyor kabobni ta'bga ko‘ra bezab, issiq holda dasturxonga torting.
+Jami kaloriyalar miqdori 5484.5 kkal bo'lib, unda 262.05 g oqsil, 459.55 g yog', va 65.0 g uglevod mavjud
 Yoqimli ishtaha! 🍽😋
 Yordam bera olgan boʻlsam hursandman.
 """,
@@ -2111,6 +2155,7 @@ Norinni likopchalarga solib, ustiga qazi bo‘laklari va mayda to‘g‘ralgan p
 Maslahatlar:
 • Xamirlarni juda yupqa yoyish norinning chiroyli va mazali bo‘lishi uchun muhim.
 • Xamirni yog‘lash va quritish jarayonlariga alohida e’tibor bering, shunda xamirlar yopishib qolmaydi.
+Jami kaloriyalar miqdori 4193.5 kkal bo'lib, unda 260 g oqsil, 202 g yog', va 304.55 g uglevod mavjud.
 Yoqimli ishtaha! 🍽😋
 Yordam bera olgan boʻlsam hursandman.
 """,
@@ -2148,6 +2193,7 @@ Pishgan xasipni laganga yoki likopchaga joylashtirib, ta'bingizga ko‘ra bezati
 Maslahatlar:
 • Ichakni yaxshilab tozalash va tuzli suvda chayib yuvish kerak.
 • Ziravorlarni o‘z didingizga qarab ko‘paytirishingiz yoki kamaytirishingiz mumkin.
+Jami kaloriyalar miqdori 2617 kkal bo'lib, unda 152.9 g oqsil, 164.9 g yog', va 133.8 g uglevod mavjud.
 Yoqimli ishtaha! 🍽😋
 Yordam bera olgan boʻlsam hursandman.
 """,
@@ -2195,7 +2241,7 @@ Tuxum baraklarni qatiq, suzma yoki qaymoq bilan bezatib, dasturxonga tortiq qili
 Maslahatlar:
 • Xamirni juda yupqa qilib yoyish tuxum barakni yumshoqroq qiladi.
 • Tuxumli ichini choynak yordamida quysangiz, osonroq bo‘ladi.
-
+Jami kaloriyalar miqdori 1441.9 kkal bo'lib, unda 59.5 g oqsil, 60.64 g yog', va 160.59 g uglevod mavjud.
 Yoqimli ishtaha! 🍽😋
 Yordam bera olgan boʻlsam hursandman.
 """,
@@ -2234,6 +2280,7 @@ Agar salatga chiroyli shakl berishni istasangiz, maxsus qoliplardan foydalanishi
 
 Maslahat:
 Ushbu salatni quyuq taomlar bilan yoki alohida yegulik sifatida dasturxonga tortishingiz mumkin.
+Jami kaloriyalar miqdori 216.2 kkal bo'lib, unda 8.31 g oqsil, 1.4 g yog', va 47.65 g uglevod mavjud.
 Yoqimli ishtaha! 🍽😋
 Yordam bera olgan boʻlsam hursandman.
 """,
@@ -2266,7 +2313,7 @@ Tayyor salatni likopchaga joylashtiring va dasturxonga torting.
 
 Maslahat:
 Ushbu salat vitaminlarga boy bo‘lib, kam kaloriyali taomlar uchun juda mos keladi. Yengil tushlik yoki asosiy taom oldidan gazak sifatida tortilishi mumkin.
-
+Jami kaloriyalar miqdori 706 kkal bo'lib, unda 23.5 g oqsil, 61.88 g yog', va 15.24 g uglevod mavjud. 
 Yoqimli ishtaha! 🍽😋
 Yordam bera olgan boʻlsam hursandman.
 """,
@@ -2304,7 +2351,7 @@ Tayyor bo‘lgan salatni likopchaga joylashtiring va darhol dasturxonga torting.
 
 Maslahat:
 Ushbu salatni nafaqat tushlik yoki kechki ovqatda, balki asosiy taom oldidan gazak sifatida ham iste’mol qilishingiz mumkin.
-
+Jami kaloriyalar miqdori 509.5 kkal bo'lib, unda 11.27 g oqsil, 31.44 g yog', va 55.34 g uglevod mavjud.
 Yoqimli ishtaha! 🍽😋
 Yordam bera olgan boʻlsam hursandman.
 """,
@@ -2339,7 +2386,7 @@ Tayyor salatni likopchaga joylashtiring va dasturxonga torting.
 
 Maslahat:
 Bu salat sersuv va yengil bo‘lib, har qanday taom oldidan yoki gazak sifatida mazali va foydali bo‘ladi.
-
+Jami kaloriyalar miqdori 258.9 kkal bo'lib, unda 3.51 g oqsil, 5.99 g yog', va 55.15 g uglevod mavjud. 
 Yoqimli ishtaha! 🍽😋
 Yordam bera olgan boʻlsam hursandman.
 """,
@@ -2385,7 +2432,7 @@ Ustiga bodring, piyoz, tovuq filesi, gazak, pishloq va qovurilgan non bo‘lakla
 
 7. Xizmat qilish:
 Qovurilgan non bo‘laklarini salatga dasturxonga tortishdan oldin qo‘shish tavsiya etiladi, bu ularning qarsildoqligini saqlab qoladi.
-
+Jami kaloriyalar miqdori 2202.15 kkal bo'lib, unda 137.77 g oqsil, 125.48 g yog', va 127.49 g uglevod mavjud.
 Yoqimli ishtaha! 🍽😋
 Yordam bera olgan boʻlsam hursandman.
 """,
@@ -2423,7 +2470,7 @@ Tayyor bo‘lgan salatni likopchaga solib, nonga surkab yeyish yoki alohida taom
 
 Maslahat:
 Bu salatni bahor va yoz mavsumida tayyorlash juda foydali, chunki u vitaminlarga boy va yengil ovqat hisoblanadi.
-
+Jami kaloriyalar miqdori 573.8 kkal bo'lib, unda 38.5 g oqsil, 20.54 g yog', va 70.71 g uglevod mavjud. 
 Yoqimli ishtaha! 🍽😋
 Yordam bera olgan boʻlsam hursandman.
 """,
@@ -2472,7 +2519,7 @@ Tayyor salatni likopchaga joylashtirib, dasturxonga torting.
 
 Maslahat:
 Pentuza salati o‘zining qarsildoqligi va boy ta'mi bilan ajralib turadi. U har kuni uchun mazali va foydali variant bo‘lib xizmat qiladi.
-
+Jami kaloriyalar miqdori 1949 kkal bo'lib, unda 11.08 g oqsil, 106.33 g yog', va 248.05 g uglevod mavjud.
 Yoqimli ishtaha! 🍽😋
 Yordam bera olgan boʻlsam hursandman.
 """,
@@ -2517,7 +2564,7 @@ Tayyor «mandarinchalarni» likopchaga joylashtiring va ustini qora murch donala
 
 Maslahat:
 Bu yorqin va ishtaha ochar salat yangi yil dasturxoningizni bezatib, mehmonlaringizni lol qoldiradi.
-
+Jami kaloriyalar miqdori 1337.85 kkal bo'lib, unda 100.22 g oqsil, 84.83 g yog', va 45.25 g uglevod mavjud.
 Yoqimli ishtaha! 🍽😋
 Yordam bera olgan boʻlsam hursandman.
 """,
@@ -2558,7 +2605,7 @@ Tayyor salatni likopchaga joylashtiring va maydalangan yong‘oq bilan bezating.
 
 Maslahat:
 Ushbu sodda va mazali salat oson tayyorlanishi bilan dasturxoningizni boyitadi va oila a’zolaringizni xursand qiladi.
-
+Jami kaloriyalar miqdori 1224.8 kkal bo'lib, unda 99.98 g oqsil, 84.19 g yog', va 17.74 g uglevod mavjud.
 Yoqimli ishtaha! 🍽😋
 Yordam bera olgan boʻlsam hursandman.
 """,
@@ -2594,7 +2641,7 @@ Dasturxonga tortishdan oldin suxariklarni salatga qo‘shib, aralashtiring. Bu u
 Maslahat:
 Ushbu salatni zaytun moyi bilan ham to‘ldirish mumkin.
 Suxariklarni o‘zingiz tayyorlasangiz, salatning ta’mi yanada mazali chiqadi.
-
+Jami kaloriyalar miqdori 944.55 kkal bo'lib, unda 33.47 g oqsil, 53.16 g yog', va 90.62 g uglevod mavjud.
 Yoqimli ishtaha! 🍽😋
 Yordam bera olgan boʻlsam hursandman.
 """,
@@ -2625,7 +2672,7 @@ Tuz seping va yaxshilab aralashtiring.
 Maslahat:
 Istasangiz, maydalangan ko‘katlar (shivit yoki kashnich) bilan bezashingiz mumkin.
 Bu salat ovqatlanish oralig‘ida yoki asosiy taom oldidan iste’mol qilish uchun juda mos keladi.
-
+Jami kaloriyalar miqdori 552.5 kkal bo'lib, unda 9.85 g oqsil, 31.33 g yog', va 68.44 g uglevod mavjud. 
 Yoqimli ishtaha! 🍽😋
 Yordam bera olgan boʻlsam hursandman.
 """,
@@ -2654,7 +2701,7 @@ Salatni 1 soat muzlatgichda tindirib, sovuq holda dasturxonga torting.
 Maslahat:
 Sharbat qo‘shishni xohlasangiz, mango yoki apelsin sharbatidan foydalaning.
 C vitaminiga boy sitrus mevalar (apelsin, mandarin) qo‘shib, salatni yanada foydali qiling.
-
+Jami kaloriyalar miqdori 289.55 kkal bo'lib, unda 6.1 g oqsil, 1.44 g yog', va 65.55 g uglevod mavjud
 Yoqimli ishtaha! 🍽😋
 Yordam bera olgan boʻlsam hursandman.
 """,
@@ -2695,7 +2742,7 @@ Muzlatgichdan olib, lagan o‘rtasidagi stakanni ehtiyotkorlik bilan oling. Sala
 
 Maslahat:
 Salatni taqdim etishdan oldin qo‘shimcha ko‘katlar bilan bezashingiz mumkin.
-
+Jami kaloriyalar miqdori 1428.8 kkal bo'lib, unda 109.05 g oqsil, 51.29 g yog', va 135 g uglevod mavjud
 Yoqimli ishtaha! 🍽😋
 Yordam bera olgan boʻlsam hursandman.
 """,
@@ -2724,7 +2771,7 @@ Salatni iste'mol qilishga yaqin qotgan non bo‘lakchalarini qo‘shib, aralasht
 
 Maslahat:
 Qotgan nonni o‘simlik yog‘ida engil qovurib, salatga qo‘shsangiz, yanada mazali bo‘ladi.
-
+Jami kaloriyalar miqdori 869.5 kkal bo'lib, unda 25.1 g oqsil, 28.8 g yog', va 134.55 g uglevod mavjud.
 Yoqimli ishtaha! 🍽😋
 Yordam bera olgan boʻlsam hursandman.
 """,
@@ -2759,7 +2806,7 @@ Pomidorni dumaloq, yupqa parraklarga kesib, likopcha atrofiga terib chiqing.
 Tayyorlangan salatni likopning o‘rtasiga baland qilib joylashtiring.
 Chekka qismlarini halqa shaklida kesilgan zaytun bilan bezang.
 Ustidan kunjut sepib, dasturxonga tortiq qiling.
-
+Jami kaloriyalar miqdori 893.1 kkal bo'lib, unda 40.88 g oqsil, 57.97 g yog', va 56.88 g uglevod mavjud.
 Yoqimli ishtaha! 🍽😋
 Yordam bera olgan boʻlsam hursandman.
 """,
@@ -2791,7 +2838,7 @@ Ustidan zaytun yog‘i qo‘shib, yengil aralashtiring.
 
 4. Taqdimot:
 Salatni likopchaga solib, ta’bga ko‘ra bezang va dasturxonga tortiq qiling.
-
+Jami kaloriyalar miqdori 444.15 kkal bo'lib, unda 7.42 g oqsil, 31.18 g yog', va 41.08 g uglevod mavjud. 
 Yoqimli ishtaha! 🍽😋
 Yordam bera olgan boʻlsam hursandman.
 """,
@@ -2832,7 +2879,7 @@ Tortiq qilishdan avval salatni 1 soat sovutgichda tindirib qo‘ying.
 
 6. Taqdimot:
 Likopchaga solib, ustini shivit yoki petrushka barglari bilan bezang va dasturxonga tortiq qiling.
-
+Jami kaloriyalar miqdori 3503.1 kkal bo'lib, unda 89.05 g oqsil, 280.58 g yog', va 163.98 g uglevod mavjud
 Yoqimli ishtaha! 🍽😋
 Yordam bera olgan boʻlsam hursandman.
 """,
@@ -2878,7 +2925,7 @@ Mayonezga bir chimdim tuz va murch qo‘shib, salatga dasturxonga tortishdan old
 8. Bezatish va tortiq qilish:
 Salatni chiroyli tortiq qilish uchun maxsus halqachalar ichiga solib, likopchaga qo‘ying.
 Ustini ko‘katlar bilan bezang.
-
+Jami kaloriyalar miqdori 1698 kkal bo'lib, unda 107.55 g oqsil, 70.9 g yog', va 158.23 g uglevod mavjud. 
 Yoqimli ishtaha! 🍽😋
 Yordam bera olgan boʻlsam hursandman.
 """,
@@ -2908,7 +2955,7 @@ Barcha masalliqlarni katta idishga solib, mayonez qo‘shing.
 4. Bezash:
 Yaxshilab aralashtiring.
 Dasturxonga tortishdan oldin ustiga ko‘k piyoz sepib bezang.
-
+Jami kaloriyalar miqdori 1562.4 kkal bo'lib, unda 98.11 g oqsil, 101.79 g yog', va 56.14 g uglevod mavjud.
 Yoqimli ishtaha! 🍽😋
 Yordam bera olgan boʻlsam hursandman.
 """,
@@ -2943,7 +2990,7 @@ Ko‘k piyozni mayda qilib to‘g‘rang.
 Aralashtirish:
 Barcha masalliqlarni idishga soling.
 Yashil no‘xot, tuz va mayonez qo‘shib, yaxshilab aralashtiring.
-
+Jami kaloriyalar miqdori 2432.4 kkal bo'lib, unda 95.11 g oqsil, 188.69 g yog', va 86 g uglevod mavjud.
 Yoqimli ishtaha!🍽😋
 Yordam bera olgan boʻlsam hursandman.
 """,
@@ -2991,7 +3038,7 @@ Bezatish:
 Tayyor salatni likopcha o‘rtasiga joylashtiring.
 Atrofini qovurilgan kartoshka bilan bezang, tuxum uyasiga o‘xshash shakl yarating.
 Salat o‘rtasiga qaynatilgan bedana tuxumlarini joylashtiring.
-
+Jami kaloriyalar miqdori 1886.7 kkal bo'lib, unda 163.45 g oqsil, 90.76 g yog', va 97.37 g uglevod mavjud. 
 Yoqimli ishtaha! 🍽😋
 Yordam bera olgan boʻlsam hursandman.
 """,
@@ -3022,6 +3069,7 @@ Mayonez qo‘shing, tuz va murch seping. Barchasini yaxshilab aralashtiring.
 
 Bezatish:
 Salatni likopchaga solib, ustiga mayda qirg‘ichdan o‘tkazilgan qaynatilgan tuxumni seping.
+Jami kaloriyalar miqdori 521.9 kkal bo'lib, unda 23.18 g oqsil, 44.58 g yog', va 6.11 g uglevod mavjud
 Yoqimli ishtaha! 🍽😋
 Yordam bera olgan boʻlsam hursandman.
 """,
@@ -3066,7 +3114,7 @@ Maslahatlar:
 Mayonez o‘rniga smetana ishlatib ko‘ring, salat yengilroq bo‘ladi.
 Yoqimli ta'm uchun maydalangan sarimsoqpiyoz qo‘shishingiz mumkin.
 Qo‘ziqorin tanlashda o‘zingizga yoqqanini ishlating.
-
+Jami kaloriyalar miqdori 1203.25 kkal bo'lib, unda 91.7 g oqsil, 85.75 g yog', va 15.89 g uglevod mavjud
 Yoqimli ishtaha!🍽️😋
 Yordam bera olgan boʻlsam hursandman.
 """,
@@ -3100,7 +3148,7 @@ Tayyor salatni likopchalarga joylashtiring. Istasangiz, ustiga ko‘katlar yoki 
 Maslahatlar:
 Agar salatni yengilroq qilishni istasangiz, mayonezni smetana bilan almashtirishingiz mumkin.
 Ta’mga o‘zgacha o‘lcham qo‘shish uchun maydalangan yong‘oq yoki uzum qo‘shishingiz mumkin.
-
+Jami kaloriyalar miqdori 3136 kkal bo'lib, unda 119.4 g oqsil, 262.9 g yog', va 79.85 g uglevod mavjud.
 Yoqimli ishtaha!🍽️😋
 Yordam bera olgan boʻlsam hursandman.
 """,
@@ -3159,7 +3207,7 @@ Parmezan plastinkalarini terib, ustiga sousni quying.
 Maslahatlar:
 Agar Aysberg yo‘q bo‘lsa, Pekin karamidan foydalanishingiz mumkin.
 Tayyor sarimsoqli suxariklar ham ishlatilishi mumkin, lekin uyda tayyorlanganlari mazaliroq chiqadi.
-
+Jami kaloriyalar miqdori 1854.1 kkal bo'lib, unda 183.04 g oqsil, 101.82 g yog', va 47.11 g uglevod mavjud
 Yoqimli ishtaha!🍽️😋
 Yordam bera olgan boʻlsam hursandman.
 """,
@@ -3202,7 +3250,7 @@ Tayyor salatni dasturxonga tortamiz.
 Maslahatlar:
 Ushbu salatga yashil no‘xat, makkajo‘xori yoki pomidor qo‘shib, ta’mini boyitishingiz mumkin.
 Salatni sovutgichda 10-15 daqiqa tindirsangiz, yanada mazali bo‘ladi.
-
+Jami kaloriyalar miqdori 472.6 kkal bo'lib, unda 9.32 g oqsil, 30.97 g yog', va 48.19 g uglevod mavjud.
 Yoqimli ishtaha!🍽️😋
 Yordam bera olgan boʻlsam hursandman.
 """,
@@ -3249,7 +3297,7 @@ Tayyorlash usuli:🍱
 Tavsiya:🤗
    - Har bir burak ichida boshqa mazali qiymaning bo‘lishi sizga va mehmonlaringizga turli xil lazzatlarni his qilish imkonini beradi.
    - Ushbu usul mehmon kutish uchun ajoyib variant hisoblanadi.
-
+Jami kaloriyalar miqdori 3376.17 kkal bo'lib, unda 145.89 g oqsil, 186.26 g yog', va 291.2 g uglevod mavjud.
 Yoqimli ishtaha!🍽️😋
 Yordam bera olgan boʻlsam hursandman.
 """,
@@ -3294,7 +3342,7 @@ Tayyorlash usuli:🍱
 Maslahatlar:🤗
    - Piyozning miqdorini ko‘proq ishlatsangiz, somsa yanada shirali bo‘ladi.
    - Go‘shtga ozroq yog‘li qism yoki dumba qo‘shish ham yaxshi ta’m beradi.
-
+Jami kaloriyalar miqdori 3532.82 kkal bo'lib, unda 196.52 g oqsil, 175.82 g yog', va 281.43 g uglevod mavjud
 Yoqimli ishtaha!🍽️😋
 Yordam bera olgan boʻlsam hursandman.
 """,
@@ -3338,7 +3386,7 @@ Tayyorlash usuli:🍱
 
 5. Xizmat qilish:
    - Tayyor yupqalarni ta'bga ko‘ra bezatib, issiq holda dasturxonga torting.
-
+Jami kaloriyalar miqdori 1291.7 kkal bo'lib, unda 76.94 g oqsil, 55.63 g yog', va 120.83 g uglevod mavjud.
 Yoqimli ishtaha!🍽️😋
 Yordam bera olgan boʻlsam hursandman.
 """,
@@ -3374,7 +3422,7 @@ Tayyorlash usuli:🍱
    - Pishgan quymoqqa salat bargi qo‘ying.
    - Ustiga mayonez va tayyorlangan qiymali ichlikdan soling.
    - Quymoqlarni rulon shaklida o‘rab chiqib, xizmatga tayyorlang.
-
+Jami kaloriyalar miqdori 2070.55 kkal bo'lib, unda 83.58 g oqsil, 129.54 g yog', va 139.47 g uglevod mavjud.
 Yoqimli ishtaha!🍽️😋
 Yordam bera olgan boʻlsam hursandman.
 """,
@@ -3407,7 +3455,7 @@ Tayyorlash usuli:🍱
 4. Qovurish:
    - Qizib turgan yog‘da chebureklarning ikki tomonini tilla rang tusga kirguncha qovuring.
    - Tayyor chebureklarni qog‘oz sochiq ustiga qo‘yib, ortiqcha yog‘dan halos qiling.
-
+Jami kaloriyalar miqdori 3755.7 kkal bo'lib, unda 165.4 g oqsil, 218.81 g yog', va 287.56 g uglevod mavjud.
 Yoqimli ishtaha!🍽️😋
 Yordam bera olgan boʻlsam hursandman.
 """,
@@ -3455,7 +3503,7 @@ Tayyorlash usuli:🍱
 5. Tortish:
    - Pishgan gummalarni ortiqcha yog‘dan halos qilish uchun qog‘oz sochiq ustiga qo‘ying.
    - Tayyor gummani achchiq sous yoki qaynoq choy bilan dasturxonga tortiq qiling.
-
+Jami kaloriyalar miqdori 1755 kkal bo'lib, unda 109.05 g oqsil, 122.05 g yog', va 42 g uglevod mavjud
 Yoqimli ishtaha!🍽️😋
 Yordam bera olgan boʻlsam hursandman.
 """,
@@ -3511,7 +3559,7 @@ Tayyorlash usuli:
    - Pishgan pahlavaning ustiga isitilgan asal surting.
    - Oldindan kesilgan romb bo‘yicha kesib chiqing.
    - Tayyor pahlavani ta'bga ko‘ra bezab, dasturxonga tortiq qiling.
-
+Jami kaloriyalar miqdori 9147.7 kkal bo'lib, unda 120.46 g oqsil, 422.12 g yog', va 1278.15 g uglevod mavjud. 
 Yoqimli ishtaha!🍽️😋
 Yordam bera olgan boʻlsam hursandman.
 """,
@@ -3560,7 +3608,7 @@ Tayyorlash usuli:🍱
 
 Maslahat: 🤗
 Qiyomni aralashtirish paytida qo‘llaringiz va idish yopishib qolmasligi uchun ozgina o‘simlik yog‘idan foydalansangiz bo‘ladi.
-
+Jami kaloriyalar miqdori 9002.2 kkal bo'lib, unda 46.39 g oqsil, 662.51 g yog', va 768.54 g uglevod mavjud.
 Yoqimli ishtaha!🍽️😋
 Yordam bera olgan boʻlsam hursandman.
 """,
@@ -3601,7 +3649,7 @@ Tayyorlash usuli:🍱
 
 6. Tortiq qilish:
    - Tayyor Go’zlemeni issiqligida dasturxonga torting.
-
+Jami kaloriyalar miqdori 2764.1 kkal bo'lib, unda 123.75 g oqsil, 191.84 g yog', va 139.48 g uglevod mavjud.
 Yoqimli ishtaha!🍽️😋
 Yordam bera olgan boʻlsam hursandman.
 """,
@@ -3637,7 +3685,7 @@ Tayyorlash usuli:🍱
 
 5. Tortiq qilish:
    - Qozon somsalarini issiqligida dasturxonga torting. Mazasi tandir somsaga yaqin bo'lib chiqadi.
-
+Jami kaloriyalar miqdori 3214.2 kkal bo'lib, unda 43.2 g oqsil, 175.8 g yog', va 374.4 g uglevod mavjud.
 Yoqimli ishtaha!🍽️😋
 Yordam bera olgan boʻlsam hursandman.
 """,
@@ -3674,7 +3722,7 @@ Tayyorlash usuli:🍱
 
 5. Tortiq qilish:
    - Pishgan somsalarni likopchalarga terib, issiq holda dasturxonga torting.
-
+Jami kaloriyalar miqdori 3544 kkal bo'lib, unda 60.6 g oqsil, 252.85 g yog', va 273.15 g uglevod mavjud
 Yoqimli ishtaha!🍽️😋
 Yordam bera olgan boʻlsam hursandman.
 """,
@@ -3709,7 +3757,7 @@ Tayyorlash usuli:🍱
 
 5. Tortiq qilish:
    - Pishgan somsalarni xohishingizga ko‘ra bezatib, issiq holda dasturxonga torting.
-
+Jami kaloriyalar miqdori 2994 kkal bo'lib, unda 105.3 g oqsil, 181.3 g yog', va 235 g uglevod mavjud
 Yoqimli ishtaha!🍽️😋
 Yordam bera olgan boʻlsam hursandman.
 """,
@@ -3758,7 +3806,7 @@ Tayyorlash usuli:🍱
 6. Bezash:
    - Pishgan somsalarni gaz pechidan olib, ustiga ozgina sovuq suv sachratib yuboring.
    - Bu usul somsalarni yaltiroq va ishtahaochar qiladi.
-
+Jami kaloriyalar miqdori 7713.6 kkal bo'lib, unda 197.32 g oqsil, 521.81 g yog', va 553.35 g uglevod mavjud.
 Yoqimli ishtaha!🍽️😋
 Yordam bera olgan boʻlsam hursandman.
 """,
@@ -3797,7 +3845,7 @@ Tayyorlash usuli:🍱
 
 5. Servis:
    Tayyor nisholdani chiroyli idishlarga solib, darhol dasturxonga torting yoki sovitib qo‘yishingiz mumkin.
-
+Jami kaloriyalar miqdori 3655.96 kkal bo'lib, unda 30.7 g oqsil, 0.61 g yog', va 907.07 g uglevod mavjud
 Yoqimli ishtaha!🍽️😋
 Yordam bera olgan boʻlsam hursandman.
 """,
@@ -3831,7 +3879,7 @@ Tayyorlash usuli:🍱
 3. Qaynoq suvda shakarni eritib, vanilinni qo‘shing va sekin-asta qozonga quyib aralashtiring.
 4. Muntazam ravishda kavlab turing. Holvaytar quyuqlasha boshlaganda olovdan oling.
 5. Tayyor holvaytarni likopchalarga suzib, sovutib dasturxonga torting.
-
+Jami kaloriyalar miqdori 1836.5 kkal bo'lib, unda 7.2 g oqsil, 110.8 g yog', va 212.4 g uglevod mavjud.
 Yoqimli ishtaha!🍽️😋
 Yordam bera olgan boʻlsam hursandman.
 """,
@@ -3876,7 +3924,7 @@ Tayyorlash usuli:🍱
 
 8. Krendellarni pishiring.
    Krendellarni pergament qog‘ozi bilan qoplangan patnisga joylashtiring va 180 °C darajada qizdirilgan gaz pechida 30 daqiqa davomida pishiring.
-
+Jami kaloriyalar miqdori 1978.65 kkal bo'lib, unda 53.61 g oqsil, 90.11 g yog', va 241.91 g uglevod mavjud.
 Yoqimli ishtaha!🍽️😋
 Yordam bera olgan boʻlsam hursandman.
 """,
@@ -3913,7 +3961,7 @@ Tayyorlash usuli:🍱
    - Glazur oqib ketmasligi uchun, pishiriq yuzasi sovuq bo‘lishi maqsadga muvofiq.
 
 Tayyor! Glazur turli pishiriqlarni bezash va ta’mini boyitish uchun mukammal.
-
+Jami kaloriyalar miqdori 1037.46 kkal bo'lib, unda 8.21 g oqsil, 47.2 g yog', va 162.64 g uglevod mavjud. 
 Yoqimli ishtaha!🍽️😋
 Yordam bera olgan boʻlsam hursandman.
 """,
@@ -3948,7 +3996,7 @@ Tayyorlash bosqichlari:🍱
 
 8. Xizmat qilishdan oldin olib qo‘ying.
    Tanovvul qilishdan 3-5 daqiqa oldin muzlatgichdan olib, yumshashini kuting.
-
+Jami kaloriyalar miqdori 1075.6 kkal bo'lib, unda 15.14 g oqsil, 58.72 g yog', va 124.2 g uglevod mavjud.
 Yoqimli ishtaha!🍽️😋
 Yordam bera olgan boʻlsam hursandman.
 """,
@@ -3998,7 +4046,7 @@ Tayyorlash bosqichlari:🍱
 
 11. Bezatish.
    Sovigan pirogni shakar upasi bilan sepib, xizmat qiling.
-
+Jami kaloriyalar miqdori 3819 kkal bo'lib, unda 46.87 g oqsil, 215.7 g yog', va 444.9 g uglevod mavjud.
 Yoqimli ishtaha!🍽️😋
 Yordam bera olgan boʻlsam hursandman.
 """,
@@ -4040,7 +4088,7 @@ Tayyorlash bosqichlari:🍱
 
 8. Bezatish.
    Pishgan bulochkalarga shakar upasini sepib, dasturxonga torting.
-
+Jami kaloriyalar miqdori 2939.5 kkal bo'lib, unda 68.68 g oqsil, 119.51 g yog', va 409.71 g uglevod mavjud.
 Yoqimli ishtaha!🍽️😋
 Yordam bera olgan boʻlsam hursandman.
 """,
@@ -4085,7 +4133,7 @@ Tayyorlash usuli:🍱
 5. Sovutish va bezatish:
    - Tayyor chizkeykni xona haroratida sovuting, so‘ng muzlatgichga qo‘yib, 4-5 soat davomida tindiring.
    - Xohishga ko‘ra, ustini malina va boshqa bezaklar bilan bezating.
-
+Jami kaloriyalar miqdori 3634.17 kkal bo'lib, unda 120.66 g oqsil, 179.2 g yog', va 396.04 g uglevod mavjud.
 Yoqimli ishtaha!🍽️😋
 Yordam bera olgan boʻlsam hursandman.
 """,
@@ -4110,7 +4158,7 @@ Tayyorlash usuli:🍱
 
 4. Tayyor bo‘lgan bolqaymoq:
    - Bolqaymoqni non, sevimli mevalaringiz yoki turli pishiriqlar bilan iste’mol qilishingiz mumkin.
-
+Jami kaloriyalar miqdori 1231.7 kkal bo'lib, unda 5.39 g oqsil, 112.95 g yog', va 37.2 g uglevod mavjud
 Yoqimli ishtaha!🍽️😋
 Yordam bera olgan boʻlsam hursandman.
 """,
@@ -4145,7 +4193,7 @@ Tayyorlash usuli:🍱
 
 6. Bezash:
    - Tayyor pirogni sovuting va xohishga ko‘ra ustiga shakar upasi sepib bezang.
-
+Jami kaloriyalar miqdori 4351 kkal bo'lib, unda 42.4 g oqsil, 216.4 g yog', va 582.7 g uglevod mavjud.
 Yoqimli ishtaha!🍽️😋
 Yordam bera olgan boʻlsam hursandman.
 """,
@@ -4195,7 +4243,7 @@ Tayyorlash usuli:🍱
 
 5. Qotishi uchun:
    - Pirojniylarni xona haroratida 1 soat ushlab turing, keyin muzlatgichda 2 soat sovuting.
-
+Jami kaloriyalar miqdori 4641 kkal bo'lib, unda 86.4 g oqsil, 203.1 g yog', va 626.7 g uglevod mavjud.
 Yoqimli ishtaha!🍽️😋
 Yordam bera olgan boʻlsam hursandman.
 """,
@@ -4233,7 +4281,7 @@ Tayyorlash usuli:🍱
 
 5. Taqdim qilish:
    - Tayyor muzqaymoqni muzlatgichdan olib, yalpiz bargchalari va shaftoli bo‘laklari bilan bezating.
-
+Jami kaloriyalar miqdori 1498.45 kkal bo'lib, unda 5.28 g oqsil, 0.27 g yog', va 383.19 g uglevod mavjud.
 Yoqimli ishtaha!🍽️😋
 Yordam bera olgan boʻlsam hursandman.
 """,
@@ -4269,7 +4317,7 @@ Tayyorlash usuli:🍱
 Tavsiyalar:
    - Murabboni xohlaganingizcha o‘zgartirishingiz mumkin (olxo‘ri, malina yoki o‘rik murabbosi juda mazali chiqadi).
    - Pirogni ustiga maydalangan yong‘oq yoki bodom sepib bezashingiz mumkin.
-
+Jami kaloriyalar miqdori 4604 kkal bo'lib, unda 26.5 g oqsil, 273.5 g yog', va 536.3 g uglevod mavjud
 Yoqimli ishtaha!🍽️😋
 Yordam bera olgan boʻlsam hursandman.
 """,
@@ -4305,7 +4353,7 @@ Tayyorlash usuli:🥮
 Tavsiyalar:🤗
    - Quyultirilgan sutning miqdorini xamirning yopishqoqligiga qarab sozlashingiz mumkin.
    - Shirinlikni muzlatgichda biroz tindirib, keyin tortiq qilsangiz, mazasi yanada yaxshiroq bo‘ladi.
-
+Jami kaloriyalar miqdori 4929 kkal bo'lib, unda 93.8 g oqsil, 275.5 g yog', va 468.1 g uglevod mavjud. 
 Yoqimli ishtaha!🍽️😋
 Yordam bera olgan boʻlsam hursandman.
 """,
@@ -4348,7 +4396,7 @@ Tayyorlash usuli:🍱
 Tavsiyalar:🤗
    - Pirogni sovugandan so‘ng iste’mol qilish mazaliroq bo‘ladi.
    - Olchaning suvi ko‘p bo‘lsa, uni oldindan biroz siqib olish kerak.
-
+Jami kaloriyalar miqdori 2961.3 kkal bo'lib, unda 64.88 g oqsil, 188.89 g yog', va 267.72 g uglevod mavjud
 Yoqimli ishtaha!🍽️😋
 Yordam bera olgan boʻlsam hursandman.
 """,
@@ -4389,7 +4437,7 @@ Tayyorlash usuli:🍱
 Maslahatlar:🤗
 - Kekni muzqaymoq, shokolad sousi yoki yangi mevalar bilan bezash orqali yanada mazali qilish mumkin.
 - Agar bir nechta porsiya kerak bo‘lsa, masalliqlar miqdorini mos ravishda oshiring.
-
+Jami kaloriyalar miqdori 844.4 kkal bo'lib, unda 14.6 g oqsil, 44.8 g yog', va 107.1 g uglevod mavjud.
 Yoqimli ishtaha!🍽️😋
 Yordam bera olgan boʻlsam hursandman.
 """,
@@ -4430,7 +4478,7 @@ Tayyorlash usuli:🍱
 Maslahatlar:🤗
 - Pechenyelarni qand-qaymoq bilan bezash mumkin.
 - Shakar miqdorini ta’bga qarab kamaytirib yoki ko‘paytirishingiz mumkin.
-
+Jami kaloriyalar miqdori 1970.2 kkal bo'lib, unda 25.09 g oqsil, 110 g yog', va 230.7 g uglevod mavjud.
 Yoqimli ishtaha!🍽️😋
 Yordam bera olgan boʻlsam hursandman.
 """
@@ -4465,7 +4513,7 @@ Tayyorlash usuli:🍱
 
 5. Taqdim qilish:
    Tayyor bo‘lgan choyni piyolalarga suzib, ta'bga ko‘ra shakar yoki asal qo‘shing. Bu choyni issiq holda ichish qishki sovuq kunlarda iliqlik bag‘ishlaydi, yozda esa salqin holda ichish tetiklik beradi.
-
+Jami kaloriyalar miqdori 100.82 kkal bo'lib, unda 0.14 g oqsil, 0.09 g yog', va 26.21 g uglevod mavjud.
 Yoqimli ishtaha!🍽️😋
 Yordam bera olgan boʻlsam hursandman.
 """,
@@ -4494,7 +4542,7 @@ Tayyorlash usuli:🍱
 
 Foydasi:🤗
 Na’matak sharbati jigar, buyrak, ichak, oshqozon faoliyatini yaxshilaydi, qon aylanishini normallashtiradi va surunkali kasalliklarning oldini oladi.
-
+Jami kaloriyalar miqdori 166 kkal bo'lib, unda 3.2 g oqsil, 0.6 g yog', va 37.4 g uglevod mavjud. 
 Yoqimli ishtaha!🍽️😋
 Yordam bera olgan boʻlsam hursandman.
 
@@ -4523,7 +4571,7 @@ Tayyorlash usuli:🍱
 
 5. Tayyorlash:
    Tayyor choyni idishdan suzib olib, iliq yoki sovuq holda iching.
-
+Jami kaloriyalar miqdori 148.63 kkal bo'lib, unda 1.25 g oqsil, 0.33 g yog', va 40.11 g uglevod mavjud.
 Yoqimli ishtaha!🍽️😋
 Yordam bera olgan boʻlsam hursandman.
 """,
@@ -4547,7 +4595,7 @@ Tayyorlash usuli:🍱
 
 4. Ichimlikni bezash:
    Tayyor ichimlikni stakanlarga quying. Yalpiz yaproqlari bilan bezatib, darhol xizmat qiling.
-
+Jami kaloriyalar miqdori 309.8 kkal bo'lib, unda 10.71 g oqsil, 10.36 g yog', va 46.27 g uglevod mavjud.
 Yoqimli ishtaha!🍽️😋
 Yordam bera olgan boʻlsam hursandman.
 """,
@@ -4576,7 +4624,7 @@ Tayyorlash usuli:🍱
 
 Foydasi:🤗
 Qovun sharbati chanqoqni bosadi, suyak, tish va tirnoqlar uchun kaltsiy manbai bo‘lib xizmat qiladi, asab tizimini tinchlantiradi hamda organizmdagi suv va tuz muvozanatini saqlaydi.
-
+Jami kaloriyalar miqdori 978 kkal bo'lib, unda 5.4 g oqsil, 1.2 g yog', va 249.2 g uglevod mavjud. 
 Yoqimli ishtaha!🍽️😋
 Yordam bera olgan boʻlsam hursandman.
 """,
@@ -4608,7 +4656,7 @@ Tayyorlash usuli:🍱
 Qo‘shimcha ma’lumot:🤗
 - Bodomli sutni suzmasdan ham ichishingiz mumkin.
 - Agar sut yoqtirmasangiz, uni faqat suv bilan tayyorlab iste’mol qilsangiz ham bo‘ladi.
-
+Jami kaloriyalar miqdori 325 kkal bo'lib, unda 9.59 g oqsil, 18 g yog', va 36 g uglevod mavjud. 
 Yoqimli ishtaha!🍽️😋
 Yordam bera olgan boʻlsam hursandman.
 """,
@@ -4633,7 +4681,7 @@ Tayyorlash usuli:🍱
 Foydali xususiyatlari:🤗
 - Uzum sharbati chanqoqni yo‘qotadi, organizmga quvvat va tetiklik beradi.
 - Yurak-qon tomir tizimiga ijobiy ta’sir ko‘rsatadi.
-
+Jami kaloriyalar miqdori 594 kkal bo'lib, unda 2.1 g oqsil, 0.6 g yog', va 154.3 g uglevod mavjud
 Yoqimli ishtaha!🍽️😋
 Yordam bera olgan boʻlsam hursandman.
 """,
@@ -4666,7 +4714,7 @@ Tayyorlash usuli:🍱
 
 6. Xizmat qilish:
    Sovitilgan kompotni stakanlarga quyib, dasturxonga torting.
-
+Jami kaloriyalar miqdori 1193.7 kkal bo'lib, unda 6.5 g oqsil, 2.8 g yog', va 306 g uglevod mavjud.
 Yoqimli ishtaha!🍽️😋
 Yordam bera olgan boʻlsam hursandman.
 """,
@@ -4696,7 +4744,7 @@ Tayyorlash usuli:🍱
 
 5. Xizmat qilish:
    Tayyor qatiqni salatlarda, pishiriqlarda yoki shunchaki o‘zini ichish uchun foydalanishingiz mumkin.
-
+Jami kaloriyalar miqdori 1202.5 kkal bo'lib, unda 35.7 g oqsil, 90.54 g yog', va 54.02 g uglevod mavjud
 Yoqimli ishtaha!🍽️😋
 Yordam bera olgan boʻlsam hursandman.
 """,
@@ -4727,7 +4775,7 @@ Tayyorlash usuli:🍱
 
 Foydalari:🤗
 Tarvuz sharbati organizmdan suyuqlikni chiqarishga yordam beradi va jigar, buyrak xastaliklarida tavsiya etiladi.
-
+Jami kaloriyalar miqdori 79.35 kkal bo'lib, unda 1.2 g oqsil, 0.4 g yog', va 21 g uglevod mavjud.
 Yoqimli ishtaha!🍽️😋
 Yordam bera olgan boʻlsam hursandman.
 """,
@@ -4755,7 +4803,7 @@ Tayyorlash usuli:🍱
 
 Foydalari:🤗
 Sabzi sharbati immunitetni mustahkamlaydi, ko‘z nurini ravshanlashtiradi, ovqat hazm qilishni yaxshilaydi va buyrak faoliyatini qo‘llab-quvvatlaydi. Lavlagi suvi esa organizmni tozalashga yordam beradi.
-
+Jami kaloriyalar miqdori 123 kkal bo'lib, unda 2.7 g oqsil, 0.6 g yog', va 28.8 g uglevod mavjud.
 Yoqimli ishtaha!🍽️😋
 Yordam bera olgan boʻlsam hursandman.
 """,
@@ -4779,7 +4827,7 @@ Tayyorlash usuli:🍱
 
 Foydalari:🤗
 Zira choyi nafaqat ishtahani ochadi va ovqat hazm qilishni yaxshilaydi, balki organizmni yengillashtiradi va immunitetni mustahkamlaydi. Ibn Sino ta’kidlaganidek, zira organizmni tozalashda, nafas olishni yengillashtirishda va oshqozonning turli muammolarida foydali.
-
+Jami kaloriyalar miqdori 9.4 kkal bo'lib, unda 0.43 g oqsil, 0.38 g yog', va 1.63 g uglevod mavjud
 Yoqimli ishtaha!🍽️😋
 Yordam bera olgan boʻlsam hursandman.
 """,
@@ -4812,7 +4860,7 @@ Tayyorlash usuli:🍱
 
 Foydalari:🤗
 Bu ichimlik organizmni isintiradi, immunitetni mustahkamlaydi va ishtahani pasaytirishga yordam beradi. Sarimsoqning ta’mi ichimlikda deyarli bilinmaydi, ammo uning foydasi kuchli.
-
+Jami kaloriyalar miqdori 38.92 kkal bo'lib, unda 0.67 g oqsil, 0.24 g yog', va 10.15 g uglevod mavjud.
 Yoqimli ishtaha!🍽️😋
 Yordam bera olgan boʻlsam hursandman.
 """,
@@ -4846,7 +4894,7 @@ Tayyorlash usuli:🍱
 
 Maslahat:🤗
 Sprayt mavjud bo‘lmasa, shakarli sirop va gazlangan mineral suvdan foydalanishingiz mumkin. Shakarli siropni tayyorlash uchun qaynoq suvga shakarni to‘liq eriguncha aralashtirib qo‘shing va sovuting.
-
+Jami kaloriyalar miqdori 80.94 kkal bo'lib, unda 0.36 g oqsil, 0.07 g yog', va 20.94 g uglevod mavjud.
 Yoqimli ishtaha!🍽️😋
 Yordam bera olgan boʻlsam hursandman.
 """,
@@ -4898,7 +4946,7 @@ Tortni yig‘ish:
 
 Muzlatish:❄️
 Tayyor tortni muzlatgichda kamida 2 soat saqlang, so‘ng dasturxonga torting.
-
+Jami kaloriyalar miqdori 5232.3 kkal bo'lib, unda 68.96 g oqsil, 350.22 g yog', va 490.34 g uglevod mavjud.
 Yoqimli ishtaha!🍽️😋
 Yordam bera olgan boʻlsam hursandman.
 """,
@@ -4931,7 +4979,7 @@ Tayyorlash usuli:🍱
 
 4. Sovutish:
    Tortni kamida 6-8 soat davomida muzlatgichda tindiring. Shu vaqt ichida krem korjlarga yaxshi singadi va tort yanada mazali bo‘ladi.
-
+Jami kaloriyalar miqdori 5639 kkal bo'lib, unda 64.05 g oqsil, 372.5 g yog', va 466 g uglevod mavjud
 Yoqimli ishtaha!🍽️😋
 Yordam bera olgan boʻlsam hursandman.
 """,
@@ -4990,7 +5038,7 @@ Pishirish:
 
 Bezatish:🤗
 Tortni ustini xohlagan mevalar yoki meva bo‘lakchalari bilan bezating.
-
+Jami kaloriyalar miqdori 3555.75 kkal bo'lib, unda 106.67 g oqsil, 192.39 g yog', va 366.07 g uglevod mavjud. 
 Yoqimli ishtaha!🍽️😋
 Yordam bera olgan boʻlsam hursandman.
 """,
@@ -5035,6 +5083,7 @@ Shokoladli glazur tayyorlash:
 
 Tayyor!🤗
 Mazali "Zebra" tortingizni dasturxonga torting!
+Jami kaloriyalar miqdori 3358.4 kkal bo'lib, unda 37.98 g oqsil, 205.61 g yog', va 338.98 g uglevod mavjud.
 Yoqimli ishtaha!🍽️😋
 Yordam bera olgan boʻlsam hursandman.
 """,
@@ -5089,7 +5138,7 @@ Glazur tayyorlash:
 Tugallash:🤗
 1. Tortni kamida 3 soatga muzlatgichda tindiring.
 2. Choy yoki qahva bilan dasturxonga torting.
-
+Jami kaloriyalar miqdori 5483.96 kkal bo'lib, unda 89.19 g oqsil, 307.15 g yog', va 599.21 g uglevod mavjud.
 Yoqimli ishtaha!🍽️😋
 Yordam bera olgan boʻlsam hursandman.
 """,
@@ -5134,7 +5183,7 @@ Tortni yig'ish:
 2. Korjlarni bir-birining ustiga qo'yib, oxirgi qavatni ham krem bilan surting.
 3. Tortning ustiga maydalangan korj bo‘laklarini sepib, selofan bilan yopib qo‘ying.
 4. Tortni kamida 4-5 soat, yaxshisi, bir kechaga tindiring.
-
+Jami kaloriyalar miqdori 5056.3 kkal bo'lib, unda 60.32 g oqsil, 232.47 g yog', va 712.97 g uglevod mavjud.
 Yoqimli ishtaha!🍽️😋
 Yordam bera olgan boʻlsam hursandman.
 """,
@@ -5184,7 +5233,7 @@ Tortni yig‘ish:
 4. Qolgan kremni ustiga quyib, ikkinchi korjni qo‘ying va yana krem surting.
 5. Tortni yopishqoq plyonka bilan yopib, muzlatgichga 8-10 soatga qo‘ying.
 6. Sovigan tortni qulupnay bilan bezatib, dasturxonga torting.
-
+Jami kaloriyalar miqdori 4128.85 kkal bo'lib, unda 74.5 g oqsil, 215.76 g yog', va 503.06 g uglevod mavjud.
 Yoqimli ishtaha!🍽️😋
 Yordam bera olgan boʻlsam hursandman.
 """,
@@ -5232,7 +5281,7 @@ Tayyorlash usuli:🍱
    - Tortning ustki va yon tomonlariga krem surting.
    - Ta’bga ko‘ra maydalangan yeryong‘oq bilan ustini va yonlarini bezang.
    - Tortni sovutib, dasturxonga torting.
-
+Jami kaloriyalar miqdori 4818.2 kkal bo'lib, unda 78.05 g oqsil, 339.7 g yog', va 416.65 g uglevod mavjud. 
 Yoqimli ishtaha!🍽️😋
 Yordam bera olgan boʻlsam hursandman.
 """,
@@ -5287,7 +5336,7 @@ Tayyorlash usuli:🍱
    1) Tort chetlarini Kit-kat shokoladlari bilan bezang va ularni lenta bilan bog‘lang.
    2) Tort ustiga rezavor mevalar yoki yong‘oqlar bilan bezak bering.
    3) Tortni 2-3 soatga sovutgichga qo‘yib, tindiring.
-
+Jami kaloriyalar miqdori 5152.78 kkal bo'lib, unda 107.38 g oqsil, 257.86 g yog', va 520.13 g uglevod mavjud.
 Yoqimli ishtaha!🍽️😋
 Yordam bera olgan boʻlsam hursandman.
 """,
@@ -5339,7 +5388,7 @@ Tayyorlash usuli:🍱
 5. Sovutish va bezatish:
    1) Tayyor tortni 2–3 soatga muzlatgichda tindiring.
    2) Xohishingizga ko‘ra, ustini rezavor mevalar yoki yong‘oqlar bilan bezating.
-
+Jami kaloriyalar miqdori 3891.8 kkal bo'lib, unda 72.04 g oqsil, 200.96 g yog', va 459.8 g uglevod mavjud.
 Yoqimli ishtaha!🍽️😋
 Yordam bera olgan boʻlsam hursandman.
 """,
@@ -5387,7 +5436,7 @@ Tayyorlash tartibi:🍱
 4. Tortni yig‘ish:
    1) Tayyor ganashni tort ustiga quying va tekislang.
    2) Tortni kamida 1 soatga, yaxshisi bir kechaga sovutgichda qoldiring.
-
+Jami kaloriyalar miqdori 6958.06 kkal bo'lib, unda 77.46 g oqsil, 447.24 g yog', va 643.21 g uglevod mavjud
 Yoqimli ishtaha!🍽️😋
 Yordam bera olgan boʻlsam hursandman.
 """,
@@ -5419,7 +5468,7 @@ Tayyorlash usuli:🍱
 3. Tortni yig‘ish:
    1) Sovigan merenganing markazidagi chuqurchaga kremni ehtiyotkorlik bilan joylashtiring.
    2) Ustiga rezavor mevalar bilan bezang. Mevalarni xohishingizga ko‘ra tanlang.
-
+Jami kaloriyalar miqdori 2887.5 kkal bo'lib, unda 24.25 g oqsil, 97.05 g yog', va 416.2 g uglevod mavjud.
 Yoqimli ishtaha!🍽️😋 
 Yordam bera olgan boʻlsam hursandman.
 """,
@@ -5474,7 +5523,7 @@ Tayyorlash usuli:🍱
 
 Qatlama Patir tayyor!🤗
 Uni nafaqat issiq ovqatlar bilan, balki oddiy choy bilan ham tanovul qilish mumkin.
-
+Jami kaloriyalar miqdori 5266.75 kkal bo'lib, unda 63.3 g oqsil, 333.08 g yog', va 526.3 g uglevod mavjud
 Yoqimli ishtaha!🍽️😋
 Yordam bera olgan boʻlsam hursandman.
 """,
@@ -5520,7 +5569,7 @@ Murabbo yoki tvorogli variant:
 - Tayyorlangan kulchalarni yuqoridagi usulda oshirib, ustiga tuxum surtib, 200°C haroratda qizartirib pishiring.
 
 Pishgan shirin kulchalar issiq choy yoki qahva bilan nonushta uchun juda mos.🤗
-
+Jami kaloriyalar miqdori 6330.5 kkal bo'lib, unda 91.65 g oqsil, 320.05 g yog', va 799.8 g uglevod mavjud.
 Yoqimli ishtaha!🍽️😋
 Yordam bera olgan boʻlsam hursandman.
 """,
@@ -5554,7 +5603,7 @@ Tayyorlash usuli:🍱
 
 Tavsiyalar:🤗
 Moychechak noni har qanday taom bilan mazali bo‘ladi. Uni issiq choy yoki sho‘rva bilan dasturxonga tortiq qilishingiz mumkin.
-
+Jami kaloriyalar miqdori 4943.5 kkal bo'lib, unda 88 g oqsil, 276.25 g yog', va 544.5 g uglevod mavjud
 Yoqimli ishtaha!🍽️😋
 Yordam bera olgan boʻlsam hursandman.
 """,
@@ -5590,7 +5639,7 @@ Tayyorlash usuli:🍱
 
 Tavsiyalar:🤗
 Pishgan go‘shtli nonni yangi uzilgan ko‘katlar yoki issiq choy bilan birga dasturxonga tortiq qilsangiz, yanada mazali bo‘ladi.
-
+Jami kaloriyalar miqdori 682.5 kkal bo'lib, unda 21.65 g oqsil, 23.6 g yog', va 92.45 g uglevod mavjud.
 Yoqimli ishtaha!🍽️😋
 Yordam bera olgan boʻlsam hursandman.
 """,
@@ -5630,7 +5679,7 @@ Tayyorlash usuli:🍱
 Tavsiyalar:🤗
 - Pishgan patirlarni yangi uzilgan ko‘katlar, issiq choy yoki sho‘rvalar bilan iste'mol qilish mazali bo‘ladi.
 - Patirlar faqat taom bilan emas, choy bilan ham alohida mazali.
-
+Jami kaloriyalar miqdori 4565.8 kkal bo'lib, unda 61.21 g oqsil, 252.95 g yog', va 523.1 g uglevod mavjud.
 Yoqimli ishtaha!🍽️😋
 Yordam bera olgan boʻlsam hursandman.
 """,
@@ -5672,7 +5721,7 @@ Tayyorlash usuli:🍱
 Tavsiyalar:🤗
 - Lochira patirlar bayram dasturxoni yoki maxsus marosimlarning ajralmas qismi bo‘lib, issiq holida yanada mazali bo‘ladi.
 - Bu patirlarni issiq choy yoki milliy taomlar bilan iste'mol qilishni tavsiya etamiz.
-
+Jami kaloriyalar miqdori 4429.1 kkal bo'lib, unda 85.66 g oqsil, 217.36 g yog', va 548.55 g uglevod mavjud
 Yoqimli ishtaha!🍽️😋
 Yordam bera olgan boʻlsam hursandman.
 """,
@@ -5714,7 +5763,7 @@ Tayyorlash usuli:🍱
 Tavsiyalar:🤗
 - Tandir yo‘q bo‘lsa: Dimxona (duxovka)da ham obi nonni 220–250°C haroratda pishirib olish mumkin.
 - Foydali qo'shimcha: Sedana va kunjut sog‘liq uchun foydali bo‘lib, nonni mazaliroq qiladi.
-
+Jami kaloriyalar miqdori 3110.5 kkal bo'lib, unda 60.4 g oqsil, 90.05 g yog', va 522.2 g uglevod mavjud.
 Yoqimli ishtaha!🍽️😋
 Yordam bera olgan boʻlsam hursandman.
 """,
@@ -5758,7 +5807,7 @@ Tayyorlash usuli:🍱
 6. Bezash va pishirish:
    - Biroz sovugach, ustiga shakar seping.
    - Qatlama istalgan qo‘shimcha bilan, masalan, qaymoq, asal, murabbo yoki boshqa narsalar bilan dasturxonga tortiq qilishingiz mumkin.
-
+Jami kaloriyalar miqdori 3677.55 kkal bo'lib, unda 42.39 g oqsil, 256.35 g yog', va 283.1 g uglevod mavjud.
 Yoqimli ishtaha!🍽️😋
 Yordam bera olgan boʻlsam hursandman.
 """,
@@ -5807,7 +5856,7 @@ Tayyorlash usuli:🍱
    - Patirning yuzasiga qatiq, tuxum yoki sutli suyuqlik surting.
    - Ta'bga ko‘ra sedana yoki kunjut sepib chiqing.
    - 180-190 darajali dimxonada (duxovka) usti qizarguncha pishiring.
-
+Jami kaloriyalar miqdori 3852.57 kkal bo'lib, unda 100.09 g oqsil, 134.25 g yog', va 561.91 g uglevod mavjud
 Yoqimli ishtaha!🍽️😋
 Yordam bera olgan boʻlsam hursandman.
 """})

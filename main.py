@@ -33,7 +33,7 @@ BOT_TOKEN = "8018294597:AAEqpbRN7RU78-99TNbxr1ZCWs8R_qdvgQk"
 # ============== GLOBAL o'zgaruvchilar ==============
 DATA_FILE = "data.json"  # foydalanuvchi ma’lumotlari saqlanadigan fayl
 images_paths = {
-    "dish_kosashorva": "https://raw.githubusercontent.com/AbdurahimovMuhammadxonGit/hayot-balansi-bot/main/images/Kosa sho'rva.jpg",
+    "dish_kosashorva": "https://raw.githubusercontent.com/AbdurahimovMuhammadxonGit/hayot-balansi-bot/main/images/Kosasho'rva.jpg",
     "dish_dumbullidimlama": "https://raw.githubusercontent.com/AbdurahimovMuhammadxonGit/hayot-balansi-bot/main/images/Dumbulli dimlama.jpg",
     "dish_piyozlishorva": "https://raw.githubusercontent.com/AbdurahimovMuhammadxonGit/hayot-balansi-bot/main/images/Piyozli shorva.jpg",
     "dish_suyuqnorin": "https://raw.githubusercontent.com/AbdurahimovMuhammadxonGit/hayot-balansi-bot/main/images/Suyuq norin.jpg",

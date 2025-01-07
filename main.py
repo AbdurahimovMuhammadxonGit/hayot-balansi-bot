@@ -17,7 +17,7 @@ from telegram.ext import (
     ContextTypes,
     filters
 )
-
+DATABASE_URL = os.getenv("postgres://u3kq05tlvpdf3s:p03309e2faec9e47deb339f798b2026a1a1d727da57d889beaea1c7e6d0c0f941@c1i13pt05ja4ag.cluster-czrs8kj4isg7.us-east-1.rds.amazonaws.com:5432/ddf4gknrg8udpd")
 # ============== LOGGER (log) sozlamalari ==============
 logging.basicConfig(
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',

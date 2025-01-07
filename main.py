@@ -17,7 +17,10 @@ from telegram.ext import (
     ContextTypes,
     filters
 )
-DATABASE_URL = os.getenv("postgres://u3kq05tlvpdf3s:p03309e2faec9e47deb339f798b2026a1a1d727da57d889beaea1c7e6d0c0f941@c1i13pt05ja4ag.cluster-czrs8kj4isg7.us-east-1.rds.amazonaws.com:5432/ddf4gknrg8udpd")
+
+# DATABASE_URL Heroku'dan olingan qiymatga o'zgartiring (Agar ma'lumotlar bazasi Heroku orqali ulanish kerak bo'lsa)
+DATABASE_URL = os.getenv("DATABASE_URL", "postgres://u9p7i7v5eb88gu:p7d1d27ef3b31281f397c437a4034391c180f52363b703425e66d2fa9e1e46200@caij57unh724n3.cluster-czrs8kj4isg7.us-east-1.rds.amazonaws.com:5432/d695bpac7tsu5c")
+
 # ============== LOGGER (log) sozlamalari ==============
 logging.basicConfig(
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
@@ -25,23 +28,27 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-# ============== ADMIN IDs ==============
+# ============== ADMIN IDS ==============
 ADMIN_IDS = [7465094605]  # <-- Admin IDs
 
 # ============== BOT TOKEN ==============
 BOT_TOKEN = "8018294597:AAEqpbRN7RU78-99TNbxr1ZCWs8R_qdvgQk"  # <-- Bot tokeningizni bu yerga kiriting
 
 # ============== PostgreSQL sozlamalari ==============
+import os
+
 DB_CONFIG = {
-    "dbname": "Foydalanuvchilar",
-    "user": "postgres",
-    "password": "1212",
-    "host": "localhost",
-    "port": "5432"
+    "dbname": "d695bpac7tsu5c",  # DB nomi
+    "user": "u9p7i7v5eb88gu",    # Foydalanuvchi nomi
+    "password": "p7d1d27ef3b31281f397c437a4034391c180f52363b703425e66d2fa9e1e46200",  # Parol
+    "host": "caij57unh724n3.cluster-czrs8kj4isg7.us-east-1.rds.amazonaws.com",  # Host
+    "port": "5432"  # Port
 }
 
+
+
 # ============== GLOBAL o'zgaruvchilar ==============
-DATA_FILE = "data.json"  # foydalanuvchi ma’lumotlari saqlanadigan fayl
+DATA_FILE = "data.json"  # foydalanuvchi ma’lumotlari saqlanadigan fayl# foydalanuvchi ma’lumotlari saqlanadigan fayl
 images_paths = {
     "dish_kosashorva": "https://raw.githubusercontent.com/AbdurahimovMuhammadxonGit/hayot-balansi-bot/main/images/Kosasho'rva.jpg",
     "dish_dumbullidimlama": "https://raw.githubusercontent.com/AbdurahimovMuhammadxonGit/hayot-balansi-bot/main/images/Dumbullidimlama.jpg",
@@ -5876,13 +5883,13 @@ Yoqimli ishtaha!🍽️😋
 Yordam bera olgan boʻlsam hursandman.
 """})
 
+
 # ============== PostgreSQL yordamchi funksiyalar ==============
 def connect_db():
     """
     PostgreSQL ma'lumotlar bazasiga ulanish.
     """
-    return psycopg2.connect(**DB_CONFIG)
-
+    return psycopg2.connect(DATABASE_URL, sslmode='require')
 
 def init_db():
     """
@@ -5902,7 +5909,6 @@ def init_db():
             """)
             conn.commit()
 
-
 def load_data():
     """
     Foydalanuvchi ma'lumotlarini ma'lumotlar bazasidan yuklash.
@@ -5912,7 +5918,6 @@ def load_data():
             cur.execute("SELECT * FROM users;")
             rows = cur.fetchall()
             return {str(row["user_id"]): dict(row) for row in rows}
-
 
 def save_data(data: dict):
     """
@@ -5935,13 +5940,8 @@ def save_data(data: dict):
                       user_data.get("last_activity")))
             conn.commit()
 
-
-# ============== Yordamchi funksiyalar (uzun matnni bo‘lib yuborish) ==============
+# ============== Yordamchi funksiyalar ==============
 async def send_long_text_in_chunks(text, chat_id, context, chunk_size=3500):
-    """
-    Telegram cheklovi sababli xabarni 4096 belgidan katta yuborolmaymiz.
-    Xavfsiz tomoni uchun 3500 belgi atrofida bo'lib yuboriladi.
-    """
     start = 0
     last_text_id = None
     while start < len(text):

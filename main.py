@@ -29,7 +29,7 @@ logger = logging.getLogger(__name__)
 ADMIN_IDS = [7465094605]  # <-- Admin IDs
 
 # ============== BOT TOKEN ==============
-BOT_TOKEN = "7904798084:AAEI55YbLPMv9gR9GWAZAcrbSXw2PSThvrg"  # <-- Bot tokeningizni bu yerga kiriting
+BOT_TOKEN = "8018294597:AAEqpbRN7RU78-99TNbxr1ZCWs8R_qdvgQk"  # <-- Bot tokeningizni bu yerga kiriting
 
 # ============== PostgreSQL sozlamalari ==============
 DB_CONFIG = {

@@ -18,9 +18,11 @@ from telegram.ext import (
     filters
 )
 
-# DATABASE_URL Heroku'dan olingan qiymatga o'zgartiring (Agar ma'lumotlar bazasi Heroku orqali ulanish kerak bo'lsa)
-DATABASE_URL = os.getenv("DATABASE_URL", "postgres://u9p7i7v5eb88gu:p7d1d27ef3b31281f397c437a4034391c180f52363b703425e66d2fa9e1e46200@caij57unh724n3.cluster-czrs8kj4isg7.us-east-1.rds.amazonaws.com:5432/d695bpac7tsu5c")
+# Heroku tomonidan taqdim etilgan DATABASE_URL o'zgaruvchisidan foydalaning
+DATABASE_URL = os.getenv('postgres://u9p7i7v5eb88gu:p7d1d27ef3b31281f397c437a4034391c180f52363b703425e66d2fa9e1e46200@caij57unh724n3.cluster-czrs8kj4isg7.us-east-1.rds.amazonaws.com:5432/d695bpac7tsu5c')  # Bu Heroku muhit o'zgaruvchisi
 
+# Baza bilan ulanishni o'zgartirish
+conn = psycopg2.connect(DATABASE_URL, sslmode='require')
 # ============== LOGGER (log) sozlamalari ==============
 logging.basicConfig(
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',

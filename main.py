@@ -1,8 +1,9 @@
-
 import os
 import logging
 import json
 from datetime import datetime, timedelta
+import psycopg2
+from psycopg2.extras import DictCursor
 
 from telegram import (
     Update, InlineKeyboardButton, InlineKeyboardMarkup, CallbackQuery,
@@ -24,11 +25,20 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-# ============== ADMIN IDs: Siz bu yerga o‘z ID raqamingizni yozasiz ==============
-ADMIN_IDS = [7465094605]  # <-- O'zingizning telegram ID raqamingizni kiriting (yoki ro'yxat shaklida bir nechtasini)
+# ============== ADMIN IDs ==============
+ADMIN_IDS = [7465094605]  # <-- Admin IDs
 
-# ============== TOKEN (o'zingizning BOT_TOKEN ni kiriting) ==============
-BOT_TOKEN = "8018294597:AAEqpbRN7RU78-99TNbxr1ZCWs8R_qdvgQk"
+# ============== BOT TOKEN ==============
+BOT_TOKEN = "7904798084:AAEI55YbLPMv9gR9GWAZAcrbSXw2PSThvrg"  # <-- Bot tokeningizni bu yerga kiriting
+
+# ============== PostgreSQL sozlamalari ==============
+DB_CONFIG = {
+    "dbname": "Foydalanuvchilar",
+    "user": "postgres",
+    "password": "1212",
+    "host": "localhost",
+    "port": "5432"
+}
 
 # ============== GLOBAL o'zgaruvchilar ==============
 DATA_FILE = "data.json"  # foydalanuvchi ma’lumotlari saqlanadigan fayl
@@ -5866,28 +5876,64 @@ Yoqimli ishtaha!🍽️😋
 Yordam bera olgan boʻlsam hursandman.
 """})
 
+# ============== PostgreSQL yordamchi funksiyalar ==============
+def connect_db():
+    """
+    PostgreSQL ma'lumotlar bazasiga ulanish.
+    """
+    return psycopg2.connect(**DB_CONFIG)
 
-# ============== JSON orqali ma’lumotlarni saqlash/yuklash ==============
+
+def init_db():
+    """
+    Ma'lumotlar bazasini yaratish va kerakli jadvalni tayyorlash.
+    """
+    with connect_db() as conn:
+        with conn.cursor() as cur:
+            cur.execute("""
+                CREATE TABLE IF NOT EXISTS users (
+                    user_id BIGINT PRIMARY KEY,
+                    lang VARCHAR(3),
+                    age INT,
+                    height INT,
+                    weight INT,
+                    last_activity TIMESTAMP
+                );
+            """)
+            conn.commit()
+
+
 def load_data():
     """
-    data.json fayldan foydalanuvchi ma'lumotlarini yuklab,
-    lug'at ko'rinishida qaytaradi.
+    Foydalanuvchi ma'lumotlarini ma'lumotlar bazasidan yuklash.
     """
-    if os.path.exists(DATA_FILE):
-        with open(DATA_FILE, 'r', encoding='utf-8') as f:
-            try:
-                return json.load(f)
-            except json.JSONDecodeError:
-                return {}
-    return {}
+    with connect_db() as conn:
+        with conn.cursor(cursor_factory=DictCursor) as cur:
+            cur.execute("SELECT * FROM users;")
+            rows = cur.fetchall()
+            return {str(row["user_id"]): dict(row) for row in rows}
 
 
 def save_data(data: dict):
     """
-    Lug'at ko'rinishidagi ma'lumotlarni data.json ga yozib qo'yadi.
+    Foydalanuvchi ma'lumotlarini ma'lumotlar bazasiga yozish.
     """
-    with open(DATA_FILE, 'w', encoding='utf-8') as f:
-        json.dump(data, f, ensure_ascii=False, indent=2)
+    with connect_db() as conn:
+        with conn.cursor() as cur:
+            for user_id, user_data in data.items():
+                cur.execute("""
+                    INSERT INTO users (user_id, lang, age, height, weight, last_activity)
+                    VALUES (%s, %s, %s, %s, %s, %s)
+                    ON CONFLICT (user_id) DO UPDATE SET
+                        lang = EXCLUDED.lang,
+                        age = EXCLUDED.age,
+                        height = EXCLUDED.height,
+                        weight = EXCLUDED.weight,
+                        last_activity = EXCLUDED.last_activity;
+                """, (int(user_id), user_data.get("lang"), user_data.get("age"),
+                      user_data.get("height"), user_data.get("weight"),
+                      user_data.get("last_activity")))
+            conn.commit()
 
 
 # ============== Yordamchi funksiyalar (uzun matnni bo‘lib yuborish) ==============
@@ -6690,6 +6736,7 @@ async def admin_broadcast_command(update: Update, context: ContextTypes.DEFAULT_
 
 # ============== BOTGA KOMANDALAR VA CALLBACKLARNI QO‘SHISH ==============
 def main():
+    init_db()
     application = ApplicationBuilder().token(BOT_TOKEN).build()
 
     # /start komandasi

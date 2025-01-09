@@ -4,6 +4,8 @@ import json
 from datetime import datetime, timedelta
 from images_paths import images_paths
 from recipes_texts import recipes_texts
+from flask import Flask, request
+
 from telegram import (
     Update, InlineKeyboardButton, InlineKeyboardMarkup, CallbackQuery,
     InputMediaPhoto, InputMediaDocument
@@ -16,6 +18,13 @@ from telegram.ext import (
     ContextTypes,
     filters
 )
+from dotenv import load_dotenv
+
+# .env fayldan o‘zgaruvchilarni yuklash
+load_dotenv()
+
+# Flask ilovasini yaratish
+app = Flask(__name__)
 
 # ============== LOGGER (log) sozlamalari ==============
 logging.basicConfig(
@@ -23,6 +32,15 @@ logging.basicConfig(
     level=logging.INFO
 )
 logger = logging.getLogger(__name__)
+# O'zgaruvchilarni yuklash
+BOT_TOKEN = os.environ.get("BOT_TOKEN")
+HEROKU_APP_NAME = os.environ.get("HEROKU_APP_NAME")
+PORT = int(os.environ.get("PORT", "8443"))
+HEROKU_URL = f"https://{HEROKU_APP_NAME}.herokuapp.com"
+
+if not BOT_TOKEN:
+    raise ValueError("BOT_TOKEN o'rnatilmagan yoki noto'g'ri. Iltimos, .env faylda uni tekshiring.")
+
 
 # ============== ADMIN IDs ==============
 ADMIN_IDS = [7465094605]  # <-- O'zingizning telegram ID raqamingiz
@@ -148,6 +166,13 @@ async def handle_user_data(update: Update, context: ContextTypes.DEFAULT_TYPE):
         bmr = 10 * weight + 6.25 * height - 5 * age + 5
         daily_water_liters = weight * 30 / 1000
 
+        # ============== WEBHOOK SOZLASH ==============
+        # Webhook marshrutini sozlash
+        @app.route(f"/{os.environ.get('BOT_TOKEN')}", methods=["POST"])
+        def webhook():
+            update = Update.de_json(request.get_json(force=True), application.bot)
+            application.update_queue.put(update)
+            return "ok"
         bmi_status_text = {
             'uz': (
                 "Sizning vazningiz kam. Vazn olish tavsiya etiladi.🙂" if bmi < 18.5 else

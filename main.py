@@ -44,7 +44,7 @@ if not BOT_TOKEN:
 application = ApplicationBuilder().token(BOT_TOKEN).build()
 # Flask uchun webhookni sozlash
 @app.route(f"/{BOT_TOKEN}", methods=["POST"])
-async def webhook():
+async def telegram_webhook():
     update = Update.de_json(request.get_json(force=True), application.bot)
     await application.update_queue.put(update)  # `await` qo'shildi
     return "ok", 200

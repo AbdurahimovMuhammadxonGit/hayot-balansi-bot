@@ -1,10 +1,9 @@
-
 # =========================== RETSEPTLAR VA NONLAR ==============================
 recipes_texts = {
 
     # ============= SUYUQ TAOMLAR =============
-    "dish_kosashorva": """Kossa sho'rva
-    Masalliqlar:
+    "dish_kosashorva": """Kossa sho'rva 🥘
+    Masalliqlar: 🍱
 
 Qo‘y go‘shti - 40 g
 Qo‘y qovurg‘asi - 60-70 g (1 dona)
@@ -18,7 +17,7 @@ Ivitilgan no‘xat - 1 osh qoshiq
 Pomidor - 30 g
 Ta’bga ko‘ra tuz, ziravorlar va ko‘katlar 
 
-Masalliqlarni joylash:
+Masalliqlarni joylash: 🍱
 
 Avval sopol ko‘zaga go‘sht va qovurg‘ani soling.
 Keyin piyozdan boshqa sabzavotlarni ketma-ket joylashtiring.
@@ -32,7 +31,7 @@ Suv quying:
 
 Ko‘zani masalliqlar va suv bilan to‘ldiring.
 
-Pishirish jarayoni:
+Pishirish jarayoni: 🍱
 
 Tayyor ko‘zani temir tandirga (duxovka) yoki elektr plitasiga qo‘ying.
 Avval baland olovda, so‘ngra pastroq olovda qaynating.
@@ -46,12 +45,14 @@ No‘xatni alohida idishda bir oz qaynatib, so‘ng sho‘rvaga qo‘shing. Bu u
 Dasturxon uchun:
 
 Tayyor sho‘rvani kosa yoki ko‘zada mayda to‘g‘ralgan piyoz va ukrop bilan bezatib torting.
-Yoqimli ishtaha!
+Jami kaloriyalar miqdori 450.8 kkal bo'lib, unda 27.3 g oqsil, 25.24 g yog' va 29.24 g uglevod mavjud.
+Yoqimli ishtaha! 🍽😋
+Yordam bera olgan boʻlsam hursandman.
 
 """,
 
-    "dish_dumbullidimlama": """Dumbulli dimlama
-    Masalliqlar:
+    "dish_dumbullidimlama": """Dumbulli dimlama🍲
+    Masalliqlar: 🍱
 
 Yog‘ – 200 g
 Go‘sht – 500 g
@@ -64,20 +65,20 @@ Dumbul bo‘laklari – 3 ta
 Sarimsoq bo‘laklari – 2-3 ta
 Ko‘kat va ziravorlar, tuz – ta’bga ko‘ra.
 
-Masalliqlarni tayyorlash:
+Masalliqlarni tayyorlash: 🍱
 
 Go‘shtni to‘rtburchak shaklda to‘g‘rang.
 Piyozni xalqasimon shaklda, kartoshkani yarim doira, sabzini doira shaklda, bulg‘orini to‘rtburchak qilib to‘g‘rang.
 Pomidorni kichik to‘rtburchak shaklda, dumbullarni esa to‘rt bo‘lakka bo‘lib to‘g‘rang.
 Masalliqlarni yirikroq to‘g‘rash dimlama uchun eng yaxshi tanlov.
 
-Pishirish jarayoni:
+Pishirish jarayoni: 🍱
 
 Qozonga yog‘ni solib, qizigandan keyin go‘shtni qo‘shing.
 Go‘sht qovurila boshlaganda mayda to‘g‘ralgan sarimsoqni qo‘shing va aralashtiring. Sarimsoq go‘shtga o‘zgacha ta'm beradi.
 Keyin piyozni qo‘shib, yengilgina qovuring.
 
-Masalliqlarni terish:
+Masalliqlarni terish: 🍱
 
 Piyozdan keyin qozonga qolgan masalliqlarni ketma-ket joylashtiring:
 Avval sabzi, so‘ng bulg‘ori qalampiri, kartoshka.
@@ -91,12 +92,13 @@ Qozonning qopqog‘ini yopib, taomni 40-45 daqiqa davomida dimlab qo‘ying.
 Dasturxonga tortish:
 
 Taom tayyor bo‘lgach, ta’bga ko‘ra bezatib, dasturxonga torting.
-Yoqimli ishtaha!
-
+Jami kaloriyalar miqdori 3881.55 kkal bo'lib, unda 163.08 g oqsil, 278.86 g yog', va 189.73 g uglevod mavjud.
+Yoqimli ishtaha! 🍽😋
+Yordam bera olgan boʻlsam hursandman.
 """,
 
-    "dish_piyozlishorva": """Piyozli sho'rva
-    Masalliqlar:
+    "dish_piyozlishorva": """Piyozli sho'rva🍲
+    Masalliqlar: 🍱
 
 500 gramm mol go‘shti
 700 gramm oq rangli piyoz
@@ -106,7 +108,7 @@ Ta’bga ko‘ra tuz va murch
 Bir chimdim maydalangan kashnich
 Bir chimdim zira.
 
-Tayyorlash bosqichlari:
+Tayyorlash bosqichlari: 🍱
 
 1-qadam:
 Qozonda o‘simlik yog‘ini qizdiring.
@@ -126,12 +128,13 @@ Sho‘rvani o‘rtacha olovda 50-60 daqiqa davomida qaynatib pishiring.
 4-qadam:
 Sho‘rvani dasturxonga tortishdan oldin ko‘k piyoz bilan bezang.
 Uni suxarik yoki grenkalar bilan xizmat qiling.
-Yoqimli ishtaha!
-
+Jami kaloriyalar miqdori 2432.8 kkal bo'lib, unda 138.71 g oqsil, 176.43 g yog', va 65.96 g uglevod mavjud.
+Yoqimli ishtaha! 🍽😋
+Yordam bera olgan boʻlsam hursandman.
 """,
 
-    "dish_suyuqnorin": """Suyuq norin
-    Masalliqlar:
+    "dish_suyuqnorin": """Suyuq norin🍝
+    Masalliqlar: 🍱
 
 Un – 300 g
 Tuxum – 1 ta
@@ -141,9 +144,9 @@ Ot go‘shti – 700 g
 Qazi – 1 ta
 O‘simlik yog‘i – 200-250 ml.
 
-Tayyorlash bosqichlari:
+Tayyorlash bosqichlari: 
 
-Xamirni tayyorlash:
+Xamirni tayyorlash: 🥠
 
 Un, tuxum, suv va tuzni aralashtirib, yaxshilab xamir qoriladi.
 Xamirni 20-30 daqiqa tindirib qo‘ying.
@@ -167,7 +170,7 @@ Ot go‘shti va qazini tuz qo‘shib, 1-1.5 soat davomida miltillatib qaynatib p
 Go‘sht va qazini suzib olib sovuting. Sho‘rvasini tashlamang – u kerak bo‘ladi.
 Sovigan go‘shtni mayda to‘rtburchak shaklda to‘g‘rang (istak bo‘yicha boshqa shaklda ham bo‘lishi mumkin).
 
-Norinni aralashtirish:
+Norinni aralashtirish: 🍱
 
 To‘g‘ralgan xamirga go‘sht, o‘simlik yog‘i va ta’bga ko‘ra yanchilgan zira qo‘shing. Hammasini birga yaxshilab aralashtiring.
 
@@ -177,12 +180,13 @@ Tayyorlangan norinni kosaga soling.
 Go‘sht va qazi qaynatilgan sho‘rvaning tuzini rostlab, norinning ustiga quying.
 Ustini parrak qilib kesilgan qazi bilan bezating.
 Ta’bga ko‘ra yupqa to‘g‘ralgan piyoz va qora murch qo‘shib xizmat qilishingiz mumkin.
-Yoqimli ishtaha!
-
+Jami kaloriyalar miqdori 5532.5 kkal bo'lib, unda 218.5 g oqsil, 409.5 g yog', va 228.55 g uglevod mavjud.
+Yoqimli ishtaha! 🍽😋
+Yordam bera olgan boʻlsam hursandman.
 """,
 
-    "dish_uygurlagmon": """Uyg'ur lag'mon 
-Masalliqlar (4 kishi uchun):
+    "dish_uygurlagmon": """Uyg'ur lag'mon 🍜
+Masalliqlar (4 kishi uchun): 🍱
 
 300 g go‘sht
 1 dona piyoz
@@ -196,7 +200,7 @@ Tuz, ziravorlar
 
 Tayyorlash bosqichlari:
 
-Masalliqlarni tayyorlash:
+Masalliqlarni tayyorlash: 🍱
 Turp va boshqa barcha sabzavotlarni ingichka qilib to‘g‘rang.
 
 Qovurish bosqichi:
@@ -208,19 +212,20 @@ Sabzavotlarni qo‘shish:
 Piyozni qo‘shib qizartiring.
 Keyin qolgan sabzavotlarni (sabzi, bulg‘or qalampiri va boshqalar) ketma-ket qozonga soling.
 
-Sho‘rvani tayyorlash:
+Sho‘rvani tayyorlash: 🍱
 Qozonga 1,5 stakan suv quying.
 Tuz va ziravorlarni qo‘shing.
 Sho‘rvani 20 daqiqa davomida o‘rtacha olovda qaynatib pishiring.
 
 Xizmat qilish:
 Tayyor sho‘rvani idishga solib, issiq holda dasturxonga torting.
-Yoqimli ishtaha!
-
+Jami kaloriyalar miqdori 1556.35 kkal bo'lib, unda 84.22 g oqsil, 115.93 g yog', va 42.99 g uglevod mavjud. 
+Yoqimli ishtaha! 🍽😋
+Yordam bera olgan boʻlsam hursandman.
 """,
 
-    "dish_moxora": """Moxora
-Masalliqlar:
+    "dish_moxora": """Moxora🍛
+Masalliqlar: 🍱
 
 Mol go‘shti – 500 g
 Kartoshka – 3 dona
@@ -232,7 +237,7 @@ Achchiq qalampir – 2 dona
 Tuz – ta’bga ko‘ra
 Ziravorlar – ta’bga ko‘ra
 
-Tayyorlash bosqichlari:
+Tayyorlash bosqichlari: 🍱
 
 Go‘shtni tayyorlash:
 Mol go‘shtini 30-40 g li bo‘laklarga bo‘ling.
@@ -254,18 +259,19 @@ Ziravorlarni xohlaganingizcha suyuqlikka yoki qovurish jarayonida qo‘shishingi
 
 Xizmat qilish:
 Tayyor moxorani kosalarga solib, ustiga yangi ko‘katlar sepib dasturxonga torting.
-Yoqimli ishtaha!
-
+Jami kaloriyalar miqdori 3248.2 kkal bo'lib, unda 216.15 g oqsil, 96.08 g yog', va 381.45 g uglevod mavjud.
+Yoqimli ishtaha! 🍽😋
+Yordam bera olgan boʻlsam hursandman.
 """,
 
-    "dish_goja": """Go'ja 
-Masalliqlar:
+    "dish_goja": """Go'ja🍲 
+Masalliqlar: 🍱
 
 Bug‘doy – 500 g
 Qatiq yoki suzma (chakki) – 1,5 l
 Ta’bga ko‘ra rayhon, yalpiz, qora murch va tuz
 
-Tayyorlash bosqichlari:
+Tayyorlash bosqichlari: 🍱
 
 Bug‘doyni tayyorlash:
 Bug‘doyni yaxshilab sovuq suvda yuving.
@@ -282,12 +288,13 @@ Suv bilan bir oz suyultirib, ta’bga ko‘ra tuz va qora murch qo‘shing.
 Xizmat qilish:
 Tayyor bo‘lgan go‘jani sovuq holda dasturxonga torting.
 Ustiga rayhon, yalpiz yoki boshqa ko‘katlar sepib bezashingiz mumkin.
-Yoqimli ishtaha!
-
+Jami kaloriyalar miqdori 2600 kkal bo'lib, unda 117.5 g oqsil, 57.5 g yog', va 430.5 g uglevod mavjud.
+Yoqimli ishtaha! 🍽😋
+Yordam bera olgan boʻlsam hursandman.
 """,
 
-    "dish_lagmon": """ Lag'mon
-Masalliqlar:
+    "dish_lagmon": """ Lag'mon🍝
+Masalliqlar: 🍱
 
 Un – 500 g
 Tuxum – 1 dona
@@ -304,7 +311,7 @@ Tomat pastasi – 3-4 osh qoshiq
 Sarimsoq – 1-2 bosh
 Ta'bga ko‘ra ziravorlar (zira, yanchilgan kashnich urug‘i, qora murch, zanjabil, yanchilgan arpa bodiyon, yanchilgan bodiyon)
 
-Tayyorlash bosqichlari:
+Tayyorlash bosqichlari: 🍱
 
 1. Sabzavotlarni tayyorlash:
 Piyoz, rangli bulg‘ori, pomidor, va baseylarni to‘rtburchak shaklda to‘g‘rang.
@@ -335,12 +342,13 @@ Qaynatilgan xamirni yog‘lab aralashtirib, bir biriga yopishib qolmasligini ta'
 5. Dasturxonga tortish:
 Kosaga avval xamir soling, so‘ng ustidan qayla (vaju yoki say) suzib qo‘ying.
 Ustiga osh ko‘katlari bilan bezatib xizmat qiling.
-Yoqimli ishtaha!
-
+Jami kaloriyalar miqdori 5882.4 kkal bo'lib, unda 209.36 g oqsil, 339.3 g yog', va 494.64 g uglevod mavjud. 
+Yoqimli ishtaha! 🍽😋
+Yordam bera olgan boʻlsam hursandman.
 """,
 
-    "dish_sabzavotd": """Sabzavotli dimlama
-Masalliqlar:
+    "dish_sabzavotd": """Sabzavotli dimlama🥘
+Masalliqlar: 🍱
 
 Sabzavotlar:
 Bulg‘ori qalampiri – 3 ta
@@ -357,7 +365,7 @@ Pomidor – 1 ta
 Sarimsoq – 1-2 bo‘lak
 Ta’bga ko‘ra tuz, ziravorlar va ko‘katlar
 
-Tayyorlash bosqichlari:
+Tayyorlash bosqichlari: 🍱
 
 1. Qiymaning tayyorlanishi:
 Go‘shtni mayda qilib to‘g‘rang (yoki tayyor qiyma ishlating).
@@ -387,12 +395,13 @@ Qozonga suv quying va 40-45 daqiqa davomida dimlang.
 
 7. Xizmat qilish:
 Taom tayyor bo‘lgach, ta’bga ko‘ra bezating va dasturxonga torting.
-Yoqimli ishtaha!
-
+Jami kaloriyalar miqdori 1672.6 kkal bo'lib, unda 86.03 g oqsil, 34.73 g yog', va 265.11 g uglevod mavjud.
+Yoqimli ishtaha! 🍽😋
+Yordam bera olgan boʻlsam hursandman.
 """,
 
-    "dish_mantilishorva": """ Mantili sho'rva
-Masalliqlar:
+    "dish_mantilishorva": """ Mantili sho'rva🥘
+Masalliqlar: 🍱
 
 Sho‘rva uchun:
 Go‘sht – 200 g
@@ -418,7 +427,7 @@ Piyoz – 150 g
 Charvi yog‘i yoki dumba – 60-70 g
 Ta'bga ko‘ra tuz va ziravorlar
 
-Tayyorlash bosqichlari:
+Tayyorlash bosqichlari: 🍱
 
 1. Sho‘rva tayyorlash:
 Qozonda yog‘ni qizdiring.
@@ -448,12 +457,13 @@ Pishgan mantilarni suzib oling.
 6. Xizmat qilish:
 Mantilarni kosalarga soling.
 Ustiga sho‘rva quyib, osh ko‘katlari va qatiq bilan bezab dasturxonga torting.
-Yoqimli ishtaha!
-
+Jami kaloriyalar miqdori 4227.5 kkal bo'lib, unda 141.83 g oqsil, 278.61 g yog', va 285.96 g uglevod mavjud. 
+Yoqimli ishtaha! 🍽😋
+Yordam bera olgan boʻlsam hursandman.
 """,
 
-    "dish_firkadelkali": """Firkadelkali sho'rva
-Masalliqlar:
+    "dish_firkadelkali": """Firkadelkali sho'rva🍛
+Masalliqlar: 🍱
 
 500 gramm mol go'shtidan qiyma
 50 gramm guruch
@@ -465,7 +475,7 @@ Masalliqlar:
 Ta'bga ko'ra ziravorlar
 Tuz va murch – ta'bga ko'ra
 
-Tayyorlash bosqichlari:
+Tayyorlash bosqichlari: 🍱
 
 1. Qiymani tayyorlash:
 Qiymaga bulgur, guruch va mayda to'g'ralgan piyozni qo'shing.
@@ -489,12 +499,13 @@ Qopqog'ini yopib, sho'rvani 40 daqiqa davomida qaynatib pishiring.
 
 6. Xizmat qilish:
 Tayyor sho'rvani ko'katlar yoki smetana bilan bezab dasturxonga torting.
-Yoqimli ishtaha!
-
+Jami kaloriyalar miqdori 1977 kkal bo'lib, unda 149.66 g oqsil, 76.54 g yog', va 162.44 g uglevod mavjud.
+Yoqimli ishtaha! 🍽😋
+Yordam bera olgan boʻlsam hursandman.
 """,
 
-    "dish_kosadimlama": """Kosa dimlama
-Masalliqlar:
+    "dish_kosadimlama": """Kosa dimlama🧆
+Masalliqlar: 🍱
 
 Go‘shtning yumshoq qismi (qo‘y go‘shti bo‘lsa yanada yaxshi) – 100-120 g
 Piyoz – 1-2 ta
@@ -504,7 +515,7 @@ Bulg‘ori qalampir – 1 dona
 Sarimsoq – 4 bo‘lak
 Ta’bga ko‘ra oshko‘kat, tuz va ziravorlar
 
-Tayyorlash bosqichlari:
+Tayyorlash bosqichlari: 🍱
 
 1. Masalliqlarni tayyorlash:
 Kartoshka: Biroz yirik kubik shaklida to‘g‘rang.
@@ -523,12 +534,13 @@ Qasqonni qaynab turgan suv ustiga qo‘yib, idishni 1-1,5 soat davomida bug‘la
 
 4. Xizmat qilish:
 Tayyor kosa dimni ustiga oshko‘katlar sepib, dasturxonga torting.
-Yoqimli ishtaha!
-
+Jami kaloriyalar miqdori 595.1 kkal bo'lib, unda 36.26 g oqsil, 24.06 g yog', va 60.37 g uglevod mavjud.
+Yoqimli ishtaha! 🍽😋
+Yordam bera olgan boʻlsam hursandman.
 """,
 
-    "dish_tuxumdolma": """Tuxum do'lma
-Masalliqlar:
+    "dish_tuxumdolma": """Tuxum do'lma🍛
+Masalliqlar: 🍱
 
 Go‘sht (yog‘liroq qismi) – 500 g
 Piyoz – 150-200 g
@@ -540,7 +552,7 @@ Qovurish uchun o‘simlik yog‘i
 Ta'bga ko‘ra tuz va ziravorlar
 (Istasangiz) 2-3 bo‘lak sarimsoq
 
-Tayyorlash bosqichlari:
+Tayyorlash bosqichlari: 🍱
 
 1. Qiymani tayyorlash:
 Go‘sht, piyoz, non bo‘laklari va yog‘ni qiymalagichdan o‘tkazing.
@@ -557,12 +569,13 @@ Tayyorlangan do‘lmalarni issiq yog‘da bir tekis qizarguncha qovuring.
 
 4. Xizmat qilish:
 Tayyor tuxum do‘lmalarni issiq holda dasturxonga torting. Ta'bga ko‘ra ko‘katlar yoki sous bilan bezatishingiz mumkin.
-Yoqimli ishtaha!
-
+Jami kaloriyalar miqdori 3731.35 kkal bo'lib, unda 192.39 g oqsil, 305.85 g yog', va 50.15 g uglevod mavjud. 
+Yoqimli ishtaha! 🍽😋
+Yordam bera olgan boʻlsam hursandman.
 """,
 
-    "dish_mastava": """Mastava
-Masalliqlar:
+    "dish_mastava": """Mastava🍲
+Masalliqlar: 🍱
 
 Go‘sht – 300 g
 Sabzi – 1-2 dona
@@ -575,7 +588,7 @@ Pomidor – 1-2 dona (yoki yarim osh qoshiq tomat pastasi)
 O‘simlik yog‘i – 100-150 g
 Ta’bga ko‘ra tuz, ziravorlar va oshko‘katlar
 
-Tayyorlash bosqichlari:
+Tayyorlash bosqichlari: 🍱
 
 1. Masalliqlarni tayyorlash:
 Go‘sht va sabzavotlarni (sabzi, piyoz, kartoshka, bulg‘ori qalampiri, sarimsoq) mayda kubik shaklida to‘g‘rang.
@@ -595,12 +608,13 @@ Guruchni oxirgi bosqichda, taomni dasturxonga tortiq qilishdan taxminan 10-15 da
 
 6. Xizmat qilish:
 Tayyor mastavani kosaga suzib, ustiga osh ko‘katlar va qatiq yoki suzma solib dasturxonga torting.
-Yoqimli ishtaha!
-
+Jami kaloriyalar miqdori 2444.1 kkal bo'lib, unda 95.53 g oqsil, 172.3 g yog', va 131.54 g uglevod mavjud
+Yoqimli ishtaha! 🍽😋
+Yordam bera olgan boʻlsam hursandman.
 """,
 
-    "dish_chuchvara": """Chuchvara
-Masalliqlar:
+    "dish_chuchvara": """Chuchvara🍲
+Masalliqlar: 🍱
 
 Qiyma – 150 g
 Piyoz – 1 dona
@@ -608,7 +622,7 @@ Un – 200 g
 Suv – 100 ml
 Ta'bga ko‘ra tuz va ziravorlar
 
-Tayyorlash bosqichlari:
+Tayyorlash bosqichlari: 🍱
 
 1. Xamirni tayyorlash:
 Un, suv va bir chimdim tuzni aralashtirib, qattiq xamir qoring.
@@ -638,14 +652,15 @@ Sho‘rva ta’bga ko‘ra tuzlanadi.
 
 7. Xizmat qilish:
 Tayyor chuchvarani kosaga solib, ustiga qatiq qo‘shib dasturxonga torting.
-Yoqimli ishtaha!
-
+Jami kaloriyalar miqdori 1163 kkal bo'lib, unda 60.65 g oqsil, 24.65 g yog', va 165.5 g uglevod mavjud.
+Yoqimli ishtaha! 🍽😋
+Yordam bera olgan boʻlsam hursandman.
 """,
 
     # ============= QUYUQ TAOMLAR =============
 
-    "dish_andijonmanti": """Andijon manti
-Masalliqlar:
+    "dish_andijonmanti": """Andijon manti🥟
+Masalliqlar: 🍱
 
 Go‘shtning yog‘li qismi – 500 g
 Piyoz – 500 g
@@ -654,7 +669,7 @@ Un – 300 g
 Suv yoki sut – 150 ml
 Ta'bga ko‘ra tuz va ziravorlar
 
-Tayyorlash bosqichlari:
+Tayyorlash bosqichlari: 🍱
 
 1. Xamirni tayyorlash:
 Un, suv yoki sut va tuzni aralashtirib, o‘rtacha qattiqlikda xamir qorib oling.
@@ -675,12 +690,13 @@ Mantilarni bug‘da 40 daqiqa davomida pishiring.
 
 5. Xizmat qilish:
 Tayyor mantilarni qatiq bilan dasturxonga torting.
-Yoqimli ishtaha!
-
+Jami kaloriyalar miqdori 2839.5 kkal bo'lib, unda 167.0 g oqsil, 114.0 g yog', va 273.55 g uglevod mavjud.
+Yoqimli ishtaha! 🍽😋
+Yordam bera olgan boʻlsam hursandman.
 """,
 
-    "dish_spagetti": """Spagetti
-Masalliqlar:
+    "dish_spagetti": """Spagetti🍝
+Masalliqlar: 🍱
 
 Pomidor – 4 dona
 Kungaboqar yog‘i – 100 ml
@@ -692,7 +708,7 @@ Kashnich (kinza) – 1 bog‘
 Makaron (spagetti) – 500 g
 Limon po‘stlog‘i – 0.5 dona
 
-Tayyorlash bosqichlari:
+Tayyorlash bosqichlari: 🍱
 
 1. Spagettini pishirish:
 Spagettini "al dente" (biroz qattiqroq, lekin mustahkam) holatga kelguncha tuzli suvda qaynatib pishiring.
@@ -715,12 +731,13 @@ Tayyor sosga spagettini solib, past olovda 4 daqiqa davomida aralashtirib qovuri
 5. Xizmat qilish:
 Spagettini idishga soling.
 Ustiga maydalangan kashnich va limon po‘stlog‘ini sepib, taqdim eting.
-Yoqimli ishtaha!
-
+Jami kaloriyalar miqdori 3400.5 kkal bo'lib, unda 71.58 g oqsil, 168.97 g yog', va 402.39 g uglevod mavjud.
+Yoqimli ishtaha! 🍽😋
+Yordam bera olgan boʻlsam hursandman.
 """,
 
-    "dish_qovurmala": """Qovurma lag'mon
-Masalliqlar:
+    "dish_qovurmala": """Qovurma lag'mon🍜
+Masalliqlar: 🍱
 
 Un – 0.5 kg
 Suv – 190-200 ml
@@ -737,7 +754,7 @@ O‘simlik yog‘i – 200-300 g
 Tomat pastasi – 2-3 osh qoshiq
 Ta'bga ko‘ra tuz va ziravorlar (zira, qora murch, arpa bodiyon, zanjabil, kashnich urug‘i va yulduzcha bodiyon)
 
-Tayyorlash bosqichlari:
+Tayyorlash bosqichlari: 🍱
 
 1. Xamirni tayyorlash:
 Un, suv, tuxum va tuzni aralashtirib, qattiq xamir qoring.
@@ -766,12 +783,13 @@ Aralashtirib, yana bir oz qovuring.
 5. Xizmat qilish:
 Tayyor qovurma lag‘monni lagan yoki likopchaga soling.
 Ustini oshko‘kat bilan bezating va xohishga ko‘ra ustiga qovurilgan tuxum qo‘shib dasturxonga torting.
-Yoqimli ishtaha!
-
+Jami kaloriyalar miqdori 6082.6 kkal bo'lib, unda 232.75 g oqsil, 353.88 g yog', va 485.11 g uglevod mavjud. 
+Yoqimli ishtaha! 🍽😋
+Yordam bera olgan boʻlsam hursandman.
 """,
 
-    "dish_dimlama": """Dimlama
-Masalliqlar:
+    "dish_dimlama": """Dimlama🥘
+Masalliqlar: 🍱
 
 Piyoz – 200 g
 Mol go‘shti – 500 g
@@ -789,7 +807,7 @@ Ta'bga ko‘ra tuz
 2 choy qoshiq quritilgan qalampir (paprika)
 200 ml suv
 
-Tayyorlash bosqichlari:
+Tayyorlash bosqichlari: 🍱
 
 1. Sabzavotlarni tayyorlash:
 Kartoshka, piyoz va sholg‘omni po‘stidandan artib, yaxshilab yuvib tayyorlang.
@@ -815,12 +833,13 @@ Qaynab chiqqanidan so‘ng, olovni past qilib, 2 soat davomida dimlab pishiring.
 
 5. Xizmat qilish:
 Tayyor dimlamaga ko‘kat sepib, likopchaga solib dasturxonga torting.
-Yoqimli ishtaha!
-
+Jami kaloriyalar miqdori 2413.75 kkal bo'lib, unda 170.76 g oqsil, 83.05 g yog', va 258.24 g uglevod mavjud.
+Yoqimli ishtaha! 🍽😋
+Yordam bera olgan boʻlsam hursandman.
 """,
 
-    "dish_beshbarmoq": """Beshbarmoq
-Masalliqlar:
+    "dish_beshbarmoq": """Beshbarmoq🍲
+Masalliqlar: 🍱
 
 Mol go‘shti – 300 g
 Piyoz – 1 dona
@@ -830,7 +849,7 @@ Suv – 200 ml
 Tuz – 1 choy qoshiq
 Qazi – 0.5 dona
 
-Tayyorlash bosqichlari:
+Tayyorlash bosqichlari: 🍱
 
 1. Go‘sht va qazini tayyorlash:
 Qazi va mol go‘shtini suvda pishiring.
@@ -853,12 +872,13 @@ Go‘sht va qazi qaynagan suvda xamir bo‘laklarini 5 daqiqa davomida pishiring
 Laganga pishgan xamir bo‘laklarini suzib oling.
 Ustiga to‘g‘ralgan go‘sht, qazi va piyozli sousni quying.
 Ustiga ko‘katlar sepib, dasturxonga torting.
-Yoqimli ishtaha!
-
+Jami kaloriyalar miqdori 2525 kkal bo'lib, unda 154.15 g oqsil, 96.65 g yog', va 242.6 g uglevod mavjud
+Yoqimli ishtaha! 🍽😋
+Yordam bera olgan boʻlsam hursandman.
 """,
 
-    "dish_bibimbap": """Bibimbap
-    Masalliqlar:
+    "dish_bibimbap": """Bibimbap🥘
+    Masalliqlar: 🍱
 
 Mol go‘shti – 100 g
 Sabzi (qizil) – 1 dona
@@ -874,7 +894,7 @@ Soya sousi – 2 osh qoshiq
 Shakar – ta'bga ko‘ra
 Tuz – ta'bga ko‘ra
 
-Tayyorlash bosqichlari:
+Tayyorlash bosqichlari: 🍱
 
 1. Guruchni pishirish:
 Guruchni yuvib, multivarkada yoki an'anaviy usulda suvda qaynatib pishiring.
@@ -909,8 +929,9 @@ Yuziga qovurilgan tuxum va qalampir pastasini qo‘shing.
 
 9. Xizmat qilish:
 Tayyor bibimbapni issiq holda dasturxonga torting.
-Yoqimli ishtaha!
-
+Jami kaloriyalar miqdori 1469.55 kkal bo'lib, unda 67.26 g oqsil, 74.15 g yog', va 141.92 g uglevod mavjud.
+Yoqimli ishtaha! 🍽😋
+Yordam bera olgan boʻlsam hursandman.
 """, }
 
 # Davomi B, C, D bo‘laklarda…
@@ -918,8 +939,8 @@ Yoqimli ishtaha!
 
 recipes_texts.update({
 
-    "dish_quyuqdolma": """Do'lma
-    Masalliqlar:
+    "dish_quyuqdolma": """Do'lma🥗
+    Masalliqlar: 🍱
 
 Do‘lma uchun:
 Go‘sht yoki qiyma – 200 g
@@ -930,7 +951,7 @@ Tok yaproqlari – 25-30 dona
 Ta’bga ko‘ra tuz va ziravorlar
 (Ixtiyoriy) Oshko‘kat va rayhon
 
-Qo‘shimcha masalliqlar:
+Qo‘shimcha masalliqlar: 🍱
 Kartoshka – 1-2 dona
 Sabzi – 1 dona
 Piyoz – 1 dona
@@ -940,7 +961,7 @@ Sarimsoq – 5-6 bo‘lak
 Ta’bga ko‘ra tuz, ziravor va oshko‘katlar
 Ozroq yog‘ (sariyog‘, dumba yoki charvi yog‘i)
 
-Tayyorlash bosqichlari:
+Tayyorlash bosqichlari: 🍱
 
 1. Qiymaning tayyorlanishi:
 Piyozni imkon boricha mayda qilib to‘g‘rang yoki choping.
@@ -971,12 +992,13 @@ Qozonning ustini zich yopiladigan qopqoq bilan yopib, 40 daqiqa davomida past ol
 
 7. Xizmat qilish:
 Tayyor do‘lmalarni laganda umumiy qilib yoki alohida likopchalarda dasturxonga torting.
-Yoqimli ishtaha!
-
+Jami kaloriyalar miqdori 2457.1 kkal bo'lib, unda 71.43 g oqsil, 181.33 g yog', va 134.87 g uglevod mavjud.
+Yoqimli ishtaha! 🍽😋
+Yordam bera olgan boʻlsam hursandman.
 """,
 
-    "dish_choyxona": """Choyxona palov
-    Masalliqlar:
+    "dish_choyxona": """Choyxona palov🍲
+    Masalliqlar: 🍱
 
 Qo‘y dumbasi – 400 g
 Qo‘y go‘shti – 1 kg
@@ -986,7 +1008,7 @@ Piyoz – 300 g
 Suv
 Ta’bga ko‘ra tuz va ziravorlar (zira, murch, mayiz ixtiyoriy)
 
-Tayyorlash bosqichlari:
+Tayyorlash bosqichlari: 🍱
 
 1. Yog‘ni eritish va jizzani tayyorlash:
 Dumbani 2x2 sm kubik shaklda to‘g‘rang.
@@ -1024,12 +1046,13 @@ Qozonning ustini yopib, 15-20 daqiqa davomida past olovda dimlab pishiring.
 9. Xizmat qilish:
 Tayyor bo‘lgan palovni yaxshilab aralashtiring.
 Laganga solib, ta’bga ko‘ra qazi, sarimsoq, bedana tuxumi yoki boshqa qo‘shimchalar bilan bezab dasturxonga torting.
-Yoqimli ishtaha!
-
+Jami kaloriyalar miqdori 8358 kkal bo'lib, unda 295.3 g oqsil, 613.3 g yog', va 407.0 g uglevod mavjud.
+Yoqimli ishtaha! 🍽😋
+Yordam bera olgan boʻlsam hursandman.
 """,
 
     "dish_gulxonim": """Gulxonim
-Masalliqlar:
+Masalliqlar: 🍱
 
 Un – 500 g
 Tuxum – 1 dona
@@ -1041,7 +1064,7 @@ Kartoshka – 400 g
 Agar go‘sht yog‘siz bo‘lsa: charvi yog‘ yoki o‘simlik yog‘i – 100-150 g
 Ta'bga ko‘ra ziravor va tuz
 
-Tayyorlash bosqichlari:
+Tayyorlash bosqichlari: 🍱
 
 1. Xamirni tayyorlash:
 Un, suv, tuxum va tuzni aralashtirib qattiq xamir qoring.
@@ -1068,12 +1091,13 @@ Tayyor bo‘lgan gulxonimlarni yog‘langan manti qasqonga tering.
 
 6. Xizmat qilish:
 Tayyor bo‘lgan gulxonimlarni ta'bingizga ko‘ra bezab, issiq holda dasturxonga torting.
-Yoqimli ishtaha!
-
+Jami kaloriyalar miqdori 4352.5 kkal bo'lib, unda 143.9 g oqsil, 199.3 g yog', va 484.55 g uglevod mavjud.
+Yoqimli ishtaha! 🍽😋
+Yordam bera olgan boʻlsam hursandman.
 """,
 
-    "dish_bayramona": """Bayramona osh va ayron
-Osh uchun masalliqlar:
+    "dish_bayramona": """Bayramona osh va ayron🍲🍶
+Osh uchun masalliqlar: 🍱
 Mol go‘shti (lahm) – 800 g
 Qo‘y dumbasi – 200 g
 Piyoz – 200 g
@@ -1090,7 +1114,7 @@ Tuz – ta'bga ko‘ra
 Toza suv – 1 l
 Qaynatilgan bedana tuxumi – 10 ta
 
-Ayron uchun masalliqlar:
+Ayron uchun masalliqlar: 🫗
 Suzma – 500 g
 Yalpiz (myata) – bir nechta shoxcha
 Rayhon – bir nechta shoxcha
@@ -1098,11 +1122,11 @@ Nordon yashil olma – 200 g
 Tuz – ta'bga ko‘ra
 Toza suv – 300-500 ml
 
-Tayyorlash bosqichlari:
+Tayyorlash bosqichlari: 🍱
 
-Osh tayyorlash:
+Osh tayyorlash: ❗️
 
-Masalliqlarni tayyorlash:
+Masalliqlarni tayyorlash: 🍱
 Piyozni yarim halqa, sabzini somoncha, dumba va go‘shtni katta bo‘laklarga to‘g‘rang.
 
 Yog‘ va dumbani tayyorlash:
@@ -1131,18 +1155,19 @@ Guruchni o‘rtaga to‘plab, zira sepib, qopqog‘ini yopib 10-15 daqiqa past o
 Xizmat qilish:
 Oshni laganga suzib, ustiga bo‘laklarga kesilgan go‘sht, dumba va ikki bo‘lakka kesilgan bedana tuxumlarini joylashtiring.
 
-Ayron tayyorlash:
+Ayron tayyorlash: ❗️
 
 Suzmaga mayda to‘g‘ralgan yalpiz, rayhon va olmani qo‘shing.
 Tuz qo‘shib, suv solib yaxshilab aralashtiring.
 Ayronni muzlatgichga 30 daqiqaga tinishga qo‘ying.
-
-Yoqimli ishtaha!
-
+Osh: 9320 kkal, 286.2 g oqsil, 641.4 g yog', va 610.4 g uglevod.
+Ayran: 410.6 kkal, 18.75 g oqsil, 15.53 g yog', va 52.57 g uglevod.
+Yoqimli ishtaha! 🍽😋
+Yordam bera olgan boʻlsam hursandman.
 """,
 
-    "dish_grechkapalov": """Grechka palov
-Masalliqlar:
+    "dish_grechkapalov": """Grechka palov🍲
+Masalliqlar: 🍱
 
 Mol go‘shti – 200-300 g
 Kartoshka – 2 dona
@@ -1153,9 +1178,9 @@ Kungaboqar yog‘i – ta'bga ko‘ra
 Tuz – ta'bga ko‘ra
 Grechka – 500 g
 
-Tayyorlash bosqichlari:
+Tayyorlash bosqichlari: 🍱
 
-Masalliqlarni tayyorlash:
+Masalliqlarni tayyorlash: 🍱
 Go‘sht va kartoshkani yirik kubik shaklda, sabzini somoncha shaklda to‘g‘rang.
 Piyozni yarim halqa yoki parrak shaklda kesib oling.
 
@@ -1180,12 +1205,13 @@ Qozon qopqog‘ini yopib, 20 daqiqa davomida past olovda damlang.
 
 Xizmat qilish:
 Tayyor grechka palovni likopchalarga suzib, ustiga ko‘kat sepib dasturxonga torting.
-Yoqimli ishtaha!
-
+Jami kaloriyalar miqdori 3315.3 kkal bo'lib, unda 145.35 g oqsil, 106.19 g yog', va 479.65 g uglevod mavjud.
+Yoqimli ishtaha! 🍽😋
+Yordam bera olgan boʻlsam hursandman.
 """,
 
-    "dish_turkcharatatuy": """Turkcha ratatuy
-Masalliqlar:
+    "dish_turkcharatatuy": """Turkcha ratatuy🥘
+Masalliqlar: 🍱
 
 Qovoqcha – 2 dona
 Baqlajon – 2 dona
@@ -1197,7 +1223,7 @@ O‘simlik yog‘i – 1 osh qoshiq
 Oregano – 0,5 choy qoshiq
 Tuz va murch – ta'bga ko‘ra
 
-Tayyorlash bosqichlari:
+Tayyorlash bosqichlari: 🍱
 
 Qiymani tayyorlash:
 Qiymaga tuz va murch qo‘shib, yaxshilab aralashtiring.
@@ -1222,12 +1248,13 @@ Ratatuyni 180°C darajada qizdirilgan gaz pechida 40-45 daqiqa davomida pishirin
 
 7. Xizmat qilish:
 Tayyor ratatuyni issiq holda dasturxonga torting.
-Yoqimli ishtaha!
-
+Jami kaloriyalar miqdori 1704.95 kkal bo'lib, unda 146.24 g oqsil, 93.52 g yog', va 70.27 g uglevod mavjud.
+Yoqimli ishtaha! 🍽😋
+Yordam bera olgan boʻlsam hursandman.
 """,
 
-    "dish_balish": """Balish
-Masalliqlar:
+    "dish_balish": """Balish🧆
+Masalliqlar: 🍱
 
 Kartoshka – 1-2 dona
 Piyoz – 1-2 dona
@@ -1240,7 +1267,7 @@ Sut – 600 ml
 Xamirturush (droja) – 10 g
 Ta'bga ko‘ra tuz, ziravor va oshko‘katlar
 
-Tayyorlash bosqichlari:
+Tayyorlash bosqichlari: 🍱
 
 1. Xamirni tayyorlash:
 Sutni iliq holga keltiring va unga xamirturush, tuz qo‘shib yaxshilab aralashtiring.
@@ -1265,12 +1292,13 @@ Tugilgan balishlarning ustiga tuxum surtib, avvaldan 200°C darajaga qizdirilgan
 
 6. Xizmat qilish:
 Tayyor bo‘lgan balishlarni issiq holda dasturxonga torting.
-Yoqimli ishtaha!
-
+Jami kaloriyalar miqdori 4823.3 kkal bo'lib, unda 138.01 g oqsil, 68.22 g yog', va 895.19 g uglevod mavjud.
+Yoqimli ishtaha! 🍽😋
+Yordam bera olgan boʻlsam hursandman.
 """,
 
-    "dish_goshlirulet": """Go'shtli rulet
-Masalliqlar:
+    "dish_goshlirulet": """Go'shtli rulet🍣
+Masalliqlar: 🍱
 
 Mol go‘shti – 1 kg
 Piyoz – 1 dona
@@ -1282,7 +1310,7 @@ Pishloq – 200 g
 Sarimsoq – 2 dona
 Nami qochgan non – 3 osh qoshiq
 
-Tayyorlash bosqichlari:
+Tayyorlash bosqichlari: 🍱
 
 1. Masalliqlarni tayyorlash:
 Piyozni halqa shaklida kesib oling.
@@ -1315,12 +1343,13 @@ Pishirishning oxirida (so‘nggi 20 daqiqa) folgani olib, ruletning usti qizarti
 
 8. Xizmat qilish:
 Tayyor ruletni dilimlab, issiq holda dasturxonga torting.
-Yoqimli ishtaha!
-
+Jami kaloriyalar miqdori 3941.4 kkal bo'lib, unda 345.59 g oqsil, 230.16 g yog', va 110.8 g uglevod mavjud
+Yoqimli ishtaha! 🍽😋
+Yordam bera olgan boʻlsam hursandman.
 """,
 
-    "dish_shivit": """Shivit oshi
-Masalliqlar:
+    "dish_shivit": """Shivit oshi🍛
+Masalliqlar: 🍱
 
 Xamir uchun:
 Shivit (ukrop) – 2 bog‘
@@ -1343,7 +1372,7 @@ Zira – ta'bga ko‘ra
 Tuz va murch – ta'bga ko‘ra
 Kinza – ta'bga ko‘ra
 
-Tayyorlash bosqichlari:
+Tayyorlash bosqichlari: 🍱
 
 1. Xamirni tayyorlash:
 Shivitni suv bilan blenderda maydalang yoki mayda to‘g‘rab, suv bilan aralashtiring.
@@ -1370,12 +1399,13 @@ Suvini to‘kib tashlab, lag‘monga ozroq o‘simlik yog‘i qo‘shib aralasht
 5. Xizmat qilish:
 Lag‘monni likopchalarga solib, ustidan vaju quyib, ko‘katlar bilan bezang.
 Tayyor shivit oshini issiq holda dasturxonga torting.
-Yoqimli ishtaha!
-
+Jami kaloriyalar miqdori 4630.75 kkal bo'lib, unda 218.29 g oqsil, 139.57 g yog', va 604.03 g uglevod mavjud.
+Yoqimli ishtaha! 🍽😋
+Yordam bera olgan boʻlsam hursandman.
 """,
 
-    "dish_nonpalov": """Non palov
-Masalliqlar:
+    "dish_nonpalov": """Non palov🍞🍲
+Masalliqlar: 🍱
 
 O‘simlik yog‘i – ta'bga ko‘ra
 Piyoz – 1 dona
@@ -1387,7 +1417,7 @@ Sarimsoq – 2 bo‘lak
 Qotgan non bo‘laklari – ta'bga ko‘ra
 Ta'bga ko‘ra tuz va ziravorlar
 
-Tayyorlash bosqichlari:
+Tayyorlash bosqichlari: 🍱
 
 Masalliqlarni tayyorlash:
 Barcha masalliqlarni archib, o‘zingizga yoqqan shaklda to‘g‘rang (somoncha shakl tavsiya etiladi).
@@ -1416,12 +1446,13 @@ Quruq nonlar uchun o‘simlik yog‘ini ko‘proq qo‘shing yoki nonlarni oldin
 
 Xizmat qilish:
 Tayyor taomni ta'bga ko‘ra bezatib, issiq holda dasturxonga torting.
-Yoqimli ishtaha!
-
+Jami kaloriyalar miqdori 1621.7 kkal bo'lib, unda 73.87 g oqsil, 84.58 g yog', va 140.82 g uglevod mavjud.
+Yoqimli ishtaha! 🍽😋
+Yordam bera olgan boʻlsam hursandman.
 """,
 
-    "dish_kartoshkadolma": """Kartoshka do'lma
-Masalliqlar:
+    "dish_kartoshkadolma": """Kartoshka do'lma🧆
+Masalliqlar: 🍱
 
 Kartoshka – 10-15 dona
 Go‘shtning yog‘li qismi yoki qiyma – 300-400 g
@@ -1430,7 +1461,7 @@ Qaynatilgan guruch (yarim pishgan) – 100-200 g
 O‘simlik yog‘i – ta'bga ko‘ra
 Ta'bga ko‘ra tuz, ziravor va oshko‘kat
 
-Tayyorlash bosqichlari:
+Tayyorlash bosqichlari: 🍱
 
 1. Qiymaning tayyorlanishi:
 Go‘sht va piyozni mayda kubik shaklida to‘g‘rang.
@@ -1453,13 +1484,14 @@ Istasangiz, oxirgi 5 daqiqada har bir do‘lmaning ustiga qirg‘ichdan o‘tkaz
 
 6. Xizmat qilish:
 Tayyor bo‘lgan do‘lmalarni lagan yoki taqsimchaga soling. Ta'bga ko‘ra ko‘katlar bilan bezab dasturxonga torting.
-Yoqimli ishtaha!
+Jami kaloriyalar miqdori 2961 kkal bo'lib, unda 125.4 g oqsil, 125.8 g yog', va 328.5 g uglevod mavjud.
+Yoqimli ishtaha! 🍽😋
+Yordam bera olgan boʻlsam hursandman.
 """,
 
-    "dish_dumbulpalov": """
-Dumbul Palov
+    "dish_dumbulpalov": """ Dumbul palov 🌽 🍲
+Masalliqlar: 🍱
 
-Masalliqlar:
 Yog‘ – 100 g
 Go‘sht – 200 g
 Piyoz – 4 dona
@@ -1471,9 +1503,9 @@ Sarimsoq – 5-6 bo‘lak
 Bulg‘ori qalampiri – 2 dona
 Tuz, ziravor va ko‘katlar – ta'bga ko‘ra
 
-Tayyorlash bosqichlari:
+Tayyorlash bosqichlari: 🍱
 
-Masalliqlarni tayyorlash:
+Masalliqlarni tayyorlash: 🍱
 Sabzavotlarni kubik shaklda to‘g‘rang.
 Piyozni xalqa shaklida, sarimsoqni mayda qilib to‘g‘rang.
 
@@ -1499,12 +1531,13 @@ Qozonning qopqog‘ini yopib, taomni 35-40 daqiqa davomida past olovda dimlab pi
 
 Xizmat qilish:
 Tayyor bo‘lgan dumbul palovni ta'bga ko‘ra bezatib, issiq holda dasturxonga torting.
-Yoqimli ishtaha!
-
+Jami kaloriyalar miqdori 2760 kkal bo'lib, unda 96.78 g oqsil, 140.57 g yog', va 309.29 g uglevod mavjud.
+Yoqimli ishtaha! 🍽😋
+Yordam bera olgan boʻlsam hursandman.
 """,
 
-    "dish_teftel": """Teftel 
-Masalliqlar:
+    "dish_teftel": """Teftel 🧆 
+Masalliqlar: 🍱
 
 Sabzi (qizil) – 1 dona
 Piyoz – 2 dona
@@ -1519,7 +1552,7 @@ Mol go‘shti qiymasi – 300 g
 Murch – bir chimdim
 Yog‘ – ta'bga ko‘ra
 
-Tayyorlash bosqichlari:
+Tayyorlash bosqichlari: 🍱
 
 Qiymani tayyorlash:
 Qiymaga guruch, mayda to‘g‘ralgan piyoz, sarimsoq, tuxum, tuz va ziravorlarni qo‘shib, yaxshilab aralashtiring.
@@ -1549,21 +1582,22 @@ Qozon qopqog‘ini yopib, past olovda 30 daqiqa davomida dimlab pishiring.
 
 Xizmat qilish:
 Tayyor teftellarni guruch bilan yoki boshqa garnir bilan dasturxonga torting.
-Yoqimli ishtaha!
-
+Jami kaloriyalar miqdori 1920.2 kkal bo'lib, unda 100.85 g oqsil, 102.33 g yog', va 142.69 g uglevod mavjud.
+Yoqimli ishtaha! 🍽 😋
+Yordam bera olgan boʻlsam hursandman.
 """,
 
     "dish_sarimsoqli": """
-Sarimsoqpiyoz bilan pishirilgan kartoshka
+Sarimsoqpiyoz bilan pishirilgan kartoshka 🧆
 
-Masalliqlar:
+Masalliqlar: 🍱
 Kartoshka – 1 kg
 Sarimsoqpiyoz – 8 tish
 Zaytun moyi – 70 ml
 Tuz va murch – ta'bga ko‘ra
 Maydalangan petrushka – ta'bga ko‘ra
 
-Tayyorlash bosqichlari:
+Tayyorlash bosqichlari: 🍱
 
 1. Kartoshkani tayyorlash:
 Kartoshkani po‘stini artmasdan yaxshilab yuvib tozalang.
@@ -1583,12 +1617,13 @@ Kartoshkaning usti qarsildoq, ichi yumshoq bo‘lishi lozim.
 5. Xizmat qilish:
 Pishgan kartoshkani gaz pechidan olib, ustiga maydalangan petrushka sepib bezang.
 Taomni issiq holda, garnir yoki asosiy yegulik sifatida dasturxonga torting.
-Yoqimli ishtaha!
-
+Jami kaloriyalar miqdori 1452 kkal bo'lib, unda 22.86 g oqsil, 71.28 g yog', va 183.83 g uglevod mavjud
+Yoqimli ishtaha! 🍽 😋
+Yordam bera olgan boʻlsam hursandman.
 """,
 
-    "dish_begodi": """Begodi 
-Masalliqlar:
+    "dish_begodi": """Begodi 🍛 
+Masalliqlar: 🍱
 
 Mol go‘shti – 300 g
 Kartoshka – 1 dona
@@ -1598,7 +1633,7 @@ Suv – 1 stakan
 Tuz – 1 osh qoshiq
 Karam – 1 dona
 
-Tayyorlash bosqichlari:
+Tayyorlash bosqichlari: 🍱
 
 1. Masalliqlarni tayyorlash:
 Kichkina karamni mayda qilib to‘g‘rang.
@@ -1621,12 +1656,13 @@ Dimlash uchun 20-25 daqiqa davomida past olovda pishiring.
 
 5. Xizmat qilish:
 Tayyor begodilarni issiq holda, ustiga ko‘katlar bilan bezab dasturxonga torting.
-Yoqimli ishtaha!
-
+Jami kaloriyalar miqdori 3010.9 kkal bo'lib, unda 146.05 g oqsil, 51.32 g yog', va 480.4 g uglevod mavjud. 
+Yoqimli ishtaha! 🍽 😋
+Yordam bera olgan boʻlsam hursandman.
 """,
 
-    "dish_baliqlikotlet": """Baliqli kotlet 
-Masalliqlar:
+    "dish_baliqlikotlet": """Baliqli katlet 🐟 🧆
+Masalliqlar: 🍱
 
 Baliq (qiltanoqdan tozalangan) – 500 g
 Piyoz – 1 dona
@@ -1637,7 +1673,7 @@ Tuz – bir chimdim
 Murch – bir chimdim
 Yog‘ – qovurish uchun
 
-Tayyorlash bosqichlari:
+Tayyorlash bosqichlari: 🍱
 
 1. Masalliqlarni maydalash:
 Baliq, piyoz va sarimsoqni go‘sht qiymalagichdan o‘tkazing yoki blender yordamida maydalang.
@@ -1654,18 +1690,19 @@ Kotletlarni solib, har bir tomonini taxminan 3 daqiqa davomida oltin tusga kirgu
 
 5. Xizmat qilish:
 Tayyor baliqli kotletlarni issiq holda, garnir yoki salat bilan dasturxonga torting.
-Yoqimli ishtaha!
-
+Jami kaloriyalar miqdori 1842.8 kkal bo'lib, unda 124.79 g oqsil, 116.3 g yog', va 62.95 g uglevod mavjud.
+Yoqimli ishtaha! 🍽 😋
+Yordam bera olgan boʻlsam hursandman.
 """,
 
-    "dish_jigarkabob": """Jigar kabob 
-Masalliqlar:
+    "dish_jigarkabob": """Jigar kabob 🥩 
+Masalliqlar: 🍱
 
 Jigar – 600 g
 Dumba yog‘i – 200 g
 Tuz va ziravorlar (qizil qalampir, qora murch, kashnich urug‘i, zira)
 
-Tayyorlash bosqichlari:
+Tayyorlash bosqichlari: 🍱
 
 Jigarni tayyorlash:
 Jigarni pardasi va qotib qolgan qonlardan tozalang.
@@ -1691,12 +1728,13 @@ Pishirish jarayonida kabobni muntazam ravishda aylantirib, bir xilda qizarib pis
 
 Xizmat qilish:
 Tayyor kabobni yupqa qilib to‘g‘ralgan piyoz yoki garnir bilan birga dasturxonga torting.
-Yoqimli ishtaha!
-
+Jami kaloriyalar miqdori 2784 kkal bo'lib, unda 125.4 g oqsil, 247 g yog', va 24 g uglevod mavjud
+Yoqimli ishtaha! 🍽 😋
+Yordam bera olgan boʻlsam hursandman.
 """,
 
-    "dish_qozonkabob": """Qozon kabob 
-Masalliqlar:
+    "dish_qozonkabob": """Qozon kabob 🫕🥩
+Masalliqlar: 🍱
 
 Mol go‘shti – 1 kg
 Qo‘y yog‘i – 100 g
@@ -1708,7 +1746,7 @@ Ziravorlar aralashmasi (yanchilgan zira, kashnich urug‘lari, quritilgan rayhon
 Tuz – ta'bga ko‘ra
 Shivit va kashnich – 5-7 shoxcha
 
-Tayyorlash bosqichlari:
+Tayyorlash bosqichlari: 🍱
 
 Go‘shtni tayyorlash:
 Go‘shtni katta bo‘laklarga kesing.
@@ -1738,12 +1776,13 @@ Yopiq qopqoq ostida yana 10 daqiqa davomida dimlang.
 
 Xizmat qilish:
 Tayyor qozon kabobini shivit va kashnich sepib, keng idishda dasturxonga torting.
-Yoqimli ishtaha!
-
+Jami kaloriyalar miqdori 6029.2 kkal bo'lib, unda 309.45 g oqsil, 352.86 g yog', va 385.81 g uglevod mavjud.
+Yoqimli ishtaha! 🍽 😋
+Yordam bera olgan boʻlsam hursandman.
 """,
 
-    "dish_qiymalikabob": """Qiymali kabob 
-Masalliqlar:
+    "dish_qiymalikabob": """Qiymali kabob 🥩🧆
+Masalliqlar: 🍱
 
 Go‘sht – 0,5 kg
 Charvi yog‘i – 200 g
@@ -1751,7 +1790,7 @@ Piyoz – 100-150 g
 Non bo‘laklari – bir necha dona
 Tuz va ziravorlar – ta'bga ko‘ra
 
-Tayyorlash bosqichlari:
+Tayyorlash bosqichlari: 🍱
 
 Qiymani tayyorlash:
 Go‘sht, charvi yog‘i, piyoz va non bo‘laklarini qiymalagichdan o‘tkazing.
@@ -1777,12 +1816,13 @@ Kabobning hajmiga qarab, uni 5-8 daqiqa davomida pishiring.
 Xizmat qilish:
 Tayyor kaboblarni ta'bga ko‘ra bezang.
 Sous yoki salat bilan birga dasturxonga torting.
-Yoqimli ishtaha!
-
+Jami kaloriyalar miqdori 3359 kkal bo'lib, unda 143.38 g oqsil, 277.33 g yog', va 60.25 g uglevod mavjud.
+Yoqimli ishtaha! 🍽😋
+Yordam bera olgan boʻlsam hursandman.
 """,
 
-    "dish_tandirkabob": """Tandir kabob 
-Masalliqlar:
+    "dish_tandirkabob": """Tandir kabob 🧆
+Masalliqlar: 🍱
 
 Tovuq – 1 dona
 Apelsin – 1 dona
@@ -1791,7 +1831,7 @@ Sarimsoq – 5-6 bo‘lak
 Archa shoxchalari (yoki rozmarin, timyan)
 Ta'bga ko‘ra tuz va ziravorlar
 
-Tayyorlash bosqichlari:
+Tayyorlash bosqichlari: 🍱
 
 1. Marinad tayyorlash:
 Apelsin suvini siqib oling.
@@ -1818,12 +1858,13 @@ Go‘sht yaxshi pishishi uchun haroratni doimiy saqlang.
 6. Xizmat qilish:
 Tayyor bo‘lgan tandir kabobni avval sabzavotlarni olib, so‘ngra kabobni ustiga joylashtiring.
 Ta'bga ko‘ra bezatib, issiq holda dasturxonga torting.
-Yoqimli ishtaha!
-
+Jami kaloriyalar miqdori 3785.2 kkal bo'lib, unda 409.62 g oqsil, 216.35 g yog', va 34.8 g uglevod mavjud.
+Yoqimli ishtaha! 🍽😋
+Yordam bera olgan boʻlsam hursandman.
 """,
 
-    "dish_tovuqkabob": """Tovuq kabob 
-Masalliqlar:
+    "dish_tovuqkabob": """Tovuq kabob 🍗🧆
+Masalliqlar: 🍱
 
 Tovuq go‘shti – 1 kg
 Mayonez – 2-3 osh qoshiq
@@ -1831,7 +1872,7 @@ Sarimsoq – 4-5 bo‘lak
 Qizilcha (quritilgan pomidor yoki bulg‘ori maydasi) – ta'bga ko‘ra
 Tuz va ziravorlar – ta'bga ko‘ra
 
-Tayyorlash bosqichlari:
+Tayyorlash bosqichlari: 🍱
 
 1. Tovuqni tayyorlash:
 Tovuq go‘shtini juda ham katta va juda ham kichik bo‘lmagan (20-30 g) bo‘laklarga bo‘ling.
@@ -1852,12 +1893,13 @@ Har tomonini doimiy aylantirib, go‘shtni teng qizartiring.
 
 5. Xizmat qilish:
 Tayyor kaboblarni didingizga ko‘ra bezab, issiq holda dasturxonga torting.
-Yoqimli ishtaha!
-
+Jami kaloriyalar miqdori 2733.25 kkal bo'lib, unda 272.05 g oqsil, 173.88 g yog', va 8.83 g uglevod mavjud
+Yoqimli ishtaha! 🍽😋
+Yordam bera olgan boʻlsam hursandman.
 """,
 
-    "dish_namangankabob": """Namangan kabob 
-Masalliqlar:
+    "dish_namangankabob": """Namangan kabob 🧆
+Masalliqlar: 🍱
 
 Qo‘y go‘shti (yumshoq qismi) – 1 kg
 Piyoz – 2-3 dona
@@ -1866,7 +1908,7 @@ Tuz va ziravorlar – ta'bga ko‘ra
 Talqon yoki un – ta'bga ko‘ra
 Gazli suv – 250 ml
 
-Tayyorlash bosqichlari:
+Tayyorlash bosqichlari: 🍱
 
 1. Go‘shtni tayyorlash:
 Go‘shtni yumshoq qismini paylardan tozalang.
@@ -1897,12 +1939,13 @@ Tandir harorati doimiy bo‘lishi kerak.
 
 7. Xizmat qilish:
 Tayyor kabobni ta'bga ko‘ra bezab, issiq holda dasturxonga torting.
-Yoqimli ishtaha!
-
+Jami kaloriyalar miqdori 5484.5 kkal bo'lib, unda 262.05 g oqsil, 459.55 g yog', va 65.0 g uglevod mavjud
+Yoqimli ishtaha! 🍽😋
+Yordam bera olgan boʻlsam hursandman.
 """,
 
-    "dish_norin": """Norin 
-     Masalliqlar:
+    "dish_norin": """Norin🍝 
+     Masalliqlar: 🍱
 • Un – 400 g
 • Tuxum – 1 ta
 • Tuz – 15 g
@@ -1911,7 +1954,7 @@ Yoqimli ishtaha!
 • Qazi – 1 ta
 • O‘simlik yog‘i
 
-Tayyorlash usuli:
+Tayyorlash usuli: 🍱
 Qadam 1:
 Un, tuxum, suv va tuzni aralashtirib, qattiq xamir qoriladi. Xamirni 20 daqiqa tindirib qo‘yiladi.
 
@@ -1939,12 +1982,13 @@ Norinni likopchalarga solib, ustiga qazi bo‘laklari va mayda to‘g‘ralgan p
 Maslahatlar:
 • Xamirlarni juda yupqa yoyish norinning chiroyli va mazali bo‘lishi uchun muhim.
 • Xamirni yog‘lash va quritish jarayonlariga alohida e’tibor bering, shunda xamirlar yopishib qolmaydi.
-Yoqimli ishtaha!
-
+Jami kaloriyalar miqdori 4193.5 kkal bo'lib, unda 260 g oqsil, 202 g yog', va 304.55 g uglevod mavjud.
+Yoqimli ishtaha! 🍽😋
+Yordam bera olgan boʻlsam hursandman.
 """,
 
-    "dish_xasip": """Xasip 
-    Masalliqlar:
+    "dish_xasip": """Xasip 🥓
+    Masalliqlar: 🍱
 • Qo‘y ichagi – 1 ta
 • Qo‘y go‘shti – 200 g
 • Qora taloq (qo‘yniki) – 1 ta
@@ -1955,7 +1999,7 @@ Yoqimli ishtaha!
 • Piyoz – 4-5 dona
 • Tuz, qora murch, zira, kashnich urug‘i – ta'bga ko‘ra
 
-Tayyorlash usuli:
+Tayyorlash usuli: 🍱
 1. Masalliqlarni tayyorlash:
 Go‘sht, dumba va ichki a'zolarni (o‘pka, buyrak, qora taloq) qiymalagichdan o‘tkazing.
 Guruchni oldindan yuvib, quritib oling.
@@ -1976,12 +2020,13 @@ Pishgan xasipni laganga yoki likopchaga joylashtirib, ta'bingizga ko‘ra bezati
 Maslahatlar:
 • Ichakni yaxshilab tozalash va tuzli suvda chayib yuvish kerak.
 • Ziravorlarni o‘z didingizga qarab ko‘paytirishingiz yoki kamaytirishingiz mumkin.
-Yoqimli ishtaha!
-
+Jami kaloriyalar miqdori 2617 kkal bo'lib, unda 152.9 g oqsil, 164.9 g yog', va 133.8 g uglevod mavjud.
+Yoqimli ishtaha! 🍽😋
+Yordam bera olgan boʻlsam hursandman.
 """,
 
-    "dish_tuxumbarak": """Tuxum barak 
-    Masalliqlar:
+    "dish_tuxumbarak": """Tuxum barak 🥟
+    Masalliqlar: 🍱
 Xamir uchun:
 • Un – 200 g
 • Tuxum oqi – 1 dona
@@ -1995,7 +2040,7 @@ Ichiga:
 • Tuz – ta'bga ko'ra
 • Ko‘kat va ziravorlar – ta'bga ko'ra
 
-Tayyorlash usuli:
+Tayyorlash usuli: 🍱
 1. Xamirni tayyorlash:
 Un, tuxum oqi, suv va tuzni aralashtirib, o‘rta qattiqlikdagi xamir qoriladi. Tayyor xamirni 15-20 daqiqaga tindirib qo‘yiladi.
 
@@ -2023,9 +2068,9 @@ Tuxum baraklarni qatiq, suzma yoki qaymoq bilan bezatib, dasturxonga tortiq qili
 Maslahatlar:
 • Xamirni juda yupqa qilib yoyish tuxum barakni yumshoqroq qiladi.
 • Tuxumli ichini choynak yordamida quysangiz, osonroq bo‘ladi.
-
-Yoqimli ishtaha!
-
+Jami kaloriyalar miqdori 1441.9 kkal bo'lib, unda 59.5 g oqsil, 60.64 g yog', va 160.59 g uglevod mavjud.
+Yoqimli ishtaha! 🍽😋
+Yordam bera olgan boʻlsam hursandman.
 """,
 
 })  # <-- .update() ni yakunlash
@@ -2034,8 +2079,8 @@ Yoqimli ishtaha!
 recipes_texts.update({
 
     # ---------- SALATLAR BO‘LIMI ----------
-    "dish_achchiqchuchuk": """Achchiq chuchuk salat 
-    Masalliqlar:
+    "dish_achchiqchuchuk": """Achchiq chuchuk salat🥗 
+    Masalliqlar: 🍱
 
 Pomidor – 500 g
 Piyoz – 2 dona (qizil piyoz tavsiya etiladi)
@@ -2044,7 +2089,7 @@ Tuz – ta'bga ko‘ra
 Qora murch – ta'bga ko‘ra
 Achchiq qalampir – ta'bga ko‘ra
 
-Tayyorlash bosqichlari:
+Tayyorlash bosqichlari: 🍱
 
 1. Masalliqlarni to‘g‘rash:
 Pomidorni o‘tkir pichoq yordamida qo‘lda yoki oshtaxtada yupqa yarim halqa shaklida to‘g‘rang.
@@ -2062,12 +2107,13 @@ Agar salatga chiroyli shakl berishni istasangiz, maxsus qoliplardan foydalanishi
 
 Maslahat:
 Ushbu salatni quyuq taomlar bilan yoki alohida yegulik sifatida dasturxonga tortishingiz mumkin.
-Yoqimli ishtaha!
-
+Jami kaloriyalar miqdori 216.2 kkal bo'lib, unda 8.31 g oqsil, 1.4 g yog', va 47.65 g uglevod mavjud.
+Yoqimli ishtaha! 🍽😋
+Yordam bera olgan boʻlsam hursandman.
 """,
 
-    "dish_bodringbrinza": """Bodring va brinzali salat 
-    Masalliqlar:
+    "dish_bodringbrinza": """Bodring va brinzali salat 🥒🥗
+    Masalliqlar: 🍱
 
 Bodring – 250 g
 Brinza – 150 g
@@ -2076,7 +2122,7 @@ O‘simlik yog‘i – 2 osh qoshiq
 Limon sharbati – yarim limon
 Tuz va murch – ta'bga ko‘ra
 
-Tayyorlash bosqichlari:
+Tayyorlash bosqichlari: 🍱
 
 1. Masalliqlarni tayyorlash:
 Bodring va salat barglarini yaxshilab yuvib, quriting.
@@ -2094,13 +2140,13 @@ Tayyor salatni likopchaga joylashtiring va dasturxonga torting.
 
 Maslahat:
 Ushbu salat vitaminlarga boy bo‘lib, kam kaloriyali taomlar uchun juda mos keladi. Yengil tushlik yoki asosiy taom oldidan gazak sifatida tortilishi mumkin.
-
-Yoqimli ishtaha!
-
+Jami kaloriyalar miqdori 706 kkal bo'lib, unda 23.5 g oqsil, 61.88 g yog', va 15.24 g uglevod mavjud. 
+Yoqimli ishtaha! 🍽😋
+Yordam bera olgan boʻlsam hursandman.
 """,
 
-    "dish_karampomidor": """Karam va pomidorli salat 
-    Masalliqlar:
+    "dish_karampomidor": """Karam va pomidorli salat 🥬🥗
+    Masalliqlar: 🍱
 
 Karam – 500 g
 Bodring – 200 g
@@ -2112,7 +2158,7 @@ Olma sirkasi – 2 choy qoshiq
 Zaytun moyi – 2 osh qoshiq
 Tuz va murch – ta'bga ko‘ra
 
-Tayyorlash bosqichlari:
+Tayyorlash bosqichlari: 🍱
 
 1. Karamni tayyorlash:
 Karamni yupqa somoncha shaklida to‘g‘rang.
@@ -2132,13 +2178,13 @@ Tayyor bo‘lgan salatni likopchaga joylashtiring va darhol dasturxonga torting.
 
 Maslahat:
 Ushbu salatni nafaqat tushlik yoki kechki ovqatda, balki asosiy taom oldidan gazak sifatida ham iste’mol qilishingiz mumkin.
-
-Yoqimli ishtaha!
-
+Jami kaloriyalar miqdori 509.5 kkal bo'lib, unda 11.27 g oqsil, 31.44 g yog', va 55.34 g uglevod mavjud.
+Yoqimli ishtaha! 🍽😋
+Yordam bera olgan boʻlsam hursandman.
 """,
 
-    "dish_gruzincha": """Gruzincha salat
-    Masalliqlar:
+    "dish_gruzincha": """Gruzincha salat🥗
+    Masalliqlar: 🍱
 
 Bodring – 2 dona
 Shirin-nordon olma – 2 dona
@@ -2148,7 +2194,7 @@ Sarimsoq – 1 dona tishcha
 Zaytun yoki o‘simlik yog‘i – 1 choy qoshiq
 Tuz – ta'bga ko‘ra
 
-Tayyorlash bosqichlari:
+Tayyorlash bosqichlari: 🍱
 
 1. Bodring va olmalarni tayyorlash:
 Bodring va olmani koreyscha sabzili salat uchun mo‘ljallangan qirg‘ichdan o‘tkazing yoki yupqa somoncha shaklida to‘g‘rang.
@@ -2167,13 +2213,13 @@ Tayyor salatni likopchaga joylashtiring va dasturxonga torting.
 
 Maslahat:
 Bu salat sersuv va yengil bo‘lib, har qanday taom oldidan yoki gazak sifatida mazali va foydali bo‘ladi.
-
-Yoqimli ishtaha!
-
+Jami kaloriyalar miqdori 258.9 kkal bo'lib, unda 3.51 g oqsil, 5.99 g yog', va 55.15 g uglevod mavjud. 
+Yoqimli ishtaha! 🍽😋
+Yordam bera olgan boʻlsam hursandman.
 """,
 
-    "dish_qarsildoq": """Qarsildoq salat 
-    Masalliqlar:
+    "dish_qarsildoq": """Qarsildoq salat 🥗
+    Masalliqlar: 🍱
 
 Piyoz – 150 g
 Bodring – 300 g
@@ -2187,7 +2233,7 @@ Tovuq filesi – 250 g
 Salat bargi – 1 bog‘
 Oq baton – 200 g
 
-Tayyorlash bosqichlari:
+Tayyorlash bosqichlari: 🍱
 
 1. Tovuqni tayyorlash:
 Tovuq go‘shti filesini taxminan 20 daqiqa davomida qaynatib pishiring va sovuting.
@@ -2213,13 +2259,13 @@ Ustiga bodring, piyoz, tovuq filesi, gazak, pishloq va qovurilgan non bo‘lakla
 
 7. Xizmat qilish:
 Qovurilgan non bo‘laklarini salatga dasturxonga tortishdan oldin qo‘shish tavsiya etiladi, bu ularning qarsildoqligini saqlab qoladi.
-
-Yoqimli ishtaha!
-
+Jami kaloriyalar miqdori 2202.15 kkal bo'lib, unda 137.77 g oqsil, 125.48 g yog', va 127.49 g uglevod mavjud.
+Yoqimli ishtaha! 🍽😋
+Yordam bera olgan boʻlsam hursandman.
 """,
 
-    "dish_suzmali": """Suzmali salat 
-    Masalliqlar:
+    "dish_suzmali": """Suzmali salat🥗 
+    Masalliqlar: 🍱
 
 Bodring – 1 dona
 Suv – 1 stakan
@@ -2232,7 +2278,7 @@ Rayhon – 15 dona barg
 Yalpiz – 15 dona barg
 Rediska – 4 dona
 
-Tayyorlash bosqichlari:
+Tayyorlash bosqichlari: 🍱
 
 1. Suzmani tayyorlash:
 Suzmaga ozroq suv qo‘shib, qatiq quyuqligiga kelguncha aralashtiring.
@@ -2251,13 +2297,13 @@ Tayyor bo‘lgan salatni likopchaga solib, nonga surkab yeyish yoki alohida taom
 
 Maslahat:
 Bu salatni bahor va yoz mavsumida tayyorlash juda foydali, chunki u vitaminlarga boy va yengil ovqat hisoblanadi.
-
-Yoqimli ishtaha!
-
+Jami kaloriyalar miqdori 573.8 kkal bo'lib, unda 38.5 g oqsil, 20.54 g yog', va 70.71 g uglevod mavjud. 
+Yoqimli ishtaha! 🍽😋
+Yordam bera olgan boʻlsam hursandman.
 """,
 
-    "dish_penchuza": """Penchuza salat 
-    Masalliqlar:
+    "dish_penchuza": """Penchuza salat 🥗
+    Masalliqlar: 🍱
 
 Kraxmalli lapsha – 200-250 g
 Bodring – 170 g
@@ -2275,7 +2321,7 @@ Achchiq qizil qalampir kukuni – ta'bga ko‘ra
 Maydalangan kashnich – ta'bga ko‘ra
 Shivit yoki kashnich – 0,5 bog‘
 
-Tayyorlash bosqichlari:
+Tayyorlash bosqichlari: 🍱
 
 1. Lapshani tayyorlash:
 Kraxmalli lapshani qaynagan suvda 5-7 daqiqa davomida pishirib, keyin sovuq suvda yuvib tozalang.
@@ -2300,13 +2346,13 @@ Tayyor salatni likopchaga joylashtirib, dasturxonga torting.
 
 Maslahat:
 Pentuza salati o‘zining qarsildoqligi va boy ta'mi bilan ajralib turadi. U har kuni uchun mazali va foydali variant bo‘lib xizmat qiladi.
-
-Yoqimli ishtaha!
-
+Jami kaloriyalar miqdori 1949 kkal bo'lib, unda 11.08 g oqsil, 106.33 g yog', va 248.05 g uglevod mavjud.
+Yoqimli ishtaha! 🍽😋
+Yordam bera olgan boʻlsam hursandman.
 """,
 
-    "dish_mandarin": """Mandarin salat
-    Masalliqlar (6 porsiya uchun):
+    "dish_mandarin": """Mandarin salat🍊🥗
+    Masalliqlar (6 porsiya uchun): 🍱
 
 Qaynatilgan sabzi – 4 dona
 Qaynatilgan tuxum – 3 dona
@@ -2317,7 +2363,7 @@ Mayonez – 30 ml
 Tuz – 1 choy qoshiq
 Qora murch – 1 choy qoshiq
 
-Tayyorlash bosqichlari:
+Tayyorlash bosqichlari: 🍱
 
 1. Masalliqlarni tayyorlash:
 Tuxum, sabzi va tovuq filesini qaynatib, sovutib oling.
@@ -2345,13 +2391,13 @@ Tayyor «mandarinchalarni» likopchaga joylashtiring va ustini qora murch donala
 
 Maslahat:
 Bu yorqin va ishtaha ochar salat yangi yil dasturxoningizni bezatib, mehmonlaringizni lol qoldiradi.
-
-Yoqimli ishtaha!
-
+Jami kaloriyalar miqdori 1337.85 kkal bo'lib, unda 100.22 g oqsil, 84.83 g yog', va 45.25 g uglevod mavjud.
+Yoqimli ishtaha! 🍽😋
+Yordam bera olgan boʻlsam hursandman.
 """,
 
-    "dish_tovuqlisalat": """Tovuqli salat 
-    Masalliqlar:
+    "dish_tovuqlisalat": """Tovuqli salat 🍗🥗
+    Masalliqlar: 🍱
 
 Sarimsoqpiyoz – ta'bga ko'ra
 Tuz – ta'bga ko'ra
@@ -2364,7 +2410,7 @@ Zaytun yog‘i – 3 osh qoshiq
 Sirka (musallaslik) – 1 osh qoshiq
 Zaytun – 80 g
 
-Tayyorlash bosqichlari:
+Tayyorlash bosqichlari: 🍱
 
 1. Tovuq go‘shtini tayyorlash:
 Tovuq filesini qaynatib, sovuting.
@@ -2386,13 +2432,13 @@ Tayyor salatni likopchaga joylashtiring va maydalangan yong‘oq bilan bezating.
 
 Maslahat:
 Ushbu sodda va mazali salat oson tayyorlanishi bilan dasturxoningizni boyitadi va oila a’zolaringizni xursand qiladi.
-
-Yoqimli ishtaha!
-
+Jami kaloriyalar miqdori 1224.8 kkal bo'lib, unda 99.98 g oqsil, 84.19 g yog', va 17.74 g uglevod mavjud.
+Yoqimli ishtaha! 🍽😋
+Yordam bera olgan boʻlsam hursandman.
 """,
 
-    "dish_smak": """Smak salat 
-    Masalliqlar:
+    "dish_smak": """Smak salat 🥗
+    Masalliqlar: 🍱
 
 Qattiq pishloq – 70-80 g
 Pomidor – 3-4 dona (o‘rtacha kattalikdagi)
@@ -2402,7 +2448,7 @@ Suxariklar – 100 g
 Tuz va murch – ta’bga ko‘ra
 Mayonez yoki smetana – to‘ldirish uchun
 
-Tayyorlash bosqichlari:
+Tayyorlash bosqichlari: 🍱
 
 1. Masalliqlarni tayyorlash:
 Pishloqni suxariklar kabi kichik kubik shaklida kesing.
@@ -2422,13 +2468,13 @@ Dasturxonga tortishdan oldin suxariklarni salatga qo‘shib, aralashtiring. Bu u
 Maslahat:
 Ushbu salatni zaytun moyi bilan ham to‘ldirish mumkin.
 Suxariklarni o‘zingiz tayyorlasangiz, salatning ta’mi yanada mazali chiqadi.
-
-Yoqimli ishtaha!
-
+Jami kaloriyalar miqdori 944.55 kkal bo'lib, unda 33.47 g oqsil, 53.16 g yog', va 90.62 g uglevod mavjud.
+Yoqimli ishtaha! 🍽😋
+Yordam bera olgan boʻlsam hursandman.
 """,
 
-    "dish_ozdiruvchi": """Ozdiruvchi salat 
-    Masalliqlar:
+    "dish_ozdiruvchi": """Ozdiruvchi salat🥗 
+    Masalliqlar: 🍱
 
 Qizil lavlagi – 1 dona
 Qizil sabzi – 2 dona
@@ -2437,7 +2483,7 @@ Zaytun moyi – 2 osh qoshiq
 Limon sharbati – 1 osh qoshiq
 Tuz – yarim choy qoshiq
 
-Tayyorlash bosqichlari:
+Tayyorlash bosqichlari: 🍱
 
 1. Karamni tayyorlash:
 Karamni mayda qilib somoncha shaklida to‘g‘rab oling.
@@ -2453,20 +2499,20 @@ Tuz seping va yaxshilab aralashtiring.
 Maslahat:
 Istasangiz, maydalangan ko‘katlar (shivit yoki kashnich) bilan bezashingiz mumkin.
 Bu salat ovqatlanish oralig‘ida yoki asosiy taom oldidan iste’mol qilish uchun juda mos keladi.
-
-Yoqimli ishtaha!
-
+Jami kaloriyalar miqdori 552.5 kkal bo'lib, unda 9.85 g oqsil, 31.33 g yog', va 68.44 g uglevod mavjud. 
+Yoqimli ishtaha! 🍽😋
+Yordam bera olgan boʻlsam hursandman.
 """,
 
-    "dish_mevali": """Mevali salat 
-    Masalliqlar:
+    "dish_mevali": """Mevali salat🍌🥗 
+    Masalliqlar: 🍱
 
 Banan – 1 dona
 Olma – 1 dona
 Kivi – 1 dona
 Yogurt – 100 g
 
-Tayyorlash bosqichlari:
+Tayyorlash bosqichlari: 🍱
 
 1. Mevalarni tayyorlash:
 Banan, olma va kivini yuvib, po‘stidan tozalang.
@@ -2482,13 +2528,13 @@ Salatni 1 soat muzlatgichda tindirib, sovuq holda dasturxonga torting.
 Maslahat:
 Sharbat qo‘shishni xohlasangiz, mango yoki apelsin sharbatidan foydalaning.
 C vitaminiga boy sitrus mevalar (apelsin, mandarin) qo‘shib, salatni yanada foydali qiling.
-
-Yoqimli ishtaha!
-
+Jami kaloriyalar miqdori 289.55 kkal bo'lib, unda 6.1 g oqsil, 1.44 g yog', va 65.55 g uglevod mavjud
+Yoqimli ishtaha! 🍽😋
+Yordam bera olgan boʻlsam hursandman.
 """,
 
-    "dish_braslet": """Braslet salat 
-    Masalliqlar:
+    "dish_braslet": """Braslet salat 🥗
+    Masalliqlar: 🍱
 
 Kartoshka – 2 dona
 Sabzi – 1 dona
@@ -2498,7 +2544,7 @@ Mayonez – ta'bga ko'ra
 Tovuq boldiri – 300 g
 Anor – 1 dona
 
-Tayyorlash bosqichlari:
+Tayyorlash bosqichlari: 🍱
 
 1. Tayyorlash:
 Kartoshka, sabzi, lavlagi va tovuq go‘shtini tuzli suvda qaynatib pishiring.
@@ -2523,13 +2569,13 @@ Muzlatgichdan olib, lagan o‘rtasidagi stakanni ehtiyotkorlik bilan oling. Sala
 
 Maslahat:
 Salatni taqdim etishdan oldin qo‘shimcha ko‘katlar bilan bezashingiz mumkin.
-
-Yoqimli ishtaha!
-
+Jami kaloriyalar miqdori 1428.8 kkal bo'lib, unda 109.05 g oqsil, 51.29 g yog', va 135 g uglevod mavjud
+Yoqimli ishtaha! 🍽😋
+Yordam bera olgan boʻlsam hursandman.
 """,
 
-    "dish_qotgannonli": """Qotgan nonli salat 
-    Masalliqlar:
+    "dish_qotgannonli": """Qotgan nonli salat 🥗
+    Masalliqlar: 🍱
 
 Pomidor – 2 dona
 Bodring – 2 dona
@@ -2537,7 +2583,7 @@ Nami qochgan non – 200 g
 Zaytun – 200 g
 Salat bargi – 1 bog‘
 
-Tayyorlash bosqichlari:
+Tayyorlash bosqichlari: 🍱
 
 1. Masalliqlarni tayyorlash:
 Pomidor, bodring, zaytun va salat barglarini to‘rtburchak shaklda to‘g‘rang.
@@ -2552,13 +2598,13 @@ Salatni iste'mol qilishga yaqin qotgan non bo‘lakchalarini qo‘shib, aralasht
 
 Maslahat:
 Qotgan nonni o‘simlik yog‘ida engil qovurib, salatga qo‘shsangiz, yanada mazali bo‘ladi.
-
-Yoqimli ishtaha!
-
+Jami kaloriyalar miqdori 869.5 kkal bo'lib, unda 25.1 g oqsil, 28.8 g yog', va 134.55 g uglevod mavjud.
+Yoqimli ishtaha! 🍽😋
+Yordam bera olgan boʻlsam hursandman.
 """,
 
-    "dish_goshtlisa": """Go'shtli salat 
-    Masalliqlar:
+    "dish_goshtlisa": """Go'shtli salat 🥩🥗
+    Masalliqlar: 🍱
 
 Qaynatilgan mol go‘shti – 120-140 g
 Pomidor – 2-3 dona
@@ -2570,7 +2616,7 @@ Ketchup – 2 osh qoshiq
 Mayonez – 3 osh qoshiq
 Ta'bga ko‘ra: kunjut, tuz, murch, shivit (ukrop) va achchiq sous (lozijon, sous chili yoki achiqa)
 
-Tayyorlash bosqichlari:
+Tayyorlash bosqichlari: 🍱
 
 1. Masalliqlarni tayyorlash:
 Qaynatilgan go‘sht, bodring, olma va qizil bulg‘orini somoncha shaklida to‘g‘rang. Agar bulg‘ori katta bo‘lsa, yarimtasi yetarli bo‘ladi.
@@ -2587,13 +2633,13 @@ Pomidorni dumaloq, yupqa parraklarga kesib, likopcha atrofiga terib chiqing.
 Tayyorlangan salatni likopning o‘rtasiga baland qilib joylashtiring.
 Chekka qismlarini halqa shaklida kesilgan zaytun bilan bezang.
 Ustidan kunjut sepib, dasturxonga tortiq qiling.
-
-Yoqimli ishtaha!
-
+Jami kaloriyalar miqdori 893.1 kkal bo'lib, unda 40.88 g oqsil, 57.97 g yog', va 56.88 g uglevod mavjud.
+Yoqimli ishtaha! 🍽😋
+Yordam bera olgan boʻlsam hursandman.
 """,
 
-    "dish_karamli": """Karamli salat 
-    Masalliqlar:
+    "dish_karamli": """Karamli salat 🥗
+    Masalliqlar: 🍱
 
 Sabzi – 1 dona
 Pomidor – 1 dona
@@ -2604,7 +2650,7 @@ Ko‘kat (shivit, petrushka) – 0.5 bog‘
 Zaytun yog‘i – 2 osh qoshiq
 Tuz – ta’bga ko‘ra
 
-Tayyorlash bosqichlari:
+Tayyorlash bosqichlari: 🍱
 
 1. Masalliqlarni tayyorlash:
 Sabzi, pomidor, bodring, ko‘kat va karamni somoncha shaklida to‘g‘rab oling.
@@ -2619,13 +2665,13 @@ Ustidan zaytun yog‘i qo‘shib, yengil aralashtiring.
 
 4. Taqdimot:
 Salatni likopchaga solib, ta’bga ko‘ra bezang va dasturxonga tortiq qiling.
-
-Yoqimli ishtaha!
-
+Jami kaloriyalar miqdori 444.15 kkal bo'lib, unda 7.42 g oqsil, 31.18 g yog', va 41.08 g uglevod mavjud. 
+Yoqimli ishtaha! 🍽😋
+Yordam bera olgan boʻlsam hursandman.
 """,
 
-    "dish_olivye": """Olivye salat 
-    Masalliqlar:
+    "dish_olivye": """Olivye salat 🥗
+    Masalliqlar: 🍱
 
 O‘rtacha kattalikdagi qaynatilgan kartoshka – 4 dona
 Sabzi – 1 dona
@@ -2637,7 +2683,7 @@ Mayonez – 200–300 g
 Xohishga ko‘ra petrushka va shivit barglari
 Tuz va murch – ta’bga ko‘ra
 
-Tayyorlash usuli:
+Tayyorlash usuli: 🍱
 
 1. Tayyorlash jarayoni:
 Sabzi va kartoshkani yaxshilab qaynatib oling.
@@ -2660,13 +2706,13 @@ Tortiq qilishdan avval salatni 1 soat sovutgichda tindirib qo‘ying.
 
 6. Taqdimot:
 Likopchaga solib, ustini shivit yoki petrushka barglari bilan bezang va dasturxonga tortiq qiling.
-
-Yoqimli ishtaha!
-
+Jami kaloriyalar miqdori 3503.1 kkal bo'lib, unda 89.05 g oqsil, 280.58 g yog', va 163.98 g uglevod mavjud
+Yoqimli ishtaha! 🍽😋
+Yordam bera olgan boʻlsam hursandman.
 """,
 
-    "dish_tovuqiolivye": """Tovuqli olivye 
-    Masalliqlar:
+    "dish_tovuqiolivye": """Tovuqli olivye 🍗🥗
+    Masalliqlar: 🍱
 
 Tovuqning to‘sh go‘shti – 1 dona
 Kartoshka – 3–4 dona
@@ -2678,7 +2724,7 @@ Konservalangan yashil no‘xat – 1 banka
 Mayonez – 4 osh qoshiq
 Tuz va murch – ta’bga ko‘ra
 
-Tayyorlash usuli:
+Tayyorlash usuli: 🍱
 
 1. Sabzavotlarni qaynatish:
 Kartoshka va sabzini oldindan qaynatib qo‘ying, sabzavotlar yaxshi sovishi uchun.
@@ -2706,13 +2752,13 @@ Mayonezga bir chimdim tuz va murch qo‘shib, salatga dasturxonga tortishdan old
 8. Bezatish va tortiq qilish:
 Salatni chiroyli tortiq qilish uchun maxsus halqachalar ichiga solib, likopchaga qo‘ying.
 Ustini ko‘katlar bilan bezang.
-
-Yoqimli ishtaha!
-
+Jami kaloriyalar miqdori 1698 kkal bo'lib, unda 107.55 g oqsil, 70.9 g yog', va 158.23 g uglevod mavjud. 
+Yoqimli ishtaha! 🍽😋
+Yordam bera olgan boʻlsam hursandman.
 """,
 
-    "dish_bodringsalat": """Gurunch va bodringli salat 
-    Masalliqlar:
+    "dish_bodringsalat": """Gurunch va bodringli salat 🥗
+    Masalliqlar: 🍱
 
 300 gramm mol go‘shti
 150 gramm guruch
@@ -2721,7 +2767,7 @@ Bir nechta ko‘k piyoz shoxchalari
 2 ta tuxum
 3-4 osh qoshiq Provansal Premium Gold mayonezi
 
-Tayyorlash usuli:
+Tayyorlash usuli: 🍱
 
 1. Tayyorlash:
 Mol go‘shti, guruch va tuxumni qaynatib, sovutib qo‘ying.
@@ -2736,13 +2782,13 @@ Barcha masalliqlarni katta idishga solib, mayonez qo‘shing.
 4. Bezash:
 Yaxshilab aralashtiring.
 Dasturxonga tortishdan oldin ustiga ko‘k piyoz sepib bezang.
-
-Yoqimli ishtaha!
-
+Jami kaloriyalar miqdori 1562.4 kkal bo'lib, unda 98.11 g oqsil, 101.79 g yog', va 56.14 g uglevod mavjud.
+Yoqimli ishtaha! 🍽😋
+Yordam bera olgan boʻlsam hursandman.
 """,
 
-    "dish_shanxay": """Shanxaycha salat 
-    Masalliqlar:
+    "dish_shanxay": """Shanxaycha salat 🥗
+    Masalliqlar: 🍱
 
 200 gramm qaynatilgan mol go‘shti
 150 gramm qaynatilgan guruch
@@ -2753,7 +2799,7 @@ Yoqimli ishtaha!
 Ta’bga ko‘ra tuz
 150-200 gramm mayonez
 
-Tayyorlash usuli:
+Tayyorlash usuli: 🍱
 
 Go‘shtni tayyorlash:
 Go‘shtni tuzli suvda pishirib, sovutib oling.
@@ -2771,13 +2817,13 @@ Ko‘k piyozni mayda qilib to‘g‘rang.
 Aralashtirish:
 Barcha masalliqlarni idishga soling.
 Yashil no‘xot, tuz va mayonez qo‘shib, yaxshilab aralashtiring.
-
-Yoqimli ishtaha!
-
+Jami kaloriyalar miqdori 2432.4 kkal bo'lib, unda 95.11 g oqsil, 188.69 g yog', va 86 g uglevod mavjud.
+Yoqimli ishtaha!🍽😋
+Yordam bera olgan boʻlsam hursandman.
 """,
 
-    "dish_qushuyali": """Qush uyali salat 
-    Masalliqlar:
+    "dish_qushuyali": """Qush uyali salat 🥗
+    Masalliqlar: 🍱
 
 Kartoshka – 3 dona
 Kungaboqar yog‘i – 1 osh qoshiq
@@ -2791,7 +2837,7 @@ Bedana tuxumi – 6 dona
 Marinadlangan bodring – 40 gr
 Dudlangan kurka go‘shti – 100 gr
 
-Tayyorlash usuli:
+Tayyorlash usuli: 🍱
 
 Qo‘ziqorinlarni qovurish:
 Shampinionlarni o‘rtacha kattalikda to‘g‘rang.
@@ -2819,13 +2865,13 @@ Bezatish:
 Tayyor salatni likopcha o‘rtasiga joylashtiring.
 Atrofini qovurilgan kartoshka bilan bezang, tuxum uyasiga o‘xshash shakl yarating.
 Salat o‘rtasiga qaynatilgan bedana tuxumlarini joylashtiring.
-
-Yoqimli ishtaha!
-
+Jami kaloriyalar miqdori 1886.7 kkal bo'lib, unda 163.45 g oqsil, 90.76 g yog', va 97.37 g uglevod mavjud. 
+Yoqimli ishtaha! 🍽😋
+Yordam bera olgan boʻlsam hursandman.
 """,
 
-    "dish_toshkentsalat": """Toshkentcha salat
-    Masalliqlar:
+    "dish_toshkentsalat": """Toshkentcha salat🥗
+    Masalliqlar: 🍱
 
 Mol go‘shti – 60 gr
 Piyoz – 40 gr
@@ -2834,7 +2880,7 @@ Turp – 40 gr
 Mayonez – 40 gr
 Tuz va murch – ta'bga ko'ra
 
-Tayyorlash usuli:
+Tayyorlash usuli: 🍱
 
 Masalliqlarni tayyorlash:
 Turpni somoncha shaklida mayda qilib to‘g‘rang. Uni 10-15 daqiqa davomida muzdek suvga solib qo‘ying, bu uning achchiqligini kamaytiradi.
@@ -2850,12 +2896,13 @@ Mayonez qo‘shing, tuz va murch seping. Barchasini yaxshilab aralashtiring.
 
 Bezatish:
 Salatni likopchaga solib, ustiga mayda qirg‘ichdan o‘tkazilgan qaynatilgan tuxumni seping.
-Yoqimli ishtaha!
-
+Jami kaloriyalar miqdori 521.9 kkal bo'lib, unda 23.18 g oqsil, 44.58 g yog', va 6.11 g uglevod mavjud
+Yoqimli ishtaha! 🍽😋
+Yordam bera olgan boʻlsam hursandman.
 """,
 
-    "dish_portobello": """Portobello salat
-    Masalliqlar:
+    "dish_portobello": """Portobello salati🥗
+    Masalliqlar:🍱
 
 Pomidor – 100 gr
 Tuz – ta'bga ko‘ra
@@ -2866,7 +2913,7 @@ Salat bargi – 1 bog‘
 Tuzlangan syomga baliq – 150 gr
 Parmesan pishlog‘i – 100-150 gr
 
-Tayyorlash usuli:
+Tayyorlash usuli:🍱
 
 Qo‘ziqorin tayyorlash:
 Qo‘ziqorinlarni yaxshilab yuvib, mayda qilib to‘g‘rang. Marinadlangan qo‘ziqorin ishlatsangiz, uning suvini to‘kib tashlang.
@@ -2894,13 +2941,13 @@ Maslahatlar:
 Mayonez o‘rniga smetana ishlatib ko‘ring, salat yengilroq bo‘ladi.
 Yoqimli ta'm uchun maydalangan sarimsoqpiyoz qo‘shishingiz mumkin.
 Qo‘ziqorin tanlashda o‘zingizga yoqqanini ishlating.
-
-Yoqimli ishtaha!
-
+Jami kaloriyalar miqdori 1203.25 kkal bo'lib, unda 91.7 g oqsil, 85.75 g yog', va 15.89 g uglevod mavjud
+Yoqimli ishtaha!🍽️😋
+Yordam bera olgan boʻlsam hursandman.
 """,
 
-    "dish_ananas": """Ananas va tovuqli salat 
-    Masalliqlar:
+    "dish_ananas": """Ananas va tovuqli salat 🍍🍗
+    Masalliqlar: 🍱
 
 200 gramm qaynatilgan tovuq filesi
 200 gramm pishloq
@@ -2909,7 +2956,7 @@ Yoqimli ishtaha!
 300 gramm olma
 250-300 gramm mayonez
 
-Tayyorlash usuli:
+Tayyorlash usuli:🍱
 
 Tovuq tayyorlash:
 Tovuq filesini tuzli suvda qaynatib, sovutib oling.
@@ -2928,13 +2975,13 @@ Tayyor salatni likopchalarga joylashtiring. Istasangiz, ustiga ko‘katlar yoki 
 Maslahatlar:
 Agar salatni yengilroq qilishni istasangiz, mayonezni smetana bilan almashtirishingiz mumkin.
 Ta’mga o‘zgacha o‘lcham qo‘shish uchun maydalangan yong‘oq yoki uzum qo‘shishingiz mumkin.
-
-Yoqimli ishtaha!
-
+Jami kaloriyalar miqdori 3136 kkal bo'lib, unda 119.4 g oqsil, 262.9 g yog', va 79.85 g uglevod mavjud.
+Yoqimli ishtaha!🍽️😋
+Yordam bera olgan boʻlsam hursandman.
 """,
 
-    "dish_sezar": """Sezar salat 
-    Masalliqlar:
+    "dish_sezar": """Sezar salat 🥗
+    Masalliqlar:🍱
 
 Salat uchun:
 Tovuq filesi – 400 g
@@ -2955,7 +3002,7 @@ Sarimsoq – 2 tishcha
 Parmezan pishlog’i – 50 g
 Tuz – ta’bga ko’ra
 
-Tayyorlash usuli:
+Tayyorlash usuli:🍱
 
 Sousni tayyorlash:
 Tuxumlarni qaynoq suvda 1 daqiqa ushlab, xona haroratida sovuting. Blender idishiga tuxumlarni chaqib soling.
@@ -2987,13 +3034,13 @@ Parmezan plastinkalarini terib, ustiga sousni quying.
 Maslahatlar:
 Agar Aysberg yo‘q bo‘lsa, Pekin karamidan foydalanishingiz mumkin.
 Tayyor sarimsoqli suxariklar ham ishlatilishi mumkin, lekin uyda tayyorlanganlari mazaliroq chiqadi.
-
-Yoqimli ishtaha!
-
+Jami kaloriyalar miqdori 1854.1 kkal bo'lib, unda 183.04 g oqsil, 101.82 g yog', va 47.11 g uglevod mavjud
+Yoqimli ishtaha!🍽️😋
+Yordam bera olgan boʻlsam hursandman.
 """,
 
-    "dish_bodringkaram": """Bodring va karamli salat
-    Masalliqlar:
+    "dish_bodringkaram": """Bodring va karamli salat 🥗
+    Masalliqlar: 🍱
 
 500 gramm karam
 300 gramm bodring
@@ -3004,7 +3051,7 @@ Yoqimli ishtaha!
 0.5 choy qoshiq shakar
 Ta'bga qarab tuz va murch
 
-Tayyorlash usuli:
+Tayyorlash usuli: 🍱
 
 Qadam 1:
 Karamni yupqa somoncha shaklida to‘g‘raymiz va kattaroq idishga solamiz.
@@ -3030,14 +3077,14 @@ Tayyor salatni dasturxonga tortamiz.
 Maslahatlar:
 Ushbu salatga yashil no‘xat, makkajo‘xori yoki pomidor qo‘shib, ta’mini boyitishingiz mumkin.
 Salatni sovutgichda 10-15 daqiqa tindirsangiz, yanada mazali bo‘ladi.
-
-Yoqimli ishtaha!
-
+Jami kaloriyalar miqdori 472.6 kkal bo'lib, unda 9.32 g oqsil, 30.97 g yog', va 48.19 g uglevod mavjud.
+Yoqimli ishtaha!🍽️😋
+Yordam bera olgan boʻlsam hursandman.
 """,
 
     # --------- PISHIRIQ / PISHIRIQLAR BO‘LIMI ---------
-    "dish_turkchaburek": """Turkcha burek  
-     Masalliqlar:
+    "dish_turkchaburek": """Turkcha burek  🥠
+     Masalliqlar:🍱
 • Piyoz – 1 dona
 • Kartoshka – 4-5 dona
 • Brinza – 400 g
@@ -3046,7 +3093,7 @@ Yoqimli ishtaha!
 • Ziravorlar: paprika, tuz, zira (qiyma uchun)
 • Tayyor hamir yoki uyda qilingan yupqa hamir
 
-Tayyorlash usuli:
+Tayyorlash usuli:🍱
 1. Qiymalarni tayyorlash:
    - Piyozni mayda to‘g‘rab, qiymani qovurib tayyorlab oling.
    - Qovurilgan qiymadan chiqqan yog‘ga qirg‘ichdan chiqarilgan kartoshkani solib, ozgina paprika qo‘shing. Suv qo‘shib, kartoshkani dimlab pishiring.
@@ -3074,16 +3121,16 @@ Tayyorlash usuli:
 7. Pishirish:
    - Oldindan qizdirilgan 200°C pechda usti qizarguncha pishiring.
 
-Tavsiya:
+Tavsiya:🤗
    - Har bir burak ichida boshqa mazali qiymaning bo‘lishi sizga va mehmonlaringizga turli xil lazzatlarni his qilish imkonini beradi.
    - Ushbu usul mehmon kutish uchun ajoyib variant hisoblanadi.
-
-Yoqimli ishtaha!
-
+Jami kaloriyalar miqdori 3376.17 kkal bo'lib, unda 145.89 g oqsil, 186.26 g yog', va 291.2 g uglevod mavjud.
+Yoqimli ishtaha!🍽️😋
+Yordam bera olgan boʻlsam hursandman.
 """,
 
-    "dish_goshtlisomsa": """Go’shtli somsa  
-     Masalliqlar:
+    "dish_goshtlisomsa": """Go’shtli somsa  🥟
+     Masalliqlar:🍱
 • Qatlamli xamir – 500 g
 • Qo‘y yoki mol go‘shti – 600 g
 • Piyoz – 2 dona
@@ -3093,7 +3140,7 @@ Yoqimli ishtaha!
 • Tuxum – surtish uchun
 • Kunjut va sedana – 1 osh qoshiq
 
-Tayyorlash usuli:
+Tayyorlash usuli:🍱
 1. Qiymani tayyorlash:
    - Go‘shtni kichik bo‘lakcha shaklida to‘g‘rang yoki qiymalagichdan o‘tkazing.
    - Piyozni mayda kubik shaklida to‘g‘rab, go‘shtga qo‘shing.
@@ -3119,16 +3166,16 @@ Tayyorlash usuli:
 6. Xizmat qilish:
    - Tayyor somsalarni dasturxonga issiq holda tortiq qiling.
 
-Maslahatlar:
+Maslahatlar:🤗
    - Piyozning miqdorini ko‘proq ishlatsangiz, somsa yanada shirali bo‘ladi.
    - Go‘shtga ozroq yog‘li qism yoki dumba qo‘shish ham yaxshi ta’m beradi.
-
-Yoqimli ishtaha!
-
+Jami kaloriyalar miqdori 3532.82 kkal bo'lib, unda 196.52 g oqsil, 175.82 g yog', va 281.43 g uglevod mavjud
+Yoqimli ishtaha!🍽️😋
+Yordam bera olgan boʻlsam hursandman.
 """,
 
-    "dish_yupqa": """Yupqa  
-     Masalliqlar:
+    "dish_yupqa": """Yupqa🫔  
+     Masalliqlar:🍱
 Xamiriga:
 • Suv
 • Yog‘
@@ -3141,7 +3188,7 @@ Qiymasiga:
 • Sarimsoq – 2 bo‘lak
 • Ko‘kat va ziravorlar
 
-Tayyorlash usuli:
+Tayyorlash usuli:🍱
 1. Xamirni tayyorlash:
    - Suvga tuz va yog‘ni qo‘shib aralashtiring.
    - Asta-sekin unni qo‘shib, yumshoq va elastik xamir qorib oling.
@@ -3166,13 +3213,13 @@ Tayyorlash usuli:
 
 5. Xizmat qilish:
    - Tayyor yupqalarni ta'bga ko‘ra bezatib, issiq holda dasturxonga torting.
-
-Yoqimli ishtaha!
-
+Jami kaloriyalar miqdori 1291.7 kkal bo'lib, unda 76.94 g oqsil, 55.63 g yog', va 120.83 g uglevod mavjud.
+Yoqimli ishtaha!🍽️😋
+Yordam bera olgan boʻlsam hursandman.
 """,
 
-    "dish_qiymaliquymoq": """Qiymali quymoq 
-     Masalliqlar:
+    "dish_qiymaliquymoq": """Qiymali quymoq🥞 
+     Masalliqlar:🍱
 • 2 ta tuxum
 • 1 osh qoshiq shakar
 • 1,5 stakan un
@@ -3183,7 +3230,7 @@ Yoqimli ishtaha!
 • Mayonez
 • Qiymali ichlik (go‘shtli, sabzavotli, qo‘ziqorinli yoki pishloqli ichlik)
 
-Tayyorlash usuli:
+Tayyorlash usuli:🍱
 1. Quymoq xamirini tayyorlash:
    - Tuxum va shakarni yaxshilab ko‘pirtiring.
    - Sekin-asta sutni qo‘shib, aralashtiring.
@@ -3202,13 +3249,13 @@ Tayyorlash usuli:
    - Pishgan quymoqqa salat bargi qo‘ying.
    - Ustiga mayonez va tayyorlangan qiymali ichlikdan soling.
    - Quymoqlarni rulon shaklida o‘rab chiqib, xizmatga tayyorlang.
-
-Yoqimli ishtaha!
-
+Jami kaloriyalar miqdori 2070.55 kkal bo'lib, unda 83.58 g oqsil, 129.54 g yog', va 139.47 g uglevod mavjud.
+Yoqimli ishtaha!🍽️😋
+Yordam bera olgan boʻlsam hursandman.
 """,
 
-    "dish_pishloqlicheburek": """Pishloqli cheburek  
-     Masalliqlar:
+    "dish_pishloqlicheburek": """Pishloqli cheburek  🧀🥟
+     Masalliqlar:🍱
 • Un – 500 g
 • Sut – 250 ml
 • Tuz – 15 g (yarim osh qoshiq)
@@ -3216,7 +3263,7 @@ Yoqimli ishtaha!
 • Pomidor – 1-2 dona
 • Kashnich – 1 bog‘
 
-Tayyorlash usuli:
+Tayyorlash usuli:🍱
 1. Xamir tayyorlash:
    - Un, sut va tuzni aralashtirib, o‘rtacha qattiqlikda xamir qorib oling.
    - Xamirni ustini yopib, 15-20 daqiqaga tindirishga qo‘ying.
@@ -3235,13 +3282,13 @@ Tayyorlash usuli:
 4. Qovurish:
    - Qizib turgan yog‘da chebureklarning ikki tomonini tilla rang tusga kirguncha qovuring.
    - Tayyor chebureklarni qog‘oz sochiq ustiga qo‘yib, ortiqcha yog‘dan halos qiling.
-
-Yoqimli ishtaha!
-
+Jami kaloriyalar miqdori 3755.7 kkal bo'lib, unda 165.4 g oqsil, 218.81 g yog', va 287.56 g uglevod mavjud.
+Yoqimli ishtaha!🍽️😋
+Yordam bera olgan boʻlsam hursandman.
 """,
 
-    "dish_gumma": """Gumma 
-     Masalliqlar:
+    "dish_gumma": """Gumma 🥠
+     Masalliqlar:🍱
 Qiymasi uchun:
 • Qora taloq – 1 dona
 • Yurak – 1 dona
@@ -3258,7 +3305,7 @@ Xamiri uchun:
 • Xamirturush (droja) – 10 g
 • O‘simlik yog‘i – 700 ml
 
-Tayyorlash usuli:
+Tayyorlash usuli:🍱
 1. Xamirni tayyorlash:
    - Un, suv yoki sut, tuz va xamirturushdan yumshoq xamir qorib oling.
    - Ustini yog‘lab, iliq joyda 1 soatga oshirish uchun qoldiring. Suv yoki sutni iliqroq qilinsa, xamir tezroq oshadi.
@@ -3283,9 +3330,9 @@ Tayyorlash usuli:
 5. Tortish:
    - Pishgan gummalarni ortiqcha yog‘dan halos qilish uchun qog‘oz sochiq ustiga qo‘ying.
    - Tayyor gummani achchiq sous yoki qaynoq choy bilan dasturxonga tortiq qiling.
-
-Yoqimli ishtaha!
-
+Jami kaloriyalar miqdori 1755 kkal bo'lib, unda 109.05 g oqsil, 122.05 g yog', va 42 g uglevod mavjud
+Yoqimli ishtaha!🍽️😋
+Yordam bera olgan boʻlsam hursandman.
 """,
 
     "dish_pahlava": """Pahlava  
@@ -3339,13 +3386,13 @@ Tayyorlash usuli:
    - Pishgan pahlavaning ustiga isitilgan asal surting.
    - Oldindan kesilgan romb bo‘yicha kesib chiqing.
    - Tayyor pahlavani ta'bga ko‘ra bezab, dasturxonga tortiq qiling.
-
-Yoqimli ishtaha!
-
+Jami kaloriyalar miqdori 9147.7 kkal bo'lib, unda 120.46 g oqsil, 422.12 g yog', va 1278.15 g uglevod mavjud. 
+Yoqimli ishtaha!🍽️😋
+Yordam bera olgan boʻlsam hursandman.
 """,
 
-    "dish_chakchak": """Chak-chak  
-     Masalliqlar:
+    "dish_chakchak": """Chak-chak  🍯
+     Masalliqlar:🍱
 • Tuxum – 4 ta
 • Mayonez – 1 osh qoshiq
 • Un – 300-350 gr
@@ -3357,7 +3404,7 @@ Yoqimli ishtaha!
 • Shakar – 2 stakan
 • Suv – 2 stakan
 
-Tayyorlash usuli:
+Tayyorlash usuli:🍱
 1. Xamir tayyorlash:
    - 4 ta tuxum, 1 osh qoshiq mayonez, soda (uksus bilan bijitilgan), va bir chimdim tuzni idishga solib mikser yordamida ko‘pirtiring.
    - Asta-sekin un qo‘shib, yumshoq xamir qoring. Xamirni tindirib qo‘ying.
@@ -3386,14 +3433,15 @@ Tayyorlash usuli:
 7. Tortiq qilish:
    - Tayyor chak-chakni bo‘laklarga bo‘lib, likopchaga joylashtiring va ta’bga ko‘ra bezating.
 
-Maslahat: Qiyomni aralashtirish paytida qo‘llaringiz va idish yopishib qolmasligi uchun ozgina o‘simlik yog‘idan foydalansangiz bo‘ladi.
-
-Yoqimli ishtaha!
-
+Maslahat: 🤗
+Qiyomni aralashtirish paytida qo‘llaringiz va idish yopishib qolmasligi uchun ozgina o‘simlik yog‘idan foydalansangiz bo‘ladi.
+Jami kaloriyalar miqdori 9002.2 kkal bo'lib, unda 46.39 g oqsil, 662.51 g yog', va 768.54 g uglevod mavjud.
+Yoqimli ishtaha!🍽️😋
+Yordam bera olgan boʻlsam hursandman.
 """,
 
-    "dish_turkchapishiriq": """Turkcha pishiriq
-     Masalliqlar:
+    "dish_turkchapishiriq": """Turkcha pishiriq🥮
+     Masalliqlar:🍱
 • 1 o'ram Yufka xamiri
 • 300 gramm brinza
 • 100 gramm qattiq pishloq
@@ -3403,7 +3451,7 @@ Yoqimli ishtaha!
 • 1 bog' shivit
 • 1 bog' petrushka
 
-Tayyorlash usuli:
+Tayyorlash usuli:🍱
 1. Sut va tuxum aralashmasi:
    - Tuxumni idishga chaqib soling va sanchiq yordamida ko'pirtiring.
    - Ustidan sutni qo'shing va yaxshilab aralashtiring.
@@ -3428,21 +3476,21 @@ Tayyorlash usuli:
 
 6. Tortiq qilish:
    - Tayyor Go’zlemeni issiqligida dasturxonga torting.
-
-Yoqimli ishtaha!
-
+Jami kaloriyalar miqdori 2764.1 kkal bo'lib, unda 123.75 g oqsil, 191.84 g yog', va 139.48 g uglevod mavjud.
+Yoqimli ishtaha!🍽️😋
+Yordam bera olgan boʻlsam hursandman.
 """,
 
     "dish_qozonsomsa": """
-     Qozon somsa
-Masalliqlar:
+     Qozon somsa🥟
+Masalliqlar:🍱
 Hamiriga:
 1. 500 ml tuzli suv
 2. 6 piyola un
 3. 80% li margarin
 4. 2 osh qoshiq oq yog’
 
-Tayyorlash usuli:
+Tayyorlash usuli:🍱
 1. Xamirni tayyorlash:
    - Tuzli suvni idishga quyib, unni asta-sekin qo'shib yumshoq xamir qorib oling.
    - Xamirni 20 daqiqa dam olib tindiring.
@@ -3464,14 +3512,14 @@ Tayyorlash usuli:
 
 5. Tortiq qilish:
    - Qozon somsalarini issiqligida dasturxonga torting. Mazasi tandir somsaga yaqin bo'lib chiqadi.
-
-Yoqimli ishtaha!
-
+Jami kaloriyalar miqdori 3214.2 kkal bo'lib, unda 43.2 g oqsil, 175.8 g yog', va 374.4 g uglevod mavjud.
+Yoqimli ishtaha!🍽️😋
+Yordam bera olgan boʻlsam hursandman.
 """,
 
     "dish_sabzavotlisomsa": """
-     Sabzavotli somsa
-Masalliqlar:
+     Sabzavotli somsa🥟
+Masalliqlar:🍱
 • Xamir uchun:
   Somsa xamiri (ikkinchi usul)
 • Ichlik uchun:
@@ -3482,7 +3530,7 @@ Masalliqlar:
   Go‘sht – 100 gr
   Tuz va ziravorlar – ta’bga ko‘ra
 
-Tayyorlash usuli:
+Tayyorlash usuli:🍱
 1. Ichlikni tayyorlash:
    - Piyoz, bulg‘ori, pomidor, go‘sht va charvi yog‘ni bir xil mayda kubik shaklida to‘g‘rang.
    - Barcha masalliqlarni aralashtirib, tuz va ziravorlar qo‘shib qiyma tayyorlang.
@@ -3501,13 +3549,13 @@ Tayyorlash usuli:
 
 5. Tortiq qilish:
    - Pishgan somsalarni likopchalarga terib, issiq holda dasturxonga torting.
-
-Yoqimli ishtaha!
-
+Jami kaloriyalar miqdori 3544 kkal bo'lib, unda 60.6 g oqsil, 252.85 g yog', va 273.15 g uglevod mavjud
+Yoqimli ishtaha!🍽️😋
+Yordam bera olgan boʻlsam hursandman.
 """,
 
-    "dish_yuraksomsa": """Yurak somsa 
-     Masalliqlar:
+    "dish_yuraksomsa": """Yurak somsa 🥟
+     Masalliqlar:🍱
 • Xamir:
   Somsa xamiri (birinchi usul)
 • Ichlik uchun:
@@ -3516,7 +3564,7 @@ Yoqimli ishtaha!
   Piyoz – 300 gr
   Tuz va ziravorlar – ta’bga ko‘ra
 
-Tayyorlash usuli:
+Tayyorlash usuli:🍱
 1. Ichlikni tayyorlash:
    - Piyoz, go‘sht va charvi yog‘ni mayda kubik shaklida to‘g‘rang.
    - Tuz va ziravorlar qo‘shib, qiyma tayyorlang.
@@ -3536,13 +3584,13 @@ Tayyorlash usuli:
 
 5. Tortiq qilish:
    - Pishgan somsalarni xohishingizga ko‘ra bezatib, issiq holda dasturxonga torting.
-
-Yoqimli ishtaha!
-
+Jami kaloriyalar miqdori 2994 kkal bo'lib, unda 105.3 g oqsil, 181.3 g yog', va 235 g uglevod mavjud
+Yoqimli ishtaha!🍽️😋
+Yordam bera olgan boʻlsam hursandman.
 """,
 
-    "dish_qatlamasomsa": """Qatlama somsa  
-     Masalliqlar:
+    "dish_qatlamasomsa": """Qatlama somsa🥟  
+     Masalliqlar:🍱
 • Xamir uchun:
   o Un – 1 kg
   o Qatiq – 100 gr
@@ -3557,7 +3605,7 @@ Yoqimli ishtaha!
   o Dumba yog‘ – 150 gr
   o Tuz – ta’bga ko‘ra
 
-Tayyorlash usuli:
+Tayyorlash usuli:🍱
 1. Xamirni tayyorlash:
    - Qatiqqa sirkada so‘ndirilgan soda qo‘shing va aralashtiring.
    - Tuzli suvga qatiqni qo‘shib, yana aralashtiring.
@@ -3585,14 +3633,14 @@ Tayyorlash usuli:
 6. Bezash:
    - Pishgan somsalarni gaz pechidan olib, ustiga ozgina sovuq suv sachratib yuboring.
    - Bu usul somsalarni yaltiroq va ishtahaochar qiladi.
-
-Yoqimli ishtaha!
-
+Jami kaloriyalar miqdori 7713.6 kkal bo'lib, unda 197.32 g oqsil, 521.81 g yog', va 553.35 g uglevod mavjud.
+Yoqimli ishtaha!🍽️😋
+Yordam bera olgan boʻlsam hursandman.
 """,
 
     # ----------- SHIRINLIKLAR (SHIRINLIK) BO‘LIMI -----------
-    "dish_nisholda": """Nisholda 
-     Masalliqlar:
+    "dish_nisholda": """Nisholda 🍚
+     Masalliqlar:🍱
 • Shakar – 900 gr
 • Tuxum oqsili – 10-12 dona
 • Limon kislotasi – 1 gr
@@ -3600,7 +3648,7 @@ Yoqimli ishtaha!
 • Jelatin – 0,5 gr
 • Vanilin – 0,1 gr
 
-Tayyorlash usuli:
+Tayyorlash usuli:🍱
 1. Shirinmiya ildizini qaynatish:
    Shirinmiya ildizini yuvib, tozalang va mayda to‘g‘rang.
    Taxminan 3–4 porsiyali suvda qaynatib pishiring.
@@ -3624,44 +3672,47 @@ Tayyorlash usuli:
 
 5. Servis:
    Tayyor nisholdani chiroyli idishlarga solib, darhol dasturxonga torting yoki sovitib qo‘yishingiz mumkin.
-
-Yoqimli ishtaha!
-
+Jami kaloriyalar miqdori 3655.96 kkal bo'lib, unda 30.7 g oqsil, 0.61 g yog', va 907.07 g uglevod mavjud
+Yoqimli ishtaha!🍽️😋
+Yordam bera olgan boʻlsam hursandman.
 """,
 
-    "dish_holvetar": """Holvetar 
-1-usul Masalliqlar:
+    "dish_holvetar": """Holvetar 🥣
+1-usul ‼️
+Masalliqlar:🍱
 • Qo‘y yog‘i (eritilgani) – 100 gr
 • Un – 1 stakan
 • Shakar yoki oq qand – 1 stakan (150 gr)
 • Qaynoq suv – 3 stakan
 
-Tayyorlash usuli:
+Tayyorlash usuli:🍱
 1. Qozonni qizdiring va yog‘ni solib dog‘lab oling. Kapkir bilan shopirib, tobini chiqaring.
 2. Yog‘ga unni solib, doimiy aralashtirib turing. Un jigarrang tusga kirib, qizarib pishishi kerak.
 3. Qaynoq suvda shakarni eritib, uni qozonga sekin-asta quyib aralashtiring.
 4. Qumoqlarni yoyish uchun doimiy ravishda aralashtiring. Olovni sustroq qilib, qizg‘ish rangga kirguncha pishiring.
 5. Tayyor holvaytarni olovdan olib, tobini chiqarib, piyolalarga yoki likopchalarga solib dasturxonga torting.
 
-2-usul Masalliqlar:
+2-usul ‼️
+Masalliqlar:🍱
 • Bug‘doy uni – 100 gr
 • Shakar – 150-200 gr
 • O‘simlik yog‘i – 50 gr
 • Qaynagan suv – 1 kosa
 • Vanilin – 2 gr
 
-Tayyorlash usuli:
+Tayyorlash usuli:🍱
 1. Tovaga o‘simlik yog‘ini solib, qizdiring (dog‘lang).
 2. Tovaga unni solib, doimiy ravishda aralashtirib turing. Un jigarrang tusga kirguncha qovuring.
 3. Qaynoq suvda shakarni eritib, vanilinni qo‘shing va sekin-asta qozonga quyib aralashtiring.
 4. Muntazam ravishda kavlab turing. Holvaytar quyuqlasha boshlaganda olovdan oling.
 5. Tayyor holvaytarni likopchalarga suzib, sovutib dasturxonga torting.
-
-Yoqimli ishtaha!
+Jami kaloriyalar miqdori 1836.5 kkal bo'lib, unda 7.2 g oqsil, 110.8 g yog', va 212.4 g uglevod mavjud.
+Yoqimli ishtaha!🍽️😋
+Yordam bera olgan boʻlsam hursandman.
 """,
 
-    "dish_tvaroglikr": """Tvarogli krendel
-    Masalliqlar:
+    "dish_tvaroglikr": """Tvarogli krendel 🥣
+    Masalliqlar:🍱
 Xamiri uchun:
 • Un – 300 gramm
 • Tvorog – 200 gramm
@@ -3676,7 +3727,7 @@ Ustiga sepish uchun:
 • Shakar – 2 osh qoshiq
 • Vanil shakari – 1 choy qoshiq
 
-Tayyorlash usuli:
+Tayyorlash usuli:🍱
 1. Un va qabartmani aralashtiring.
    Bir idishda un va qabartmani birlashtirib aralashtiring.
 
@@ -3700,19 +3751,20 @@ Tayyorlash usuli:
 
 8. Krendellarni pishiring.
    Krendellarni pergament qog‘ozi bilan qoplangan patnisga joylashtiring va 180 °C darajada qizdirilgan gaz pechida 30 daqiqa davomida pishiring.
-
-Yoqimli ishtaha!
+Jami kaloriyalar miqdori 1978.65 kkal bo'lib, unda 53.61 g oqsil, 90.11 g yog', va 241.91 g uglevod mavjud.
+Yoqimli ishtaha!🍽️😋
+Yordam bera olgan boʻlsam hursandman.
 """,
 
-    "dish_shokoglazur": """Shokoladli glazur 
-     Masalliqlar:
+    "dish_shokoglazur": """Shokoladli glazur 🍫
+     Masalliqlar:🍱
 • Kakao – 4 osh qoshiq
 • Shakar – 12 osh qoshiq
 • Sut – 8 osh qoshiq
 • Sariyog‘ – 50 g
 • Vanilin – ta’bga ko‘ra
 
-Tayyorlash usuli:
+Tayyorlash usuli:🍱
 1. Masalliqlarni tayyorlang.
    Shakar va kakao kukuni bir idishda yaxshilab aralashtiriladi, bir xil bo‘lishi kerak.
 
@@ -3736,16 +3788,18 @@ Tayyorlash usuli:
    - Glazur oqib ketmasligi uchun, pishiriq yuzasi sovuq bo‘lishi maqsadga muvofiq.
 
 Tayyor! Glazur turli pishiriqlarni bezash va ta’mini boyitish uchun mukammal.
-Yoqimli ishtaha!
+Jami kaloriyalar miqdori 1037.46 kkal bo'lib, unda 8.21 g oqsil, 47.2 g yog', va 162.64 g uglevod mavjud. 
+Yoqimli ishtaha!🍽️😋
+Yordam bera olgan boʻlsam hursandman.
 """,
 
-    "dish_bananlieskimo": """Bananli eskimo 
-    Masalliqlar:
+    "dish_bananlieskimo": """Bananli eskimo 🍌
+    Masalliqlar:🍱
 • Banan – 2 dona
 • Yong‘oq – 50 gr
 • Sutli shokolad – 100 gr
 
-Tayyorlash bosqichlari:
+Tayyorlash bosqichlari:🍱
 1. Bananlarni kesib tayyorlang.
    Bananni po‘stlog‘idan ajratmasdan 2-4 bo‘lakka bo‘ling (bananning uzunligiga qarab). Har bir bo‘lakka muzqaymoq cho‘pini tiqing yoki choy qoshiqchadan foydalaning.
 
@@ -3769,12 +3823,13 @@ Tayyorlash bosqichlari:
 
 8. Xizmat qilishdan oldin olib qo‘ying.
    Tanovvul qilishdan 3-5 daqiqa oldin muzlatgichdan olib, yumshashini kuting.
-
-Yoqimli ishtaha!
+Jami kaloriyalar miqdori 1075.6 kkal bo'lib, unda 15.14 g oqsil, 58.72 g yog', va 124.2 g uglevod mavjud.
+Yoqimli ishtaha!🍽️😋
+Yordam bera olgan boʻlsam hursandman.
 """,
 
-    "dish_jemlipirog": """Jemli pirog 
-    Masalliqlar:
+    "dish_jemlipirog": """Jemli pirog 🥮
+    Masalliqlar:🍱
 • Un: 400 gramm
 • Qabartma (razrixlitel): 10 gramm
 • Vanil shakari: 0,5 choy qoshiq
@@ -3785,7 +3840,7 @@ Yoqimli ishtaha!
 • Rezavor jem: 200 gramm
 • Ustiga surtish uchun: 1 dona tuxum
 
-Tayyorlash bosqichlari:
+Tayyorlash bosqichlari:🍱
 1. Un va qabartmani aralashtiring.
    Elangan unni idishga solib, qabartma va vanil shakarini qo‘shing. Venchik yordamida yaxshilab aralashtiring. Elangan un xamirni yumshoq va havodor qiladi.
 
@@ -3818,12 +3873,13 @@ Tayyorlash bosqichlari:
 
 11. Bezatish.
    Sovigan pirogni shakar upasi bilan sepib, xizmat qiling.
-
-Yoqimli ishtaha!
+Jami kaloriyalar miqdori 3819 kkal bo'lib, unda 46.87 g oqsil, 215.7 g yog', va 444.9 g uglevod mavjud.
+Yoqimli ishtaha!🍽️😋
+Yordam bera olgan boʻlsam hursandman.
 """,
 
-    "dish_tvoroglibulochka": """Tvorogli bulochka 
-     Masalliqlar:
+    "dish_tvoroglibulochka": """Tvorogli bulochka 🥨
+     Masalliqlar:🍱
 • Tuxum: 2 dona
 • Tvorog: 250 gramm
 • Shakar upasi: 175 gramm
@@ -3835,7 +3891,7 @@ Yoqimli ishtaha!
 • Ustiga surtish uchun: tuxum
 • Shakar upasi: 40 gramm
 
-Tayyorlash bosqichlari:
+Tayyorlash bosqichlari:🍱
 1. Tvorogni maydalash.
    Tvorogni blender yordamida bir xil konsistensiyaga keltiring.
 
@@ -3859,12 +3915,13 @@ Tayyorlash bosqichlari:
 
 8. Bezatish.
    Pishgan bulochkalarga shakar upasini sepib, dasturxonga torting.
-
-Yoqimli ishtaha!
+Jami kaloriyalar miqdori 2939.5 kkal bo'lib, unda 68.68 g oqsil, 119.51 g yog', va 409.71 g uglevod mavjud.
+Yoqimli ishtaha!🍽️😋
+Yordam bera olgan boʻlsam hursandman.
 """,
 
-    "dish_malinalichizkeyk": """Malinali chizkeyk 
-     Masalliqlar:
+    "dish_malinalichizkeyk": """Malinali chizkeyk🍮 
+     Masalliqlar:🍱
 • Shakar: 200 gr
 • Sariyog': 100 gr
 • Tuxum: 3 dona
@@ -3878,7 +3935,7 @@ Yoqimli ishtaha!
 • Limon po‘stlog‘i: 1 dona
 • Malina (yoki boshqa mevalar): ta’bga ko‘ra
 
-Tayyorlash usuli:
+Tayyorlash usuli:🍱
 1. Asos tayyorlash:
    - Sariyog‘ni mikroto‘lqinli pechda 30 soniya davomida eritib oling.
    - Pechenelarni blender yordamida maydalab, uvoq hosil qiling.
@@ -3903,17 +3960,18 @@ Tayyorlash usuli:
 5. Sovutish va bezatish:
    - Tayyor chizkeykni xona haroratida sovuting, so‘ng muzlatgichga qo‘yib, 4-5 soat davomida tindiring.
    - Xohishga ko‘ra, ustini malina va boshqa bezaklar bilan bezating.
-
-Yoqimli ishtaha!
+Jami kaloriyalar miqdori 3634.17 kkal bo'lib, unda 120.66 g oqsil, 179.2 g yog', va 396.04 g uglevod mavjud.
+Yoqimli ishtaha!🍽️😋
+Yordam bera olgan boʻlsam hursandman.
 """,
 
-    "dish_bolqaymoq": """Bolqaymoq 
-     Masalliqlar:
+    "dish_bolqaymoq": """Bolqaymoq 🥣
+     Masalliqlar:🍱
 • Qaymoq: 250 gr
 • Asal: 2 osh qoshiq
 • Un: 1 choy qoshiq
 
-Tayyorlash usuli:
+Tayyorlash usuli:🍱
 1. Qaymoqni qizdirish:
    - Qaymoqni past olovda, doimiy qo‘zg‘atib, qizdiring.
    - Asta-sekin asalni qo‘shing va yaxshilab aralashtiring. Asal issiqlikda erib, qaymoq bilan bir hil massa hosil qiladi.
@@ -3927,12 +3985,13 @@ Tayyorlash usuli:
 
 4. Tayyor bo‘lgan bolqaymoq:
    - Bolqaymoqni non, sevimli mevalaringiz yoki turli pishiriqlar bilan iste’mol qilishingiz mumkin.
-
-Yoqimli ishtaha!
+Jami kaloriyalar miqdori 1231.7 kkal bo'lib, unda 5.39 g oqsil, 112.95 g yog', va 37.2 g uglevod mavjud
+Yoqimli ishtaha!🍽️😋
+Yordam bera olgan boʻlsam hursandman.
 """,
 
-    "dish_murabbolipirog": """Murabboli pirog 
-    Masalliqlar:
+    "dish_murabbolipirog": """Murabboli pirog 🥧
+    Masalliqlar:🍱
 • Un: 480 gr
 • Shakar: 200 gr
 • Tuxum: 2 dona
@@ -3940,7 +3999,7 @@ Yoqimli ishtaha!
 • Margarin: 200 gr
 • Murabbo: 200 gr
 
-Tayyorlash usuli:
+Tayyorlash usuli:🍱
 1. Aralashmani tayyorlash:
    - Xona haroratida yumshatilgan margarinni shakar bilan mikserda yaxshilab aralashtiring.
    - Tuxumni qo‘shing va yana 5-10 daqiqa davomida aralashtirishda davom eting.
@@ -3961,12 +4020,13 @@ Tayyorlash usuli:
 
 6. Bezash:
    - Tayyor pirogni sovuting va xohishga ko‘ra ustiga shakar upasi sepib bezang.
-
-Yoqimli ishtaha!
+Jami kaloriyalar miqdori 4351 kkal bo'lib, unda 42.4 g oqsil, 216.4 g yog', va 582.7 g uglevod mavjud.
+Yoqimli ishtaha!🍽️😋
+Yordam bera olgan boʻlsam hursandman.
 """,
 
-    "dish_asallipirojniy": """Asalli pirojniy 
-     Masalliqlar:
+    "dish_asallipirojniy": """Asalli pirojniy 🥧
+     Masalliqlar:🍱
 Xamir uchun:
 • 70 gramm asal
 • 150 gramm shakar
@@ -3983,7 +4043,7 @@ Krem uchun:
 • 50 gramm rezavor mevalardan tayyorlangan jem
 • Bezak uchun istalgan rezavor mevalar
 
-Tayyorlash usuli:
+Tayyorlash usuli:🍱
 1. Asalli xamir tayyorlash:
    - Sariyog', asal va shakarni idishga solib, o'rtacha olovda suyulgunicha aralashtirib isitib oling.
    - Tuxumlarni alohida idishda sanchqi yordamida aralashtiring va asalli aralashmaga asta-sekin qo'shib, tez-tez aralashtiring.
@@ -4010,12 +4070,13 @@ Tayyorlash usuli:
 
 5. Qotishi uchun:
    - Pirojniylarni xona haroratida 1 soat ushlab turing, keyin muzlatgichda 2 soat sovuting.
-
-Yoqimli ishtaha!
+Jami kaloriyalar miqdori 4641 kkal bo'lib, unda 86.4 g oqsil, 203.1 g yog', va 626.7 g uglevod mavjud.
+Yoqimli ishtaha!🍽️😋
+Yordam bera olgan boʻlsam hursandman.
 """,
 
-    "dish_shaftolilimizq": """Shaftolili muzqaymoq
-    Masalliqlar:
+    "dish_shaftolilimizq": """Shaftolili muzqaymoq🍧
+    Masalliqlar:🍱
 • Muzqaymoq uchun:
   o 250 gramm shaftolili pyure
   o 100 gramm shakar
@@ -4027,7 +4088,7 @@ Yoqimli ishtaha!
   o 110 gramm suv
   o 1/8 choy qoshiq limon kislotasi
 
-Tayyorlash usuli:
+Tayyorlash usuli:🍱
 1. Qiyom tayyorlash:
    - Qozonchaga shakar va suvni soling, baland olovda shakar eriguniga qadar qaynatib turing.
    - Limon kislotasini ozroq suvda eritib, qiyomga qo‘shing.
@@ -4047,12 +4108,13 @@ Tayyorlash usuli:
 
 5. Taqdim qilish:
    - Tayyor muzqaymoqni muzlatgichdan olib, yalpiz bargchalari va shaftoli bo‘laklari bilan bezating.
-
-Yoqimli ishtaha!
+Jami kaloriyalar miqdori 1498.45 kkal bo'lib, unda 5.28 g oqsil, 0.27 g yog', va 383.19 g uglevod mavjud.
+Yoqimli ishtaha!🍽️😋
+Yordam bera olgan boʻlsam hursandman.
 """,
 
-    "dish_aylanay": """Aylanay pirogi 
-    Masalliqlar:
+    "dish_aylanay": """Aylanay pirogi 🥧
+    Masalliqlar:🍱
 • Un – 400 g
 • Soda – 0.5 choy qoshiq
 • Xamirturush (qavartma) – 1.5 choy qoshiq
@@ -4060,7 +4122,7 @@ Yoqimli ishtaha!
 • Margarin – 200 g
 • Murabbo (jem) – 0.5 litr
 
-Tayyorlash usuli:
+Tayyorlash usuli:🍱
 1. Xamirni tayyorlash:
    - Margarinni qirg‘ichdan chiqarib, 2 stakan un bilan yaxshilab uvalang.
    - Hosil bo‘lgan aralashmadan yarim piyolani ajratib qo‘ying (keyin ustiga sepish uchun).
@@ -4082,19 +4144,20 @@ Tayyorlash usuli:
 Tavsiyalar:
    - Murabboni xohlaganingizcha o‘zgartirishingiz mumkin (olxo‘ri, malina yoki o‘rik murabbosi juda mazali chiqadi).
    - Pirogni ustiga maydalangan yong‘oq yoki bodom sepib bezashingiz mumkin.
-
-Yoqimli ishtaha!
+Jami kaloriyalar miqdori 4604 kkal bo'lib, unda 26.5 g oqsil, 273.5 g yog', va 536.3 g uglevod mavjud
+Yoqimli ishtaha!🍽️😋
+Yordam bera olgan boʻlsam hursandman.
 """,
 
-    "dish_chumoliuya": """Chumoli uyasi
-     Masalliqlar:
+    "dish_chumoliuya": """Chumoli uyasi🥮
+     Masalliqlar:🍱
 • Tuxum – 2 dona
 • Quyultirilgan sut – 0.5 litr
 • Qatiq – 0.5 litr
 • Margarin – 200 g
 • Un – ta'bga ko‘ra
 
-Tayyorlash usuli:
+Tayyorlash usuli:🥮
 1. Xamir tayyorlash:
    - Margarinni qirg‘ichdan chiqarib, un bilan aralashtiring.
    - Qatiqqa choy sodasi qo‘shib, margarinli un aralashmasiga soling.
@@ -4114,15 +4177,16 @@ Tayyorlash usuli:
    - Tayyorlangan massaga qo‘l bilan uy shaklini bering yoki istalgan boshqa shakl yasang.
    - Istasangiz, yong‘oq, kokos zarralari, mayiz yoki boshqa qo‘shimchalar bilan bezating.
 
-Tavsiyalar:
+Tavsiyalar:🤗
    - Quyultirilgan sutning miqdorini xamirning yopishqoqligiga qarab sozlashingiz mumkin.
    - Shirinlikni muzlatgichda biroz tindirib, keyin tortiq qilsangiz, mazasi yanada yaxshiroq bo‘ladi.
-
-Yoqimli ishtaha!
+Jami kaloriyalar miqdori 4929 kkal bo'lib, unda 93.8 g oqsil, 275.5 g yog', va 468.1 g uglevod mavjud. 
+Yoqimli ishtaha!🍽️😋
+Yordam bera olgan boʻlsam hursandman.
 """,
 
-    "dish_olchali": """Olchali pirog 
-     Masalliqlar:
+    "dish_olchali": """Olchali pirog 🥧
+     Masalliqlar:🍱
 • Un – 2 stakan
 • Shakar – 0.5 stakan
 • Soda – 0.5 choy qoshiq
@@ -4133,7 +4197,7 @@ Yoqimli ishtaha!
 • Tuxum – 2 dona
 • Kakao (ixtiyoriy) – 1 osh qoshiq
 
-Tayyorlash usuli:
+Tayyorlash usuli:🍱
 1. Xamir tayyorlash:
    - Blenderga margarin, shakar, kakao va unni solib, mayda kroshka hosil bo‘lguncha aralashtiring.
    - Tayyor kroshkani bir muddat muzlatgichga qo‘ying.
@@ -4156,19 +4220,21 @@ Tayyorlash usuli:
    - Pirog biroz sovugandan so‘ng, eritilgan shokolad bilan ustini bezang (setka uslubida).
    - Tayyor pirogni muzlatgichga qo‘yib, kamida 2 soat tindiring.
 
-Tavsiyalar:
+Tavsiyalar:🤗
    - Pirogni sovugandan so‘ng iste’mol qilish mazaliroq bo‘ladi.
    - Olchaning suvi ko‘p bo‘lsa, uni oldindan biroz siqib olish kerak.
-
-Yoqimli ishtaha""",
+Jami kaloriyalar miqdori 2961.3 kkal bo'lib, unda 64.88 g oqsil, 188.89 g yog', va 267.72 g uglevod mavjud
+Yoqimli ishtaha!🍽️😋
+Yordam bera olgan boʻlsam hursandman.
+""",
 
 })
 # ---- KODNING DAVOMI (4-QISM, C) ----
 
 recipes_texts.update({
 
-    "dish_shokokeks": """Shokoladli keks t
-     Masalliqlar:
+    "dish_shokokeks": """Shokoladli keks🍪
+     Masalliqlar:🍱
 Kungaboqar yog‘i – 30 g
 Un – 70 g
 Shakar – 60 g
@@ -4178,7 +4244,7 @@ Sut – 30 ml
 Kakao kukuni – 15 g
 Qavartma – 0.25 choy qoshiq
 
-Tayyorlash usuli:
+Tayyorlash usuli:🍱
 
 1. Xamir tayyorlash:
    Barcha masalliqlarni (kungaboqar yog‘i, un, shakar, tuxum, tuz, sut, kakao va qavartma) bir idishda yaxshilab aralashtiring.
@@ -4195,16 +4261,16 @@ Tayyorlash usuli:
    Keks pishib chiqqach, mikroto‘lqinli pechdan chiqarib oling.
    Mikroto‘lqinli pechda tayyorlangan keks biroz quruqroq bo‘lishi mumkin, shuning uchun uni darhol issiqligida tanovul qilish tavsiya etiladi.
 
-Maslahatlar:
+Maslahatlar:🤗
 - Kekni muzqaymoq, shokolad sousi yoki yangi mevalar bilan bezash orqali yanada mazali qilish mumkin.
 - Agar bir nechta porsiya kerak bo‘lsa, masalliqlar miqdorini mos ravishda oshiring.
-
-Yoqimli ishtaha!
-
+Jami kaloriyalar miqdori 844.4 kkal bo'lib, unda 14.6 g oqsil, 44.8 g yog', va 107.1 g uglevod mavjud.
+Yoqimli ishtaha!🍽️😋
+Yordam bera olgan boʻlsam hursandman.
 """,
 
-    "dish_asallipechenye": """Asalli pechenye
-     Masalliqlar:
+    "dish_asallipechenye": """Asalli pechenye🍩
+     Masalliqlar:🍱
 Un – 200 g
 Shakar – 0,5 stakan
 Tuxum – 2 dona
@@ -4212,7 +4278,7 @@ Asal – 2 osh qoshiq
 Soda – 0,5 choy qoshiq
 Margarin – 100 g
 
-Tayyorlash usuli:
+Tayyorlash usuli:🍱
 1. Asalni tayyorlash:
    2 osh qoshiq asalni idishga solib, gaz plitasida qizdiring.
    Qaynab chiqqanidan so‘ng, 0,5 choy qoshiq soda qo‘shib, aralashtiring. Asal ko‘pira boshlaydi, darhol olovdan oling.
@@ -4236,11 +4302,12 @@ Tayyorlash usuli:
 6. Xizmat qilish:
    Pechenyelarni biroz sovitib, bolalaringiz va yaqinlaringiz bilan bahramand bo‘ling.
 
-Maslahatlar:
+Maslahatlar:🤗
 - Pechenyelarni qand-qaymoq bilan bezash mumkin.
 - Shakar miqdorini ta’bga qarab kamaytirib yoki ko‘paytirishingiz mumkin.
-
-Yoqimli ishtaha!
+Jami kaloriyalar miqdori 1970.2 kkal bo'lib, unda 25.09 g oqsil, 110 g yog', va 230.7 g uglevod mavjud.
+Yoqimli ishtaha!🍽️😋
+Yordam bera olgan boʻlsam hursandman.
 """
 
 })  # end of update
@@ -4250,13 +4317,13 @@ recipes_texts.update({
 
     # ICHIMLIKLAR BO‘LIMI:
 
-    "drink_olmali": """Olmali choy 
-     Masalliqlar:
+    "drink_olmali": """Olmali choy 🍵
+     Masalliqlar:🍱
 Qora choy — 2-3 choy qoshiq
 Olma — 40-50 gr
 Shakar yoki asal — ta'bga ko‘ra
 
-Tayyorlash usuli:
+Tayyorlash usuli:🍱
 1. Choynakni tayyorlang:
    Choynakni 3-4 marta qaynoq suv bilan chayib, issiqlikni saqlashga tayyorlang.
 
@@ -4273,17 +4340,17 @@ Tayyorlash usuli:
 
 5. Taqdim qilish:
    Tayyor bo‘lgan choyni piyolalarga suzib, ta'bga ko‘ra shakar yoki asal qo‘shing. Bu choyni issiq holda ichish qishki sovuq kunlarda iliqlik bag‘ishlaydi, yozda esa salqin holda ichish tetiklik beradi.
-
-Yoqimli ishtaha!
-
+Jami kaloriyalar miqdori 100.82 kkal bo'lib, unda 0.14 g oqsil, 0.09 g yog', va 26.21 g uglevod mavjud.
+Yoqimli ishtaha!🍽️😋
+Yordam bera olgan boʻlsam hursandman.
 """,
 
-    "drink_namatak": """Namatak sharbati 
-     Masalliqlar:
+    "drink_namatak": """Namatak sharbati 🧋
+     Masalliqlar:🍱
 1 piyola na’matak mevasi
 2 litr suv
 
-Tayyorlash usuli:
+Tayyorlash usuli:🍱
 1. Na’matakni tayyorlang:
    Na’matak mevasini yaxshilab tozalang va yuving.
 
@@ -4300,22 +4367,23 @@ Tayyorlash usuli:
 5. Sovutish yoki isitish:
    Sharbatni issiq holda sovuq kunlarda yoki salqin holda issiq kunlarda ichish mumkin.
 
-Foydasi:
+Foydasi:🤗
 Na’matak sharbati jigar, buyrak, ichak, oshqozon faoliyatini yaxshilaydi, qon aylanishini normallashtiradi va surunkali kasalliklarning oldini oladi.
-
-Yoqimli ishtaha!
+Jami kaloriyalar miqdori 166 kkal bo'lib, unda 3.2 g oqsil, 0.6 g yog', va 37.4 g uglevod mavjud. 
+Yoqimli ishtaha!🍽️😋
+Yordam bera olgan boʻlsam hursandman.
 
 """,
 
-    "drink_yalpizlimon": """Yalpizli limon choy 
-     Masalliqlar:
+    "drink_yalpizlimon": """Yalpizli limon choy 🍸
+     Masalliqlar:🍱
 Shakar – 8-10 osh qoshiq
 Suv – 2 litr
 Yalpiz – 5-6 dona (barglari)
 Limon – 1 dona
 Choy (qora) – 3 choy qoshiq
 
-Tayyorlash usuli:
+Tayyorlash usuli:🍱
 1. Suvni qaynatish:
    Idishga 2 litr suv quyib qaynatib oling.
 
@@ -4330,19 +4398,19 @@ Tayyorlash usuli:
 
 5. Tayyorlash:
    Tayyor choyni idishdan suzib olib, iliq yoki sovuq holda iching.
-
-Yoqimli ishtaha
-
+Jami kaloriyalar miqdori 148.63 kkal bo'lib, unda 1.25 g oqsil, 0.33 g yog', va 40.11 g uglevod mavjud.
+Yoqimli ishtaha!🍽️😋
+Yordam bera olgan boʻlsam hursandman.
 """,
 
-    "drink_qulupnay": """Qulupnayli ichimlik 
-    Masalliqlar:
+    "drink_qulupnay": """Qulupnayli ichimlik 🍹
+    Masalliqlar:🍱
 Qulupnay – 150 g
 Shakar yoki asal – ta'bga ko'ra
 Qatiq (kefir) – 300 ml
 Yalpiz – 2 dona (bezak uchun)
 
-Tayyorlash usuli:
+Tayyorlash usuli:🍱
 1. Qulupnayni tayyorlash:
    Qulupnayni yaxshilab yuvib, bandlaridan tozalang.
 
@@ -4354,18 +4422,18 @@ Tayyorlash usuli:
 
 4. Ichimlikni bezash:
    Tayyor ichimlikni stakanlarga quying. Yalpiz yaproqlari bilan bezatib, darhol xizmat qiling.
-
-Yoqimli ishtaha
-
+Jami kaloriyalar miqdori 309.8 kkal bo'lib, unda 10.71 g oqsil, 10.36 g yog', va 46.27 g uglevod mavjud.
+Yoqimli ishtaha!🍽️😋
+Yordam bera olgan boʻlsam hursandman.
 """,
 
-    "drink_qovun": """Qovun sharbati 
-     Masalliqlar:
+    "drink_qovun": """Qovun sharbati 🍸
+     Masalliqlar:🍱
 Qovun – 600 g
 Suv – 700 ml
 Shakar – 200 g
 
-Tayyorlash usuli:
+Tayyorlash usuli:🍱
 1. Qovunni tayyorlash:
    Qovunni po‘chog‘idan va urug‘laridan tozalang. Uni mayda bo‘laklarga kesing.
 
@@ -4381,20 +4449,21 @@ Tayyorlash usuli:
 5. Xizmat qilish:
    Sovuq holida stakanlarga quyib, taqdim eting. Istalgan holda yalpiz barglari bilan bezashingiz mumkin.
 
-Foydasi:
+Foydasi:🤗
 Qovun sharbati chanqoqni bosadi, suyak, tish va tirnoqlar uchun kaltsiy manbai bo‘lib xizmat qiladi, asab tizimini tinchlantiradi hamda organizmdagi suv va tuz muvozanatini saqlaydi.
-
-Yoqimli ishtaha
+Jami kaloriyalar miqdori 978 kkal bo'lib, unda 5.4 g oqsil, 1.2 g yog', va 249.2 g uglevod mavjud. 
+Yoqimli ishtaha!🍽️😋
+Yordam bera olgan boʻlsam hursandman.
 """,
 
-    "drink_bodomli": """Bodomli sut 
-     Masalliqlar:
+    "drink_bodomli": """Bodomli sut 🥛
+     Masalliqlar:🍱
 Asal – 2 osh qoshiq
 Suv – 200 ml
 Sut – 100 ml
 Bodom – 30 dona
 
-Tayyorlash usuli:
+Tayyorlash usuli:🍱
 1. Bodomni tayyorlash:
    Bodomni qaynoq suvga 5-10 daqiqaga solib qo‘ying.
    So‘ng mag‘izlarini po‘stlog‘idan tozalang.
@@ -4411,21 +4480,21 @@ Tayyorlash usuli:
    Tayyor bo‘lgan aralashmani 4 qavatli dokadan suzib oling.
    Suzilgan bodomli sutni stakanga quying.
 
-Qo‘shimcha ma’lumot:
+Qo‘shimcha ma’lumot:🤗
 - Bodomli sutni suzmasdan ham ichishingiz mumkin.
 - Agar sut yoqtirmasangiz, uni faqat suv bilan tayyorlab iste’mol qilsangiz ham bo‘ladi.
-
-Yoqimli ishtaha!
-
+Jami kaloriyalar miqdori 325 kkal bo'lib, unda 9.59 g oqsil, 18 g yog', va 36 g uglevod mavjud. 
+Yoqimli ishtaha!🍽️😋
+Yordam bera olgan boʻlsam hursandman.
 """,
 
-    "drink_uzum": """Uzum sharbati 
-     Masalliqlar:
+    "drink_uzum": """Uzum sharbati 🧋
+     Masalliqlar:🍱
 Uzum – 300 g
 Shakar – 100 g
 Suv – 1,5 l
 
-Tayyorlash usuli:
+Tayyorlash usuli:🍱
 1. Tayyorlash:
    Uzumni yaxshilab yuvib, shoxchalaridan va barglaridan tozalang.
 
@@ -4436,21 +4505,22 @@ Tayyorlash usuli:
 3. Sovutish:
    Tayyor sharbatni salqin holga keltirib, stakanga quyib xizmat qiling.
 
-Foydali xususiyatlari:
+Foydali xususiyatlari:🤗
 - Uzum sharbati chanqoqni yo‘qotadi, organizmga quvvat va tetiklik beradi.
 - Yurak-qon tomir tizimiga ijobiy ta’sir ko‘rsatadi.
-
-Yoqimli ishtaha!
+Jami kaloriyalar miqdori 594 kkal bo'lib, unda 2.1 g oqsil, 0.6 g yog', va 154.3 g uglevod mavjud
+Yoqimli ishtaha!🍽️😋
+Yordam bera olgan boʻlsam hursandman.
 """,
 
-    "drink_mevali": """Mevali sharbat 
-     Masalliqlar:
+    "drink_mevali": """Mevali sharbat 🍹
+     Masalliqlar:🍱
 3 litr suv
 500 gramm o‘rik
 300 gramm olcha yoki shpanka
 200-220 gramm shakar
 
-Tayyorlash usuli:
+Tayyorlash usuli:🍱
 1. Tayyorlash:
    O‘rik va olchani yaxshilab yuving.
    O‘rikni ikkiga bo‘lib, danagini olib tashlang.
@@ -4471,18 +4541,18 @@ Tayyorlash usuli:
 
 6. Xizmat qilish:
    Sovitilgan kompotni stakanlarga quyib, dasturxonga torting.
-
-Yoqimli ishtaha!
-
+Jami kaloriyalar miqdori 1193.7 kkal bo'lib, unda 6.5 g oqsil, 2.8 g yog', va 306 g uglevod mavjud.
+Yoqimli ishtaha!🍽️😋
+Yordam bera olgan boʻlsam hursandman.
 """,
 
-    "drink_qatiq": """Qatiq 
-     Masalliqlar:
+    "drink_qatiq": """Qatiq 🍚
+     Masalliqlar:🍱
 Sut - 1 litr
 Qatiq - 2-3 osh qoshiq
 Yog‘liroq bo‘lishi uchun - 100-150 gramm qaymoq (ixtiyoriy)
 
-Tayyorlash usuli:
+Tayyorlash usuli:🍱
 1. Sutni tayyorlash:
    Sutni yaxshilab qaynatib oling.
    Qaynatilgan sutni sirli idishga yoki issiqlikni yaxshi ushlab turadigan idishga quying.
@@ -4501,17 +4571,17 @@ Tayyorlash usuli:
 
 5. Xizmat qilish:
    Tayyor qatiqni salatlarda, pishiriqlarda yoki shunchaki o‘zini ichish uchun foydalanishingiz mumkin.
-
-Yoqimli ishtaha!
-
+Jami kaloriyalar miqdori 1202.5 kkal bo'lib, unda 35.7 g oqsil, 90.54 g yog', va 54.02 g uglevod mavjud
+Yoqimli ishtaha!🍽️😋
+Yordam bera olgan boʻlsam hursandman.
 """,
 
-    "drink_tarvuz": """Tarvuz sharbati
-     Masalliqlar:
+    "drink_tarvuz": """Tarvuz sharbati🍹
+     Masalliqlar:🍱
 Tarvuz - 200 g
 Shakar - 5 g (ixtiyoriy)
 
-Tayyorlash usuli:
+Tayyorlash usuli:🍱
 1. Tarvuzni tayyorlash:
    Tarvuzni yaxshilab yuving va tozalang.
    Tarvuzni 4 qismga bo‘lib, po‘stlog‘idan ajratib oling.
@@ -4530,19 +4600,19 @@ Tayyorlash usuli:
 5. Sovutish va xizmat qilish:
    Sharbatni sovutib, sovuq holda xizmat qiling.
 
-Foydalari:
+Foydalari:🤗
 Tarvuz sharbati organizmdan suyuqlikni chiqarishga yordam beradi va jigar, buyrak xastaliklarida tavsiya etiladi.
-
-Yoqimli ishtaha!
-
+Jami kaloriyalar miqdori 79.35 kkal bo'lib, unda 1.2 g oqsil, 0.4 g yog', va 21 g uglevod mavjud.
+Yoqimli ishtaha!🍽️😋
+Yordam bera olgan boʻlsam hursandman.
 """,
 
-    "drink_sabzi": """Sabzi sharbati 
-     Masalliqlar:
+    "drink_sabzi": """Sabzi sharbati 🥃
+     Masalliqlar:🍱
 Sabzi - 2-3 dona
 Lavlagi suvi - 1 osh qoshiq
 
-Tayyorlash usuli:
+Tayyorlash usuli:🍱
 1. Sabzini tayyorlash:
    Sabzining shirinroq va yangi turlarini tanlang.
    Sabzini yaxshilab yuving va po‘stini artib tozalang.
@@ -4558,20 +4628,20 @@ Tayyorlash usuli:
    Sharbatni darhol ichish tavsiya etiladi, shunda foydali moddalar saqlanib qoladi.
    Agar xohlasangiz, bir necha bo‘lak muz qo‘shib, sovuq holda ichishingiz mumkin.
 
-Foydalari:
+Foydalari:🤗
 Sabzi sharbati immunitetni mustahkamlaydi, ko‘z nurini ravshanlashtiradi, ovqat hazm qilishni yaxshilaydi va buyrak faoliyatini qo‘llab-quvvatlaydi. Lavlagi suvi esa organizmni tozalashga yordam beradi.
-
-Yoqimli ishtaha!
-
+Jami kaloriyalar miqdori 123 kkal bo'lib, unda 2.7 g oqsil, 0.6 g yog', va 28.8 g uglevod mavjud.
+Yoqimli ishtaha!🍽️😋
+Yordam bera olgan boʻlsam hursandman.
 """,
 
-    "drink_zira": """Zira choy 
-     Masalliqlar:
+    "drink_zira": """Zira choy 🍵
+     Masalliqlar:🍱
 Qaynatilgan suv – 0,5 litr
 Zira – 1 choy qoshiq
 Choy (qora yoki yashil) – 1 choy qoshiq
 
-Tayyorlash usuli:
+Tayyorlash usuli:🍱
 1. Choy tayyorlash:
    Choynakka zira va choyni soling.
    Ustidan 0,5 litr qaynagan suv quying.
@@ -4582,15 +4652,15 @@ Tayyorlash usuli:
 3. Xizmat qilish:
    Tayyor zira choyini piyolalarga suzing va issiq holda iching.
 
-Foydalari:
+Foydalari:🤗
 Zira choyi nafaqat ishtahani ochadi va ovqat hazm qilishni yaxshilaydi, balki organizmni yengillashtiradi va immunitetni mustahkamlaydi. Ibn Sino ta’kidlaganidek, zira organizmni tozalashda, nafas olishni yengillashtirishda va oshqozonning turli muammolarida foydali.
-
-Yoqimli ishtaha!
-
+Jami kaloriyalar miqdori 9.4 kkal bo'lib, unda 0.43 g oqsil, 0.38 g yog', va 1.63 g uglevod mavjud
+Yoqimli ishtaha!🍽️😋
+Yordam bera olgan boʻlsam hursandman.
 """,
 
-    "drink_vitaminli": """Vitaminli ichimlik
-    Masalliqlar:
+    "drink_vitaminli": """Vitaminli ichimlik🍵
+    Masalliqlar:🍱
 Asal – 1 choy qoshiq
 Sarimsoqpiyoz donasi – 1 dona
 Na'matak – 1 osh qoshiq
@@ -4598,7 +4668,7 @@ Qaynatilgan suv – 250 ml
 Limon – 25 gr
 Zanjabil – 20 gr
 
-Tayyorlash usuli:
+Tayyorlash usuli:🍱
 1. Zanjabilni tayyorlash:
    Zanjabil ildizining 2 sm qismini tozalang va yupqa qilib kesib oling.
 
@@ -4615,22 +4685,22 @@ Tayyorlash usuli:
 5. Tayyorlashni yakunlash:
    Damlangan ichimlikni tindirib, unga asal va limon qo‘shib yaxshilab aralashtiring.
 
-Foydalari:
+Foydalari:🤗
 Bu ichimlik organizmni isintiradi, immunitetni mustahkamlaydi va ishtahani pasaytirishga yordam beradi. Sarimsoqning ta’mi ichimlikda deyarli bilinmaydi, ammo uning foydasi kuchli.
-
-Yoqimli ishtaha!
-
+Jami kaloriyalar miqdori 38.92 kkal bo'lib, unda 0.67 g oqsil, 0.24 g yog', va 10.15 g uglevod mavjud.
+Yoqimli ishtaha!🍽️😋
+Yordam bera olgan boʻlsam hursandman.
 """,
 
-    "drink_moxito": """Moxito
-    Masalliqlar:
+    "drink_moxito": """Moxito🍹
+    Masalliqlar:🍱
 Yangi uzilgan yalpiz – 10 g
 Laym yoki limon – yarimta
 Sprayt – 150 ml
 Muz – 8 bo‘lak
 Shakar – 1 choy qoshiq
 
-Tayyorlash usuli:
+Tayyorlash usuli:🍱
 1. Laym tayyorlash:
    Laym yoki limonni ikkiga bo‘ling va bokalga soling.
 
@@ -4649,17 +4719,17 @@ Tayyorlash usuli:
 6. Bezash:
    Kokteylni laym bo‘lagi va yalpiz yaproqchalari bilan bezating.
 
-Maslahat:
+Maslahat:🤗
 Sprayt mavjud bo‘lmasa, shakarli sirop va gazlangan mineral suvdan foydalanishingiz mumkin. Shakarli siropni tayyorlash uchun qaynoq suvga shakarni to‘liq eriguncha aralashtirib qo‘shing va sovuting.
-
-Yoqimli ishtaha!
-
+Jami kaloriyalar miqdori 80.94 kkal bo'lib, unda 0.36 g oqsil, 0.07 g yog', va 20.94 g uglevod mavjud.
+Yoqimli ishtaha!🍽️😋
+Yordam bera olgan boʻlsam hursandman.
 """,
 
     # TORTLAR BO‘LIMI:
 
-    "tort_praga": """Praga torti 
-     Masalliqlar:
+    "tort_praga": """Praga torti 🍰
+     Masalliqlar:🍱
 Biskvit uchun:
 Un – 115 gr
 Shakar – 150 gr
@@ -4677,7 +4747,7 @@ Shokoladli massa uchun:
 Shokolad – 50 gr
 Saryog‘ – 50 gr
 
-Tayyorlash usuli:
+Tayyorlash usuli:🍱
 
 Biskvit tayyorlash:
 1. Tuxum oqini sarig‘idan ajrating.
@@ -4701,21 +4771,21 @@ Tortni yig‘ish:
 3. Ustini va yon qismlarini ham krem bilan qoplang.
 4. Shokoladli massani tort yuziga chiziqchalar shaklida chizib, bezating.
 
-Muzlatish:
+Muzlatish:❄️
 Tayyor tortni muzlatgichda kamida 2 soat saqlang, so‘ng dasturxonga torting.
-
-Yoqimli ishtaha!
-
+Jami kaloriyalar miqdori 5232.3 kkal bo'lib, unda 68.96 g oqsil, 350.22 g yog', va 490.34 g uglevod mavjud.
+Yoqimli ishtaha!🍽️😋
+Yordam bera olgan boʻlsam hursandman.
 """,
 
-    "tort_napaleon": """Napaleon torti 
-     Masalliqlar:
+    "tort_napaleon": """Napaleon torti 🥮
+     Masalliqlar:🍱
 2 o‘ram tayyor «MUZA» qatlamli xamiri
 400 gr quyultirilgan sut (1 banka)
 180-200 gr yumshatilgan saryog‘ (82,5% yog‘lilik)
 250 ml yog‘liligi 33% bo‘lgan qaymoq
 
-Tayyorlash usuli:
+Tayyorlash usuli:🍱
 1. Korjlarni tayyorlash:
    1) Qatlamli xamirni xona haroratida eritib oling.
    2) Xamirni 3-4 bo‘lakka bo‘ling va har bir bo‘lakni yupqa qilib, taxminan 24-26 sm diametrda yoying.
@@ -4736,13 +4806,13 @@ Tayyorlash usuli:
 
 4. Sovutish:
    Tortni kamida 6-8 soat davomida muzlatgichda tindiring. Shu vaqt ichida krem korjlarga yaxshi singadi va tort yanada mazali bo‘ladi.
-
-Yoqimli ishtaha!
-
+Jami kaloriyalar miqdori 5639 kkal bo'lib, unda 64.05 g oqsil, 372.5 g yog', va 466 g uglevod mavjud
+Yoqimli ishtaha!🍽️😋
+Yordam bera olgan boʻlsam hursandman.
 """,
 
-    "drezden_drezden": """Drezdencha tort 
-     Masalliqlar:
+    "drezden_drezden": """Drezdencha tort 🧁
+     Masalliqlar:🍱
 Xamiri uchun:
 150 gramm un
 70 gramm shakar
@@ -4764,7 +4834,7 @@ Xamiri uchun:
 3 ta tuxum oqi
 3 osh qoshiq shakar
 
-Tayyorlash usuli:
+Tayyorlash usuli:🍱
 
 Xamiri:
 1. Tuxum va shakarni yaxshilab ko'pirtiring.
@@ -4793,15 +4863,15 @@ Pishirish:
 2. 60 daqiqa davomida pishiring. Tort pishayotganda pechni ochmang, bu uning ustini yorilishiga sabab bo'lishi mumkin.
 3. Pishgan tortni pechda 15-20 daqiqa qoldiring, so'ngra sovutib, bir kecha davomida muzlatgichga qo'ying.
 
-Bezatish:
-1. Tortni ustini xohlagan mevalar yoki meva bo‘lakchalari bilan bezating.
-
-Yoqimli ishtaha!
-
+Bezatish:🤗
+Tortni ustini xohlagan mevalar yoki meva bo‘lakchalari bilan bezating.
+Jami kaloriyalar miqdori 3555.75 kkal bo'lib, unda 106.67 g oqsil, 192.39 g yog', va 366.07 g uglevod mavjud. 
+Yoqimli ishtaha!🍽️😋
+Yordam bera olgan boʻlsam hursandman.
 """,
 
-    "tort_zebra": """Zebra torti 
-     Masalliqlar:
+    "tort_zebra": """Zebra torti 🍥
+     Masalliqlar:🍱
 Un — 2 stakan
 Shakar — 1 stakan
 Tuxum — 2 dona
@@ -4810,7 +4880,7 @@ Qatiq — 1 stakan
 Kakao kukuni — 1 osh qoshiq
 Margarin — 200 gr
 
-Tayyorlash usuli:
+Tayyorlash usuli:🍱
 1. Qatiqni tayyorlash:
    Qatiqqa soda solib, ko'piklanguncha aralashtiring.
 
@@ -4838,14 +4908,15 @@ Shokoladli glazur tayyorlash:
 2. Tort yuzasiga quyish:
    Tayyor glazurni issiqligida tortning yuziga surtib chiqib, kokos bo'lakchalari yoki boshqa bezaklar bilan bezang.
 
-Tayyor!
+Tayyor!🤗
 Mazali "Zebra" tortingizni dasturxonga torting!
-Yoqimli ishtaha!
-
+Jami kaloriyalar miqdori 3358.4 kkal bo'lib, unda 37.98 g oqsil, 205.61 g yog', va 338.98 g uglevod mavjud.
+Yoqimli ishtaha!🍽️😋
+Yordam bera olgan boʻlsam hursandman.
 """,
 
-    "tort_pancho": """Pancho torti 
-     Masalliqlar:
+    "tort_pancho": """Pancho torti 🥮
+     Masalliqlar:🍱
 Xamiriga:
 Tuxum — 6 dona
 Un — 200 g
@@ -4867,7 +4938,7 @@ Ustiga:
 Qora shokolad — 50 g
 Sariyog' — 30 g
 
-Tayyorlash usuli:
+Tayyorlash usuli:🍱
 Xamir tayyorlash:
 1. Gaz pechini 170 °C darajaga oldindan qizdiring. Tort qolipini pergament qog‘ozi bilan to‘shang.
 2. Tuxumlarni mikserda 5 daqiqa davomida ko'pirtiring, shakarni asta-sekin solib, yanada ko'pirtiring.
@@ -4891,16 +4962,16 @@ Glazur tayyorlash:
 2. Biroz sovigach, qopchaga soling va tort ustiga chiziqlar shaklida bezang.
 3. Yong'oq bilan ham bezashingiz mumkin.
 
-Tugallash:
+Tugallash:🤗
 1. Tortni kamida 3 soatga muzlatgichda tindiring.
 2. Choy yoki qahva bilan dasturxonga torting.
-
-Yoqimli ishtaha!
-
+Jami kaloriyalar miqdori 5483.96 kkal bo'lib, unda 89.19 g oqsil, 307.15 g yog', va 599.21 g uglevod mavjud.
+Yoqimli ishtaha!🍽️😋
+Yordam bera olgan boʻlsam hursandman.
 """,
 
-    "tort_medovik": """Medovik torti 
-     Masalliqlar:
+    "tort_medovik": """Medovik torti 🥮
+     Masalliqlar:🍱
 Xamiri uchun:
 Un — 4 stakan
 Shakar — 1 stakan
@@ -4916,7 +4987,7 @@ Un — 3 osh qoshiq
 Kakao — 1 choy qoshiq
 Sariyog' — 50 g
 
-Tayyorlash usuli:
+Tayyorlash usuli:🍱
 Xamirni tayyorlash:
 1. Gaz ustida asalni eritib, ustiga 0,5 choy qoshiq soda qo‘shing. Massani qizargunicha aralashtiring.
 2. Asalli aralashmaga sariyog' qo‘shib, eriguncha aralashtiring va olovdan oling.
@@ -4939,13 +5010,13 @@ Tortni yig'ish:
 2. Korjlarni bir-birining ustiga qo'yib, oxirgi qavatni ham krem bilan surting.
 3. Tortning ustiga maydalangan korj bo‘laklarini sepib, selofan bilan yopib qo‘ying.
 4. Tortni kamida 4-5 soat, yaxshisi, bir kechaga tindiring.
-
-Yoqimli ishtaha!
-
+Jami kaloriyalar miqdori 5056.3 kkal bo'lib, unda 60.32 g oqsil, 232.47 g yog', va 712.97 g uglevod mavjud.
+Yoqimli ishtaha!🍽️😋
+Yordam bera olgan boʻlsam hursandman.
 """,
 
-    "tort_frezye": """Frezye torti 
-    Masalliqlar:
+    "tort_frezye": """Frezye torti 🍰
+    Masalliqlar:🍱
 Biskvitli korj uchun:
 Tuxum — 3 dona
 Shakar — 100 g
@@ -4965,7 +5036,7 @@ Sovuq suv — 50 ml
 Vanil shakari — 10 g
 Qulupnay — 800 g
 
-Tayyorlash usuli:
+Tayyorlash usuli:🍱
 Korj tayyorlash:
 1. Tuxum oqini sarig‘idan ajratib, oqini ko‘pirtiring. Ko‘pirtirish jarayonida shakarni asta-sekin qo‘shing.
 2. Tuxum sarig‘ini alohida idishda shakar va vanil shakari bilan ko‘pirtiring.
@@ -4989,13 +5060,13 @@ Tortni yig‘ish:
 4. Qolgan kremni ustiga quyib, ikkinchi korjni qo‘ying va yana krem surting.
 5. Tortni yopishqoq plyonka bilan yopib, muzlatgichga 8-10 soatga qo‘ying.
 6. Sovigan tortni qulupnay bilan bezatib, dasturxonga torting.
-
-Yoqimli ishtaha!
-
+Jami kaloriyalar miqdori 4128.85 kkal bo'lib, unda 74.5 g oqsil, 215.76 g yog', va 503.06 g uglevod mavjud.
+Yoqimli ishtaha!🍽️😋
+Yordam bera olgan boʻlsam hursandman.
 """,
 
-    "tort_karamel": """Karamel va yong’oqli tort
-     Masalliqlar:
+    "tort_karamel": """Karamel va yong’oqli tort🎂
+     Masalliqlar:🍱
 Xamiri uchun:
 Un — 250 g
 Yumshatilgan sariyog‘ — 150 g
@@ -5010,7 +5081,7 @@ Smetana — 300 g
 
 Ustiga sepish uchun: Tozalangan yeryong‘oq
 
-Tayyorlash usuli:
+Tayyorlash usuli:🍱
 1. Xamirni tayyorlash:
    - Yumshatilgan sariyog‘ va shakarni idishga solib, mikserda 2-3 daqiqa ko‘pirtiring. Massa oqarib, bir tekis bo‘lishi kerak.
    - Tuxumni qo‘shib, yana 2 daqiqa davomida ko‘pirtiring.
@@ -5037,12 +5108,13 @@ Tayyorlash usuli:
    - Tortning ustki va yon tomonlariga krem surting.
    - Ta’bga ko‘ra maydalangan yeryong‘oq bilan ustini va yonlarini bezang.
    - Tortni sovutib, dasturxonga torting.
-
-Yoqimli ishtaha!
+Jami kaloriyalar miqdori 4818.2 kkal bo'lib, unda 78.05 g oqsil, 339.7 g yog', va 416.65 g uglevod mavjud. 
+Yoqimli ishtaha!🍽️😋
+Yordam bera olgan boʻlsam hursandman.
 """,
 
-    "tort_kitakat": """Kita-kat torti
-     Masalliqlar:
+    "tort_kitakat": """Kita-kat torti🍰
+     Masalliqlar:🍱
 Biskviti uchun:
 Tuxum – 4 dona
 Shakar – 150 g
@@ -5066,7 +5138,7 @@ Bezatish uchun:
 Kit-kat shokoladli plitkasi – 10 dona
 Har xil rezavor mevalar yoki yong‘oqlar
 
-Tayyorlash usuli:
+Tayyorlash usuli:🍱
 1. Biskvit tayyorlash:
    1) Gaz pechini 170°C darajaga oldindan qizdiring. Tort qolipini pergament qog‘ozi bilan to‘shang.
    2) Tuxumlarni idishga chaqib, bir chimdim tuz soling va ozroq ko‘pirtiring.
@@ -5091,13 +5163,13 @@ Tayyorlash usuli:
    1) Tort chetlarini Kit-kat shokoladlari bilan bezang va ularni lenta bilan bog‘lang.
    2) Tort ustiga rezavor mevalar yoki yong‘oqlar bilan bezak bering.
    3) Tortni 2-3 soatga sovutgichga qo‘yib, tindiring.
-
-Yoqimli ishtaha!
-
+Jami kaloriyalar miqdori 5152.78 kkal bo'lib, unda 107.38 g oqsil, 257.86 g yog', va 520.13 g uglevod mavjud.
+Yoqimli ishtaha!🍽️😋
+Yordam bera olgan boʻlsam hursandman.
 """,
 
-    "tort_boston": """Bostoncha kremli tort 
-     Masalliqlar:
+    "tort_boston": """Bostoncha kremli tort 🥮
+     Masalliqlar:🍱
 Kremi uchun:
 Sut – 500 ml
 Tuxum – 2 dona
@@ -5116,7 +5188,7 @@ Glazuri uchun:
 Qora shokolad – 150 g
 Qaymoq – 50 ml
 
-Tayyorlash usuli:
+Tayyorlash usuli:🍱
 1. Biskvit tayyorlash:
    1) Tuxum oqini sarig‘idan ajratib oling.
    2) Tuxum oqini shakar bilan qattiq holga kelguncha mikser yordamida ko‘pirtiring.
@@ -5143,13 +5215,13 @@ Tayyorlash usuli:
 5. Sovutish va bezatish:
    1) Tayyor tortni 2–3 soatga muzlatgichda tindiring.
    2) Xohishingizga ko‘ra, ustini rezavor mevalar yoki yong‘oqlar bilan bezating.
-
-Yoqimli ishtaha!
-
+Jami kaloriyalar miqdori 3891.8 kkal bo'lib, unda 72.04 g oqsil, 200.96 g yog', va 459.8 g uglevod mavjud.
+Yoqimli ishtaha!🍽️😋
+Yordam bera olgan boʻlsam hursandman.
 """,
 
-    "tort_bounty": """Bounty torti 
-     Masalliqlar:
+    "tort_bounty": """Bounty torti 🍥
+     Masalliqlar:🍱
 Korj uchun:
 Un – 95 g
 Tuz – bir chimdim
@@ -5170,7 +5242,7 @@ Yog‘li qaymoq (35%) – 120 ml
 Qora shokolad – 180 g
 Sariyog‘ – 50 g
 
-Tayyorlash tartibi:
+Tayyorlash tartibi:🍱
 1. Korj tayyorlash:
    1) Tog‘orachaga sariyog‘ va shokoladni soling, suv bug‘ida aralashtirib eritib oling.
    2) Eritilgan aralashmaga shakar va qahvani solib, venchik yordamida aralashtiring.
@@ -5191,13 +5263,13 @@ Tayyorlash tartibi:
 4. Tortni yig‘ish:
    1) Tayyor ganashni tort ustiga quying va tekislang.
    2) Tortni kamida 1 soatga, yaxshisi bir kechaga sovutgichda qoldiring.
-
-Yoqimli ishtaha!
-
+Jami kaloriyalar miqdori 6958.06 kkal bo'lib, unda 77.46 g oqsil, 447.24 g yog', va 643.21 g uglevod mavjud
+Yoqimli ishtaha!🍽️😋
+Yordam bera olgan boʻlsam hursandman.
 """,
 
-    "tort_pavlova": """Pavlova torti 
-     Masalliqlar:
+    "tort_pavlova": """Pavlova torti 🍰
+     Masalliqlar:🍱
 Merenga uchun:
 Tuxum oqi – 150 g
 Shakar upasi – 200 g
@@ -5209,7 +5281,7 @@ Yog'li qaymoq (35%) – 250 g
 Quyultirilgan sut – 150 g
 Istalgan rezavor mevalar
 
-Tayyorlash usuli:
+Tayyorlash usuli:🍱
 1. Merenga tayyorlash:
    1) Tuxum oqini mikserda shakar upasini oz-ozdan qo‘shib, asta-sekin ko‘pirtiring.
    2) Tuxum oqi yetarlicha qalinlashib, barqaror holga kelgach, shakarni oz-ozdan qo‘shing va qattiq cho‘qqilar hosil bo‘lgunga qadar ko‘pirtiring.
@@ -5223,22 +5295,22 @@ Tayyorlash usuli:
 3. Tortni yig‘ish:
    1) Sovigan merenganing markazidagi chuqurchaga kremni ehtiyotkorlik bilan joylashtiring.
    2) Ustiga rezavor mevalar bilan bezang. Mevalarni xohishingizga ko‘ra tanlang.
-
-Yoqimli ishtaha!
-
+Jami kaloriyalar miqdori 2887.5 kkal bo'lib, unda 24.25 g oqsil, 97.05 g yog', va 416.2 g uglevod mavjud.
+Yoqimli ishtaha!🍽️😋 
+Yordam bera olgan boʻlsam hursandman.
 """,
 
     # NONLAR BO‘LIMI:
 
-    "non_qatlamapatir": """Qatlama patir 
-     Masalliqlar:
+    "non_qatlamapatir": """Qatlama patir 🫓
+     Masalliqlar:🍱
 Un: 1 kg
 Suv: 500 ml
 Tuz: 30 gr (bir osh qoshiq)
 Margarin: 300 gr
 Xamirturush: 10-15 gr
 
-Tayyorlash usuli:
+Tayyorlash usuli:🍱
 
 1. Xamirni tayyorlash:
    1) Xamirni qorish:
@@ -5276,15 +5348,15 @@ Tayyorlash usuli:
    3) Pishirish:
       Dimxonada (200°C haroratda) 20-30 daqiqa davomida tillarang tusga kirguncha pishiring.
 
-Qatlama Patir tayyor!
+Qatlama Patir tayyor!🤗
 Uni nafaqat issiq ovqatlar bilan, balki oddiy choy bilan ham tanovul qilish mumkin.
-
-Yoqimli ishtaha!
-
+Jami kaloriyalar miqdori 5266.75 kkal bo'lib, unda 63.3 g oqsil, 333.08 g yog', va 526.3 g uglevod mavjud
+Yoqimli ishtaha!🍽️😋
+Yordam bera olgan boʻlsam hursandman.
 """,
 
-    "non_shirinkulcha": """Shirin kulcha 
-     Masalliqlar:
+    "non_shirinkulcha": """Shirin kulcha 🥯
+     Masalliqlar:🍱
 Un: 1–1.2 kg
 Sut: 500 ml
 Tuxum: 2 dona
@@ -5295,7 +5367,7 @@ Tuz: bir chimdim
 Eritilgan sariyog‘: 100 gr (surish uchun)
 Shakar: 100 gr (ustiga sepish uchun)
 
-Tayyorlash usuli:
+Tayyorlash usuli:🍱
 1. Xamirni tayyorlash:
    - Sutni ilitib, sariyog‘ni eritib oling.
    - Sutga shakar va xamirturushni solib, yaxshilab aralashtiring.
@@ -5323,14 +5395,14 @@ Murabbo yoki tvorogli variant:
 - Xamirni cheburek kabi yopib, chetlarini pichoq bilan ozgina qirqib chiqing.
 - Tayyorlangan kulchalarni yuqoridagi usulda oshirib, ustiga tuxum surtib, 200°C haroratda qizartirib pishiring.
 
-Pishgan shirin kulchalar issiq choy yoki qahva bilan nonushta uchun juda mos.
-
-Yoqimli ishtaha!
-
+Pishgan shirin kulchalar issiq choy yoki qahva bilan nonushta uchun juda mos.🤗
+Jami kaloriyalar miqdori 6330.5 kkal bo'lib, unda 91.65 g oqsil, 320.05 g yog', va 799.8 g uglevod mavjud.
+Yoqimli ishtaha!🍽️😋
+Yordam bera olgan boʻlsam hursandman.
 """,
 
-    "non_moychechak": """Moychechak non 
-     Masalliqlar:
+    "non_moychechak": """Moychechak non 🥨
+     Masalliqlar:🍱
 Un: 1 kg
 Sariyog‘ yoki margarin: 200 ml
 Sut: 400 ml
@@ -5338,7 +5410,7 @@ Tuz: 1 osh qoshiq
 Xamirturush: 10 gr yoki yarim osh qoshiq
 Tuxum: 2 dona
 
-Tayyorlash usuli:
+Tayyorlash usuli:🍱
 1. Xamirni tayyorlash:
    - Barcha masalliqlarni idishga solib, o‘rtacha yumshoqlikdagi xamir qorib oling.
    - Xamirni ustini yopib, issiq joyda 1–1.5 soat davomida oshirishga qo‘ying.
@@ -5356,21 +5428,21 @@ Tayyorlash usuli:
    - Ustidan sedana yoki kunjut seping.
    - Nonlarni 200°C haroratdagi oldindan qizdirilgan dimxonaga qo‘yib, usti va osti qizarguncha pishiring (20–25 daqiqa).
 
-Tavsiyalar:
+Tavsiyalar:🤗
 Moychechak noni har qanday taom bilan mazali bo‘ladi. Uni issiq choy yoki sho‘rva bilan dasturxonga tortiq qilishingiz mumkin.
-
-Yoqimli ishtaha!
-
+Jami kaloriyalar miqdori 4943.5 kkal bo'lib, unda 88 g oqsil, 276.25 g yog', va 544.5 g uglevod mavjud
+Yoqimli ishtaha!🍽️😋
+Yordam bera olgan boʻlsam hursandman.
 """,
 
-    "non_goshtli": """Go’shtli non 
-     Masalliqlar: (1 dona non uchun)
+    "non_goshtli": """Go’shtli non 🍞
+     Masalliqlar: (1 dona non uchun)🍱
 Oshirilgan xamir: 160–180 gr
 Go‘sht yoki qiyma: 50–60 gr
 Piyoz: 40–50 gr
 Ziravor va tuz: ta'bga ko‘ra
 
-Tayyorlash usuli:
+Tayyorlash usuli:🍱
 1. Xamirni tayyorlash va oshirish:
    - Oldindan qorilgan xamirni oshirib, so‘ngra zuvalalarga bo‘lib oling.
    - Zuvalalarni 15–20 daqiqaga tindirishga qo‘ying.
@@ -5392,15 +5464,15 @@ Tayyorlash usuli:
    - Tandirda: yuqori haroratda non qizarguncha yopiladi.
    - Dimxonada: 250°C haroratda usti va osti qizarguncha pishiriladi (taxminan 20–25 daqiqa).
 
-Tavsiyalar:
+Tavsiyalar:🤗
 Pishgan go‘shtli nonni yangi uzilgan ko‘katlar yoki issiq choy bilan birga dasturxonga tortiq qilsangiz, yanada mazali bo‘ladi.
-
-Yoqimli ishtaha!
-
+Jami kaloriyalar miqdori 682.5 kkal bo'lib, unda 21.65 g oqsil, 23.6 g yog', va 92.45 g uglevod mavjud.
+Yoqimli ishtaha!🍽️😋
+Yordam bera olgan boʻlsam hursandman.
 """,
 
-    "non_patir": """Patir 
-     Masalliqlar:
+    "non_patir": """Patir 🫓
+     Masalliqlar:🍱
 Un: 1 kg
 Margarin: 80–100 gr
 Eritilgan charvi yog‘: 80–100 gr
@@ -5408,7 +5480,7 @@ Tuz: 30 gr (1 osh qoshiq)
 Xamirturush (droja): 10 gr (1 choy qoshiq)
 Iliq suv: 450 ml
 
-Tayyorlash usuli:
+Tayyorlash usuli:🍱
 1. Xamir qorish:
    - Iliq suvga eritilgan margarin va charvi yog‘ini qo‘shing.
    - Alohida idishda un, tuz va xamirturushni aralashtiring.
@@ -5431,15 +5503,16 @@ Tayyorlash usuli:
    - Tandirda: Patirlarni qizib turgan tandirga yopib, qizarguncha pishiring.
    - Dimxona (duxovka): 220–240°C haroratda patirlarning usti va osti tillarang tusga kirguncha 20–25 daqiqa davomida pishiring.
 
-Tavsiyalar:
+Tavsiyalar:🤗
 - Pishgan patirlarni yangi uzilgan ko‘katlar, issiq choy yoki sho‘rvalar bilan iste'mol qilish mazali bo‘ladi.
 - Patirlar faqat taom bilan emas, choy bilan ham alohida mazali.
-
-Yoqimli ishtaha!
+Jami kaloriyalar miqdori 4565.8 kkal bo'lib, unda 61.21 g oqsil, 252.95 g yog', va 523.1 g uglevod mavjud.
+Yoqimli ishtaha!🍽️😋
+Yordam bera olgan boʻlsam hursandman.
 """,
 
-    "non_lochira": """Lochira patir 
-     Masalliqlar:
+    "non_lochira": """Lochira patir 🫓
+     Masalliqlar:🍱
 Un: 1 kg
 Sut: 450 ml
 Charvi va eritilgan sariyog‘: 120 gr
@@ -5449,7 +5522,7 @@ Xamirturush (droja): 1-2 chimdim
 Ustiga surtish uchun tuxum: 1 dona
 Bezatish uchun: Sedana yoki kunjut
 
-Tayyorlash usuli:
+Tayyorlash usuli:🍱
 1. Xamir qorish:
    - Sutni ilitib, unga eritilgan charvi va sariyog‘ni qo‘shing.
    - Tuz, soda va drojani qo‘shib, yaxshilab aralashtiring.
@@ -5472,22 +5545,22 @@ Tayyorlash usuli:
 5. Pishirish:
    - 180°C darajada qizdirilgan dimxonada (duxovka) patirning usti va osti tillarang tusga kirguncha pishiring (20–25 daqiqa).
 
-Tavsiyalar:
+Tavsiyalar:🤗
 - Lochira patirlar bayram dasturxoni yoki maxsus marosimlarning ajralmas qismi bo‘lib, issiq holida yanada mazali bo‘ladi.
 - Bu patirlarni issiq choy yoki milliy taomlar bilan iste'mol qilishni tavsiya etamiz.
-
-Yoqimli ishtaha!
-
+Jami kaloriyalar miqdori 4429.1 kkal bo'lib, unda 85.66 g oqsil, 217.36 g yog', va 548.55 g uglevod mavjud
+Yoqimli ishtaha!🍽️😋
+Yordam bera olgan boʻlsam hursandman.
 """,
 
-    "non_obinon": """Obi non 
-     Masalliqlar:
+    "non_obinon": """Obi non 🍞
+     Masalliqlar:🍱
 Un: 1 kg
 Tuz: 30 gr (1 osh qoshiq)
 Xamirturush (droja): 10 gr (1 kichik qadoqlangan paketcha)
 Iliq suv: 620–640 ml
 
-Tayyorlash usuli:
+Tayyorlash usuli:🍱
 1. Xamir tayyorlash:
    - Iliq suvga xamirturushni eritib qo'shing.
    - Un, tuz va eritilgan xamirturushni aralashtirib, yumshoq xamir qorib oling.
@@ -5514,16 +5587,16 @@ Tayyorlash usuli:
 6. Dasturxonga tortish:
    - Pishgan obi nonlar dasturxoningiz ko‘rkini oshiradi va istalgan taom bilan iste’mol qilish uchun juda mos keladi.
 
-Tavsiyalar:
+Tavsiyalar:🤗
 - Tandir yo‘q bo‘lsa: Dimxona (duxovka)da ham obi nonni 220–250°C haroratda pishirib olish mumkin.
 - Foydali qo'shimcha: Sedana va kunjut sog‘liq uchun foydali bo‘lib, nonni mazaliroq qiladi.
-
-Yoqimli ishtaha!
-
+Jami kaloriyalar miqdori 3110.5 kkal bo'lib, unda 60.4 g oqsil, 90.05 g yog', va 522.2 g uglevod mavjud.
+Yoqimli ishtaha!🍽️😋
+Yordam bera olgan boʻlsam hursandman.
 """,
 
-    "non_qatlama": """Qatlama
-     Masalliqlar:
+    "non_qatlama": """Qatlama🫓
+     Masalliqlar:🍱
 Xamiriga:
 Un — 0.5 kg
 Sariyog‘ — 100-120 gr
@@ -5535,7 +5608,7 @@ Ichiga:
 Sariyog‘ — 100 gr
 Qaymoq — 100 gr
 
-Tayyorlash usuli:
+Tayyorlash usuli:🍱
 1. Xamir tayyorlash:
    - Xamirni tayyorlash uchun, avval tuzni suvda eritib oling.
    - So‘ngra, eritilgan sariyog‘ va shakarni qo‘shing, aralashtiring.
@@ -5561,12 +5634,13 @@ Tayyorlash usuli:
 6. Bezash va pishirish:
    - Biroz sovugach, ustiga shakar seping.
    - Qatlama istalgan qo‘shimcha bilan, masalan, qaymoq, asal, murabbo yoki boshqa narsalar bilan dasturxonga tortiq qilishingiz mumkin.
-
-Yoqimli ishtaha!
-
+Jami kaloriyalar miqdori 3677.55 kkal bo'lib, unda 42.39 g oqsil, 256.35 g yog', va 283.1 g uglevod mavjud.
+Yoqimli ishtaha!🍽️😋
+Yordam bera olgan boʻlsam hursandman.
 """,
 
-    "non_jizzali": """Jizzali patir  Masalliqlar:
+    "non_jizzali": """Jizzali patir 🫓
+Masalliqlar:🍱
 Xamir uchun:
 Un — 1 kg
 Tuz — 30 gr yoki 1 osh qoshiq
@@ -5581,7 +5655,7 @@ Tuz — ta'bga ko‘ra
 Qora murch — ta'bga ko‘ra
 Istasangiz, o‘simlik yog‘i qo‘shishingiz ham mumkin
 
-Tayyorlash usuli:
+Tayyorlash usuli:🍱
 1. Xamir tayyorlash:
    - Un, tuz, xamirturush va iliq sut yoki suvni aralashtirib yumshoq xamir qoriladi.
    - Ustini yopib, iliqroq joyda oshguncha tindiriladi.
@@ -5609,7 +5683,7 @@ Tayyorlash usuli:
    - Patirning yuzasiga qatiq, tuxum yoki sutli suyuqlik surting.
    - Ta'bga ko‘ra sedana yoki kunjut sepib chiqing.
    - 180-190 darajali dimxonada (duxovka) usti qizarguncha pishiring.
-
-Yoqimli ishtaha!
+Jami kaloriyalar miqdori 3852.57 kkal bo'lib, unda 100.09 g oqsil, 134.25 g yog', va 561.91 g uglevod mavjud
+Yoqimli ishtaha!🍽️😋
+Yordam bera olgan boʻlsam hursandman.
 """})
-

@@ -4,7 +4,7 @@ import json
 from datetime import datetime, timedelta
 from images_paths import images_paths
 from recipes_texts import recipes_texts
-from flask import Flask, request
+
 
 from telegram import (
     Update, InlineKeyboardButton, InlineKeyboardMarkup, CallbackQuery,
@@ -22,9 +22,6 @@ from dotenv import load_dotenv
 
 # .env fayldan o‘zgaruvchilarni yuklash
 load_dotenv()
-
-# Flask ilovasini yaratish
-app = Flask(__name__)
 
 # ============== LOGGER (log) sozlamalari ==============
 logging.basicConfig(
@@ -166,13 +163,7 @@ async def handle_user_data(update: Update, context: ContextTypes.DEFAULT_TYPE):
         bmr = 10 * weight + 6.25 * height - 5 * age + 5
         daily_water_liters = weight * 30 / 1000
 
-        # ============== WEBHOOK SOZLASH ==============
-        # Webhook marshrutini sozlash
-        @app.route(f"/{os.environ.get('BOT_TOKEN')}", methods=["POST"])
-        def webhook():
-            update = Update.de_json(request.get_json(force=True), application.bot)
-            application.update_queue.put(update)
-            return "ok"
+
         bmi_status_text = {
             'uz': (
                 "Sizning vazningiz kam. Vazn olish tavsiya etiladi.🙂" if bmi < 18.5 else
@@ -631,10 +622,7 @@ async def admin_broadcast_command(update: Update, context: ContextTypes.DEFAULT_
 
 # ============== BOTGA KOMANDALAR VA CALLBACKLARNI QO‘SHISH ==============
 def main():
-    BOT_TOKEN = os.environ.get("BOT_TOKEN")
-    HEROKU_APP_NAME = os.environ.get("HEROKU_APP_NAME")
-    PORT = int(os.environ.get("PORT", "8443"))
-    HEROKU_URL = f"https://{HEROKU_APP_NAME}.herokuapp.com"
+
 
     application = ApplicationBuilder().token(BOT_TOKEN).build()
 
@@ -652,8 +640,7 @@ def main():
     logger.info("Bot ishga tushirildi...")
     application.run_webhook(
         listen="0.0.0.0",
-        port=int(os.environ.get("PORT", 8443)),
-        url_path=BOT_TOKEN,
+        port=PORT,
         webhook_url=f"{HEROKU_URL}/{BOT_TOKEN}"
     )
 

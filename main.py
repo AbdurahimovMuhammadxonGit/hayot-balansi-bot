@@ -44,11 +44,10 @@ if not BOT_TOKEN:
 application = ApplicationBuilder().token(BOT_TOKEN).build()
 # Flask uchun webhookni sozlash
 @app.route(f"/{BOT_TOKEN}", methods=["POST"])
-def webhook():
+async def webhook():
     update = Update.de_json(request.get_json(force=True), application.bot)
-    application.update_queue.put(update)
+    await application.update_queue.put(update)  # `await` qo'shildi
     return "ok", 200
-
 # ============== ADMIN IDs ==============
 ADMIN_IDS = [7465094605]  # <-- O'zingizning telegram ID raqamingiz
 
@@ -652,5 +651,8 @@ def main():
 
 # ========== FLASK SERVERNI ISHGA TUSHIRISH ==========
 if __name__ == "__main__":
-    main()
+    import asyncio
+
+    loop = asyncio.get_event_loop()
+    loop.run_until_complete(application.initialize())  # Botni boshlash
     app.run(host="0.0.0.0", port=PORT)

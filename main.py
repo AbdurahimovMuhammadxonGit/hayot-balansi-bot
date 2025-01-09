@@ -1,6 +1,8 @@
 import os
 import logging
 import json
+from flask import Flask, request
+
 from datetime import datetime, timedelta
 from images_paths import images_paths
 from recipes_texts import recipes_texts
@@ -22,6 +24,7 @@ from dotenv import load_dotenv
 
 # .env fayldan o‘zgaruvchilarni yuklash
 load_dotenv()
+app = Flask(__name__)
 
 # ============== LOGGER (log) sozlamalari ==============
 logging.basicConfig(
@@ -37,7 +40,14 @@ HEROKU_URL = f"https://{HEROKU_APP_NAME}.herokuapp.com"
 
 if not BOT_TOKEN:
     raise ValueError("BOT_TOKEN o'rnatilmagan yoki noto'g'ri. Iltimos, .env faylda uni tekshiring.")
-
+# Telegram bot ilovasini yaratish
+application = ApplicationBuilder().token(BOT_TOKEN).build()
+# Flask uchun webhookni sozlash
+@app.route(f"/{BOT_TOKEN}", methods=["POST"])
+def webhook():
+    update = Update.de_json(request.get_json(force=True), application.bot)
+    application.update_queue.put(update)
+    return "ok", 200
 
 # ============== ADMIN IDs ==============
 ADMIN_IDS = [7465094605]  # <-- O'zingizning telegram ID raqamingiz
@@ -624,7 +634,7 @@ async def admin_broadcast_command(update: Update, context: ContextTypes.DEFAULT_
 def main():
 
 
-    application = ApplicationBuilder().token(BOT_TOKEN).build()
+
 
     application.add_handler(CommandHandler("start", start))
     application.add_handler(CallbackQueryHandler(language_selection, pattern='^lang_(uz|ru|en)$'))
@@ -638,11 +648,9 @@ def main():
     application.add_handler(CommandHandler("admin_broadcast", admin_broadcast_command))
 
     logger.info("Bot ishga tushirildi...")
-    application.run_webhook(
-        listen="0.0.0.0",
-        port=PORT,
-        webhook_url=f"{HEROKU_URL}/{BOT_TOKEN}"
-    )
 
-if __name__ == '__main__':
+
+# ========== FLASK SERVERNI ISHGA TUSHIRISH ==========
+if __name__ == "__main__":
     main()
+    app.run(host="0.0.0.0", port=PORT)

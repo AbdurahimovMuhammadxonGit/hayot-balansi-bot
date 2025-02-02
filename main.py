@@ -1,7 +1,10 @@
 import os
 import logging
-import psycopg2  # <-- PostgreSQL bilan ishlash uchun
+import json
 from datetime import datetime, timedelta, time
+from images_paths import images_paths
+from recipes_texts import recipes_texts
+from diseases_data import diseases_data
 from telegram import (
     Update, InlineKeyboardButton, InlineKeyboardMarkup, CallbackQuery
 )
@@ -15,9 +18,12 @@ from telegram.ext import (
     CallbackContext
 )
 
-from images_paths import images_paths
-from recipes_texts import recipes_texts
-from diseases_data import diseases_data
+# ============== BROADCAST XABARLARINI SAQLASH UCHUN ==============
+BROADCAST_DB = {}          # Har bir broadcast xabarga: { chat_id: msg_id, ... }
+CURRENT_BROADCAST_ID = 0   # Har safar yangi broadcast yuborilganda +1 oshiramiz
+
+# ============== SO‘NGGI ASOSIY MENYU XABARLARINI SAQLASH UCHUN ==============
+LAST_MAIN_MENU = {}  # Har bir foydalanuvchi uchun so'nggi asosiy menyu xabari (id)
 
 # ============== LOGGER (log) sozlamalari ==============
 logging.basicConfig(
@@ -30,281 +36,31 @@ logger = logging.getLogger(__name__)
 ADMIN_IDS = [7465094605]  # <-- O'zingizning telegram ID raqamingizni yozing
 
 # ============== TOKEN (o'zingizning BOT_TOKEN ni kiriting) ==============
-BOT_TOKEN = "7904798084:AAFrf5U2QcZ4zJRFi8CQ6wtWHAA172K9AJ4"  # <-- Bot tokeningizni yozing
+BOT_TOKEN = "7904798084:AAFrf5U2QcZ4zJRFi8CQ6wtWHAA172K9AJ4"  # <-- O'zingizning tokenni yozing
 
-# ============== PostgreSQL ulanish parametrlari ==============
-DB_HOST = "localhost"
-DB_NAME = "postgres"
-DB_USER = "postgres"
-DB_PASSWORD = "1212"
+# ============== GLOBAL o'zgaruvchilar ==============
+DATA_FILE = "data.json"  # foydalanuvchi ma’lumotlari saqlanadigan fayl
 
-# --- Bu yerni o'zingizga moslang ---
+# ============== JSON orqali ma’lumotlarni saqlash/yuklash ==============
+def load_data():
+    """
+    data.json fayldan foydalanuvchi ma'lumotlarini yuklab,
+    lug'at ko'rinishida qaytaradi.
+    """
+    if os.path.exists(DATA_FILE):
+        with open(DATA_FILE, 'r', encoding='utf-8') as f:
+            try:
+                return json.load(f)
+            except json.JSONDecodeError:
+                return {}
+    return {}
 
-# -- yoki shunday ham qilishingiz mumkin (bitta DSN qatorda):
-# DATABASE_URL = "postgresql://postgres:YOUR_POSTGRES_PASSWORD@localhost:5432/my_telegram_bot_db"
-
-# Keling, oddiy usulda alohida funksiyalar yozamiz:
-import os
-import psycopg2
-
-def get_connection():
-    DATABASE_URL = os.environ.get("DATABASE_URL")
-    if not DATABASE_URL:
-        raise Exception("DATABASE_URL environment variable not set!")
-    # Heroku Postgres uchun sslmode='require'
-    conn = psycopg2.connect(DATABASE_URL, sslmode='require')
-    return conn
-
-
-# ============== BAZA bilan ishlashga oid yordamchi funksiyalar ==============
-
-def create_or_update_user(user_id: int, age=None, height=None, weight=None):
+def save_data(data: dict):
     """
-    Agar user users jadvalida mavjud bo'lmasa, qo'shadi.
-    Agar mavjud bo'lsa va age/height/weight berilgan bo'lsa - yangilaydi.
-    Har safar last_activity ni ham yangilab boradi.
+    Lug'at ko'rinishidagi ma'lumotlarni data.json ga yozib qo'yadi.
     """
-    conn = get_connection()
-    try:
-        with conn:
-            with conn.cursor() as cur:
-                # Avval tekshiramiz user mavjudmi:
-                cur.execute("SELECT user_id FROM users WHERE user_id = %s", (user_id,))
-                result = cur.fetchone()
-                now_str = datetime.now()
-                if result is None:
-                    # Insert
-                    cur.execute(
-                        """
-                        INSERT INTO users (user_id, age, height, weight, last_activity, registered_time)
-                        VALUES (%s, %s, %s, %s, %s, %s)
-                        """,
-                        (user_id, age, height, weight, now_str, now_str)
-                    )
-                else:
-                    # Update
-                    # Faqat berilgan qiymatlar update qilinadi:
-                    if age is not None:
-                        cur.execute("UPDATE users SET age=%s WHERE user_id=%s", (age, user_id))
-                    if height is not None:
-                        cur.execute("UPDATE users SET height=%s WHERE user_id=%s", (height, user_id))
-                    if weight is not None:
-                        cur.execute("UPDATE users SET weight=%s WHERE user_id=%s", (weight, user_id))
-                    # last_activity har doim update
-                    cur.execute("UPDATE users SET last_activity=%s WHERE user_id=%s", (now_str, user_id))
-    finally:
-        conn.close()
-
-
-def get_user_info(user_id: int):
-    """
-    users jadvalidan ma'lumotni qaytaradi (lug'at ko‘rinishida).
-    Bo'lmasa None qaytaradi.
-    """
-    conn = get_connection()
-    try:
-        with conn:
-            with conn.cursor() as cur:
-                cur.execute("""
-                    SELECT user_id, age, height, weight, last_activity, registered_time
-                    FROM users
-                    WHERE user_id = %s
-                """, (user_id,))
-                row = cur.fetchone()
-                if row is None:
-                    return None
-                # row = (user_id, age, height, weight, last_activity, registered_time)
-                return {
-                    "user_id": row[0],
-                    "age": row[1],
-                    "height": row[2],
-                    "weight": row[3],
-                    "last_activity": row[4],
-                    "registered_time": row[5]
-                }
-    finally:
-        conn.close()
-
-def delete_user(user_id: int):
-    """
-    Foydalanuvchini bazadan o'chirib tashlaydi.
-    """
-    conn = get_connection()
-    try:
-        with conn:
-            with conn.cursor() as cur:
-                cur.execute("DELETE FROM users WHERE user_id = %s", (user_id,))
-    finally:
-        conn.close()
-
-def update_user_last_activity(user_id: int):
-    """
-    Foydalanuvchining so'nggi faoliyat vaqtini yangilab qo'yadi.
-    """
-    conn = get_connection()
-    try:
-        with conn:
-            with conn.cursor() as cur:
-                now_str = datetime.now()
-                cur.execute("UPDATE users SET last_activity=%s WHERE user_id=%s", (now_str, user_id))
-    finally:
-        conn.close()
-
-# -- last_main_menu jadvali bilan ishlash:
-def set_user_last_main_menu(user_id: int, message_id: int):
-    """
-    user_last_main_menu jadvalida (user_id, message_id) saqlash yoki update qilish.
-    """
-    conn = get_connection()
-    try:
-        with conn:
-            with conn.cursor() as cur:
-                cur.execute("SELECT user_id FROM user_last_main_menu WHERE user_id=%s", (user_id,))
-                res = cur.fetchone()
-                if res is None:
-                    # insert
-                    cur.execute("""
-                        INSERT INTO user_last_main_menu (user_id, message_id)
-                        VALUES (%s, %s)
-                    """, (user_id, message_id))
-                else:
-                    # update
-                    cur.execute("""
-                        UPDATE user_last_main_menu
-                        SET message_id=%s
-                        WHERE user_id=%s
-                    """, (message_id, user_id))
-    finally:
-        conn.close()
-
-def get_user_last_main_menu(user_id: int):
-    """
-    user_last_main_menu jadvalidan message_id ni qaytaradi.
-    Bo'lmasa None
-    """
-    conn = get_connection()
-    try:
-        with conn:
-            with conn.cursor() as cur:
-                cur.execute("SELECT message_id FROM user_last_main_menu WHERE user_id=%s", (user_id,))
-                row = cur.fetchone()
-                if row:
-                    return row[0]
-                return None
-    finally:
-        conn.close()
-
-def delete_user_last_main_menu(user_id: int):
-    """
-    user_last_main_menu jadvalidan ma'lumotni o'chiradi.
-    """
-    conn = get_connection()
-    try:
-        with conn:
-            with conn.cursor() as cur:
-                cur.execute("DELETE FROM user_last_main_menu WHERE user_id=%s", (user_id,))
-    finally:
-        conn.close()
-
-
-# -- Broadcastlar bilan ishlash:
-def create_broadcast(admin_id: int) -> int:
-    """
-    broadcasts jadvaliga yangi qator qo'shib, yangi broadcast_id ni qaytaradi.
-    """
-    conn = get_connection()
-    try:
-        with conn:
-            with conn.cursor() as cur:
-                cur.execute(
-                    """
-                    INSERT INTO broadcasts (admin_id) VALUES (%s)
-                    RETURNING broadcast_id
-                    """,
-                    (admin_id,)
-                )
-                new_broadcast_id = cur.fetchone()[0]
-                return new_broadcast_id
-    finally:
-        conn.close()
-
-def add_broadcast_message(broadcast_id: int, chat_id: int, message_id: int):
-    """
-    broadcast_messages jadvaliga ma'lumot qo'shish.
-    """
-    conn = get_connection()
-    try:
-        with conn:
-            with conn.cursor() as cur:
-                cur.execute(
-                    """
-                    INSERT INTO broadcast_messages (broadcast_id, chat_id, message_id)
-                    VALUES (%s, %s, %s)
-                    ON CONFLICT (broadcast_id, chat_id)
-                    DO UPDATE SET message_id = EXCLUDED.message_id
-                    """,
-                    (broadcast_id, chat_id, message_id)
-                )
-    finally:
-        conn.close()
-
-def get_broadcast_messages(broadcast_id: int):
-    """
-    Ma'lum broadcast_id bo'yicha chat_id va message_id ro'yxatini qaytaradi.
-    """
-    conn = get_connection()
-    try:
-        with conn:
-            with conn.cursor() as cur:
-                cur.execute(
-                    """
-                    SELECT chat_id, message_id
-                    FROM broadcast_messages
-                    WHERE broadcast_id = %s
-                    """,
-                    (broadcast_id,)
-                )
-                rows = cur.fetchall()
-                # [(chat_id, message_id), (chat_id, message_id), ...]
-                return rows
-    finally:
-        conn.close()
-
-def delete_broadcast(broadcast_id: int):
-    """
-    broadcasts jadvalidan broadcast_id ni (va unga bog'liq broadcast_messages ni) o'chiradi.
-    """
-    conn = get_connection()
-    try:
-        with conn:
-            with conn.cursor() as cur:
-                # broadcast_messages da ON DELETE CASCADE bo'lgani uchun broadcasts dagi qator o'chsa
-                # unga bog'liq barcha broadcast_messages ham o'chadi.
-                cur.execute("DELETE FROM broadcasts WHERE broadcast_id = %s", (broadcast_id,))
-    finally:
-        conn.close()
-
-def edit_broadcast_messages(broadcast_id: int, new_text: str, context: CallbackContext):
-    """
-    Ushbu funktsiya broadcast_id bo'yicha yuborilgan xabarlarni topib, ularning matnini yangilaydi.
-    (Admin buyruqlari bo'yicha ishlatiladi)
-    """
-    rows = get_broadcast_messages(broadcast_id)
-    edit_count = 0
-    fail_count = 0
-    for (chat_id, msg_id) in rows:
-        try:
-            context.bot.edit_message_text(
-                chat_id=chat_id,
-                message_id=msg_id,
-                text=new_text
-            )
-            edit_count += 1
-        except Exception as e:
-            logger.error(f"Edit failed for chat {chat_id}, msg {msg_id}: {e}")
-            fail_count += 1
-    return edit_count, fail_count
-
+    with open(DATA_FILE, 'w', encoding='utf-8') as f:
+        json.dump(data, f, ensure_ascii=False, indent=2)
 
 # ============== Yordamchi funksiya: uzun matnni bo‘lib yuborish ==============
 async def send_long_text_in_chunks(text, chat_id, context, chunk_size=3500):
@@ -321,23 +77,36 @@ async def send_long_text_in_chunks(text, chat_id, context, chunk_size=3500):
         start = end
     return last_text_id
 
+def update_user_last_activity(update: Update):
+    """
+    Foydalanuvchining so'nggi faoliyat vaqtini data.json da yangilab qo'yadi.
+    """
+    user_id = update.effective_user.id
+    data = load_data()
+    user_str_id = str(user_id)
+    if user_str_id in data:
+        data[user_str_id]["last_activity"] = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        save_data(data)
+
 # ============== KUNLIK ESLATMA (JobQueue) ==============
 async def daily_reminder_job(context: CallbackContext):
     """
     Har kuni foydalanuvchining ro'yxatdan o'tgan vaqtida ishga tushadigan job.
     Foydalanuvchiga Ha/Yo'q tugmalari bilan eslatma yuboradi.
-    Agar botni bloklagan bo‘lsa — bazadan o‘chirib tashlaymiz.
+    Agar botni bloklagan bo‘lsa — data.json dan o‘chirib tashlaymiz.
     """
     job_data = context.job.data  # {"chat_id": int(uid_str), "uid_str": uid_str}
     chat_id = job_data["chat_id"]
+    uid_str = job_data["uid_str"]
 
-    user_info = get_user_info(chat_id)
-    if not user_info:
-        # Agar bazada user yo'q bo'lib qolgan bo'lsa, job ni ham bekor qilamiz:
+    # data.json ni o‘qiymiz
+    bot_data = load_data()
+    # Agar o‘chib ketgan bo‘lsa, job ni ham bekor qilamiz
+    if uid_str not in bot_data:
         context.job.schedule_removal()
         return
 
-    # Xabar matnini tayyorlaymiz
+    # Xabar matnini tayyorlaymiz (faqat o'zbekcha)
     reminder_text = (
         "Bugungi tavsiyalar:\n"
         "1) Tanlagan sport mashg'ulotingizni bajarishni unutmang!\n"
@@ -359,22 +128,25 @@ async def daily_reminder_job(context: CallbackContext):
         await context.bot.send_message(chat_id=chat_id, text=reminder_text, reply_markup=reply_markup)
     except Exception as e:
         logger.warning(f"User {chat_id} blocked the bot or another error: {e}")
-        delete_user(chat_id)  # bazadan o'chirib tashlaymiz
+        if uid_str in bot_data:
+            del bot_data[uid_str]
+            save_data(bot_data)
         context.job.schedule_removal()
 
-def schedule_user_reminder(application, user_id: int, reg_dt: datetime):
+def schedule_user_reminder(application, uid_str, reg_dt: datetime):
     """
     Foydalanuvchini ertangi kundan boshlab, har kuni ayni soat/minutda eslatma yuborish uchun job qo'yadi.
     """
     hr = reg_dt.hour
     mn = reg_dt.minute
 
+    # Job queue avtomatik ravishda keyingi keladigan vaqtni hisoblab topadi.
     application.job_queue.run_daily(
         callback=daily_reminder_job,
         time=time(hour=hr, minute=mn),
         days=(0, 1, 2, 3, 4, 5, 6),
-        name=f"daily_reminder_{user_id}",
-        data={"chat_id": user_id}
+        name=f"daily_reminder_{uid_str}",
+        data={"chat_id": int(uid_str), "uid_str": uid_str}
     )
 
 async def daily_reminder_answer(update: Update, context: ContextTypes.DEFAULT_TYPE):
@@ -412,15 +184,22 @@ async def daily_reminder_answer(update: Update, context: ContextTypes.DEFAULT_TY
 # ============== /start KOMANDASI ==============
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     chat_id = update.effective_chat.id
-    user_info = get_user_info(chat_id)
-    if user_info is None:
-        # Bu user bazada yo'q -- yangi user
-        create_or_update_user(chat_id, age=None, height=None, weight=None)
+    bot_data = context.bot_data.setdefault("users_db", load_data())
+    str_id = str(chat_id)
+    if str_id not in bot_data:
+        bot_data[str_id] = {
+            "age": None,
+            "height": None,
+            "weight": None,
+            "last_activity": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+            "registered_time": datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        }
+        save_data(bot_data)
         reg_dt = datetime.now()
-        schedule_user_reminder(context.application, chat_id, reg_dt)
+        schedule_user_reminder(context.application, str_id, reg_dt)
     else:
-        # Mavjud bo'lsa faqat last_activity yangilash
-        update_user_last_activity(chat_id)
+        bot_data[str_id]["last_activity"] = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        save_data(bot_data)
 
     text = (
         "Assalomu alaykum!☺️ Sog'lom turmush tarzini targ'ib qiluvchi botga xush kelibsiz!\n"
@@ -430,26 +209,32 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 # ============== FOYDALANUVCHI MA'LUMOTLARINI QABUL QILISH (TEXT) ==============
 async def handle_user_data(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    user_id = update.effective_user.id
-    update_user_last_activity(user_id)
-
-    user_info = get_user_info(user_id)
-    if user_info is None:
-        # Avval /start bosilmagan yoki bazada user yo'q
-        create_or_update_user(user_id)
+    update_user_last_activity(update)
+    bot_data = context.bot_data.setdefault("users_db", load_data())
+    str_id = str(update.message.from_user.id)
+    if str_id not in bot_data:
+        bot_data[str_id] = {
+            "age": None,
+            "height": None,
+            "weight": None,
+            "last_activity": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+        }
+        save_data(bot_data)
         await update.message.reply_text("Iltimos, avval /start ni bosing.")
         return
-
+    else:
+        bot_data[str_id]["last_activity"] = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        save_data(bot_data)
     try:
         age, height, weight = map(int, update.message.text.replace(' ', '').split(','))
-        create_or_update_user(user_id, age=age, height=height, weight=weight)
-
+        bot_data[str_id]["age"] = age
+        bot_data[str_id]["height"] = height
+        bot_data[str_id]["weight"] = weight
+        save_data(bot_data)
         height_m = height / 100
         bmi = weight / (height_m ** 2)
-        # BMR ni ham oddiy formula bilan
         bmr = 10 * weight + 6.25 * height - 5 * age + 5
         daily_water_liters = weight * 30 / 1000
-
         if bmi < 18.5:
             bmi_status = "Sizning vazningiz kam. Vazn olish tavsiya etiladi.🙂"
         elif 18.5 <= bmi < 24.9:
@@ -458,7 +243,6 @@ async def handle_user_data(update: Update, context: ContextTypes.DEFAULT_TYPE):
             bmi_status = "Sizning vazningiz yuqori. Vazn yo'qotish tavsiya etiladi.🙃"
         else:
             bmi_status = "Sizda ortiqcha vazn bor. Mutaxassisga murojaat qiling.😌"
-
         summary_text = (
             f"Sizning BMI: 😊{bmi:.2f}. {bmi_status}\n"
             f"Kunlik kaloriya ehtiyojingiz (BMR): {bmr:.2f} kkal.\n"
@@ -474,30 +258,23 @@ async def handle_user_data(update: Update, context: ContextTypes.DEFAULT_TYPE):
             f"- Sog'lom yog'lar (zaytun moyi, urug' moylari)\n"
             "👉 @hayot_balansi 👈\n"
         )
-
         if len(summary_text) > 3500:
             await send_long_text_in_chunks(summary_text, update.effective_chat.id, context)
         else:
             await update.message.reply_text(summary_text)
-
         main_menu_text = "Quyidagilardan birini tanlang:"
         main_menu_keyboard = [
             [InlineKeyboardButton("Taomlar 🍽", callback_data='main_taomlar')],
             [InlineKeyboardButton("Mashg'ulotlar 🏋️", callback_data='main_mashgulotlar')],
             [InlineKeyboardButton("Davolanish 🏥", callback_data='main_davolanish')]
         ]
-        sent_msg = await update.message.reply_text(main_menu_text, reply_markup=InlineKeyboardMarkup(main_menu_keyboard))
-
-        # So'nggi asosiy menyu xabarini bazaga yozamiz:
-        set_user_last_main_menu(user_id, sent_msg.message_id)
-
+        await update.message.reply_text(main_menu_text, reply_markup=InlineKeyboardMarkup(main_menu_keyboard))
     except ValueError:
         await update.message.reply_text("Format xato. (Misol: 25, 175, 70).")
 
 # ============== "recipes" tugmasi (Kunlik eslatma) ==============
 async def recipes_button_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    user_id = update.effective_user.id
-    update_user_last_activity(user_id)
+    update_user_last_activity(update)
     query = update.callback_query
     await query.answer()
     await show_main_taomlar_menu(update, context)
@@ -521,8 +298,7 @@ async def show_main_taomlar_menu(update: Update, context: ContextTypes.DEFAULT_T
     await query.edit_message_text(text=text_label, reply_markup=reply_markup)
 
 async def show_dish_categories(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    user_id = update.effective_user.id
-    update_user_last_activity(user_id)
+    update_user_last_activity(update)
     query = update.callback_query
     await query.answer()
     cat = query.data.split('_')[1]
@@ -717,8 +493,7 @@ async def show_dish_categories_logic(cat: str, query: CallbackQuery, context: Co
 
 # ============== Retsept callback: dish_..., drink_..., tort_..., non_, ... (ESKI KOD) ==============
 async def show_recipe_callback(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    user_id = update.effective_user.id
-    update_user_last_activity(user_id)
+    update_user_last_activity(update)
     query = update.callback_query
     await query.answer()
     data_key = query.data
@@ -752,8 +527,7 @@ async def show_recipe_callback(update: Update, context: ContextTypes.DEFAULT_TYP
     context.user_data['recipe_text_msg_id'] = text_message_id
 
 async def back_to_taomlar(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    user_id = update.effective_user.id
-    update_user_last_activity(user_id)
+    update_user_last_activity(update)
     query = update.callback_query
     await query.answer()
     photo_msg_id = context.user_data.get('recipe_photo_msg_id')
@@ -772,42 +546,36 @@ async def back_to_taomlar(update: Update, context: ContextTypes.DEFAULT_TYPE):
         context.user_data.pop('recipe_text_msg_id', None)
     await show_main_taomlar_menu(update, context)
 
-
 # ============== ADMIN KOMANDALARI ==============
 async def user_count_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
     user_id = update.effective_user.id
     if user_id not in ADMIN_IDS:
         await update.message.reply_text("Ushbu buyruq faqat admin uchun.")
         return
-
-    # Bazadan userlarni olamiz
-    conn = get_connection()
-    try:
-        with conn:
-            with conn.cursor() as cur:
-                cur.execute("SELECT user_id, last_activity FROM users")
-                all_users = cur.fetchall()
-    finally:
-        conn.close()
-
+    bot_data = context.bot_data.setdefault("users_db", load_data())
     active_count = 0
     now = datetime.now()
+    user_ids = list(bot_data.keys())
     fail_count = 0
-    for row in all_users:
-        uid = row[0]
-        last_active_dt = row[1]
-        if not last_active_dt:
+    for uid in user_ids:
+        user_info = bot_data[uid]
+        last_active_str = user_info.get("last_activity")
+        if not last_active_str:
+            continue
+        try:
+            last_active_dt = datetime.strptime(last_active_str, "%Y-%m-%d %H:%M:%S")
+        except ValueError:
             continue
         if (now - last_active_dt) > timedelta(days=30):
             continue
         try:
-            member = await context.bot.get_chat_member(uid, uid)
+            uid_int = int(uid)
+            member = await context.bot.get_chat_member(uid_int, uid_int)
             if member.status in ("member", "administrator", "creator"):
                 active_count += 1
         except Exception as e:
             logger.error(f"get_chat_member failed for {uid}: {e}")
             fail_count += 1
-
     msg_text = (
         f"Faol foydalanuvchilar (so'nggi 30 kunda): {active_count}\n"
         f"(Tekshirib bo'lmaganlar: {fail_count} ta — odatda botni bloklagan yoki mavjud emaslar.)"
@@ -816,9 +584,6 @@ async def user_count_command(update: Update, context: ContextTypes.DEFAULT_TYPE)
 
 # ============== ADMIN BROADCAST KOMANDASI ==============
 async def admin_broadcast_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    """
-    /admin_broadcast ni reply tarzida xabar yoki media ustida ishlatish.
-    """
     user_id = update.effective_user.id
     if user_id not in ADMIN_IDS:
         await update.message.reply_text("Ushbu buyruq faqat admin uchun.")
@@ -828,55 +593,48 @@ async def admin_broadcast_command(update: Update, context: ContextTypes.DEFAULT_
         await update.message.reply_text("Iltimos, reply tarzida xabar yoki media ustiga /admin_broadcast yuboring.")
         return
 
-    # Yangi broadcast yaratib, id ni olamiz
-    broadcast_id = create_broadcast(admin_id=user_id)
+    global CURRENT_BROADCAST_ID, BROADCAST_DB, LAST_MAIN_MENU
+    CURRENT_BROADCAST_ID += 1
+    broadcast_id = CURRENT_BROADCAST_ID
+    BROADCAST_DB[broadcast_id] = {}
 
-    # endi bazadagi barcha foydalanuvchilarni ro'yxatga olish
-    conn = get_connection()
-    try:
-        with conn:
-            with conn.cursor() as cur:
-                cur.execute("SELECT user_id FROM users")
-                all_users = cur.fetchall()
-    finally:
-        conn.close()
-
+    bot_data = context.bot_data.setdefault("users_db", load_data())
     broadcast_count = 0
     fail_count = 0
 
-    for row in all_users:
-        uid = row[0]
-        # Avval so'nggi main menu xabarini o'chirishga harakat qilamiz
-        last_main_menu_id = get_user_last_main_menu(uid)
-        if last_main_menu_id:
-            try:
-                await context.bot.delete_message(chat_id=uid, message_id=last_main_menu_id)
-                delete_user_last_main_menu(uid)
-            except Exception as e:
-                logger.error(f"User {uid}: Oldingi main menu xabari o'chirishda xatolik: {e}")
-
-        # forward/copy message
+    for uid_str in bot_data.keys():
         try:
+            uid_int = int(uid_str)
+            if uid_int in LAST_MAIN_MENU:
+                logger.info(f"User {uid_int}: Oldingi main menu message id: {LAST_MAIN_MENU[uid_int]}")
+                try:
+                    await context.bot.delete_message(chat_id=uid_int, message_id=LAST_MAIN_MENU[uid_int])
+                    logger.info(f"User {uid_int}: Oldingi main menu xabari muvaffaqiyatli o'chirildi.")
+                except Exception as e:
+                    logger.error(f"User {uid_int}: Oldingi main menu xabari o'chirishda xatolik: {e}")
+                del LAST_MAIN_MENU[uid_int]
+
             sent_msg = await context.bot.copy_message(
-                chat_id=uid,
+                chat_id=uid_int,
                 from_chat_id=update.effective_chat.id,
                 message_id=update.message.reply_to_message.message_id
             )
             broadcast_count += 1
-            add_broadcast_message(broadcast_id, uid, sent_msg.message_id)
+            BROADCAST_DB[broadcast_id][uid_int] = sent_msg.message_id
 
-            # Yangi asosiy menyu
-            main_menu_text = "Quyidagilardan birini tanlang:"
+            # Yangi asosiy menyu xabarini yuboramiz:
+            main_menu_text = ("Quyidagilardan birini tanlang:\n"
+                              )
             main_menu_keyboard = [
                 [InlineKeyboardButton("Taomlar 🍽", callback_data='main_taomlar')],
                 [InlineKeyboardButton("Mashg'ulotlar 🏋️", callback_data='main_mashgulotlar')],
                 [InlineKeyboardButton("Davolanish 🏥", callback_data='main_davolanish')]
             ]
-            sent_main_menu = await context.bot.send_message(chat_id=uid, text=main_menu_text, reply_markup=InlineKeyboardMarkup(main_menu_keyboard))
-            set_user_last_main_menu(uid, sent_main_menu.message_id)
-
+            reply_markup = InlineKeyboardMarkup(main_menu_keyboard)
+            sent_main_menu = await context.bot.send_message(chat_id=uid_int, text=main_menu_text, reply_markup=reply_markup)
+            LAST_MAIN_MENU[uid_int] = sent_main_menu.message_id
         except Exception as e:
-            logger.error(f"Broadcast to {uid} failed: {e}")
+            logger.error(f"Broadcast to {uid_str} failed: {e}")
             fail_count += 1
 
     await update.message.reply_text(
@@ -884,108 +642,80 @@ async def admin_broadcast_command(update: Update, context: ContextTypes.DEFAULT_
         f"Broadcast ID = {broadcast_id}"
     )
 
+
 async def admin_edit_broadcast_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    """
-    /edit_broadcast <broadcast_id> <yangi matn>
-    """
     user_id = update.effective_user.id
     if user_id not in ADMIN_IDS:
         await update.message.reply_text("Ushbu buyruq faqat admin uchun.")
         return
-
     args = update.message.text.split(maxsplit=2)
     if len(args) < 3:
         await update.message.reply_text("Iltimos, /edit_broadcast <broadcast_id> <yangi matn> formatida yuboring.")
         return
-
     try:
         broadcast_id = int(args[1])
     except ValueError:
         await update.message.reply_text("broadcast_id noto‘g‘ri.")
         return
-
     new_text = args[2]
-
-    # endi DBdan o‘sha broadcast qaydlarini topib edit qilamiz
-    conn = get_connection()
-    try:
-        with conn:
-            with conn.cursor() as cur:
-                cur.execute("SELECT broadcast_id FROM broadcasts WHERE broadcast_id=%s", (broadcast_id,))
-                row = cur.fetchone()
-                if not row:
-                    await update.message.reply_text("Bunday broadcast_id topilmadi.")
-                    return
-    finally:
-        conn.close()
-
-    edit_count, fail_count = edit_broadcast_messages(broadcast_id, new_text, context)
+    global BROADCAST_DB
+    if broadcast_id not in BROADCAST_DB:
+        await update.message.reply_text("Bunday broadcast_id topilmadi.")
+        return
+    edit_count = 0
+    fail_count = 0
+    for chat_id, msg_id in BROADCAST_DB[broadcast_id].items():
+        try:
+            await context.bot.edit_message_text(
+                chat_id=chat_id,
+                message_id=msg_id,
+                text=new_text
+            )
+            edit_count += 1
+        except Exception as e:
+            logger.error(f"Edit failed for chat {chat_id}, msg {msg_id}: {e}")
+            fail_count += 1
     await update.message.reply_text(
         f"Broadcast {broadcast_id} tahrirlandi.\n"
         f"Muvaffaqiyatli: {edit_count}, xato: {fail_count}."
     )
 
 async def admin_delete_broadcast_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    """
-    /delete_broadcast <broadcast_id>
-    """
     user_id = update.effective_user.id
     if user_id not in ADMIN_IDS:
         await update.message.reply_text("Ushbu buyruq faqat admin uchun.")
         return
-
     args = update.message.text.split(maxsplit=1)
     if len(args) < 2:
         await update.message.reply_text("Iltimos, /delete_broadcast <broadcast_id> formatida yuboring.")
         return
-
     try:
         broadcast_id = int(args[1])
     except ValueError:
         await update.message.reply_text("broadcast_id noto‘g‘ri.")
         return
-
-    # Bazadan o'chiramiz
-    conn = get_connection()
-    try:
-        with conn:
-            with conn.cursor() as cur:
-                cur.execute("SELECT broadcast_id FROM broadcasts WHERE broadcast_id=%s", (broadcast_id,))
-                row = cur.fetchone()
-                if not row:
-                    await update.message.reply_text("Bunday broadcast_id topilmadi.")
-                    return
-    finally:
-        conn.close()
-
-    # Endi broadcast va message-larini o'chirish
-    # (ON DELETE CASCADE bo'lgani uchun broadcasts dan o'chsa, broadcast_messages ham o'chadi)
-    # ammo telegramda o'z xabarlarini ham delete qilish:
-    rows = get_broadcast_messages(broadcast_id)
+    global BROADCAST_DB
+    if broadcast_id not in BROADCAST_DB:
+        await update.message.reply_text("Bunday broadcast_id topilmadi.")
+        return
     delete_count = 0
     fail_count = 0
-    for (chat_id, msg_id) in rows:
+    for chat_id, msg_id in BROADCAST_DB[broadcast_id].items():
         try:
             await context.bot.delete_message(chat_id=chat_id, message_id=msg_id)
             delete_count += 1
         except Exception as e:
             logger.error(f"Delete failed for chat {chat_id}, msg {msg_id}: {e}")
             fail_count += 1
-
-    delete_broadcast(broadcast_id)
-
+    del BROADCAST_DB[broadcast_id]
     await update.message.reply_text(
         f"Broadcast {broadcast_id} o'chirildi.\n"
         f"Muvaffaqiyatli: {delete_count}, xato: {fail_count}."
     )
 
-
 # ============== ASOSIY MENU CALLBACK: Taomlar / Mashg'ulotlar / Davolanish ==============
 async def main_menu_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
     query = update.callback_query
-    user_id = query.from_user.id
-    update_user_last_activity(user_id)
-
     await query.answer()
     choice = query.data.split('_')[1]
     if choice == 'taomlar':
@@ -1003,10 +733,7 @@ async def main_menu_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 async def postcalc_back_to_main(update: Update, context: ContextTypes.DEFAULT_TYPE):
     query = update.callback_query
-    user_id = query.from_user.id
-    update_user_last_activity(user_id)
     await query.answer()
-
     main_menu_text = "Quyidagilardan birini tanlang:"
     main_menu_keyboard = [
         [InlineKeyboardButton("Taomlar 🍽", callback_data='main_taomlar')],
@@ -1014,6 +741,7 @@ async def postcalc_back_to_main(update: Update, context: ContextTypes.DEFAULT_TY
         [InlineKeyboardButton("Davolanish 🏥", callback_data='main_davolanish')]
     ]
     await query.edit_message_text(text=main_menu_text, reply_markup=InlineKeyboardMarkup(main_menu_keyboard))
+
 
 # ============== Mashg'ulotlar bo'limi (Erkak/Ayol) ==============
 async def mash_gender_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):

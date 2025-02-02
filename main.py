@@ -44,19 +44,17 @@ DB_PASSWORD = "1212"
 # DATABASE_URL = "postgresql://postgres:YOUR_POSTGRES_PASSWORD@localhost:5432/my_telegram_bot_db"
 
 # Keling, oddiy usulda alohida funksiyalar yozamiz:
+import os
+import psycopg2
+
 def get_connection():
-    """
-    PostgreSQL bilan ulanish o'rnatish uchun yordamchi funksiya.
-    Har safar chaqirib, ish bitgach `conn.close()` qilish tavsiya etiladi
-    (yoki 'with' context manager bilan).
-    """
-    conn = psycopg2.connect(
-        host=DB_HOST,
-        dbname=DB_NAME,
-        user=DB_USER,
-        password=DB_PASSWORD
-    )
+    DATABASE_URL = os.environ.get("DATABASE_URL")
+    if not DATABASE_URL:
+        raise Exception("DATABASE_URL environment variable not set!")
+    # Heroku Postgres uchun sslmode='require'
+    conn = psycopg2.connect(DATABASE_URL, sslmode='require')
     return conn
+
 
 # ============== BAZA bilan ishlashga oid yordamchi funksiyalar ==============
 

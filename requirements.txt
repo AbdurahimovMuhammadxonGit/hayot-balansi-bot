@@ -15,7 +15,7 @@ httpx==0.23.3
 idna==3.10
 itsdangerous==2.2.0
 Jinja2==3.1.5
-logging==0.4.9.6
+
 MarkupSafe==3.0.2
 nest-asyncio==1.6.0
 packaging==24.2

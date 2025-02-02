@@ -48,7 +48,7 @@ Tayyor sho‘rvani kosa yoki ko‘zada mayda to‘g‘ralgan piyoz va ukrop bila
 Jami kaloriyalar miqdori 450.8 kkal bo'lib, unda 27.3 g oqsil, 25.24 g yog' va 29.24 g uglevod mavjud.
 Yoqimli ishtaha! 🍽😋
 Yordam bera olgan boʻlsam hursandman.
-
+ 👉 @hayot_balansi 👈
 """,
 
     "dish_dumbullidimlama": """Dumbulli dimlama🍲
@@ -95,6 +95,7 @@ Taom tayyor bo‘lgach, ta’bga ko‘ra bezatib, dasturxonga torting.
 Jami kaloriyalar miqdori 3881.55 kkal bo'lib, unda 163.08 g oqsil, 278.86 g yog', va 189.73 g uglevod mavjud.
 Yoqimli ishtaha! 🍽😋
 Yordam bera olgan boʻlsam hursandman.
+👉 @hayot_balansi 👈
 """,
 
     "dish_piyozlishorva": """Piyozli sho'rva🍲
@@ -131,6 +132,7 @@ Uni suxarik yoki grenkalar bilan xizmat qiling.
 Jami kaloriyalar miqdori 2432.8 kkal bo'lib, unda 138.71 g oqsil, 176.43 g yog', va 65.96 g uglevod mavjud.
 Yoqimli ishtaha! 🍽😋
 Yordam bera olgan boʻlsam hursandman.
+👉 @hayot_balansi 👈
 """,
 
     "dish_suyuqnorin": """Suyuq norin🍝
@@ -183,6 +185,7 @@ Ta’bga ko‘ra yupqa to‘g‘ralgan piyoz va qora murch qo‘shib xizmat qili
 Jami kaloriyalar miqdori 5532.5 kkal bo'lib, unda 218.5 g oqsil, 409.5 g yog', va 228.55 g uglevod mavjud.
 Yoqimli ishtaha! 🍽😋
 Yordam bera olgan boʻlsam hursandman.
+👉 @hayot_balansi 👈
 """,
 
     "dish_uygurlagmon": """Uyg'ur lag'mon 🍜
@@ -222,6 +225,7 @@ Tayyor sho‘rvani idishga solib, issiq holda dasturxonga torting.
 Jami kaloriyalar miqdori 1556.35 kkal bo'lib, unda 84.22 g oqsil, 115.93 g yog', va 42.99 g uglevod mavjud. 
 Yoqimli ishtaha! 🍽😋
 Yordam bera olgan boʻlsam hursandman.
+👉 @hayot_balansi 👈
 """,
 
     "dish_moxora": """Moxora🍛
@@ -262,6 +266,7 @@ Tayyor moxorani kosalarga solib, ustiga yangi ko‘katlar sepib dasturxonga tort
 Jami kaloriyalar miqdori 3248.2 kkal bo'lib, unda 216.15 g oqsil, 96.08 g yog', va 381.45 g uglevod mavjud.
 Yoqimli ishtaha! 🍽😋
 Yordam bera olgan boʻlsam hursandman.
+👉 @hayot_balansi 👈
 """,
 
     "dish_goja": """Go'ja🍲 
@@ -291,6 +296,7 @@ Ustiga rayhon, yalpiz yoki boshqa ko‘katlar sepib bezashingiz mumkin.
 Jami kaloriyalar miqdori 2600 kkal bo'lib, unda 117.5 g oqsil, 57.5 g yog', va 430.5 g uglevod mavjud.
 Yoqimli ishtaha! 🍽😋
 Yordam bera olgan boʻlsam hursandman.
+👉 @hayot_balansi 👈
 """,
 
     "dish_lagmon": """ Lag'mon🍝
@@ -345,6 +351,7 @@ Ustiga osh ko‘katlari bilan bezatib xizmat qiling.
 Jami kaloriyalar miqdori 5882.4 kkal bo'lib, unda 209.36 g oqsil, 339.3 g yog', va 494.64 g uglevod mavjud. 
 Yoqimli ishtaha! 🍽😋
 Yordam bera olgan boʻlsam hursandman.
+👉 @hayot_balansi 👈
 """,
 
     "dish_sabzavotd": """Sabzavotli dimlama🥘
@@ -398,6 +405,7 @@ Taom tayyor bo‘lgach, ta’bga ko‘ra bezating va dasturxonga torting.
 Jami kaloriyalar miqdori 1672.6 kkal bo'lib, unda 86.03 g oqsil, 34.73 g yog', va 265.11 g uglevod mavjud.
 Yoqimli ishtaha! 🍽😋
 Yordam bera olgan boʻlsam hursandman.
+👉 @hayot_balansi 👈
 """,
 
     "dish_mantilishorva": """ Mantili sho'rva🥘
@@ -460,6 +468,7 @@ Ustiga sho‘rva quyib, osh ko‘katlari va qatiq bilan bezab dasturxonga tortin
 Jami kaloriyalar miqdori 4227.5 kkal bo'lib, unda 141.83 g oqsil, 278.61 g yog', va 285.96 g uglevod mavjud. 
 Yoqimli ishtaha! 🍽😋
 Yordam bera olgan boʻlsam hursandman.
+👉 @hayot_balansi 👈
 """,
 
     "dish_firkadelkali": """Firkadelkali sho'rva🍛
@@ -502,6 +511,7 @@ Tayyor sho'rvani ko'katlar yoki smetana bilan bezab dasturxonga torting.
 Jami kaloriyalar miqdori 1977 kkal bo'lib, unda 149.66 g oqsil, 76.54 g yog', va 162.44 g uglevod mavjud.
 Yoqimli ishtaha! 🍽😋
 Yordam bera olgan boʻlsam hursandman.
+👉 @hayot_balansi 👈
 """,
 
     "dish_kosadimlama": """Kosa dimlama🧆
@@ -537,6 +547,7 @@ Tayyor kosa dimni ustiga oshko‘katlar sepib, dasturxonga torting.
 Jami kaloriyalar miqdori 595.1 kkal bo'lib, unda 36.26 g oqsil, 24.06 g yog', va 60.37 g uglevod mavjud.
 Yoqimli ishtaha! 🍽😋
 Yordam bera olgan boʻlsam hursandman.
+👉 @hayot_balansi 👈
 """,
 
     "dish_tuxumdolma": """Tuxum do'lma🍛
@@ -572,6 +583,7 @@ Tayyor tuxum do‘lmalarni issiq holda dasturxonga torting. Ta'bga ko‘ra ko‘
 Jami kaloriyalar miqdori 3731.35 kkal bo'lib, unda 192.39 g oqsil, 305.85 g yog', va 50.15 g uglevod mavjud. 
 Yoqimli ishtaha! 🍽😋
 Yordam bera olgan boʻlsam hursandman.
+👉 @hayot_balansi 👈
 """,
 
     "dish_mastava": """Mastava🍲
@@ -611,6 +623,7 @@ Tayyor mastavani kosaga suzib, ustiga osh ko‘katlar va qatiq yoki suzma solib 
 Jami kaloriyalar miqdori 2444.1 kkal bo'lib, unda 95.53 g oqsil, 172.3 g yog', va 131.54 g uglevod mavjud
 Yoqimli ishtaha! 🍽😋
 Yordam bera olgan boʻlsam hursandman.
+👉 @hayot_balansi 👈
 """,
 
     "dish_chuchvara": """Chuchvara🍲
@@ -655,6 +668,7 @@ Tayyor chuchvarani kosaga solib, ustiga qatiq qo‘shib dasturxonga torting.
 Jami kaloriyalar miqdori 1163 kkal bo'lib, unda 60.65 g oqsil, 24.65 g yog', va 165.5 g uglevod mavjud.
 Yoqimli ishtaha! 🍽😋
 Yordam bera olgan boʻlsam hursandman.
+👉 @hayot_balansi 👈
 """,
 
     # ============= QUYUQ TAOMLAR =============
@@ -693,6 +707,7 @@ Tayyor mantilarni qatiq bilan dasturxonga torting.
 Jami kaloriyalar miqdori 2839.5 kkal bo'lib, unda 167.0 g oqsil, 114.0 g yog', va 273.55 g uglevod mavjud.
 Yoqimli ishtaha! 🍽😋
 Yordam bera olgan boʻlsam hursandman.
+👉 @hayot_balansi 👈
 """,
 
     "dish_spagetti": """Spagetti🍝
@@ -734,6 +749,7 @@ Ustiga maydalangan kashnich va limon po‘stlog‘ini sepib, taqdim eting.
 Jami kaloriyalar miqdori 3400.5 kkal bo'lib, unda 71.58 g oqsil, 168.97 g yog', va 402.39 g uglevod mavjud.
 Yoqimli ishtaha! 🍽😋
 Yordam bera olgan boʻlsam hursandman.
+👉 @hayot_balansi 👈
 """,
 
     "dish_qovurmala": """Qovurma lag'mon🍜
@@ -786,6 +802,7 @@ Ustini oshko‘kat bilan bezating va xohishga ko‘ra ustiga qovurilgan tuxum qo
 Jami kaloriyalar miqdori 6082.6 kkal bo'lib, unda 232.75 g oqsil, 353.88 g yog', va 485.11 g uglevod mavjud. 
 Yoqimli ishtaha! 🍽😋
 Yordam bera olgan boʻlsam hursandman.
+👉 @hayot_balansi 👈
 """,
 
     "dish_dimlama": """Dimlama🥘
@@ -836,6 +853,7 @@ Tayyor dimlamaga ko‘kat sepib, likopchaga solib dasturxonga torting.
 Jami kaloriyalar miqdori 2413.75 kkal bo'lib, unda 170.76 g oqsil, 83.05 g yog', va 258.24 g uglevod mavjud.
 Yoqimli ishtaha! 🍽😋
 Yordam bera olgan boʻlsam hursandman.
+👉 @hayot_balansi 👈
 """,
 
     "dish_beshbarmoq": """Beshbarmoq🍲
@@ -875,6 +893,7 @@ Ustiga ko‘katlar sepib, dasturxonga torting.
 Jami kaloriyalar miqdori 2525 kkal bo'lib, unda 154.15 g oqsil, 96.65 g yog', va 242.6 g uglevod mavjud
 Yoqimli ishtaha! 🍽😋
 Yordam bera olgan boʻlsam hursandman.
+👉 @hayot_balansi 👈
 """,
 
     "dish_bibimbap": """Bibimbap🥘
@@ -932,6 +951,7 @@ Tayyor bibimbapni issiq holda dasturxonga torting.
 Jami kaloriyalar miqdori 1469.55 kkal bo'lib, unda 67.26 g oqsil, 74.15 g yog', va 141.92 g uglevod mavjud.
 Yoqimli ishtaha! 🍽😋
 Yordam bera olgan boʻlsam hursandman.
+👉 @hayot_balansi 👈
 """, }
 
 # Davomi B, C, D bo‘laklarda…
@@ -995,6 +1015,7 @@ Tayyor do‘lmalarni laganda umumiy qilib yoki alohida likopchalarda dasturxonga
 Jami kaloriyalar miqdori 2457.1 kkal bo'lib, unda 71.43 g oqsil, 181.33 g yog', va 134.87 g uglevod mavjud.
 Yoqimli ishtaha! 🍽😋
 Yordam bera olgan boʻlsam hursandman.
+👉 @hayot_balansi 👈
 """,
 
     "dish_choyxona": """Choyxona palov🍲
@@ -1049,6 +1070,7 @@ Laganga solib, ta’bga ko‘ra qazi, sarimsoq, bedana tuxumi yoki boshqa qo‘s
 Jami kaloriyalar miqdori 8358 kkal bo'lib, unda 295.3 g oqsil, 613.3 g yog', va 407.0 g uglevod mavjud.
 Yoqimli ishtaha! 🍽😋
 Yordam bera olgan boʻlsam hursandman.
+👉 @hayot_balansi 👈
 """,
 
     "dish_gulxonim": """Gulxonim
@@ -1094,6 +1116,7 @@ Tayyor bo‘lgan gulxonimlarni ta'bingizga ko‘ra bezab, issiq holda dasturxong
 Jami kaloriyalar miqdori 4352.5 kkal bo'lib, unda 143.9 g oqsil, 199.3 g yog', va 484.55 g uglevod mavjud.
 Yoqimli ishtaha! 🍽😋
 Yordam bera olgan boʻlsam hursandman.
+👉 @hayot_balansi 👈
 """,
 
     "dish_bayramona": """Bayramona osh va ayron🍲🍶
@@ -1164,6 +1187,7 @@ Osh: 9320 kkal, 286.2 g oqsil, 641.4 g yog', va 610.4 g uglevod.
 Ayran: 410.6 kkal, 18.75 g oqsil, 15.53 g yog', va 52.57 g uglevod.
 Yoqimli ishtaha! 🍽😋
 Yordam bera olgan boʻlsam hursandman.
+👉 @hayot_balansi 👈
 """,
 
     "dish_grechkapalov": """Grechka palov🍲
@@ -1208,6 +1232,7 @@ Tayyor grechka palovni likopchalarga suzib, ustiga ko‘kat sepib dasturxonga to
 Jami kaloriyalar miqdori 3315.3 kkal bo'lib, unda 145.35 g oqsil, 106.19 g yog', va 479.65 g uglevod mavjud.
 Yoqimli ishtaha! 🍽😋
 Yordam bera olgan boʻlsam hursandman.
+👉 @hayot_balansi 👈
 """,
 
     "dish_turkcharatatuy": """Turkcha ratatuy🥘
@@ -1251,6 +1276,7 @@ Tayyor ratatuyni issiq holda dasturxonga torting.
 Jami kaloriyalar miqdori 1704.95 kkal bo'lib, unda 146.24 g oqsil, 93.52 g yog', va 70.27 g uglevod mavjud.
 Yoqimli ishtaha! 🍽😋
 Yordam bera olgan boʻlsam hursandman.
+👉 @hayot_balansi 👈
 """,
 
     "dish_balish": """Balish🧆
@@ -1295,6 +1321,7 @@ Tayyor bo‘lgan balishlarni issiq holda dasturxonga torting.
 Jami kaloriyalar miqdori 4823.3 kkal bo'lib, unda 138.01 g oqsil, 68.22 g yog', va 895.19 g uglevod mavjud.
 Yoqimli ishtaha! 🍽😋
 Yordam bera olgan boʻlsam hursandman.
+👉 @hayot_balansi 👈
 """,
 
     "dish_goshlirulet": """Go'shtli rulet🍣
@@ -1346,6 +1373,7 @@ Tayyor ruletni dilimlab, issiq holda dasturxonga torting.
 Jami kaloriyalar miqdori 3941.4 kkal bo'lib, unda 345.59 g oqsil, 230.16 g yog', va 110.8 g uglevod mavjud
 Yoqimli ishtaha! 🍽😋
 Yordam bera olgan boʻlsam hursandman.
+👉 @hayot_balansi 👈
 """,
 
     "dish_shivit": """Shivit oshi🍛
@@ -1402,6 +1430,7 @@ Tayyor shivit oshini issiq holda dasturxonga torting.
 Jami kaloriyalar miqdori 4630.75 kkal bo'lib, unda 218.29 g oqsil, 139.57 g yog', va 604.03 g uglevod mavjud.
 Yoqimli ishtaha! 🍽😋
 Yordam bera olgan boʻlsam hursandman.
+👉 @hayot_balansi 👈
 """,
 
     "dish_nonpalov": """Non palov🍞🍲
@@ -1449,6 +1478,7 @@ Tayyor taomni ta'bga ko‘ra bezatib, issiq holda dasturxonga torting.
 Jami kaloriyalar miqdori 1621.7 kkal bo'lib, unda 73.87 g oqsil, 84.58 g yog', va 140.82 g uglevod mavjud.
 Yoqimli ishtaha! 🍽😋
 Yordam bera olgan boʻlsam hursandman.
+👉 @hayot_balansi 👈
 """,
 
     "dish_kartoshkadolma": """Kartoshka do'lma🧆
@@ -1487,6 +1517,7 @@ Tayyor bo‘lgan do‘lmalarni lagan yoki taqsimchaga soling. Ta'bga ko‘ra ko�
 Jami kaloriyalar miqdori 2961 kkal bo'lib, unda 125.4 g oqsil, 125.8 g yog', va 328.5 g uglevod mavjud.
 Yoqimli ishtaha! 🍽😋
 Yordam bera olgan boʻlsam hursandman.
+👉 @hayot_balansi 👈
 """,
 
     "dish_dumbulpalov": """ Dumbul palov 🌽 🍲
@@ -1534,6 +1565,7 @@ Tayyor bo‘lgan dumbul palovni ta'bga ko‘ra bezatib, issiq holda dasturxonga 
 Jami kaloriyalar miqdori 2760 kkal bo'lib, unda 96.78 g oqsil, 140.57 g yog', va 309.29 g uglevod mavjud.
 Yoqimli ishtaha! 🍽😋
 Yordam bera olgan boʻlsam hursandman.
+👉 @hayot_balansi 👈
 """,
 
     "dish_teftel": """Teftel 🧆 
@@ -1585,6 +1617,7 @@ Tayyor teftellarni guruch bilan yoki boshqa garnir bilan dasturxonga torting.
 Jami kaloriyalar miqdori 1920.2 kkal bo'lib, unda 100.85 g oqsil, 102.33 g yog', va 142.69 g uglevod mavjud.
 Yoqimli ishtaha! 🍽 😋
 Yordam bera olgan boʻlsam hursandman.
+👉 @hayot_balansi 👈
 """,
 
     "dish_sarimsoqli": """
@@ -1620,6 +1653,7 @@ Taomni issiq holda, garnir yoki asosiy yegulik sifatida dasturxonga torting.
 Jami kaloriyalar miqdori 1452 kkal bo'lib, unda 22.86 g oqsil, 71.28 g yog', va 183.83 g uglevod mavjud
 Yoqimli ishtaha! 🍽 😋
 Yordam bera olgan boʻlsam hursandman.
+👉 @hayot_balansi 👈
 """,
 
     "dish_begodi": """Begodi 🍛 
@@ -1659,6 +1693,7 @@ Tayyor begodilarni issiq holda, ustiga ko‘katlar bilan bezab dasturxonga torti
 Jami kaloriyalar miqdori 3010.9 kkal bo'lib, unda 146.05 g oqsil, 51.32 g yog', va 480.4 g uglevod mavjud. 
 Yoqimli ishtaha! 🍽 😋
 Yordam bera olgan boʻlsam hursandman.
+👉 @hayot_balansi 👈
 """,
 
     "dish_baliqlikotlet": """Baliqli katlet 🐟 🧆
@@ -1693,6 +1728,7 @@ Tayyor baliqli kotletlarni issiq holda, garnir yoki salat bilan dasturxonga tort
 Jami kaloriyalar miqdori 1842.8 kkal bo'lib, unda 124.79 g oqsil, 116.3 g yog', va 62.95 g uglevod mavjud.
 Yoqimli ishtaha! 🍽 😋
 Yordam bera olgan boʻlsam hursandman.
+👉 @hayot_balansi 👈
 """,
 
     "dish_jigarkabob": """Jigar kabob 🥩 
@@ -1731,6 +1767,7 @@ Tayyor kabobni yupqa qilib to‘g‘ralgan piyoz yoki garnir bilan birga dasturx
 Jami kaloriyalar miqdori 2784 kkal bo'lib, unda 125.4 g oqsil, 247 g yog', va 24 g uglevod mavjud
 Yoqimli ishtaha! 🍽 😋
 Yordam bera olgan boʻlsam hursandman.
+👉 @hayot_balansi 👈
 """,
 
     "dish_qozonkabob": """Qozon kabob 🫕🥩
@@ -1779,6 +1816,7 @@ Tayyor qozon kabobini shivit va kashnich sepib, keng idishda dasturxonga torting
 Jami kaloriyalar miqdori 6029.2 kkal bo'lib, unda 309.45 g oqsil, 352.86 g yog', va 385.81 g uglevod mavjud.
 Yoqimli ishtaha! 🍽 😋
 Yordam bera olgan boʻlsam hursandman.
+👉 @hayot_balansi 👈
 """,
 
     "dish_qiymalikabob": """Qiymali kabob 🥩🧆
@@ -1819,6 +1857,7 @@ Sous yoki salat bilan birga dasturxonga torting.
 Jami kaloriyalar miqdori 3359 kkal bo'lib, unda 143.38 g oqsil, 277.33 g yog', va 60.25 g uglevod mavjud.
 Yoqimli ishtaha! 🍽😋
 Yordam bera olgan boʻlsam hursandman.
+👉 @hayot_balansi 👈
 """,
 
     "dish_tandirkabob": """Tandir kabob 🧆
@@ -1861,6 +1900,7 @@ Ta'bga ko‘ra bezatib, issiq holda dasturxonga torting.
 Jami kaloriyalar miqdori 3785.2 kkal bo'lib, unda 409.62 g oqsil, 216.35 g yog', va 34.8 g uglevod mavjud.
 Yoqimli ishtaha! 🍽😋
 Yordam bera olgan boʻlsam hursandman.
+👉 @hayot_balansi 👈
 """,
 
     "dish_tovuqkabob": """Tovuq kabob 🍗🧆
@@ -1896,6 +1936,7 @@ Tayyor kaboblarni didingizga ko‘ra bezab, issiq holda dasturxonga torting.
 Jami kaloriyalar miqdori 2733.25 kkal bo'lib, unda 272.05 g oqsil, 173.88 g yog', va 8.83 g uglevod mavjud
 Yoqimli ishtaha! 🍽😋
 Yordam bera olgan boʻlsam hursandman.
+👉 @hayot_balansi 👈
 """,
 
     "dish_namangankabob": """Namangan kabob 🧆
@@ -1942,6 +1983,7 @@ Tayyor kabobni ta'bga ko‘ra bezab, issiq holda dasturxonga torting.
 Jami kaloriyalar miqdori 5484.5 kkal bo'lib, unda 262.05 g oqsil, 459.55 g yog', va 65.0 g uglevod mavjud
 Yoqimli ishtaha! 🍽😋
 Yordam bera olgan boʻlsam hursandman.
+👉 @hayot_balansi 👈
 """,
 
     "dish_norin": """Norin🍝 
@@ -1985,6 +2027,7 @@ Maslahatlar:
 Jami kaloriyalar miqdori 4193.5 kkal bo'lib, unda 260 g oqsil, 202 g yog', va 304.55 g uglevod mavjud.
 Yoqimli ishtaha! 🍽😋
 Yordam bera olgan boʻlsam hursandman.
+👉 @hayot_balansi 👈
 """,
 
     "dish_xasip": """Xasip 🥓
@@ -2023,6 +2066,7 @@ Maslahatlar:
 Jami kaloriyalar miqdori 2617 kkal bo'lib, unda 152.9 g oqsil, 164.9 g yog', va 133.8 g uglevod mavjud.
 Yoqimli ishtaha! 🍽😋
 Yordam bera olgan boʻlsam hursandman.
+👉 @hayot_balansi 👈
 """,
 
     "dish_tuxumbarak": """Tuxum barak 🥟
@@ -2071,6 +2115,7 @@ Maslahatlar:
 Jami kaloriyalar miqdori 1441.9 kkal bo'lib, unda 59.5 g oqsil, 60.64 g yog', va 160.59 g uglevod mavjud.
 Yoqimli ishtaha! 🍽😋
 Yordam bera olgan boʻlsam hursandman.
+👉 @hayot_balansi 👈
 """,
 
 })  # <-- .update() ni yakunlash
@@ -2110,6 +2155,7 @@ Ushbu salatni quyuq taomlar bilan yoki alohida yegulik sifatida dasturxonga tort
 Jami kaloriyalar miqdori 216.2 kkal bo'lib, unda 8.31 g oqsil, 1.4 g yog', va 47.65 g uglevod mavjud.
 Yoqimli ishtaha! 🍽😋
 Yordam bera olgan boʻlsam hursandman.
+👉 @hayot_balansi 👈
 """,
 
     "dish_bodringbrinza": """Bodring va brinzali salat 🥒🥗
@@ -2143,6 +2189,7 @@ Ushbu salat vitaminlarga boy bo‘lib, kam kaloriyali taomlar uchun juda mos kel
 Jami kaloriyalar miqdori 706 kkal bo'lib, unda 23.5 g oqsil, 61.88 g yog', va 15.24 g uglevod mavjud. 
 Yoqimli ishtaha! 🍽😋
 Yordam bera olgan boʻlsam hursandman.
+👉 @hayot_balansi 👈
 """,
 
     "dish_karampomidor": """Karam va pomidorli salat 🥬🥗
@@ -2181,6 +2228,7 @@ Ushbu salatni nafaqat tushlik yoki kechki ovqatda, balki asosiy taom oldidan gaz
 Jami kaloriyalar miqdori 509.5 kkal bo'lib, unda 11.27 g oqsil, 31.44 g yog', va 55.34 g uglevod mavjud.
 Yoqimli ishtaha! 🍽😋
 Yordam bera olgan boʻlsam hursandman.
+👉 @hayot_balansi 👈
 """,
 
     "dish_gruzincha": """Gruzincha salat🥗
@@ -2216,6 +2264,7 @@ Bu salat sersuv va yengil bo‘lib, har qanday taom oldidan yoki gazak sifatida 
 Jami kaloriyalar miqdori 258.9 kkal bo'lib, unda 3.51 g oqsil, 5.99 g yog', va 55.15 g uglevod mavjud. 
 Yoqimli ishtaha! 🍽😋
 Yordam bera olgan boʻlsam hursandman.
+👉 @hayot_balansi 👈
 """,
 
     "dish_qarsildoq": """Qarsildoq salat 🥗
@@ -2262,6 +2311,7 @@ Qovurilgan non bo‘laklarini salatga dasturxonga tortishdan oldin qo‘shish ta
 Jami kaloriyalar miqdori 2202.15 kkal bo'lib, unda 137.77 g oqsil, 125.48 g yog', va 127.49 g uglevod mavjud.
 Yoqimli ishtaha! 🍽😋
 Yordam bera olgan boʻlsam hursandman.
+👉 @hayot_balansi 👈
 """,
 
     "dish_suzmali": """Suzmali salat🥗 
@@ -2300,6 +2350,7 @@ Bu salatni bahor va yoz mavsumida tayyorlash juda foydali, chunki u vitaminlarga
 Jami kaloriyalar miqdori 573.8 kkal bo'lib, unda 38.5 g oqsil, 20.54 g yog', va 70.71 g uglevod mavjud. 
 Yoqimli ishtaha! 🍽😋
 Yordam bera olgan boʻlsam hursandman.
+👉 @hayot_balansi 👈
 """,
 
     "dish_penchuza": """Penchuza salat 🥗
@@ -2349,6 +2400,7 @@ Pentuza salati o‘zining qarsildoqligi va boy ta'mi bilan ajralib turadi. U har
 Jami kaloriyalar miqdori 1949 kkal bo'lib, unda 11.08 g oqsil, 106.33 g yog', va 248.05 g uglevod mavjud.
 Yoqimli ishtaha! 🍽😋
 Yordam bera olgan boʻlsam hursandman.
+👉 @hayot_balansi 👈
 """,
 
     "dish_mandarin": """Mandarin salat🍊🥗
@@ -2394,6 +2446,7 @@ Bu yorqin va ishtaha ochar salat yangi yil dasturxoningizni bezatib, mehmonlarin
 Jami kaloriyalar miqdori 1337.85 kkal bo'lib, unda 100.22 g oqsil, 84.83 g yog', va 45.25 g uglevod mavjud.
 Yoqimli ishtaha! 🍽😋
 Yordam bera olgan boʻlsam hursandman.
+👉 @hayot_balansi 👈
 """,
 
     "dish_tovuqlisalat": """Tovuqli salat 🍗🥗
@@ -2435,6 +2488,7 @@ Ushbu sodda va mazali salat oson tayyorlanishi bilan dasturxoningizni boyitadi v
 Jami kaloriyalar miqdori 1224.8 kkal bo'lib, unda 99.98 g oqsil, 84.19 g yog', va 17.74 g uglevod mavjud.
 Yoqimli ishtaha! 🍽😋
 Yordam bera olgan boʻlsam hursandman.
+👉 @hayot_balansi 👈
 """,
 
     "dish_smak": """Smak salat 🥗
@@ -2471,6 +2525,7 @@ Suxariklarni o‘zingiz tayyorlasangiz, salatning ta’mi yanada mazali chiqadi.
 Jami kaloriyalar miqdori 944.55 kkal bo'lib, unda 33.47 g oqsil, 53.16 g yog', va 90.62 g uglevod mavjud.
 Yoqimli ishtaha! 🍽😋
 Yordam bera olgan boʻlsam hursandman.
+👉 @hayot_balansi 👈
 """,
 
     "dish_ozdiruvchi": """Ozdiruvchi salat🥗 
@@ -2502,6 +2557,7 @@ Bu salat ovqatlanish oralig‘ida yoki asosiy taom oldidan iste’mol qilish uch
 Jami kaloriyalar miqdori 552.5 kkal bo'lib, unda 9.85 g oqsil, 31.33 g yog', va 68.44 g uglevod mavjud. 
 Yoqimli ishtaha! 🍽😋
 Yordam bera olgan boʻlsam hursandman.
+👉 @hayot_balansi 👈
 """,
 
     "dish_mevali": """Mevali salat🍌🥗 
@@ -2531,6 +2587,7 @@ C vitaminiga boy sitrus mevalar (apelsin, mandarin) qo‘shib, salatni yanada fo
 Jami kaloriyalar miqdori 289.55 kkal bo'lib, unda 6.1 g oqsil, 1.44 g yog', va 65.55 g uglevod mavjud
 Yoqimli ishtaha! 🍽😋
 Yordam bera olgan boʻlsam hursandman.
+👉 @hayot_balansi 👈
 """,
 
     "dish_braslet": """Braslet salat 🥗
@@ -2572,6 +2629,7 @@ Salatni taqdim etishdan oldin qo‘shimcha ko‘katlar bilan bezashingiz mumkin.
 Jami kaloriyalar miqdori 1428.8 kkal bo'lib, unda 109.05 g oqsil, 51.29 g yog', va 135 g uglevod mavjud
 Yoqimli ishtaha! 🍽😋
 Yordam bera olgan boʻlsam hursandman.
+👉 @hayot_balansi 👈
 """,
 
     "dish_qotgannonli": """Qotgan nonli salat 🥗
@@ -2601,6 +2659,7 @@ Qotgan nonni o‘simlik yog‘ida engil qovurib, salatga qo‘shsangiz, yanada m
 Jami kaloriyalar miqdori 869.5 kkal bo'lib, unda 25.1 g oqsil, 28.8 g yog', va 134.55 g uglevod mavjud.
 Yoqimli ishtaha! 🍽😋
 Yordam bera olgan boʻlsam hursandman.
+👉 @hayot_balansi 👈
 """,
 
     "dish_goshtlisa": """Go'shtli salat 🥩🥗
@@ -2636,6 +2695,7 @@ Ustidan kunjut sepib, dasturxonga tortiq qiling.
 Jami kaloriyalar miqdori 893.1 kkal bo'lib, unda 40.88 g oqsil, 57.97 g yog', va 56.88 g uglevod mavjud.
 Yoqimli ishtaha! 🍽😋
 Yordam bera olgan boʻlsam hursandman.
+👉 @hayot_balansi 👈
 """,
 
     "dish_karamli": """Karamli salat 🥗
@@ -2668,6 +2728,7 @@ Salatni likopchaga solib, ta’bga ko‘ra bezang va dasturxonga tortiq qiling.
 Jami kaloriyalar miqdori 444.15 kkal bo'lib, unda 7.42 g oqsil, 31.18 g yog', va 41.08 g uglevod mavjud. 
 Yoqimli ishtaha! 🍽😋
 Yordam bera olgan boʻlsam hursandman.
+👉 @hayot_balansi 👈
 """,
 
     "dish_olivye": """Olivye salat 🥗
@@ -2709,6 +2770,7 @@ Likopchaga solib, ustini shivit yoki petrushka barglari bilan bezang va dasturxo
 Jami kaloriyalar miqdori 3503.1 kkal bo'lib, unda 89.05 g oqsil, 280.58 g yog', va 163.98 g uglevod mavjud
 Yoqimli ishtaha! 🍽😋
 Yordam bera olgan boʻlsam hursandman.
+👉 @hayot_balansi 👈
 """,
 
     "dish_tovuqiolivye": """Tovuqli olivye 🍗🥗
@@ -2755,6 +2817,7 @@ Ustini ko‘katlar bilan bezang.
 Jami kaloriyalar miqdori 1698 kkal bo'lib, unda 107.55 g oqsil, 70.9 g yog', va 158.23 g uglevod mavjud. 
 Yoqimli ishtaha! 🍽😋
 Yordam bera olgan boʻlsam hursandman.
+👉 @hayot_balansi 👈
 """,
 
     "dish_bodringsalat": """Gurunch va bodringli salat 🥗
@@ -2785,6 +2848,7 @@ Dasturxonga tortishdan oldin ustiga ko‘k piyoz sepib bezang.
 Jami kaloriyalar miqdori 1562.4 kkal bo'lib, unda 98.11 g oqsil, 101.79 g yog', va 56.14 g uglevod mavjud.
 Yoqimli ishtaha! 🍽😋
 Yordam bera olgan boʻlsam hursandman.
+👉 @hayot_balansi 👈
 """,
 
     "dish_shanxay": """Shanxaycha salat 🥗
@@ -2820,6 +2884,7 @@ Yashil no‘xot, tuz va mayonez qo‘shib, yaxshilab aralashtiring.
 Jami kaloriyalar miqdori 2432.4 kkal bo'lib, unda 95.11 g oqsil, 188.69 g yog', va 86 g uglevod mavjud.
 Yoqimli ishtaha!🍽😋
 Yordam bera olgan boʻlsam hursandman.
+👉 @hayot_balansi 👈
 """,
 
     "dish_qushuyali": """Qush uyali salat 🥗
@@ -2868,6 +2933,7 @@ Salat o‘rtasiga qaynatilgan bedana tuxumlarini joylashtiring.
 Jami kaloriyalar miqdori 1886.7 kkal bo'lib, unda 163.45 g oqsil, 90.76 g yog', va 97.37 g uglevod mavjud. 
 Yoqimli ishtaha! 🍽😋
 Yordam bera olgan boʻlsam hursandman.
+👉 @hayot_balansi 👈
 """,
 
     "dish_toshkentsalat": """Toshkentcha salat🥗
@@ -2899,6 +2965,7 @@ Salatni likopchaga solib, ustiga mayda qirg‘ichdan o‘tkazilgan qaynatilgan t
 Jami kaloriyalar miqdori 521.9 kkal bo'lib, unda 23.18 g oqsil, 44.58 g yog', va 6.11 g uglevod mavjud
 Yoqimli ishtaha! 🍽😋
 Yordam bera olgan boʻlsam hursandman.
+👉 @hayot_balansi 👈
 """,
 
     "dish_portobello": """Portobello salati🥗
@@ -2944,6 +3011,7 @@ Qo‘ziqorin tanlashda o‘zingizga yoqqanini ishlating.
 Jami kaloriyalar miqdori 1203.25 kkal bo'lib, unda 91.7 g oqsil, 85.75 g yog', va 15.89 g uglevod mavjud
 Yoqimli ishtaha!🍽️😋
 Yordam bera olgan boʻlsam hursandman.
+👉 @hayot_balansi 👈
 """,
 
     "dish_ananas": """Ananas va tovuqli salat 🍍🍗
@@ -2978,6 +3046,7 @@ Ta’mga o‘zgacha o‘lcham qo‘shish uchun maydalangan yong‘oq yoki uzum q
 Jami kaloriyalar miqdori 3136 kkal bo'lib, unda 119.4 g oqsil, 262.9 g yog', va 79.85 g uglevod mavjud.
 Yoqimli ishtaha!🍽️😋
 Yordam bera olgan boʻlsam hursandman.
+👉 @hayot_balansi 👈
 """,
 
     "dish_sezar": """Sezar salat 🥗
@@ -3037,6 +3106,7 @@ Tayyor sarimsoqli suxariklar ham ishlatilishi mumkin, lekin uyda tayyorlanganlar
 Jami kaloriyalar miqdori 1854.1 kkal bo'lib, unda 183.04 g oqsil, 101.82 g yog', va 47.11 g uglevod mavjud
 Yoqimli ishtaha!🍽️😋
 Yordam bera olgan boʻlsam hursandman.
+👉 @hayot_balansi 👈
 """,
 
     "dish_bodringkaram": """Bodring va karamli salat 🥗
@@ -3080,6 +3150,7 @@ Salatni sovutgichda 10-15 daqiqa tindirsangiz, yanada mazali bo‘ladi.
 Jami kaloriyalar miqdori 472.6 kkal bo'lib, unda 9.32 g oqsil, 30.97 g yog', va 48.19 g uglevod mavjud.
 Yoqimli ishtaha!🍽️😋
 Yordam bera olgan boʻlsam hursandman.
+👉 @hayot_balansi 👈
 """,
 
     # --------- PISHIRIQ / PISHIRIQLAR BO‘LIMI ---------
@@ -3127,6 +3198,7 @@ Tavsiya:🤗
 Jami kaloriyalar miqdori 3376.17 kkal bo'lib, unda 145.89 g oqsil, 186.26 g yog', va 291.2 g uglevod mavjud.
 Yoqimli ishtaha!🍽️😋
 Yordam bera olgan boʻlsam hursandman.
+👉 @hayot_balansi 👈
 """,
 
     "dish_goshtlisomsa": """Go’shtli somsa  🥟
@@ -3172,6 +3244,7 @@ Maslahatlar:🤗
 Jami kaloriyalar miqdori 3532.82 kkal bo'lib, unda 196.52 g oqsil, 175.82 g yog', va 281.43 g uglevod mavjud
 Yoqimli ishtaha!🍽️😋
 Yordam bera olgan boʻlsam hursandman.
+👉 @hayot_balansi 👈
 """,
 
     "dish_yupqa": """Yupqa🫔  
@@ -3216,6 +3289,7 @@ Tayyorlash usuli:🍱
 Jami kaloriyalar miqdori 1291.7 kkal bo'lib, unda 76.94 g oqsil, 55.63 g yog', va 120.83 g uglevod mavjud.
 Yoqimli ishtaha!🍽️😋
 Yordam bera olgan boʻlsam hursandman.
+👉 @hayot_balansi 👈
 """,
 
     "dish_qiymaliquymoq": """Qiymali quymoq🥞 
@@ -3252,6 +3326,7 @@ Tayyorlash usuli:🍱
 Jami kaloriyalar miqdori 2070.55 kkal bo'lib, unda 83.58 g oqsil, 129.54 g yog', va 139.47 g uglevod mavjud.
 Yoqimli ishtaha!🍽️😋
 Yordam bera olgan boʻlsam hursandman.
+👉 @hayot_balansi 👈
 """,
 
     "dish_pishloqlicheburek": """Pishloqli cheburek  🧀🥟
@@ -3285,6 +3360,7 @@ Tayyorlash usuli:🍱
 Jami kaloriyalar miqdori 3755.7 kkal bo'lib, unda 165.4 g oqsil, 218.81 g yog', va 287.56 g uglevod mavjud.
 Yoqimli ishtaha!🍽️😋
 Yordam bera olgan boʻlsam hursandman.
+👉 @hayot_balansi 👈
 """,
 
     "dish_gumma": """Gumma 🥠
@@ -3333,6 +3409,7 @@ Tayyorlash usuli:🍱
 Jami kaloriyalar miqdori 1755 kkal bo'lib, unda 109.05 g oqsil, 122.05 g yog', va 42 g uglevod mavjud
 Yoqimli ishtaha!🍽️😋
 Yordam bera olgan boʻlsam hursandman.
+👉 @hayot_balansi 👈
 """,
 
     "dish_pahlava": """Pahlava  
@@ -3389,6 +3466,7 @@ Tayyorlash usuli:
 Jami kaloriyalar miqdori 9147.7 kkal bo'lib, unda 120.46 g oqsil, 422.12 g yog', va 1278.15 g uglevod mavjud. 
 Yoqimli ishtaha!🍽️😋
 Yordam bera olgan boʻlsam hursandman.
+👉 @hayot_balansi 👈
 """,
 
     "dish_chakchak": """Chak-chak  🍯
@@ -3438,6 +3516,7 @@ Qiyomni aralashtirish paytida qo‘llaringiz va idish yopishib qolmasligi uchun 
 Jami kaloriyalar miqdori 9002.2 kkal bo'lib, unda 46.39 g oqsil, 662.51 g yog', va 768.54 g uglevod mavjud.
 Yoqimli ishtaha!🍽️😋
 Yordam bera olgan boʻlsam hursandman.
+👉 @hayot_balansi 👈
 """,
 
     "dish_turkchapishiriq": """Turkcha pishiriq🥮
@@ -3479,6 +3558,7 @@ Tayyorlash usuli:🍱
 Jami kaloriyalar miqdori 2764.1 kkal bo'lib, unda 123.75 g oqsil, 191.84 g yog', va 139.48 g uglevod mavjud.
 Yoqimli ishtaha!🍽️😋
 Yordam bera olgan boʻlsam hursandman.
+👉 @hayot_balansi 👈
 """,
 
     "dish_qozonsomsa": """
@@ -3515,6 +3595,7 @@ Tayyorlash usuli:🍱
 Jami kaloriyalar miqdori 3214.2 kkal bo'lib, unda 43.2 g oqsil, 175.8 g yog', va 374.4 g uglevod mavjud.
 Yoqimli ishtaha!🍽️😋
 Yordam bera olgan boʻlsam hursandman.
+👉 @hayot_balansi 👈
 """,
 
     "dish_sabzavotlisomsa": """
@@ -3552,6 +3633,7 @@ Tayyorlash usuli:🍱
 Jami kaloriyalar miqdori 3544 kkal bo'lib, unda 60.6 g oqsil, 252.85 g yog', va 273.15 g uglevod mavjud
 Yoqimli ishtaha!🍽️😋
 Yordam bera olgan boʻlsam hursandman.
+👉 @hayot_balansi 👈
 """,
 
     "dish_yuraksomsa": """Yurak somsa 🥟
@@ -3587,6 +3669,7 @@ Tayyorlash usuli:🍱
 Jami kaloriyalar miqdori 2994 kkal bo'lib, unda 105.3 g oqsil, 181.3 g yog', va 235 g uglevod mavjud
 Yoqimli ishtaha!🍽️😋
 Yordam bera olgan boʻlsam hursandman.
+👉 @hayot_balansi 👈
 """,
 
     "dish_qatlamasomsa": """Qatlama somsa🥟  
@@ -3636,6 +3719,7 @@ Tayyorlash usuli:🍱
 Jami kaloriyalar miqdori 7713.6 kkal bo'lib, unda 197.32 g oqsil, 521.81 g yog', va 553.35 g uglevod mavjud.
 Yoqimli ishtaha!🍽️😋
 Yordam bera olgan boʻlsam hursandman.
+👉 @hayot_balansi 👈
 """,
 
     # ----------- SHIRINLIKLAR (SHIRINLIK) BO‘LIMI -----------
@@ -3675,6 +3759,7 @@ Tayyorlash usuli:🍱
 Jami kaloriyalar miqdori 3655.96 kkal bo'lib, unda 30.7 g oqsil, 0.61 g yog', va 907.07 g uglevod mavjud
 Yoqimli ishtaha!🍽️😋
 Yordam bera olgan boʻlsam hursandman.
+👉 @hayot_balansi 👈
 """,
 
     "dish_holvetar": """Holvetar 🥣
@@ -3709,6 +3794,7 @@ Tayyorlash usuli:🍱
 Jami kaloriyalar miqdori 1836.5 kkal bo'lib, unda 7.2 g oqsil, 110.8 g yog', va 212.4 g uglevod mavjud.
 Yoqimli ishtaha!🍽️😋
 Yordam bera olgan boʻlsam hursandman.
+👉 @hayot_balansi 👈
 """,
 
     "dish_tvaroglikr": """Tvarogli krendel 🥣
@@ -3754,6 +3840,7 @@ Tayyorlash usuli:🍱
 Jami kaloriyalar miqdori 1978.65 kkal bo'lib, unda 53.61 g oqsil, 90.11 g yog', va 241.91 g uglevod mavjud.
 Yoqimli ishtaha!🍽️😋
 Yordam bera olgan boʻlsam hursandman.
+👉 @hayot_balansi 👈
 """,
 
     "dish_shokoglazur": """Shokoladli glazur 🍫
@@ -3791,6 +3878,7 @@ Tayyor! Glazur turli pishiriqlarni bezash va ta’mini boyitish uchun mukammal.
 Jami kaloriyalar miqdori 1037.46 kkal bo'lib, unda 8.21 g oqsil, 47.2 g yog', va 162.64 g uglevod mavjud. 
 Yoqimli ishtaha!🍽️😋
 Yordam bera olgan boʻlsam hursandman.
+👉 @hayot_balansi 👈
 """,
 
     "dish_bananlieskimo": """Bananli eskimo 🍌
@@ -3826,6 +3914,7 @@ Tayyorlash bosqichlari:🍱
 Jami kaloriyalar miqdori 1075.6 kkal bo'lib, unda 15.14 g oqsil, 58.72 g yog', va 124.2 g uglevod mavjud.
 Yoqimli ishtaha!🍽️😋
 Yordam bera olgan boʻlsam hursandman.
+👉 @hayot_balansi 👈
 """,
 
     "dish_jemlipirog": """Jemli pirog 🥮
@@ -3876,6 +3965,7 @@ Tayyorlash bosqichlari:🍱
 Jami kaloriyalar miqdori 3819 kkal bo'lib, unda 46.87 g oqsil, 215.7 g yog', va 444.9 g uglevod mavjud.
 Yoqimli ishtaha!🍽️😋
 Yordam bera olgan boʻlsam hursandman.
+👉 @hayot_balansi 👈
 """,
 
     "dish_tvoroglibulochka": """Tvorogli bulochka 🥨
@@ -3918,6 +4008,7 @@ Tayyorlash bosqichlari:🍱
 Jami kaloriyalar miqdori 2939.5 kkal bo'lib, unda 68.68 g oqsil, 119.51 g yog', va 409.71 g uglevod mavjud.
 Yoqimli ishtaha!🍽️😋
 Yordam bera olgan boʻlsam hursandman.
+👉 @hayot_balansi 👈
 """,
 
     "dish_malinalichizkeyk": """Malinali chizkeyk🍮 
@@ -3963,6 +4054,7 @@ Tayyorlash usuli:🍱
 Jami kaloriyalar miqdori 3634.17 kkal bo'lib, unda 120.66 g oqsil, 179.2 g yog', va 396.04 g uglevod mavjud.
 Yoqimli ishtaha!🍽️😋
 Yordam bera olgan boʻlsam hursandman.
+👉 @hayot_balansi 👈
 """,
 
     "dish_bolqaymoq": """Bolqaymoq 🥣
@@ -3988,6 +4080,7 @@ Tayyorlash usuli:🍱
 Jami kaloriyalar miqdori 1231.7 kkal bo'lib, unda 5.39 g oqsil, 112.95 g yog', va 37.2 g uglevod mavjud
 Yoqimli ishtaha!🍽️😋
 Yordam bera olgan boʻlsam hursandman.
+👉 @hayot_balansi 👈
 """,
 
     "dish_murabbolipirog": """Murabboli pirog 🥧
@@ -4023,6 +4116,7 @@ Tayyorlash usuli:🍱
 Jami kaloriyalar miqdori 4351 kkal bo'lib, unda 42.4 g oqsil, 216.4 g yog', va 582.7 g uglevod mavjud.
 Yoqimli ishtaha!🍽️😋
 Yordam bera olgan boʻlsam hursandman.
+👉 @hayot_balansi 👈
 """,
 
     "dish_asallipirojniy": """Asalli pirojniy 🥧
@@ -4073,6 +4167,7 @@ Tayyorlash usuli:🍱
 Jami kaloriyalar miqdori 4641 kkal bo'lib, unda 86.4 g oqsil, 203.1 g yog', va 626.7 g uglevod mavjud.
 Yoqimli ishtaha!🍽️😋
 Yordam bera olgan boʻlsam hursandman.
+👉 @hayot_balansi 👈
 """,
 
     "dish_shaftolilimizq": """Shaftolili muzqaymoq🍧
@@ -4111,6 +4206,7 @@ Tayyorlash usuli:🍱
 Jami kaloriyalar miqdori 1498.45 kkal bo'lib, unda 5.28 g oqsil, 0.27 g yog', va 383.19 g uglevod mavjud.
 Yoqimli ishtaha!🍽️😋
 Yordam bera olgan boʻlsam hursandman.
+👉 @hayot_balansi 👈
 """,
 
     "dish_aylanay": """Aylanay pirogi 🥧
@@ -4147,6 +4243,7 @@ Tavsiyalar:
 Jami kaloriyalar miqdori 4604 kkal bo'lib, unda 26.5 g oqsil, 273.5 g yog', va 536.3 g uglevod mavjud
 Yoqimli ishtaha!🍽️😋
 Yordam bera olgan boʻlsam hursandman.
+👉 @hayot_balansi 👈
 """,
 
     "dish_chumoliuya": """Chumoli uyasi🥮
@@ -4183,6 +4280,7 @@ Tavsiyalar:🤗
 Jami kaloriyalar miqdori 4929 kkal bo'lib, unda 93.8 g oqsil, 275.5 g yog', va 468.1 g uglevod mavjud. 
 Yoqimli ishtaha!🍽️😋
 Yordam bera olgan boʻlsam hursandman.
+👉 @hayot_balansi 👈
 """,
 
     "dish_olchali": """Olchali pirog 🥧
@@ -4226,6 +4324,7 @@ Tavsiyalar:🤗
 Jami kaloriyalar miqdori 2961.3 kkal bo'lib, unda 64.88 g oqsil, 188.89 g yog', va 267.72 g uglevod mavjud
 Yoqimli ishtaha!🍽️😋
 Yordam bera olgan boʻlsam hursandman.
+👉 @hayot_balansi 👈
 """,
 
 })
@@ -4267,6 +4366,7 @@ Maslahatlar:🤗
 Jami kaloriyalar miqdori 844.4 kkal bo'lib, unda 14.6 g oqsil, 44.8 g yog', va 107.1 g uglevod mavjud.
 Yoqimli ishtaha!🍽️😋
 Yordam bera olgan boʻlsam hursandman.
+👉 @hayot_balansi 👈
 """,
 
     "dish_asallipechenye": """Asalli pechenye🍩
@@ -4308,6 +4408,7 @@ Maslahatlar:🤗
 Jami kaloriyalar miqdori 1970.2 kkal bo'lib, unda 25.09 g oqsil, 110 g yog', va 230.7 g uglevod mavjud.
 Yoqimli ishtaha!🍽️😋
 Yordam bera olgan boʻlsam hursandman.
+👉 @hayot_balansi 👈
 """
 
 })  # end of update
@@ -4343,6 +4444,7 @@ Tayyorlash usuli:🍱
 Jami kaloriyalar miqdori 100.82 kkal bo'lib, unda 0.14 g oqsil, 0.09 g yog', va 26.21 g uglevod mavjud.
 Yoqimli ishtaha!🍽️😋
 Yordam bera olgan boʻlsam hursandman.
+👉 @hayot_balansi 👈
 """,
 
     "drink_namatak": """Namatak sharbati 🧋
@@ -4372,7 +4474,7 @@ Na’matak sharbati jigar, buyrak, ichak, oshqozon faoliyatini yaxshilaydi, qon 
 Jami kaloriyalar miqdori 166 kkal bo'lib, unda 3.2 g oqsil, 0.6 g yog', va 37.4 g uglevod mavjud. 
 Yoqimli ishtaha!🍽️😋
 Yordam bera olgan boʻlsam hursandman.
-
+👉 @hayot_balansi 👈
 """,
 
     "drink_yalpizlimon": """Yalpizli limon choy 🍸
@@ -4401,6 +4503,7 @@ Tayyorlash usuli:🍱
 Jami kaloriyalar miqdori 148.63 kkal bo'lib, unda 1.25 g oqsil, 0.33 g yog', va 40.11 g uglevod mavjud.
 Yoqimli ishtaha!🍽️😋
 Yordam bera olgan boʻlsam hursandman.
+👉 @hayot_balansi 👈
 """,
 
     "drink_qulupnay": """Qulupnayli ichimlik 🍹
@@ -4425,6 +4528,7 @@ Tayyorlash usuli:🍱
 Jami kaloriyalar miqdori 309.8 kkal bo'lib, unda 10.71 g oqsil, 10.36 g yog', va 46.27 g uglevod mavjud.
 Yoqimli ishtaha!🍽️😋
 Yordam bera olgan boʻlsam hursandman.
+👉 @hayot_balansi 👈
 """,
 
     "drink_qovun": """Qovun sharbati 🍸
@@ -4454,6 +4558,7 @@ Qovun sharbati chanqoqni bosadi, suyak, tish va tirnoqlar uchun kaltsiy manbai b
 Jami kaloriyalar miqdori 978 kkal bo'lib, unda 5.4 g oqsil, 1.2 g yog', va 249.2 g uglevod mavjud. 
 Yoqimli ishtaha!🍽️😋
 Yordam bera olgan boʻlsam hursandman.
+👉 @hayot_balansi 👈
 """,
 
     "drink_bodomli": """Bodomli sut 🥛
@@ -4486,6 +4591,7 @@ Qo‘shimcha ma’lumot:🤗
 Jami kaloriyalar miqdori 325 kkal bo'lib, unda 9.59 g oqsil, 18 g yog', va 36 g uglevod mavjud. 
 Yoqimli ishtaha!🍽️😋
 Yordam bera olgan boʻlsam hursandman.
+👉 @hayot_balansi 👈
 """,
 
     "drink_uzum": """Uzum sharbati 🧋
@@ -4511,6 +4617,7 @@ Foydali xususiyatlari:🤗
 Jami kaloriyalar miqdori 594 kkal bo'lib, unda 2.1 g oqsil, 0.6 g yog', va 154.3 g uglevod mavjud
 Yoqimli ishtaha!🍽️😋
 Yordam bera olgan boʻlsam hursandman.
+👉 @hayot_balansi 👈
 """,
 
     "drink_mevali": """Mevali sharbat 🍹
@@ -4544,6 +4651,7 @@ Tayyorlash usuli:🍱
 Jami kaloriyalar miqdori 1193.7 kkal bo'lib, unda 6.5 g oqsil, 2.8 g yog', va 306 g uglevod mavjud.
 Yoqimli ishtaha!🍽️😋
 Yordam bera olgan boʻlsam hursandman.
+👉 @hayot_balansi 👈
 """,
 
     "drink_qatiq": """Qatiq 🍚
@@ -4574,6 +4682,7 @@ Tayyorlash usuli:🍱
 Jami kaloriyalar miqdori 1202.5 kkal bo'lib, unda 35.7 g oqsil, 90.54 g yog', va 54.02 g uglevod mavjud
 Yoqimli ishtaha!🍽️😋
 Yordam bera olgan boʻlsam hursandman.
+👉 @hayot_balansi 👈
 """,
 
     "drink_tarvuz": """Tarvuz sharbati🍹
@@ -4605,6 +4714,7 @@ Tarvuz sharbati organizmdan suyuqlikni chiqarishga yordam beradi va jigar, buyra
 Jami kaloriyalar miqdori 79.35 kkal bo'lib, unda 1.2 g oqsil, 0.4 g yog', va 21 g uglevod mavjud.
 Yoqimli ishtaha!🍽️😋
 Yordam bera olgan boʻlsam hursandman.
+👉 @hayot_balansi 👈
 """,
 
     "drink_sabzi": """Sabzi sharbati 🥃
@@ -4633,6 +4743,7 @@ Sabzi sharbati immunitetni mustahkamlaydi, ko‘z nurini ravshanlashtiradi, ovqa
 Jami kaloriyalar miqdori 123 kkal bo'lib, unda 2.7 g oqsil, 0.6 g yog', va 28.8 g uglevod mavjud.
 Yoqimli ishtaha!🍽️😋
 Yordam bera olgan boʻlsam hursandman.
+👉 @hayot_balansi 👈
 """,
 
     "drink_zira": """Zira choy 🍵
@@ -4657,6 +4768,7 @@ Zira choyi nafaqat ishtahani ochadi va ovqat hazm qilishni yaxshilaydi, balki or
 Jami kaloriyalar miqdori 9.4 kkal bo'lib, unda 0.43 g oqsil, 0.38 g yog', va 1.63 g uglevod mavjud
 Yoqimli ishtaha!🍽️😋
 Yordam bera olgan boʻlsam hursandman.
+👉 @hayot_balansi 👈
 """,
 
     "drink_vitaminli": """Vitaminli ichimlik🍵
@@ -4690,6 +4802,7 @@ Bu ichimlik organizmni isintiradi, immunitetni mustahkamlaydi va ishtahani pasay
 Jami kaloriyalar miqdori 38.92 kkal bo'lib, unda 0.67 g oqsil, 0.24 g yog', va 10.15 g uglevod mavjud.
 Yoqimli ishtaha!🍽️😋
 Yordam bera olgan boʻlsam hursandman.
+👉 @hayot_balansi 👈
 """,
 
     "drink_moxito": """Moxito🍹
@@ -4724,6 +4837,7 @@ Sprayt mavjud bo‘lmasa, shakarli sirop va gazlangan mineral suvdan foydalanish
 Jami kaloriyalar miqdori 80.94 kkal bo'lib, unda 0.36 g oqsil, 0.07 g yog', va 20.94 g uglevod mavjud.
 Yoqimli ishtaha!🍽️😋
 Yordam bera olgan boʻlsam hursandman.
+👉 @hayot_balansi 👈
 """,
 
     # TORTLAR BO‘LIMI:
@@ -4776,6 +4890,7 @@ Tayyor tortni muzlatgichda kamida 2 soat saqlang, so‘ng dasturxonga torting.
 Jami kaloriyalar miqdori 5232.3 kkal bo'lib, unda 68.96 g oqsil, 350.22 g yog', va 490.34 g uglevod mavjud.
 Yoqimli ishtaha!🍽️😋
 Yordam bera olgan boʻlsam hursandman.
+👉 @hayot_balansi 👈
 """,
 
     "tort_napaleon": """Napaleon torti 🥮
@@ -4809,6 +4924,7 @@ Tayyorlash usuli:🍱
 Jami kaloriyalar miqdori 5639 kkal bo'lib, unda 64.05 g oqsil, 372.5 g yog', va 466 g uglevod mavjud
 Yoqimli ishtaha!🍽️😋
 Yordam bera olgan boʻlsam hursandman.
+👉 @hayot_balansi 👈
 """,
 
     "drezden_drezden": """Drezdencha tort 🧁
@@ -4868,6 +4984,7 @@ Tortni ustini xohlagan mevalar yoki meva bo‘lakchalari bilan bezating.
 Jami kaloriyalar miqdori 3555.75 kkal bo'lib, unda 106.67 g oqsil, 192.39 g yog', va 366.07 g uglevod mavjud. 
 Yoqimli ishtaha!🍽️😋
 Yordam bera olgan boʻlsam hursandman.
+👉 @hayot_balansi 👈
 """,
 
     "tort_zebra": """Zebra torti 🍥
@@ -4913,6 +5030,7 @@ Mazali "Zebra" tortingizni dasturxonga torting!
 Jami kaloriyalar miqdori 3358.4 kkal bo'lib, unda 37.98 g oqsil, 205.61 g yog', va 338.98 g uglevod mavjud.
 Yoqimli ishtaha!🍽️😋
 Yordam bera olgan boʻlsam hursandman.
+👉 @hayot_balansi 👈
 """,
 
     "tort_pancho": """Pancho torti 🥮
@@ -4968,6 +5086,7 @@ Tugallash:🤗
 Jami kaloriyalar miqdori 5483.96 kkal bo'lib, unda 89.19 g oqsil, 307.15 g yog', va 599.21 g uglevod mavjud.
 Yoqimli ishtaha!🍽️😋
 Yordam bera olgan boʻlsam hursandman.
+👉 @hayot_balansi 👈
 """,
 
     "tort_medovik": """Medovik torti 🥮
@@ -5013,6 +5132,7 @@ Tortni yig'ish:
 Jami kaloriyalar miqdori 5056.3 kkal bo'lib, unda 60.32 g oqsil, 232.47 g yog', va 712.97 g uglevod mavjud.
 Yoqimli ishtaha!🍽️😋
 Yordam bera olgan boʻlsam hursandman.
+👉 @hayot_balansi 👈
 """,
 
     "tort_frezye": """Frezye torti 🍰
@@ -5063,6 +5183,7 @@ Tortni yig‘ish:
 Jami kaloriyalar miqdori 4128.85 kkal bo'lib, unda 74.5 g oqsil, 215.76 g yog', va 503.06 g uglevod mavjud.
 Yoqimli ishtaha!🍽️😋
 Yordam bera olgan boʻlsam hursandman.
+👉 @hayot_balansi 👈
 """,
 
     "tort_karamel": """Karamel va yong’oqli tort🎂
@@ -5111,6 +5232,7 @@ Tayyorlash usuli:🍱
 Jami kaloriyalar miqdori 4818.2 kkal bo'lib, unda 78.05 g oqsil, 339.7 g yog', va 416.65 g uglevod mavjud. 
 Yoqimli ishtaha!🍽️😋
 Yordam bera olgan boʻlsam hursandman.
+👉 @hayot_balansi 👈
 """,
 
     "tort_kitakat": """Kita-kat torti🍰
@@ -5166,6 +5288,7 @@ Tayyorlash usuli:🍱
 Jami kaloriyalar miqdori 5152.78 kkal bo'lib, unda 107.38 g oqsil, 257.86 g yog', va 520.13 g uglevod mavjud.
 Yoqimli ishtaha!🍽️😋
 Yordam bera olgan boʻlsam hursandman.
+👉 @hayot_balansi 👈
 """,
 
     "tort_boston": """Bostoncha kremli tort 🥮
@@ -5218,6 +5341,7 @@ Tayyorlash usuli:🍱
 Jami kaloriyalar miqdori 3891.8 kkal bo'lib, unda 72.04 g oqsil, 200.96 g yog', va 459.8 g uglevod mavjud.
 Yoqimli ishtaha!🍽️😋
 Yordam bera olgan boʻlsam hursandman.
+👉 @hayot_balansi 👈
 """,
 
     "tort_bounty": """Bounty torti 🍥
@@ -5266,6 +5390,7 @@ Tayyorlash tartibi:🍱
 Jami kaloriyalar miqdori 6958.06 kkal bo'lib, unda 77.46 g oqsil, 447.24 g yog', va 643.21 g uglevod mavjud
 Yoqimli ishtaha!🍽️😋
 Yordam bera olgan boʻlsam hursandman.
+👉 @hayot_balansi 👈
 """,
 
     "tort_pavlova": """Pavlova torti 🍰
@@ -5298,6 +5423,7 @@ Tayyorlash usuli:🍱
 Jami kaloriyalar miqdori 2887.5 kkal bo'lib, unda 24.25 g oqsil, 97.05 g yog', va 416.2 g uglevod mavjud.
 Yoqimli ishtaha!🍽️😋 
 Yordam bera olgan boʻlsam hursandman.
+👉 @hayot_balansi 👈
 """,
 
     # NONLAR BO‘LIMI:
@@ -5353,6 +5479,7 @@ Uni nafaqat issiq ovqatlar bilan, balki oddiy choy bilan ham tanovul qilish mumk
 Jami kaloriyalar miqdori 5266.75 kkal bo'lib, unda 63.3 g oqsil, 333.08 g yog', va 526.3 g uglevod mavjud
 Yoqimli ishtaha!🍽️😋
 Yordam bera olgan boʻlsam hursandman.
+👉 @hayot_balansi 👈
 """,
 
     "non_shirinkulcha": """Shirin kulcha 🥯
@@ -5399,6 +5526,7 @@ Pishgan shirin kulchalar issiq choy yoki qahva bilan nonushta uchun juda mos.�
 Jami kaloriyalar miqdori 6330.5 kkal bo'lib, unda 91.65 g oqsil, 320.05 g yog', va 799.8 g uglevod mavjud.
 Yoqimli ishtaha!🍽️😋
 Yordam bera olgan boʻlsam hursandman.
+👉 @hayot_balansi 👈
 """,
 
     "non_moychechak": """Moychechak non 🥨
@@ -5433,6 +5561,7 @@ Moychechak noni har qanday taom bilan mazali bo‘ladi. Uni issiq choy yoki sho�
 Jami kaloriyalar miqdori 4943.5 kkal bo'lib, unda 88 g oqsil, 276.25 g yog', va 544.5 g uglevod mavjud
 Yoqimli ishtaha!🍽️😋
 Yordam bera olgan boʻlsam hursandman.
+👉 @hayot_balansi 👈
 """,
 
     "non_goshtli": """Go’shtli non 🍞
@@ -5469,6 +5598,7 @@ Pishgan go‘shtli nonni yangi uzilgan ko‘katlar yoki issiq choy bilan birga d
 Jami kaloriyalar miqdori 682.5 kkal bo'lib, unda 21.65 g oqsil, 23.6 g yog', va 92.45 g uglevod mavjud.
 Yoqimli ishtaha!🍽️😋
 Yordam bera olgan boʻlsam hursandman.
+👉 @hayot_balansi 👈
 """,
 
     "non_patir": """Patir 🫓
@@ -5509,6 +5639,7 @@ Tavsiyalar:🤗
 Jami kaloriyalar miqdori 4565.8 kkal bo'lib, unda 61.21 g oqsil, 252.95 g yog', va 523.1 g uglevod mavjud.
 Yoqimli ishtaha!🍽️😋
 Yordam bera olgan boʻlsam hursandman.
+👉 @hayot_balansi 👈
 """,
 
     "non_lochira": """Lochira patir 🫓
@@ -5551,6 +5682,7 @@ Tavsiyalar:🤗
 Jami kaloriyalar miqdori 4429.1 kkal bo'lib, unda 85.66 g oqsil, 217.36 g yog', va 548.55 g uglevod mavjud
 Yoqimli ishtaha!🍽️😋
 Yordam bera olgan boʻlsam hursandman.
+👉 @hayot_balansi 👈
 """,
 
     "non_obinon": """Obi non 🍞
@@ -5593,6 +5725,7 @@ Tavsiyalar:🤗
 Jami kaloriyalar miqdori 3110.5 kkal bo'lib, unda 60.4 g oqsil, 90.05 g yog', va 522.2 g uglevod mavjud.
 Yoqimli ishtaha!🍽️😋
 Yordam bera olgan boʻlsam hursandman.
+👉 @hayot_balansi 👈
 """,
 
     "non_qatlama": """Qatlama🫓
@@ -5637,6 +5770,7 @@ Tayyorlash usuli:🍱
 Jami kaloriyalar miqdori 3677.55 kkal bo'lib, unda 42.39 g oqsil, 256.35 g yog', va 283.1 g uglevod mavjud.
 Yoqimli ishtaha!🍽️😋
 Yordam bera olgan boʻlsam hursandman.
+👉 @hayot_balansi 👈
 """,
 
     "non_jizzali": """Jizzali patir 🫓
@@ -5686,4 +5820,5 @@ Tayyorlash usuli:🍱
 Jami kaloriyalar miqdori 3852.57 kkal bo'lib, unda 100.09 g oqsil, 134.25 g yog', va 561.91 g uglevod mavjud
 Yoqimli ishtaha!🍽️😋
 Yordam bera olgan boʻlsam hursandman.
+👉 @hayot_balansi 👈
 """})

@@ -36,7 +36,7 @@ logger = logging.getLogger(__name__)
 ADMIN_IDS = [7465094605]  # <-- O'zingizning telegram ID raqamingizni yozing
 
 # ============== TOKEN (o'zingizning BOT_TOKEN ni kiriting) ==============
-BOT_TOKEN = "7904798084:AAFrf5U2QcZ4zJRFi8CQ6wtWHAA172K9AJ4"  # <-- O'zingizning tokenni yozing
+BOT_TOKEN = "8018294597:AAEqpbRN7RU78-99TNbxr1ZCWs8R_qdvgQk"  # <-- O'zingizning tokenni yozing
 
 # ============== GLOBAL o'zgaruvchilar ==============
 DATA_FILE = "data.json"  # foydalanuvchi ma’lumotlari saqlanadigan fayl
